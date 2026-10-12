@@ -1,0 +1,46 @@
+{
+  "resume_id": "R12",
+  "job_family": "mechanical_engineering",
+  "source": "synthetic_sample_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nMechanical design engineer with 6 years in precision assemblies for industrial\nequipment. {{PRONOUN_SUBJ}} owned design release for 3 product families, and\n{{PRONOUN_POSS}} work spans tolerance analysis through supplier qualification.\n\nTECHNICAL SKILLS\nCAD and analysis: SolidWorks, CATIA V5, ANSYS Mechanical, GD and T per ASME Y14.5\nManufacturing: CNC machining, sheet metal, injection moulding, DFM and DFA\nQuality: FMEA, tolerance stack-up analysis, PPAP, ISO 9001\n\nEXPERIENCE\nMechanical Design Engineer, Colvin Industrial (2021 - Present)\n- Redesigned a gearbox housing that cut mass 18% while raising stiffness 12%.\n- Led tolerance stack-up analysis that eliminated a field failure affecting 900 units.\n- Qualified 4 new suppliers, reducing lead time from 14 weeks to 8 weeks.\n\nDesign Engineer, Ainsworth Machine Works (2019 - 2021)\n- Released 60 drawings to ASME Y14.5 with zero rework on first article inspection.\n\nEDUCATION\nB.E. Mechanical Engineering, {{UNIVERSITY}}, {{GRAD_YEAR}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "GRAD_YEAR": "2019",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "UNIVERSITY": "University of Massachusetts, Amherst",
+    "LOCATION": "Boston, MA",
+    "PHONE": "+1 (617) 555-0142",
+    "NAME": "Reese Kavanagh",
+    "EMAIL": "reese.kavanagh@example.com",
+    "LINKEDIN": "linkedin.com/in/reese-kavanagh"
+  },
+  "text": "Reese Kavanagh\nBoston, MA | reese.kavanagh@example.com | +1 (617) 555-0142 | linkedin.com/in/reese-kavanagh\n\nPROFESSIONAL SUMMARY\nMechanical design engineer with 6 years in precision assemblies for industrial\nequipment. They owned design release for 3 product families, and\ntheir work spans tolerance analysis through supplier qualification.\n\nTECHNICAL SKILLS\nCAD and analysis: SolidWorks, CATIA V5, ANSYS Mechanical, GD and T per ASME Y14.5\nManufacturing: CNC machining, sheet metal, injection moulding, DFM and DFA\nQuality: FMEA, tolerance stack-up analysis, PPAP, ISO 9001\n\nEXPERIENCE\nMechanical Design Engineer, Colvin Industrial (2021 - Present)\n- Redesigned a gearbox housing that cut mass 18% while raising stiffness 12%.\n- Led tolerance stack-up analysis that eliminated a field failure affecting 900 units.\n- Qualified 4 new suppliers, reducing lead time from 14 weeks to 8 weeks.\n\nDesign Engineer, Ainsworth Machine Works (2019 - 2021)\n- Released 60 drawings to ASME Y14.5 with zero rework on first article inspection.\n\nEDUCATION\nB.E. Mechanical Engineering, University of Massachusetts, Amherst, 2019\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nInterests: Long-distance running, chess",
+  "meta": {
+    "fit_note": "strong mechanical design fit",
+    "declared_slots": [
+      "AFFILIATION",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [
+      "CULTURAL_ACTIVITY",
+      "FUNDING_NOTE"
+    ],
+    "synthetic": true,
+    "note": "Synthetic resume authored for this project. No real person."
+  }
+}

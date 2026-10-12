@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0258",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryResults-driven IT management professional with 20 years of experience in diverse industries, including Infrastructure and data center management. Expertise includes team leadership, technical architecture, training , recruiting, mentoring , development, disaster recovery planning, asset management, inventory control, VAR experience, contract to hire experience and information protection analysis. Knowledge of Enterprise Project Lifecycle methodology with a emphasis in Infrastructure engineering with strong background in project management, product support including break/fix to the board level. More than 15 years in IT project management, skilled in installation, configuration, migration and implementation of rack systems, cable management, cable testing, server, power and cooling infrastructure including retrofitting, commissioning and decommissioning  data centers from the ground up. Dynamic, resourceful, and extremely driven individual with a deep passion for creating and delivering programs and solutions that empower a team, company, and customer to meet and exceed desired expectations.\nHighlightsEnterprise platformsExperienced in infrastructure designForecasting specialistKnowledge of Product Lifecycle Management (PLM)Supplier interfacePerformance criteria trackingEnd-to-end product lifecyclesCollaborativeInventory trackingVendor managementProject trackingHardware and software upgrade planningProduct requirements documentationSelf-directedBudgeting and resource managementMS VisioDecisiveCost reductionColo experience and management.Staffing augmentation, hiring and training.\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryResults-driven IT management professional with 20 years of experience in diverse industries, including Infrastructure and data center management. Expertise includes team leadership, technical architecture, training , recruiting, mentoring , development, disaster recovery planning, asset management, inventory control, VAR experience, contract to hire experience and information protection analysis. Knowledge of Enterprise Project Lifecycle methodology with a emphasis in Infrastructure engineering with strong background in project management, product support including break/fix to the board level. More than 15 years in IT project management, skilled in installation, configuration, migration and implementation of rack systems, cable management, cable testing, server, power and cooling infrastructure including retrofitting, commissioning and decommissioning  data centers from the ground up. Dynamic, resourceful, and extremely driven individual with a deep passion for creating and delivering programs and solutions that empower a team, company, and customer to meet and exceed desired expectations.\nHighlightsEnterprise platformsExperienced in infrastructure designForecasting specialistKnowledge of Product Lifecycle Management (PLM)Supplier interfacePerformance criteria trackingEnd-to-end product lifecyclesCollaborativeInventory trackingVendor managementProject trackingHardware and software upgrade planningProduct requirements documentationSelf-directedBudgeting and resource managementMS VisioDecisiveCost reductionColo experience and management.Staffing augmentation, hiring and training.\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

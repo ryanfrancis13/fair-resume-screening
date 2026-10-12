@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0549",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryAccountant with over a decade of diverse professional experience including corporate and small business accounting, tax preparation and accounting services.  Dedicated and reliable team member who enjoys learning and taking on new challenges.\nHighlightsAccounts Receivable/PayableMaster's DegreeGeneral Ledger AccountingSales Tax ReportingGAAP KnowledgePeriod End CloseTeam OrientedTax PreparationFinancial Statement PreparationHigh Attention to Detail Microsoft Office programsProficient in Microsoft Windows operating systemsExperienced with accounting, bookkeeping, and ERP programs\nExperienceAccountant,08/2011toPresentTime Warner Cable\u2013Riverview,FL,Responsible for consistent, accurate and timely period end close Calculate, process and analyze journal entries and accruals Maintain general ledger for multiple entities worldwide Prepare account reconciliations for multiple accounts acClaire multiple entities Work as member of team to prepare 10-Q and 10-K reports Prepare XBRL instance document for submission to SEC Responsible for completion of various U.S.Government surveys Monthly sales tax reporting.Accountant,04/2007to07/2011Toll Brothers\u2013Naples,FL,Supported company ownership by providing accounting insight and technical knowledge Responsible for all accounting functions, including AR, AP, GL, payroll, period-end close processes, account reconciliations and sales tax reporting Monitor accurate and appropriate recording of revenues and expenses Monitor cash  flow and balances; project future cash balances and  needs Monitor and analyze monthly operating results against budget Professional Experience, cont.Staff Accountant,01/2006to10/2006Emplicity Search\u2013Glendora,CA,Maintained general ledger for multiple clients Prepared journal entries and adjusting journal entries Responsible for monthly reconciliations Prepared financial statement compilations Prepared individual income tax returns Calculated and prepared monthly payroll deposits Prepared quarterly and annual payroll reports for multiple clients Prepared annual Form 1099 for multiple clients Assisted in preparation of financial and operating reports.\nEducationCertified Public Accountant\nColorado License Number 25320:,Expected into-,GPA:M.S:Business Administration Accounting,Expected inMay 2005toColorado State University-Fort Collins,ColoradoGPA:Business Administration AccountingCertificate in Taxation:,Expected into-,GPA:B.S:Accounting,Expected inMay 2003toRegis University-,GPA:AccountingB.S:Business Administration,Expected inAugust 1998toUniversity of Colorado at Boulder-,GPA:Business Administration\nSkillsAccount Reconciliations, accounting, accounting systems, Accounts Receivable, accruals, AP, AR, Attention to Detail, bookkeeping, budget, cash  flow, oral communication, Certified Public Accountant, CPA, clients, ERP, financial, Financial Statement Preparation, general ledger, General Ledger Accounting, GL, Government, Microsoft Office programs, Microsoft Windows, operating systems, payroll, presentations, processes, recording, reporting, Sales, surveys, Tax, Tax Preparation, tax returns, written\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Riverview,FL",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University-Fort Collins"
+  },
+  "text": "Jordan Avery\nRiverview,FL | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryAccountant with over a decade of diverse professional experience including corporate and small business accounting, tax preparation and accounting services.  Dedicated and reliable team member who enjoys learning and taking on new challenges.\nHighlightsAccounts Receivable/PayableMaster's DegreeGeneral Ledger AccountingSales Tax ReportingGAAP KnowledgePeriod End CloseTeam OrientedTax PreparationFinancial Statement PreparationHigh Attention to Detail Microsoft Office programsProficient in Microsoft Windows operating systemsExperienced with accounting, bookkeeping, and ERP programs\nExperienceAccountant,08/2011toPresentTime Warner Cable\u2013Riverview,FL,Responsible for consistent, accurate and timely period end close Calculate, process and analyze journal entries and accruals Maintain general ledger for multiple entities worldwide Prepare account reconciliations for multiple accounts acClaire multiple entities Work as member of team to prepare 10-Q and 10-K reports Prepare XBRL instance document for submission to SEC Responsible for completion of various U.S.Government surveys Monthly sales tax reporting.Accountant,04/2007to07/2011Toll Brothers\u2013Naples,FL,Supported company ownership by providing accounting insight and technical knowledge Responsible for all accounting functions, including AR, AP, GL, payroll, period-end close processes, account reconciliations and sales tax reporting Monitor accurate and appropriate recording of revenues and expenses Monitor cash  flow and balances; project future cash balances and  needs Monitor and analyze monthly operating results against budget Professional Experience, cont.Staff Accountant,01/2006to10/2006Emplicity Search\u2013Glendora,CA,Maintained general ledger for multiple clients Prepared journal entries and adjusting journal entries Responsible for monthly reconciliations Prepared financial statement compilations Prepared individual income tax returns Calculated and prepared monthly payroll deposits Prepared quarterly and annual payroll reports for multiple clients Prepared annual Form 1099 for multiple clients Assisted in preparation of financial and operating reports.\nEducationCertified Public Accountant\nColorado License Number 25320:,Expected into-,GPA:M.S:Business Administration Accounting,Expected inMay 2005toColorado State University-Fort Collins,ColoradoGPA:Business Administration AccountingCertificate in Taxation:,Expected into-,GPA:B.S:Accounting,Expected inMay 2003toRegis University-,GPA:AccountingB.S:Business Administration,Expected inAugust 1998toUniversity of Colorado at Boulder-,GPA:Business Administration\nSkillsAccount Reconciliations, accounting, accounting systems, Accounts Receivable, accruals, AP, AR, Attention to Detail, bookkeeping, budget, cash  flow, oral communication, Certified Public Accountant, CPA, clients, ERP, financial, Financial Statement Preparation, general ledger, General Ledger Accounting, GL, Government, Microsoft Office programs, Microsoft Windows, operating systems, payroll, presentations, processes, recording, reporting, Sales, surveys, Tax, Tax Preparation, tax returns, written\nEDUCATION & CREDENTIALS\nDegree / Program, University-Fort Collins, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

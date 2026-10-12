@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0450",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional SummaryMore than 15 years of experienced as Enterprise Solution Architect and Technology Evangelist with fortune 500 Companies. Expertise in designing, building and delivery of well-architected large, complex, business critical solutions within AWS Cloud, hybrid and traditional platforms with growth and revenue target ranges $50M to $2B. Technical Specialist in designing and building customer focused, high performing API, microservices, event driven architecture, data driven solutions. AI/ML workflow automation, digital security, Dev Ops/ML Ops. Experienced in technology/architecture/solution strategic planning, digital transformation, merger & acquisition, speed-to-market , business continuity, Highly accomplished, result driven, dynamic and personable leader highly adept at building, motivating top performing teams through fast-paced organizational change and highly demanding work environments.\nSkillsSolution Architecture : AWS Cloud Platform, API, Microservices, Batch, Event Driven , Synchronous/Asynchronous communications,Enterprise Architecture : Strategic Planning/Agile Execution, Budget, EstimationAWS Cloud: API Gateway, Lambda,EC2,Kinesis,SNS,SQS,S3,EFS,ECS,VPC,IAM,Serverless Framework,RedisDatabases : Cassandra, Dynamo DB , Aurora PostGreSQL , Oracle, Neo4jLanguage : Java, Python, SQL/CQL , Shell Script, JSON, YAMLAI/ML : Sage Maker, Ground Truth, Data Engineering , Exploratory Data Analysis - Feature Engineering. Awareness of Supervised/Unsupervised models usage - Leaner Lerner, SVM, Blazing Text, PCA, Scikit-learn. Model Evolution Technique : Confusion Matrix, ROC, AUCAnalytical Tools: Pandas, Apache Spark 2.0Dev Ops/ML Ops : GIT, CI/CD, AWS ML PipelineAgile ( MVP ) Methodologies , JIRADiagram Tools : Lucid chart, VisioStrong Communication and Interpersonal SkillsAnalytical and Critical ThinkingMultitasking AbilitiesMentorship , Team-building, Technology evangelistMultitasking AbilitiesMentorship , Team-building, Technology evangelist\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "GIT, CI",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nGIT, CI | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional SummaryMore than 15 years of experienced as Enterprise Solution Architect and Technology Evangelist with fortune 500 Companies. Expertise in designing, building and delivery of well-architected large, complex, business critical solutions within AWS Cloud, hybrid and traditional platforms with growth and revenue target ranges $50M to $2B. Technical Specialist in designing and building customer focused, high performing API, microservices, event driven architecture, data driven solutions. AI/ML workflow automation, digital security, Dev Ops/ML Ops. Experienced in technology/architecture/solution strategic planning, digital transformation, merger & acquisition, speed-to-market , business continuity, Highly accomplished, result driven, dynamic and personable leader highly adept at building, motivating top performing teams through fast-paced organizational change and highly demanding work environments.\nSkillsSolution Architecture : AWS Cloud Platform, API, Microservices, Batch, Event Driven , Synchronous/Asynchronous communications,Enterprise Architecture : Strategic Planning/Agile Execution, Budget, EstimationAWS Cloud: API Gateway, Lambda,EC2,Kinesis,SNS,SQS,S3,EFS,ECS,VPC,IAM,Serverless Framework,RedisDatabases : Cassandra, Dynamo DB , Aurora PostGreSQL , Oracle, Neo4jLanguage : Java, Python, SQL/CQL , Shell Script, JSON, YAMLAI/ML : Sage Maker, Ground Truth, Data Engineering , Exploratory Data Analysis - Feature Engineering. Awareness of Supervised/Unsupervised models usage - Leaner Lerner, SVM, Blazing Text, PCA, Scikit-learn. Model Evolution Technique : Confusion Matrix, ROC, AUCAnalytical Tools: Pandas, Apache Spark 2.0Dev Ops/ML Ops : GIT, CI/CD, AWS ML PipelineAgile ( MVP ) Methodologies , JIRADiagram Tools : Lucid chart, VisioStrong Communication and Interpersonal SkillsAnalytical and Critical ThinkingMultitasking AbilitiesMentorship , Team-building, Technology evangelistMultitasking AbilitiesMentorship , Team-building, Technology evangelist\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

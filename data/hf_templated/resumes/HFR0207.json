@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0207",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional Summary4 years analytic experience in the cost accounting department, managing data for profit and loss summary use. Extracts, manipulates, validates, submits and documents data from numerous sources. Maintains business relationships as part of an overall business model for cost accounting purposes. Innovates tools as needed to keep up with changing business environments. 13 years of professional experience with Excel for varied purposes. Adept with charts, pivot tables, formulas, and formatting. Familiar with SAS Add-In capability to expand Excel's data storage. 20 years of office experience at different levels. Production Supervisor Administrative Team Lead Communications Team Lead Communications Team Administrative Team Produced the highest completion rate in the Colorado region Adult LEC Forums Introduction to the Leadership Program Braveheart Team Computer Information Systems Team Keywords: data analysis, data analyst, report analyst, business analyst, adaptable, programmer, detail oriented, self-motivated, streamline, efficient, innovative, project oriented, quick learner, quantitative analyses, qualitative analyses, dashboard formatting, SAS Add In, customer refresh, user friendly, customer service, courteous, networking Less common systems knowledge available upon request Professional Skills Adaptability fluidly handles frequent change Innovation created or updated 13 tools for producing statistic files for DSS Communication in all positions, have spoken with customers at all levels of business Creative Problem Solving create new tools, improve QA's, call to ask, find another database to get info, etc Planning and Organizing Rolling Wave, MS Project, GANTT chart, OODA, PDSA, etc. Calendar management for team, documentation upkeep, deliverable audit database upkeep. Presentation Meeting facilitation, educational presentations, analysis explanation, etc. Pivot tables, Power Pivot, Waterfall chart, line graph, slicers, pie chart, dashboard, etc. Learning life-long, avid learner Team Player I truly believe that the best work comes from informed, collaborating teams of proficient, self-driven workers.\nSkill HighlightsAnalysisSAS EGMetadata ServerQuery BuilderImport Excel/.csvExport Excel/MS AccessFormattingSAS EGMetadata ServerQuery BuilderImport Excel/.csvExport Excel/MS AccessFormattingMS AccessODBCDataRegularizationBuild calculatedFieldsRelational DBMS AccessODBCDataRegularizationBuild calculatedFieldsRelational DBMS ExcelPivot tablesSAS Add InFormulasMacrosChartsConditional FormattingMS ExcelPivot tablesSAS Add InFormulasMacrosChartsConditional FormattingBase SASODBCExport ExcelBase SASODBCExport ExcelBusiness ObjectsCreated QueriesCanned ReportsAdapting to SQLBusiness ObjectsCreated QueriesCanned ReportsAdapting to SQLAdvanced Query ToolSQL QueriesQuery BuilderTable Search FunctionAdvanced Query ToolSQL QueriesQuery BuilderTable Search FunctionOtherMS VisioMS SharePointMS OneNoteApple SheetsApple PagesOpen OfficePhotoshopOtherMS VisioMS SharePointMS OneNoteApple SheetsApple PagesOpen OfficePhotoshopPresentations and ClericalMS PowerPointChartsFormattingImagesSlicersObjectsMS PowerPointChartsFormattingImagesSlicersObjectsMS WordTemplatesChartsFormattingImagesTablesReviewCommentsObjectsFieldsMail MergeMS WordTemplatesChartsFormattingImagesTablesReviewCommentsObjectsFieldsMail MergeMS ExcelChartsFormattingImagesSlicersObjectsMS ExcelChartsFormattingImagesSlicersObjectsProgrammingSQLSASJavaVB.NetProgrammingSQLSASJavaVB.NetOtherWindows 10OneLinkEPICLotus NotesAndroidClarityRemedyMS ProjectWrikeAsana\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Planning and Organizing Rolling Wave, MS",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nPlanning and Organizing Rolling Wave, MS | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional Summary4 years analytic experience in the cost accounting department, managing data for profit and loss summary use. Extracts, manipulates, validates, submits and documents data from numerous sources. Maintains business relationships as part of an overall business model for cost accounting purposes. Innovates tools as needed to keep up with changing business environments. 13 years of professional experience with Excel for varied purposes. Adept with charts, pivot tables, formulas, and formatting. Familiar with SAS Add-In capability to expand Excel's data storage. 20 years of office experience at different levels. Production Supervisor Administrative Team Lead Communications Team Lead Communications Team Administrative Team Produced the highest completion rate in the Colorado region Adult LEC Forums Introduction to the Leadership Program Braveheart Team Computer Information Systems Team Keywords: data analysis, data analyst, report analyst, business analyst, adaptable, programmer, detail oriented, self-motivated, streamline, efficient, innovative, project oriented, quick learner, quantitative analyses, qualitative analyses, dashboard formatting, SAS Add In, customer refresh, user friendly, customer service, courteous, networking Less common systems knowledge available upon request Professional Skills Adaptability fluidly handles frequent change Innovation created or updated 13 tools for producing statistic files for DSS Communication in all positions, have spoken with customers at all levels of business Creative Problem Solving create new tools, improve QA's, call to ask, find another database to get info, etc Planning and Organizing Rolling Wave, MS Project, GANTT chart, OODA, PDSA, etc. Calendar management for team, documentation upkeep, deliverable audit database upkeep. Presentation Meeting facilitation, educational presentations, analysis explanation, etc. Pivot tables, Power Pivot, Waterfall chart, line graph, slicers, pie chart, dashboard, etc. Learning life-long, avid learner Team Player I truly believe that the best work comes from informed, collaborating teams of proficient, self-driven workers.\nSkill HighlightsAnalysisSAS EGMetadata ServerQuery BuilderImport Excel/.csvExport Excel/MS AccessFormattingSAS EGMetadata ServerQuery BuilderImport Excel/.csvExport Excel/MS AccessFormattingMS AccessODBCDataRegularizationBuild calculatedFieldsRelational DBMS AccessODBCDataRegularizationBuild calculatedFieldsRelational DBMS ExcelPivot tablesSAS Add InFormulasMacrosChartsConditional FormattingMS ExcelPivot tablesSAS Add InFormulasMacrosChartsConditional FormattingBase SASODBCExport ExcelBase SASODBCExport ExcelBusiness ObjectsCreated QueriesCanned ReportsAdapting to SQLBusiness ObjectsCreated QueriesCanned ReportsAdapting to SQLAdvanced Query ToolSQL QueriesQuery BuilderTable Search FunctionAdvanced Query ToolSQL QueriesQuery BuilderTable Search FunctionOtherMS VisioMS SharePointMS OneNoteApple SheetsApple PagesOpen OfficePhotoshopOtherMS VisioMS SharePointMS OneNoteApple SheetsApple PagesOpen OfficePhotoshopPresentations and ClericalMS PowerPointChartsFormattingImagesSlicersObjectsMS PowerPointChartsFormattingImagesSlicersObjectsMS WordTemplatesChartsFormattingImagesTablesReviewCommentsObjectsFieldsMail MergeMS WordTemplatesChartsFormattingImagesTablesReviewCommentsObjectsFieldsMail MergeMS ExcelChartsFormattingImagesSlicersObjectsMS ExcelChartsFormattingImagesSlicersObjectsProgrammingSQLSASJavaVB.NetProgrammingSQLSASJavaVB.NetOtherWindows 10OneLinkEPICLotus NotesAndroidClarityRemedyMS ProjectWrikeAsana\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

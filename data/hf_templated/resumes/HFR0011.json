@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0011",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryI have studied Electrical Engineering with working experience in calibration, repair, service,maintenance and installation of Scientific instrument and solar products.\nSkillsResults-orientedOperations managementClient-focusedExcel inRepair and ServiceProficiency incalibrationQuick learnerMultilingual( English, Punjabi, Hindi)Customer Support on call or by E-mail\nEducation and TrainingGED:Electrical Engineer,Expected in2004toGuru Nank Dev Polytechnic-Ludhiana,PunjabGPA:Electrical Engineer 3 years Diploma from Guru Nank Dev Polytechnic in at Gill park, City Ludhiana in Punjab IndiaHigh School Diploma:\u2022\tCertificate 3 in food processing and baking,Expected in2007toDella International College-Melbourne,vicGPA:\nExperienceRepair Technician,08/2016toCurrentTech Air\u2013Austell,GA,IndiaCole-Parmeris a supplier of scientific instruments for the worldwide research, industrial, and technical communities.Also provide calibration services traceable to NIST for several groups of instruments.Job ResponsibilitiesTest, troubleshoot, and diagnose hardware failures and Replace or repair faulty components in Scientific InstrumentConduct testing and troubleshootingPerform Calibration after repairCustomer support on call or by e-mailWork in lab or on sight if requiredOrder parts, make comment and remarks the in system and follow up with pending repairs.keep the working area safe and organizedElectrical Engineer,02/2010to10/2014Walker Parking Consultants\u2013Seattle,WA,4  years specialty experience in Marketing, Manufacturing and Installation of electrical and solar products.Repair,\ninstallation and maintenance of solar street light, water heater, home\nload solar system including wiring, welding, soldering, cutting,\nbuilding cuncrete  foundation by Using hand and power tools.Inspect electrical components, such as transformers, fuses, contractor and circuit breakers.Identify electrical problems with a variety of testing devices.Repair or replace wiring, equipment, or fixtures using hand tools and power tools.Calibration process for Ac electric motor drive.Customer on call support for electrical and solar products.Direct and train workers to install, maintain, or repair electrical and solar wiring.Supervisor,01/2008to09/2009Jason's Deli\u2013Kennesaw,GA,AustraliaSupervises and coordinates activities of workers; communicate with staff for better quality and new products; train new workers.\nOther SkillsOther SkillsAttention to detail, Calibration, Data collection,Work with hand tools and power tools, Inspect, Marketing, Operational analysis, , problem solver, Project management, quality, Fast learner, research,\u00a0 soldering,\u00a0 welding, wiring, Driving, Communication, work on Computer .\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Austell,GA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "Polytechnic-Ludhiana"
+  },
+  "text": "Jordan Avery\nAustell,GA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryI have studied Electrical Engineering with working experience in calibration, repair, service,maintenance and installation of Scientific instrument and solar products.\nSkillsResults-orientedOperations managementClient-focusedExcel inRepair and ServiceProficiency incalibrationQuick learnerMultilingual( English, Punjabi, Hindi)Customer Support on call or by E-mail\nEducation and TrainingGED:Electrical Engineer,Expected in2004toGuru Nank Dev Polytechnic-Ludhiana,PunjabGPA:Electrical Engineer 3 years Diploma from Guru Nank Dev Polytechnic in at Gill park, City Ludhiana in Punjab IndiaHigh School Diploma:\u2022\tCertificate 3 in food processing and baking,Expected in2007toDella International College-Melbourne,vicGPA:\nExperienceRepair Technician,08/2016toCurrentTech Air\u2013Austell,GA,IndiaCole-Parmeris a supplier of scientific instruments for the worldwide research, industrial, and technical communities.Also provide calibration services traceable to NIST for several groups of instruments.Job ResponsibilitiesTest, troubleshoot, and diagnose hardware failures and Replace or repair faulty components in Scientific InstrumentConduct testing and troubleshootingPerform Calibration after repairCustomer support on call or by e-mailWork in lab or on sight if requiredOrder parts, make comment and remarks the in system and follow up with pending repairs.keep the working area safe and organizedElectrical Engineer,02/2010to10/2014Walker Parking Consultants\u2013Seattle,WA,4  years specialty experience in Marketing, Manufacturing and Installation of electrical and solar products.Repair,\ninstallation and maintenance of solar street light, water heater, home\nload solar system including wiring, welding, soldering, cutting,\nbuilding cuncrete  foundation by Using hand and power tools.Inspect electrical components, such as transformers, fuses, contractor and circuit breakers.Identify electrical problems with a variety of testing devices.Repair or replace wiring, equipment, or fixtures using hand tools and power tools.Calibration process for Ac electric motor drive.Customer on call support for electrical and solar products.Direct and train workers to install, maintain, or repair electrical and solar wiring.Supervisor,01/2008to09/2009Jason's Deli\u2013Kennesaw,GA,AustraliaSupervises and coordinates activities of workers; communicate with staff for better quality and new products; train new workers.\nOther SkillsOther SkillsAttention to detail, Calibration, Data collection,Work with hand tools and power tools, Inspect, Marketing, Operational analysis, , problem solver, Project management, quality, Fast learner, research,\u00a0 soldering,\u00a0 welding, wiring, Driving, Communication, work on Computer .\nEDUCATION & CREDENTIALS\nDegree / Program, Polytechnic-Ludhiana, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

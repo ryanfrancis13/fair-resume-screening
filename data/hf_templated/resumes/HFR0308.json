@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0308",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryAccomplished Information Technology Professional currently working at a global pharmaceutical company for over 15 years with extensive experience in software development in all phases of development from requirements gathering and analysis to design, development, testing, implementation and support. Leverage passion, computer science background, and tenacious problem solving capabilities to develop innovative solutions. Worked in agile, high performance organization, designing and upgrading business solutions, using cutting edge tools and systems.\n*AREAS OF EXPERTISE\nCustom Software Development * Configuration Management* Release Management* Team Leadership* Testing/QA/Rollout and Hyper care* System Migrations/Integrations * Data Modeling *Problem Solving* Resource Management* System Migrations/Integrations * OLTP* OLAP * Database/Data warehouse Design* Data Integrity *New Technology Evaluation* Change & Release management* Data Replication. *Discovery and Preclinical IT\nHighlightsProgramming Languages: Oracle PL/SQL, SQL* PLUS,  C, Pro*C,C++,  and UNIX ShellData Bases/Tools: Oracle 10g/11g, SQL ServerTools/Framework: ERWIN, Oracle Designer, SQL*Navigator, SQL Developer, Todd, Remedy,  MS Office, Subversion, JIRA, All Fusion-ERWIN Data Modeler, ChemcartEnterprise Content Management: SharePoint 2010Methodologies: Agile/Scrum, Waterfall, SDLC\nEducationUniversity of Michigan,Expected in\u2013\u2013MS:Computer Science-GPA:Computer Science,Expected in\u2013\u2013Bachelor of Engineering:-GPA:\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Remedy,  MS",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of Michigan"
+  },
+  "text": "Jordan Avery\nRemedy,  MS | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryAccomplished Information Technology Professional currently working at a global pharmaceutical company for over 15 years with extensive experience in software development in all phases of development from requirements gathering and analysis to design, development, testing, implementation and support. Leverage passion, computer science background, and tenacious problem solving capabilities to develop innovative solutions. Worked in agile, high performance organization, designing and upgrading business solutions, using cutting edge tools and systems.\n*AREAS OF EXPERTISE\nCustom Software Development * Configuration Management* Release Management* Team Leadership* Testing/QA/Rollout and Hyper care* System Migrations/Integrations * Data Modeling *Problem Solving* Resource Management* System Migrations/Integrations * OLTP* OLAP * Database/Data warehouse Design* Data Integrity *New Technology Evaluation* Change & Release management* Data Replication. *Discovery and Preclinical IT\nHighlightsProgramming Languages: Oracle PL/SQL, SQL* PLUS,  C, Pro*C,C++,  and UNIX ShellData Bases/Tools: Oracle 10g/11g, SQL ServerTools/Framework: ERWIN, Oracle Designer, SQL*Navigator, SQL Developer, Todd, Remedy,  MS Office, Subversion, JIRA, All Fusion-ERWIN Data Modeler, ChemcartEnterprise Content Management: SharePoint 2010Methodologies: Agile/Scrum, Waterfall, SDLC\nEducationUniversity of Michigan,Expected in\u2013\u2013MS:Computer Science-GPA:Computer Science,Expected in\u2013\u2013Bachelor of Engineering:-GPA:\nEDUCATION & CREDENTIALS\nDegree / Program, University of Michigan, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

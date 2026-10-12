@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0259",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryElectronics technician and hardware test engineer with over 10 years experience. I'm a dynamic motivated person with the ability to take on trainer and/or leadership roles as needed. Offering services in part-time or full-time capacity as I pursue a Bachelor's degree in Computer Science.\nQUALIFICATIONS\n*Team lead experience scheduling due dates and tracking projects\n*Proficient in shell scripting and macro creation to automate complex and repetitive task\n*Proficient in soldering techniques with previous IPC J-STD-001 certification\n*Skilled in debugging/repairing electronic products at the component level\n*Ability to read schematics and understand fundamental circuit concepts\n*Experience working in ESD sensitive environments\n*Experience programming and testing electronic components and assemblies\nSkillsGuest servicesInventory control proceduresMerchandising expertiseLoss preventionCash register operationsProduct promotions\nExperience12/2010to02/2017Hardware Test EngineerZoom|,State,Worked with management to overhaul programming/testing processes and infrastructure.Team lead experience scheduling due dates and tracking progress to completion.Development and maintenance of in-house test automation framework utilizing Linux, Unix file systems, (Bash) shell scripts, DOS batch scripts, and terminal macros.Primary trainer on test procedure software development and documentation.Creation and revision of programming/testing procedures.11/2010to02/2017Independent ConsultantAecom|Glen Allen,VA,Consumer electronics tear down, debug, repair at the component level, and reassembly.Per project cost benefit analysis.10/2006to12/2010Electronics TechnicianExtreme Engineering Solutions Inc|,STATE,Electronics debug/repair at the component level utilizing microscopes.Hand building electronic assemblies to IPC J-STD-001 specifications.Assembly and record maintenance of component kits for shipment to manufacture.Programming and testing electronic components and assemblies.Stress testing electronic assemblies using environmental test chambers.\nEducation and TrainingExpected inAug 2016 to Certificate, IT-LAMP Open Source Development|Madison Area Technical College,Madison,WIGPA:Expected inMay 2006 to Associates Degree|Electrical Engineering TechnologyMadison Area Technical College,Madison,WIGPA:Electrical Engineering Technology\nSkillsautomation, Bash, Consumer electronics, DOS, Electronics, LAMP, Team lead, Linux, macros, processes, Programming, progress, scheduling, scripts, shell scripts, software development and documentation, tear, trainer, Unix\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Glen Allen,VA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2016",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "College"
+  },
+  "text": "Jordan Avery\nGlen Allen,VA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryElectronics technician and hardware test engineer with over 10 years experience. I'm a dynamic motivated person with the ability to take on trainer and/or leadership roles as needed. Offering services in part-time or full-time capacity as I pursue a Bachelor's degree in Computer Science.\nQUALIFICATIONS\n*Team lead experience scheduling due dates and tracking projects\n*Proficient in shell scripting and macro creation to automate complex and repetitive task\n*Proficient in soldering techniques with previous IPC J-STD-001 certification\n*Skilled in debugging/repairing electronic products at the component level\n*Ability to read schematics and understand fundamental circuit concepts\n*Experience working in ESD sensitive environments\n*Experience programming and testing electronic components and assemblies\nSkillsGuest servicesInventory control proceduresMerchandising expertiseLoss preventionCash register operationsProduct promotions\nExperience12/2010to02/2017Hardware Test EngineerZoom|,State,Worked with management to overhaul programming/testing processes and infrastructure.Team lead experience scheduling due dates and tracking progress to completion.Development and maintenance of in-house test automation framework utilizing Linux, Unix file systems, (Bash) shell scripts, DOS batch scripts, and terminal macros.Primary trainer on test procedure software development and documentation.Creation and revision of programming/testing procedures.11/2010to02/2017Independent ConsultantAecom|Glen Allen,VA,Consumer electronics tear down, debug, repair at the component level, and reassembly.Per project cost benefit analysis.10/2006to12/2010Electronics TechnicianExtreme Engineering Solutions Inc|,STATE,Electronics debug/repair at the component level utilizing microscopes.Hand building electronic assemblies to IPC J-STD-001 specifications.Assembly and record maintenance of component kits for shipment to manufacture.Programming and testing electronic components and assemblies.Stress testing electronic assemblies using environmental test chambers.\nEducation and TrainingExpected inAug 2016 to Certificate, IT-LAMP Open Source Development|Madison Area Technical College,Madison,WIGPA:Expected inMay 2006 to Associates Degree|Electrical Engineering TechnologyMadison Area Technical College,Madison,WIGPA:Electrical Engineering Technology\nSkillsautomation, Bash, Consumer electronics, DOS, Electronics, LAMP, Team lead, Linux, macros, processes, Programming, progress, scheduling, scripts, shell scripts, software development and documentation, tear, trainer, Unix\nEDUCATION & CREDENTIALS\nDegree / Program, College, 2016\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

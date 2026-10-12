@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0139",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryTo obtain an entry-level position as an electrical engineer, allowing me to utilize my education and skills\nwhile gaining valuable work experience in a team oriented environment.\nEducationOakland University,Expected inApril 2014\u2013\u2013BS:Biomedical Diagnostics and Therapeutic Sciences-GPA:Biomedical Diagnostics and Therapeutic SciencesWayne State University,Expected inDecember 2016\u2013\u2013:Electrical Engineering-GPA:GPA: 3.0\nExperienceMks Instruments Inc-Electrical Engineer Co-opWard Hill,MA,02/2016-CurrentAchieve the highest integrity and reliability of the metering systemTest Advanced Metering Infrastructure Meter (AMI) for productionTest different meters for billing errors Perform bench testing of mechanical and electrical meters for demand and accuracyPerform bench testing and calibration of electrical equipmentReduce stock number of current transformersPerform live field testing of current transformers for purchaseWrite standard work instructions and bulletins for procedures and equipmentProvide technical support for metering departmentTrack meter inventoryPerform bench-marking on different equipmentLeidos Holdings Inc.-Electrical Engineer InternDurham,NC,05/2015-02/2016Ensure the safety, reliability and availability of the transmission system for our customersPerform root cause analysis to identify outagesFind resolutions and prevention for outagesUpdate system restoration procedureUpdate project plans and identify limiting factors for sub transmission linesExtract and analyze system data.Raba-Kistner Consultants, Inc.-Laboratory TechnicianNew Braunfels,TX,05/2014-03/2015Perform diverse support functions to ensure accurate test results and quick turn around time.Organize, prepare and correlate various specimens.Form, document and report to assist in efficient operation of the laboratory.Maintain storeroom, equipment and inventory.\nComputer SkillsSoftware Programming:C/C++Applications:Microsoft Visual Studios, Matlab, Microsoft Word, Excel, PowerPoint, Publisher, Outlook, and Access, Maximo, EM Calibrate, Open-Way Field Pro, Human Performance Quality Center, Power TrackOperating System:Windows (XP, 7, 8, 10), Mac OS\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Hill,MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2014",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University"
+  },
+  "text": "Jordan Avery\nHill,MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryTo obtain an entry-level position as an electrical engineer, allowing me to utilize my education and skills\nwhile gaining valuable work experience in a team oriented environment.\nEducationOakland University,Expected inApril 2014\u2013\u2013BS:Biomedical Diagnostics and Therapeutic Sciences-GPA:Biomedical Diagnostics and Therapeutic SciencesWayne State University,Expected inDecember 2016\u2013\u2013:Electrical Engineering-GPA:GPA: 3.0\nExperienceMks Instruments Inc-Electrical Engineer Co-opWard Hill,MA,02/2016-CurrentAchieve the highest integrity and reliability of the metering systemTest Advanced Metering Infrastructure Meter (AMI) for productionTest different meters for billing errors Perform bench testing of mechanical and electrical meters for demand and accuracyPerform bench testing and calibration of electrical equipmentReduce stock number of current transformersPerform live field testing of current transformers for purchaseWrite standard work instructions and bulletins for procedures and equipmentProvide technical support for metering departmentTrack meter inventoryPerform bench-marking on different equipmentLeidos Holdings Inc.-Electrical Engineer InternDurham,NC,05/2015-02/2016Ensure the safety, reliability and availability of the transmission system for our customersPerform root cause analysis to identify outagesFind resolutions and prevention for outagesUpdate system restoration procedureUpdate project plans and identify limiting factors for sub transmission linesExtract and analyze system data.Raba-Kistner Consultants, Inc.-Laboratory TechnicianNew Braunfels,TX,05/2014-03/2015Perform diverse support functions to ensure accurate test results and quick turn around time.Organize, prepare and correlate various specimens.Form, document and report to assist in efficient operation of the laboratory.Maintain storeroom, equipment and inventory.\nComputer SkillsSoftware Programming:C/C++Applications:Microsoft Visual Studios, Matlab, Microsoft Word, Excel, PowerPoint, Publisher, Outlook, and Access, Maximo, EM Calibrate, Open-Way Field Pro, Human Performance Quality Center, Power TrackOperating System:Windows (XP, 7, 8, 10), Mac OS\nEDUCATION & CREDENTIALS\nDegree / Program, University, 2014\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

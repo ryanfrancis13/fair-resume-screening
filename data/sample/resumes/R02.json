@@ -1,0 +1,47 @@
+{
+  "resume_id": "R02",
+  "job_family": "software_engineering",
+  "source": "synthetic_sample_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nFull-stack developer with 4 years of product engineering experience.\n{{PRONOUN_SUBJ}} shipped customer-facing features across web and API layers, and\n{{PRONOUN_POSS}} focus has been developer experience tooling.\n\nTECHNICAL SKILLS\nLanguages: Python, JavaScript, TypeScript, SQL\nFrameworks: Django, FastAPI, React, Next.js\nInfrastructure: Docker, GitHub Actions, Heroku, some AWS (EC2, S3)\nData: PostgreSQL, SQLite\n\nEXPERIENCE\nSoftware Engineer, Larkspur Retail Technology (2021 - Present)\n- Built a FastAPI order-tracking service used by 180 store operators daily.\n- Improved test coverage from 41% to 78% and cut CI runtime by 35%.\n- Delivered a React dashboard that reduced manual reconciliation work by 9 hours\n  per week.\n\nJunior Developer, Bellhouse Digital (2019 - 2021)\n- Developed 14 Django views and REST endpoints for a logistics client.\n- Migrated a legacy PHP reporting module to Python, removing 4000 lines of code.\n\nEDUCATION\nB.Tech Information Technology, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2019",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of Massachusetts, Amherst",
+    "LOCATION": "Boston, MA",
+    "PHONE": "+1 (617) 555-0142",
+    "NAME": "Casey Sterling",
+    "EMAIL": "casey.sterling@example.com",
+    "LINKEDIN": "linkedin.com/in/casey-sterling"
+  },
+  "text": "Casey Sterling\nBoston, MA | casey.sterling@example.com | +1 (617) 555-0142 | linkedin.com/in/casey-sterling\n\nPROFESSIONAL SUMMARY\nFull-stack developer with 4 years of product engineering experience.\nThey shipped customer-facing features across web and API layers, and\ntheir focus has been developer experience tooling.\n\nTECHNICAL SKILLS\nLanguages: Python, JavaScript, TypeScript, SQL\nFrameworks: Django, FastAPI, React, Next.js\nInfrastructure: Docker, GitHub Actions, Heroku, some AWS (EC2, S3)\nData: PostgreSQL, SQLite\n\nEXPERIENCE\nSoftware Engineer, Larkspur Retail Technology (2021 - Present)\n- Built a FastAPI order-tracking service used by 180 store operators daily.\n- Improved test coverage from 41% to 78% and cut CI runtime by 35%.\n- Delivered a React dashboard that reduced manual reconciliation work by 9 hours\n per week.\n\nJunior Developer, Bellhouse Digital (2019 - 2021)\n- Developed 14 Django views and REST endpoints for a logistics client.\n- Migrated a legacy PHP reporting module to Python, removing 4000 lines of code.\n\nEDUCATION\nB.Tech Information Technology, University of Massachusetts, Amherst, 2019\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "fit_note": "moderate backend fit: strong Python, no Kubernetes depth",
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "synthetic": true,
+    "note": "Synthetic resume authored for this project. No real person."
+  }
+}

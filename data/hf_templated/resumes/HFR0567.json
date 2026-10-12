@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0567",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryTechnical Customer Service Specialist with a vast knowledge of web applications, software and framework seeking to assist clients in all troubleshooting endeavors.Outstanding networking\u00a0adept at developing customer relationships looking for an opportunity to bring exceptional team building skills to a management position in a vibrant customer service department.\nHighlightsRouters/Hubs/Switches:        Juniper, Nexus, Cisco 2600, 2800, 3600, 3700, 3800, 7200, 2900, 3500Authentication: TACACS , RADIUS.Network Analyzers: Ethereal, Sniffer Pro.Network Technologies:        STP, RSTP, HSRP, VRRP, IRB, Port Channel, Cisco ASA 5500 SA.Operating Systems: Windows2000/2003, Win98/ME/2000 pro/xpRouting Protocols: TCP/IP, RIP, EIGRP, OSPF, and BGPWAN Technologies: T1/E1, DS3, Frame-Relay, DSL, MPLS, leased-lineLAN Technologies: 802.1q, ISL, Patching up, Backup/Restoration, DNS (Infoblox), DHCPVOIP: SIP,H.323, MGCP,TDM,SS7, Avaya  Voice gateways\nEducationGoa Institute of Technology,Expected in2003\u2013\u2013Bachelor of Technology:-GPA:\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2003",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "Institute of Technology"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryTechnical Customer Service Specialist with a vast knowledge of web applications, software and framework seeking to assist clients in all troubleshooting endeavors.Outstanding networking\u00a0adept at developing customer relationships looking for an opportunity to bring exceptional team building skills to a management position in a vibrant customer service department.\nHighlightsRouters/Hubs/Switches:        Juniper, Nexus, Cisco 2600, 2800, 3600, 3700, 3800, 7200, 2900, 3500Authentication: TACACS , RADIUS.Network Analyzers: Ethereal, Sniffer Pro.Network Technologies:        STP, RSTP, HSRP, VRRP, IRB, Port Channel, Cisco ASA 5500 SA.Operating Systems: Windows2000/2003, Win98/ME/2000 pro/xpRouting Protocols: TCP/IP, RIP, EIGRP, OSPF, and BGPWAN Technologies: T1/E1, DS3, Frame-Relay, DSL, MPLS, leased-lineLAN Technologies: 802.1q, ISL, Patching up, Backup/Restoration, DNS (Infoblox), DHCPVOIP: SIP,H.323, MGCP,TDM,SS7, Avaya  Voice gateways\nEducationGoa Institute of Technology,Expected in2003\u2013\u2013Bachelor of Technology:-GPA:\nEDUCATION & CREDENTIALS\nDegree / Program, Institute of Technology, 2003\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

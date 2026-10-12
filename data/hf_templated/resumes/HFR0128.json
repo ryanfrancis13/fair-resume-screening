@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0128",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional ProfileTo secure a position with an organization, where I can utilize my office experience to the fullest. Highly motivated and well organized individual with more than two years Administrative Assistant\n*    Excellent attention to detail in completing reports and in attending to any necessary paperwork.\n*    Comfortable in a fast-paced office setting\n*    Able to provide office support including typing, filing, and answering telephones.\nQualificationsFlexible with work schedule, have experience in workplace\ndevelopment, case management and program marketing.\u00a0Maintain\nstudent hours and attendance per the policy and the procedures of the Job\nNetwork Work Program to ensure student seeking employment are compliant\nDevelop relationships with Case manager, Facilitators and\nother staff to promote student participation in the Job Network work\nProgram\u00a0 and support ongoing retention\nservices to ensure enrollment and outcomes of student successSupport the Job Network Program with achieving weekly,\nmonthly, quarterly and annual placement goalsPerforms other job-related duties and responsibilities as\nassigned\nAnalytical Thinking \u2013 Ability to anticipate problems and\ndevelop contingency plans to deal with them as well as evaluate and\nimplement alternative courses of action.\nAbility to continue a course of action in the face of\nadversity.\u00a0\u00a0Screen and match students enrolled with Case Manager, and Job\nDeveloper assignment\nPre-plans development activities to ensure the identification\nof opportunities to meet contractual obligations.\nDocuments, consistently and accurately, in real time, all\nparticipant, activities and outcomes into a computerized case management\nsystem\u00a0 (ETO and WORKS)\nRecord and evaluate applicant education,\nexperience, training, knowledge and skills.\nAssist clients in the use of resources and technology\nfor job search activities Liaise with job development services, facilitation\nteam, information and resource team, government departments and other social,\nemployment and community agencies on mutual clients as needed to facilitate\nclients\u2019 progress\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional ProfileTo secure a position with an organization, where I can utilize my office experience to the fullest. Highly motivated and well organized individual with more than two years Administrative Assistant\n*    Excellent attention to detail in completing reports and in attending to any necessary paperwork.\n*    Comfortable in a fast-paced office setting\n*    Able to provide office support including typing, filing, and answering telephones.\nQualificationsFlexible with work schedule, have experience in workplace\ndevelopment, case management and program marketing.\u00a0Maintain\nstudent hours and attendance per the policy and the procedures of the Job\nNetwork Work Program to ensure student seeking employment are compliant\nDevelop relationships with Case manager, Facilitators and\nother staff to promote student participation in the Job Network work\nProgram\u00a0 and support ongoing retention\nservices to ensure enrollment and outcomes of student successSupport the Job Network Program with achieving weekly,\nmonthly, quarterly and annual placement goalsPerforms other job-related duties and responsibilities as\nassigned\nAnalytical Thinking \u2013 Ability to anticipate problems and\ndevelop contingency plans to deal with them as well as evaluate and\nimplement alternative courses of action.\nAbility to continue a course of action in the face of\nadversity.\u00a0\u00a0Screen and match students enrolled with Case Manager, and Job\nDeveloper assignment\nPre-plans development activities to ensure the identification\nof opportunities to meet contractual obligations.\nDocuments, consistently and accurately, in real time, all\nparticipant, activities and outcomes into a computerized case management\nsystem\u00a0 (ETO and WORKS)\nRecord and evaluate applicant education,\nexperience, training, knowledge and skills.\nAssist clients in the use of resources and technology\nfor job search activities Liaise with job development services, facilitation\nteam, information and resource team, government departments and other social,\nemployment and community agencies on mutual clients as needed to facilitate\nclients\u2019 progress\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0566",
+  "job_family": "finance",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryExperienced school fund Accountant interested in further advancing career to the next level. Goal oriented, knowledgable and\u00a0capable of managing multiple projects and consistently meeting deadlines under pressure.\nCore StrengthsSchool fund accountingAccount reconciliationCash flow projectionsBudget analysis/forecastingGeneral ledger accountingAccounts payable/receivableGovernmental reportingSchool bond experience\nExperienceAccountant,07/2014-CurrentWaste Management\u2013Douglasville,GA,Perform all general ledger duties for district.Reconcile multiple bank accounts monthly.Record and project cash flows.Perform Accounts Payable/Receivable duties.Manage child care billing for two locations.Analyze budgets and amend as necessary.Assist auditors with yearly financial statements.Supply school board members with financial data.Create Purchase Orders and supply to vendors.Reconcile student lunch account purchases.Prepare calendar year-end tax documents.Assisted and trained staff with various accounting software tasks \u00a0such as purchase order entry and budget report generating.Staff Accountant,10/2010-06/2014Four Seasons Hotels Inc\u2013Los Angeles,CA,Performed Accounts Payable duties for three local area public school districts.Processed Purchase Orders and supplied to vendors.Prepared and processed 1099's at calendar year-end.Prepared various reports on a weekly basis and supplied local districts with valuable information.Streamlined document attachment process within accounting software.Package Handler,07/2007-08/2010Berry Global Group Inc.\u2013Bloomington,IN,Earned Employee of the Month on multiple occasions for customer focus and taking initiative.\nEducationBBA:Accountancy,Expected inApril 2010-Western Michigan University-Kalamazoo,MIGPA:Status-Haworth College of Business\nSkillsCreative problem solving skills.Advanced computer skills.Works great with others.Continuous initiative for process improvement.\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Douglasville,GA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2014",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University-Kalamazoo"
+  },
+  "text": "Jordan Avery\nDouglasville,GA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryExperienced school fund Accountant interested in further advancing career to the next level. Goal oriented, knowledgable and\u00a0capable of managing multiple projects and consistently meeting deadlines under pressure.\nCore StrengthsSchool fund accountingAccount reconciliationCash flow projectionsBudget analysis/forecastingGeneral ledger accountingAccounts payable/receivableGovernmental reportingSchool bond experience\nExperienceAccountant,07/2014-CurrentWaste Management\u2013Douglasville,GA,Perform all general ledger duties for district.Reconcile multiple bank accounts monthly.Record and project cash flows.Perform Accounts Payable/Receivable duties.Manage child care billing for two locations.Analyze budgets and amend as necessary.Assist auditors with yearly financial statements.Supply school board members with financial data.Create Purchase Orders and supply to vendors.Reconcile student lunch account purchases.Prepare calendar year-end tax documents.Assisted and trained staff with various accounting software tasks \u00a0such as purchase order entry and budget report generating.Staff Accountant,10/2010-06/2014Four Seasons Hotels Inc\u2013Los Angeles,CA,Performed Accounts Payable duties for three local area public school districts.Processed Purchase Orders and supplied to vendors.Prepared and processed 1099's at calendar year-end.Prepared various reports on a weekly basis and supplied local districts with valuable information.Streamlined document attachment process within accounting software.Package Handler,07/2007-08/2010Berry Global Group Inc.\u2013Bloomington,IN,Earned Employee of the Month on multiple occasions for customer focus and taking initiative.\nEducationBBA:Accountancy,Expected inApril 2010-Western Michigan University-Kalamazoo,MIGPA:Status-Haworth College of Business\nSkillsCreative problem solving skills.Advanced computer skills.Works great with others.Continuous initiative for process improvement.\nEDUCATION & CREDENTIALS\nDegree / Program, University-Kalamazoo, 2014\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

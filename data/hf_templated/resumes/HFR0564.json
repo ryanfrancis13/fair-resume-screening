@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0564",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummarySenior Software Engineer with 13 years experience in a wide range of technologies and project types. Expert in Java-based development and web service design and development.\nHighlightsEnterprise and web developmentFull-stack developer\u200bFluent in OO/JavaAPI development\nExperienceSenior Software Engineer,10/2014-CurrentViasat\u2013Melbourne,FL,Helped design and implement multiple SOAP and REST-based web services and APIsHelped design and implement multiple Spring-based web applicationsImplemented OAuth2 token-based authorization for client web applications and REST servicesImplemented and maintained integrated HSM (Hardware Security Module) solution for ultra-secure data transmission and storage for web services and applicationsWork with customer to define requirements of the web services and applications that are requestedMentor software developers and QA engineersTeam Technical Lead/Senior Software Engineer,02/2012-10/2014Abbott Laboratories\u2013Kansas City,KS,Led agile development team in the full development lifecycle for document-based (SOAP) web service design, development, and maintenanceDefined, documented, and supported APIs and API documentation for external service consumersUtilized JPA\n(Hibernate), Spring (MVC, Core, Integration, and Batch), jQuery, JAX-WS RI, Apache CXF, and\nother frameworks for production code and jMockit, JUnit, and soapUI for developing testsDesigned, implemented, and managed XACML-based policies within Java enterprise applications\u200bMentored fellow team membersSoftware Engineer,11/2003-02/2012ICF International\u2013City,STATE,Designed and developed custom Java-based Content Management System with Magnolia CMS\nand CKEditor to manage item descriptions and mediaDesigned and implemented AWS-based system which automated the transcoding of the uploaded videos to a format\ncompatible with Flash-based video streaming within an external web site.Maintained iPhone application code for an international annual arts festival, providing fixes and enhancementsHelped design, develop and maintain several Java Enterprise applications for a major US DoD procurement website\nSkillsLanguages:Java (1.4-1.8), C, JavaScript, Objective-C,\u00a0Visual BasicOperating Systems:Mac OS X, Windows, Linux\u200bJava standards:EJB, JSP/JSTL, JPA,\u00a0JAX-WS, JAX-RS, Java Content Repository APIJava Frameworks: \u00a0 Spring (Core, Boot, MVC, Integration, Batch, Security), Thymeleaf, Hibernate,\u00a0JAX-WS RI, Apache CXF, Apache Jackrabbit, LiquibaseTesting Frameworks:\u200bJUnit, jMockit, Selenium,\u00a0Spring TestBuild/Dependency Management:Maven, Ant, IvyUI:HTML, CSS, JavaScript/AJAX, jQueryApplication Servers:Oracle WebLogic Server, Apache TomcatDatabases:Oracle Database (10g-12c), Microsoft SQL ServerWeb Services:REST, OAuth 2.0, SOAP, WSDL, MTOM, XACML, WS-SecurityThird-party services:Amazon (S3, EC2, HSM, SQS)Miscellanous:Docker, ASC (ANSI) X12 standards\nEducationBachelor of Science:Computer Science,Expected in2003-College of Charleston-Charleston,SCGPA:Status-Co-authored published computer science paper on applying the Zipf-Mandelbrot law to musicBachelor of Arts:Music Composition/Theory,Expected in1995-College of Charleston-Charleston,SCGPA:Status-Won 1995 Lowcountry Music Award for an orchestral composition\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Melbourne,FL",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2014",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "College of Charleston-Charleston"
+  },
+  "text": "Jordan Avery\nMelbourne,FL | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummarySenior Software Engineer with 13 years experience in a wide range of technologies and project types. Expert in Java-based development and web service design and development.\nHighlightsEnterprise and web developmentFull-stack developer\u200bFluent in OO/JavaAPI development\nExperienceSenior Software Engineer,10/2014-CurrentViasat\u2013Melbourne,FL,Helped design and implement multiple SOAP and REST-based web services and APIsHelped design and implement multiple Spring-based web applicationsImplemented OAuth2 token-based authorization for client web applications and REST servicesImplemented and maintained integrated HSM (Hardware Security Module) solution for ultra-secure data transmission and storage for web services and applicationsWork with customer to define requirements of the web services and applications that are requestedMentor software developers and QA engineersTeam Technical Lead/Senior Software Engineer,02/2012-10/2014Abbott Laboratories\u2013Kansas City,KS,Led agile development team in the full development lifecycle for document-based (SOAP) web service design, development, and maintenanceDefined, documented, and supported APIs and API documentation for external service consumersUtilized JPA\n(Hibernate), Spring (MVC, Core, Integration, and Batch), jQuery, JAX-WS RI, Apache CXF, and\nother frameworks for production code and jMockit, JUnit, and soapUI for developing testsDesigned, implemented, and managed XACML-based policies within Java enterprise applications\u200bMentored fellow team membersSoftware Engineer,11/2003-02/2012ICF International\u2013City,STATE,Designed and developed custom Java-based Content Management System with Magnolia CMS\nand CKEditor to manage item descriptions and mediaDesigned and implemented AWS-based system which automated the transcoding of the uploaded videos to a format\ncompatible with Flash-based video streaming within an external web site.Maintained iPhone application code for an international annual arts festival, providing fixes and enhancementsHelped design, develop and maintain several Java Enterprise applications for a major US DoD procurement website\nSkillsLanguages:Java (1.4-1.8), C, JavaScript, Objective-C,\u00a0Visual BasicOperating Systems:Mac OS X, Windows, Linux\u200bJava standards:EJB, JSP/JSTL, JPA,\u00a0JAX-WS, JAX-RS, Java Content Repository APIJava Frameworks: \u00a0 Spring (Core, Boot, MVC, Integration, Batch, Security), Thymeleaf, Hibernate,\u00a0JAX-WS RI, Apache CXF, Apache Jackrabbit, LiquibaseTesting Frameworks:\u200bJUnit, jMockit, Selenium,\u00a0Spring TestBuild/Dependency Management:Maven, Ant, IvyUI:HTML, CSS, JavaScript/AJAX, jQueryApplication Servers:Oracle WebLogic Server, Apache TomcatDatabases:Oracle Database (10g-12c), Microsoft SQL ServerWeb Services:REST, OAuth 2.0, SOAP, WSDL, MTOM, XACML, WS-SecurityThird-party services:Amazon (S3, EC2, HSM, SQS)Miscellanous:Docker, ASC (ANSI) X12 standards\nEducationBachelor of Science:Computer Science,Expected in2003-College of Charleston-Charleston,SCGPA:Status-Co-authored published computer science paper on applying the Zipf-Mandelbrot law to musicBachelor of Arts:Music Composition/Theory,Expected in1995-College of Charleston-Charleston,SCGPA:Status-Won 1995 Lowcountry Music Award for an orchestral composition\nEDUCATION & CREDENTIALS\nDegree / Program, College of Charleston-Charleston, 2014\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

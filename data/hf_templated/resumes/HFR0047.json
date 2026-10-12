@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0047",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional SummaryBusiness Intelligence Consultant with a 10-year career in data warehousing, business intelligence reporting, and data management architecture. Progressive developer and technical team lead with a strength in design & development, as well as driving performance, reducing inefficiencies and cutting costs. Possess comprehensive knowledge and hands on experience in both ETL and Reporting tools. Knowledge of Credit Card account life cycle management in Finance domain, Functional knowledge of Collections and Recovery operations. Expertise in planning, executing and spearheading various SDLC and Agile Scrum projects in compliance to quality standards. Known for effective communication with excellent relationship building & interpersonal skills, strong analytical, problem solving & organizational abilities. Proven track record of taking ownership and diving deeper into issues to identify the root cause and troubleshoot towards resolution.\nSkillsETL Tools : Ab InitioScripting Languages : Unix shell scripting, Python, Spark/ScalaCloud Services: Microsoft Azure Cloud Services, Data Lake , DataBricks and Data Pipelines, Azure Data FactoryBI Reporting Skills : Tableau Desktop, Tableau Server, Power BI Reporting , SAP Business Objects (SAP BO),Universe Designer Tool, SAP BO XI WEBI Reporting,SAP BO XI Deski Reporting,Database : Oracle , Teradata, HiveScheduler tools : Autosys, Control-MRelational Database ManagementBusiness Intelligence ReportingProject ManagementData Analysis and Visualization\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional SummaryBusiness Intelligence Consultant with a 10-year career in data warehousing, business intelligence reporting, and data management architecture. Progressive developer and technical team lead with a strength in design & development, as well as driving performance, reducing inefficiencies and cutting costs. Possess comprehensive knowledge and hands on experience in both ETL and Reporting tools. Knowledge of Credit Card account life cycle management in Finance domain, Functional knowledge of Collections and Recovery operations. Expertise in planning, executing and spearheading various SDLC and Agile Scrum projects in compliance to quality standards. Known for effective communication with excellent relationship building & interpersonal skills, strong analytical, problem solving & organizational abilities. Proven track record of taking ownership and diving deeper into issues to identify the root cause and troubleshoot towards resolution.\nSkillsETL Tools : Ab InitioScripting Languages : Unix shell scripting, Python, Spark/ScalaCloud Services: Microsoft Azure Cloud Services, Data Lake , DataBricks and Data Pipelines, Azure Data FactoryBI Reporting Skills : Tableau Desktop, Tableau Server, Power BI Reporting , SAP Business Objects (SAP BO),Universe Designer Tool, SAP BO XI WEBI Reporting,SAP BO XI Deski Reporting,Database : Oracle , Teradata, HiveScheduler tools : Autosys, Control-MRelational Database ManagementBusiness Intelligence ReportingProject ManagementData Analysis and Visualization\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

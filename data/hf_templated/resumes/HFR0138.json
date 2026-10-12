@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0138",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional SummaryExperienced Information Technology professional; Key strengths include but not limited to systems support in health data management, business analysis, quality assurance, and functional testing; ability to manage multiple projects simultaneously; adapt to process, procedures and implementation to client specification; excellent communication, critical thinking, investigative & problem resolution strategies, exceeding customer expectations.\nEducation and TrainingAmerican Intercontinental UniversityDunwoody,GAExpected in\u2013\u2013Master of Information Technology (MBA):-GPA:Long Island University - C.W. PostBrookville,NYExpected in\u2013\u2013Bachelor of Science (BS):-GPA:\nSkill HighlightsExperience in all phases of the System Development Life Cycle for enterprise application implementationsExperience with application level support for multifunctional end user expertise in clinical data managementExperience in project management methodology; effective independently or in a team environmentKnowledge of information security concepts; cryptography, incident response, policy/audit, and threat analysis;Knowledge of security Firewalls, IDS/IPS, PKI, TCP/IP, Operating Systems, LAN/WAN, and the OSI Model;Knowledge of HIPPA/SOX/PCI compliance standards, and Management of Information Systems Access Coordinator/Enterprise applications; Safety & Compliance/Risk mitigation and Disaster ResponseSystem Administrator; United Health Care, Optum Cloud, Availity, CIGNA, Humana, and BCBS Payer WebsitesICD9-CPT4 coding systems, Access Blue, Care Medic, Claim Logic EDI, Comtec, EPIC, Health Quest;IDX/GE Centricity Business, I- Suite, Power Chart and Microsoft Office Suite software applicationsLawson, Lotus Notes, Micro Strategy data warehouse/FPSC web-based reporting database applicationsCryptography Concepts, Computer Forensics, Computer Networking/TCP/IP; Information Security PrinciplesJAVA Programming, ORACLEdb10g; OPNET IT Guru, Windows OS, UNIX/Linux OS\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "UniversityDunwoody"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional SummaryExperienced Information Technology professional; Key strengths include but not limited to systems support in health data management, business analysis, quality assurance, and functional testing; ability to manage multiple projects simultaneously; adapt to process, procedures and implementation to client specification; excellent communication, critical thinking, investigative & problem resolution strategies, exceeding customer expectations.\nEducation and TrainingAmerican Intercontinental UniversityDunwoody,GAExpected in\u2013\u2013Master of Information Technology (MBA):-GPA:Long Island University - C.W. PostBrookville,NYExpected in\u2013\u2013Bachelor of Science (BS):-GPA:\nSkill HighlightsExperience in all phases of the System Development Life Cycle for enterprise application implementationsExperience with application level support for multifunctional end user expertise in clinical data managementExperience in project management methodology; effective independently or in a team environmentKnowledge of information security concepts; cryptography, incident response, policy/audit, and threat analysis;Knowledge of security Firewalls, IDS/IPS, PKI, TCP/IP, Operating Systems, LAN/WAN, and the OSI Model;Knowledge of HIPPA/SOX/PCI compliance standards, and Management of Information Systems Access Coordinator/Enterprise applications; Safety & Compliance/Risk mitigation and Disaster ResponseSystem Administrator; United Health Care, Optum Cloud, Availity, CIGNA, Humana, and BCBS Payer WebsitesICD9-CPT4 coding systems, Access Blue, Care Medic, Claim Logic EDI, Comtec, EPIC, Health Quest;IDX/GE Centricity Business, I- Suite, Power Chart and Microsoft Office Suite software applicationsLawson, Lotus Notes, Micro Strategy data warehouse/FPSC web-based reporting database applicationsCryptography Concepts, Computer Forensics, Computer Networking/TCP/IP; Information Security PrinciplesJAVA Programming, ORACLEdb10g; OPNET IT Guru, Windows OS, UNIX/Linux OS\nEDUCATION & CREDENTIALS\nDegree / Program, UniversityDunwoody, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0411",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryExperienced Tableau Engineer with critical analytical& statistical knowledge in developing Tableau Dash Boards, Performance Tune and prepare insightful Tableau reports. Built and published customized interactive reports, dashboards, and report scheduling. In-depth knowledge on Tableau Desktop, Tableau Reader and Tableau Server. Extensive Tableau Experience in Enterprise Environment and Tableau Administrator experience including technical support, troubleshooting, report design and monitoring of system usage. Performed data audits, data profiling activities, providing strategic data to BI teams. Familiar with Installation, Configuration and administration of Tableau Server in a multi-server and multi-tier environment. Working knowledge in Windows Servers, API, Network technologies with Active Directory, SAML for authentication. Strong knowledge in SQL, PL/SQL, XML, Python programming and understanding of Data modeling (Dimensional & Relational) concepts Experience in Tableau Administration Tool for Configuration, adding users, managing licenses and data connections, scheduling tasks, embedding views by integrating with other platforms like SharePoint. Involved in Trouble Shooting, Performance tuning of reports, tuning long running SQL and PL/SQL queries for better performance and resolving issues. Involved in Trouble Shooting, Performance tuning of reports and resolving issues within Tableau Server and Reports. Involved in upgrading Tableau platforms in clustered environment and performing content upgrades. Strong understanding of advanced Tableau features including calculated fields, parameters, table calculations, row-level security, R integration, joins, data blending, and dashboard actions. Expertise with data architecture, data interoperability and data analytics using Tableau and SQLs Experience in different project methodologies - Waterfall, and Agile/SCRUM Self-starter with ability to motivate teamwork and lead competently in diverse groups. Decision making ability to make sound Engineering, Management judgment. Innate problem solver, able to intellectually articulate business problems, identify critical problems, and achieve targeted results Worked closely with ETL developers and stakeholders to assist them with their agile development life cycle. Excellent Software Development Life Cycle (SDLC) with good working knowledge of testing methodologies, disciplines, tasks, resources and scheduling. Excellent knowledge in Data Analysis, Data Validation, Data Cleansing, Data Verification and identifying data mismatch. Very proficient in working with large Databases in DB2, Oracle, Teradata and SQL Server. Experience in data modeling with high proficiency in using Erwin for Dimensional Modeling (Star and Snowflake schemas). Strong understanding of Data warehouse concepts, ETL, Star Schema, Snowflake, data modeling experience using. Experience in data modeling with high proficiency in using Erwin for Dimensional Modeling (Star and Snowflake schemas). Normalization, Business Process Analysis, Reengineering, Dimensional Data modeling, FACT and dimensions tables, physical and logical data modeling.\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Strong knowledge in SQL, PL",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nStrong knowledge in SQL, PL | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryExperienced Tableau Engineer with critical analytical& statistical knowledge in developing Tableau Dash Boards, Performance Tune and prepare insightful Tableau reports. Built and published customized interactive reports, dashboards, and report scheduling. In-depth knowledge on Tableau Desktop, Tableau Reader and Tableau Server. Extensive Tableau Experience in Enterprise Environment and Tableau Administrator experience including technical support, troubleshooting, report design and monitoring of system usage. Performed data audits, data profiling activities, providing strategic data to BI teams. Familiar with Installation, Configuration and administration of Tableau Server in a multi-server and multi-tier environment. Working knowledge in Windows Servers, API, Network technologies with Active Directory, SAML for authentication. Strong knowledge in SQL, PL/SQL, XML, Python programming and understanding of Data modeling (Dimensional & Relational) concepts Experience in Tableau Administration Tool for Configuration, adding users, managing licenses and data connections, scheduling tasks, embedding views by integrating with other platforms like SharePoint. Involved in Trouble Shooting, Performance tuning of reports, tuning long running SQL and PL/SQL queries for better performance and resolving issues. Involved in Trouble Shooting, Performance tuning of reports and resolving issues within Tableau Server and Reports. Involved in upgrading Tableau platforms in clustered environment and performing content upgrades. Strong understanding of advanced Tableau features including calculated fields, parameters, table calculations, row-level security, R integration, joins, data blending, and dashboard actions. Expertise with data architecture, data interoperability and data analytics using Tableau and SQLs Experience in different project methodologies - Waterfall, and Agile/SCRUM Self-starter with ability to motivate teamwork and lead competently in diverse groups. Decision making ability to make sound Engineering, Management judgment. Innate problem solver, able to intellectually articulate business problems, identify critical problems, and achieve targeted results Worked closely with ETL developers and stakeholders to assist them with their agile development life cycle. Excellent Software Development Life Cycle (SDLC) with good working knowledge of testing methodologies, disciplines, tasks, resources and scheduling. Excellent knowledge in Data Analysis, Data Validation, Data Cleansing, Data Verification and identifying data mismatch. Very proficient in working with large Databases in DB2, Oracle, Teradata and SQL Server. Experience in data modeling with high proficiency in using Erwin for Dimensional Modeling (Star and Snowflake schemas). Strong understanding of Data warehouse concepts, ETL, Star Schema, Snowflake, data modeling experience using. Experience in data modeling with high proficiency in using Erwin for Dimensional Modeling (Star and Snowflake schemas). Normalization, Business Process Analysis, Reengineering, Dimensional Data modeling, FACT and dimensions tables, physical and logical data modeling.\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

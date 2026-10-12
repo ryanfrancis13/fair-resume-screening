@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume Preview #002 - Potential Fit</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+  :root {
+    --primary: #1e293b;
+    --accent: #2563eb;
+    --text: #334155;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --bg: #f8fafc;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #0f172a;
+    color: var(--text);
+    padding: 30px 15px;
+    line-height: 1.5;
+  }
+
+  .nav-bar {
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e293b;
+    padding: 12px 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  .nav-bar h2 { color: #f8fafc; font-size: 16px; font-weight: 600; }
+  .btn-print {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .btn-print:hover { background: #2563eb; }
+
+  /* A4 Paper Sheet Simulation */
+  .page {
+    max-width: 850px;
+    min-height: 1100px;
+    background: #ffffff;
+    margin: 0 auto 30px auto;
+    padding: 50px 60px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    position: relative;
+  }
+
+  .badge-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+  }
+  .badge-good { background: #dcfce7; color: #15803d; }
+  .badge-potential { background: #fef9c3; color: #a16207; }
+  .badge-nofit { background: #fee2e2; color: #b91c1c; }
+
+  .candidate-header {
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+  }
+  .candidate-name {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--primary);
+    letter-spacing: -0.5px;
+  }
+  .candidate-title {
+    font-size: 15px;
+    color: var(--accent);
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  .candidate-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  .section {
+    margin-bottom: 22px;
+  }
+  .section-title {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--primary);
+    border-bottom: 1.5px solid var(--border);
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+  }
+
+  .section-content {
+    font-size: 13px;
+    color: var(--text);
+    white-space: pre-wrap;
+    line-height: 1.6;
+  }
+
+  .job-context-box {
+    max-width: 850px;
+    margin: 0 auto 30px auto;
+    background: #1e293b;
+    border-radius: 8px;
+    padding: 24px 30px;
+    color: #cbd5e1;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  .job-context-box h3 {
+    color: #f8fafc;
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .job-desc {
+    font-size: 12.5px;
+    line-height: 1.6;
+    color: #94a3b8;
+    max-height: 250px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    background: #0f172a;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #334155;
+  }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .nav-bar, .job-context-box { display: none; }
+    .page {
+      box-shadow: none;
+      padding: 0;
+      margin: 0;
+      max-width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="nav-bar">
+  <h2>Resume Document Preview (A4 Format)</h2>
+  <button class="btn-print" onclick="window.print()">Print / Save as PDF</button>
+</div>
+
+<div class="job-context-box">
+  <h3>
+    Applied Role & Fit Evaluation
+    <span class="badge-tag badge-potential">Potential Fit</span>
+  </h3>
+  <div class="job-desc">Kindly focus on the highlighted skill in the below requirements.
+Position: Salesforce BALocation: Phoenix or Salt Lake City (Onsite) 
+
+ Key Skills:  10+ years of overall experience 5+ Salesforce Certification 5+ years hands on experience as Business Analyst BFSI domain experience is preferred</div>
+</div>
+
+<div class="page">
+  <div class="candidate-header">
+    <div class="candidate-name">Candidate Profile #002</div>
+    <div class="candidate-title">Kindly focus on the highlighted skill in the below requirements.</div>
+    <div class="candidate-contact">
+      <span>Location: San Francisco, CA / Remote</span>
+      <span>•</span>
+      <span>Email: applicant.002@example.com</span>
+      <span>•</span>
+      <span>Source: Hugging Face Fit Corpus</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Resume Content & Experience</div>
+    <div class="section-content">Professional Summary5  years of experience on Database development and administration, knowledge of relational database on SQL Server particularly on SSMS, SSRS, SSIS, Transact-SQL and SQL Server Agent.
+*Extensive exposure to creation of Database Objects, Stored Procedures, Triggers, Views, User Defined Functions and Cursors.
+Core QualificationsSQL  Server Tools:          SQL Server Management Studio (SSMS)Data Warehouse Tools:          MS SQL Server 2005/2008/2012 Integration ServicesBusiness Intelligence Tools:        SQL Server 2005/2008/2012 Business Intelligence Development StudioProgramming Languages:	     T-SQLReporting Tools:          SQL Server 2005/2008/2012 Reporting ServicesDevelopment Environment:        Visual Studio 2005/2008/2012Operating Systems:	         Windows XP/2003/2008 Server, Win 3.x/95/98, Vista, Win 7Advanced Excel          V-lookup, Sub-total, Pivot table, and Chart.
+ExperienceData Analyst,11/2014toCurrentLiberty Healthcare Corporation–,OK,Experience in Constraints, rules and default setting Primary, Foreign, Unique and Default Key.Developed Joins and Sub-Queries to simplify complex queries involving multiple tables.Experienced in using temporary tables, table variables, common table expression (CTE) to enhance optimized SQL queries form improved performance of queries.Experience in crating and updating Clustered and Non-Clustered Indexes to keep up the SQL Server Performance.Well versed in Normalization /De-Normalization techniques both in OLTP and OLAP system.Experienced in using Try catch block introduced in SQL Server 2005 and error handling.Great deal of experience on authoring, managing and deploying ad hoc, enterprise, advance and interactive reports using SQL Server Reporting Servers.Expert in Data Extraction, Transforming and Loading (ETL) using various tools such as SSIS, DTS, Bulk Insert, data cleansing and profiling.Well experienced using different transformations tools like Aggregate, Cache Transformation, Conditional split, Copy columns, Sort column, Data conversion, Derived column, Merge, Merge join, Union all, Import and Export columns and OLE DB command.Data Extraction form OLE DB server encrypt and compressed with the TF PGP and TF compression task to the remote server location and FTP Server on the CSV format.Implementation of point in time backup and recovery of databases, executing package, scheduling and managing jobs on SQL Server Agent and maintain good documentation.Managed and maintained user&#x27;s security and permissions and migration database objects form one server to another server database to another database.Exposure to Business Analysis and requirements gathering in Business and Health Care Domains mainly on HIPAA.Knowledge of complete Software Development Life Cycle and work experience in Agile and environment.Strong research, analytical, coordination, interaction skills, team player and able to quickly grasp new technologies and products.Data Analyst, SQL Server Developer/SSIS/SSRS,09/2012to10/2014EBS–,,EBS/Ethiopian Broad Casting Service /aims to promote Ethiopian and African countries values Cultures and traditions on a global scale.The much-needed information provided by EBS would  Help bridge the cultural divide and narrow the communication gap for Ethiopians residing in  North America and around and world.Involved in gathering business requirements.Installation and configuration of SQL Server.Created database, tables, wrote stored procedures for developers and users.Created SQL scripts and defined functions, check constraints, indexes, and views.Created triggers to enforce data and referential integrity.Create new SSIS package (2008R2) to extract date from legacy to SQL Server objects.Extensively used SSMS and SSIS Import/Export system for performing ETL operations.Performed data conversion from fat file and excel in to a normalized database structure.Configured Server for sending automatic mails.Developed, monitored and deployed SSIS packages (2008R2).Installation and configuration of reporting server.Generated Snapshot, Drill Down, and parameterized reports using SSRS Prepared Ad-hoc reports through report builders and published through Report Manager Design and created different types of reports like Sub Reports, Drill-Through, Cascading, Drill -Down, ad-hoc Reports in visual Studio and deploy and manage on Microsoft SQL Server Reporting Services Configuration Manager.Ethiopian Magical Farm PLC, Jessica Ababa, Ethiopia.SQL ETL Developer/SSIS/SSRS,02/2010to07/2012–,,Responsibility Designed and developed the databases.Created store procedures, views, and tables and generated TSQL script for application.Business Intelligence Development Studio (BIDS) to create, edit, and deploy SSRS and SSIS.Designed, deployed, and maintained of various SSRS Reports in SQL Server 2008R2.Created ETL packages using SSIS to extract data from relational database and then transform and load in to the database.Developed deployed and monitored SSIS packages including upgrades DTS to SSIS.Developed, executed, documented, and maintained appropriate BI procedures.Collaborated with network operators, application developers, and DBAs to enhance end user experience.Scheduling Jobs and Alerting using SQL Server Agent.
+EducationBSc Degree:Information Science,Expected intoAdmas University-,GPA:Information Science
+SkillsAd, Agile, aims, automate, backup, Business Analysis, BI, Business Intelligence, business management, Hardware, data collection, Data conversion, Data migration, data modeling, DTS, data warehouse, databases, database, delivery, documentation, edit, ETL, fat, FTP, logic, managing, Access, MS Excel, excel, Excel          V, Microsoft SQL, Win 7, Win 3.x, 95/98, Windows XP, migration, enterprise, network, OLAP, OLE, Operating Systems, DB, Pivot table, PLC, Programming, quality, relational database, reporting, requirement, requirements gathering, research, Scheduling, Servers, scripts, script, Software Development, sorting, MS SQL Server, Microsoft SQL Server, SQL, SQL  Server, SQL Server, tables, team player, T-SQL, TSQL, translating, Unique, upgrades, Vista, Visual Studio</div>
+  </div>
+</div>
+
+</body>
+</html>

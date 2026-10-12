@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0397",
+  "job_family": "finance",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional SummaryMulti-faceted Financial Professional with solid and progressive experience in all facets of accounting and financial management.\nSkillsAccounting and Financial ReportingExperience in Cash Flow Management and Financial Statement AnalysisExperience in Account Reconciliations, Accruals, GL Activity, Month End Close, AR, AP, and BillingProgressive experience in Budget Management, SEC & GAAP CompliancesExcellent communication skillsSuperb analytical and problem solving skillsAbility to work independently as well as within Team SettingsPhysically fit to work extra hours with superb schedule flexibilityPowerful negotiatorAbility to multitask and meet aggressive deadlinesBudgeting and financeExtremely organizedSelf-motivatedConflict resolutionStrong verbal communicationStrong knowledge and familiarity with Microsoft Excel, Word, PowerPoint, OutlookPerfect knowledge of Accounting software like Lawson, Mas 90, QuickBooks Pro, PeopleSoft, Axiom, Bloomberg Terminal, Nvision, and ImagingAbility to learn new software programs\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Accruals, GL",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nAccruals, GL | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional SummaryMulti-faceted Financial Professional with solid and progressive experience in all facets of accounting and financial management.\nSkillsAccounting and Financial ReportingExperience in Cash Flow Management and Financial Statement AnalysisExperience in Account Reconciliations, Accruals, GL Activity, Month End Close, AR, AP, and BillingProgressive experience in Budget Management, SEC & GAAP CompliancesExcellent communication skillsSuperb analytical and problem solving skillsAbility to work independently as well as within Team SettingsPhysically fit to work extra hours with superb schedule flexibilityPowerful negotiatorAbility to multitask and meet aggressive deadlinesBudgeting and financeExtremely organizedSelf-motivatedConflict resolutionStrong verbal communicationStrong knowledge and familiarity with Microsoft Excel, Word, PowerPoint, OutlookPerfect knowledge of Accounting software like Lawson, Mas 90, QuickBooks Pro, PeopleSoft, Axiom, Bloomberg Terminal, Nvision, and ImagingAbility to learn new software programs\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

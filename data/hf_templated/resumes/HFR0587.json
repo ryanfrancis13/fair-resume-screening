@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0587",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryTo obtain a challenging position in the field of computer science and to and apply my analytical and technical skill sets to practice 5+ Years of experience in the field of Software development and testing\n*Hands-on experience with Web and Android mobile application development\n*Involved in all the phases of Software Development Lifecycle\n*Team player, fast learner and always eager to learn new technologies\nHighlightsJava, Perl, Python, Javascript, Siebel eScript MySQL, PL/SQL, Oracle, SQLite, Microsoft Access, PostgreSQL Tools and Applications: Android SDK, Eclipse, Mercurial, Perforce, Git, Monkey, Hierarchy Viewer, Parse, DDMS Profiling, Microsoft Office, Siebel CRM, Mercury Quality Center 9.0, Windbg  Web Development: XHTML, HTML5, CSS, JQuery, JSON, AJAX, CGI, JSP, Java ServletsOperating Systems: Windows, MS-DOS, Linux, UNIX, MAC\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Siebel eScript MySQL, PL",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nSiebel eScript MySQL, PL | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryTo obtain a challenging position in the field of computer science and to and apply my analytical and technical skill sets to practice 5+ Years of experience in the field of Software development and testing\n*Hands-on experience with Web and Android mobile application development\n*Involved in all the phases of Software Development Lifecycle\n*Team player, fast learner and always eager to learn new technologies\nHighlightsJava, Perl, Python, Javascript, Siebel eScript MySQL, PL/SQL, Oracle, SQLite, Microsoft Access, PostgreSQL Tools and Applications: Android SDK, Eclipse, Mercurial, Perforce, Git, Monkey, Hierarchy Viewer, Parse, DDMS Profiling, Microsoft Office, Siebel CRM, Mercury Quality Center 9.0, Windbg  Web Development: XHTML, HTML5, CSS, JQuery, JSON, AJAX, CGI, JSP, Java ServletsOperating Systems: Windows, MS-DOS, Linux, UNIX, MAC\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

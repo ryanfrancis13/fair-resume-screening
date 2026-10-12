@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0547",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummarySolutions-focused, versatile management professional offering a comprehensive background\nsupporting U.S. military operations in roles of increasing responsibility during an 11-year\ncareer in the United States Air Force. Effective communicator who quickly masters new roles\nand technologies to achieve positive results. Superior Leadership skills able to efficiently\nmanage time and personnel to fit business objectives. Excellent technician able to\ntroubleshoot and repair electrical or mechanical problems safely,swiftly and with precision.\nHighlightsConfidential Security Clearance        Mechanically-inclinedExpertise in electrical repair         SolderingEffective team leader          Analyze/Interpret SchematicsStrong verbal communicator          Superior troubleshooting skillsPolicy/program development          Strong attention to detailSupervision and training          Electro-mechanical proficiency\nExperience09/2008to09/2013Electrical-Environmental TechnicianUnited States Air Force|City,,Placed in charge of 14 personnel, specializing in the troubleshooting and repair of the\nElectrical/Environmental Systems on B-52.Expert in reading, analyzing ,and interpreting wiring diagrams and schematics.12/2006to09/2008Electrical Environmental SpecialistUnited States Air Force|City,STATE,Troubleshot,diagnosed, and repaired circuit cards through use of soldering.Performed meticulous inspections for intent of repair for the C-5 Aircraft.12/2005to12/2006Electrical-Environmental SpecialistUnited States Air Force - Osan AB|,,South KoreaPrimary Technician on Electrical-Environmental Systems and subsystems.Led maintenance\nteam through repairs/troubleshooting on malfunctioning systems on the F-16 Aircraft.11/2002to11/2005Electrical-Environmental ApprenticeUnited States Air Force|City,STATE,Learned how to diagnose, troubleshoot and repair electrical/environmental systems on C-130\naircraft.\nEducationExpected in2001 to High School Diploma|FreeState Challenge Academy,Aberdeen,M DGPA:Expected in to Aviation Maintenance Technology|Community College of the Air Force,Colorado City,COGPA:Completed 52 semester hours toward Aviation Maintenance Technology Degree\nSkillsAttention to detail, C, team leader, mechanical, communicator, personnel, program development, reading, repairs, Schematics, Security Clearance, Soldering, Supervision, Technician, troubleshoot, troubleshooting, wiring diagrams\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "College of the Air Force"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummarySolutions-focused, versatile management professional offering a comprehensive background\nsupporting U.S. military operations in roles of increasing responsibility during an 11-year\ncareer in the United States Air Force. Effective communicator who quickly masters new roles\nand technologies to achieve positive results. Superior Leadership skills able to efficiently\nmanage time and personnel to fit business objectives. Excellent technician able to\ntroubleshoot and repair electrical or mechanical problems safely,swiftly and with precision.\nHighlightsConfidential Security Clearance        Mechanically-inclinedExpertise in electrical repair         SolderingEffective team leader          Analyze/Interpret SchematicsStrong verbal communicator          Superior troubleshooting skillsPolicy/program development          Strong attention to detailSupervision and training          Electro-mechanical proficiency\nExperience09/2008to09/2013Electrical-Environmental TechnicianUnited States Air Force|City,,Placed in charge of 14 personnel, specializing in the troubleshooting and repair of the\nElectrical/Environmental Systems on B-52.Expert in reading, analyzing ,and interpreting wiring diagrams and schematics.12/2006to09/2008Electrical Environmental SpecialistUnited States Air Force|City,STATE,Troubleshot,diagnosed, and repaired circuit cards through use of soldering.Performed meticulous inspections for intent of repair for the C-5 Aircraft.12/2005to12/2006Electrical-Environmental SpecialistUnited States Air Force - Osan AB|,,South KoreaPrimary Technician on Electrical-Environmental Systems and subsystems.Led maintenance\nteam through repairs/troubleshooting on malfunctioning systems on the F-16 Aircraft.11/2002to11/2005Electrical-Environmental ApprenticeUnited States Air Force|City,STATE,Learned how to diagnose, troubleshoot and repair electrical/environmental systems on C-130\naircraft.\nEducationExpected in2001 to High School Diploma|FreeState Challenge Academy,Aberdeen,M DGPA:Expected in to Aviation Maintenance Technology|Community College of the Air Force,Colorado City,COGPA:Completed 52 semester hours toward Aviation Maintenance Technology Degree\nSkillsAttention to detail, C, team leader, mechanical, communicator, personnel, program development, reading, repairs, Schematics, Security Clearance, Soldering, Supervision, Technician, troubleshoot, troubleshooting, wiring diagrams\nEDUCATION & CREDENTIALS\nDegree / Program, College of the Air Force, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

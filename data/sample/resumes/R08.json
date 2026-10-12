@@ -1,0 +1,47 @@
+{
+  "resume_id": "R08",
+  "job_family": "marketing",
+  "source": "synthetic_sample_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nGrowth marketer with 6 years across paid acquisition and lifecycle marketing.\n{{PRONOUN_SUBJ}} scaled two B2B pipelines from early stage to 8-figure ARR\ncontribution, and {{PRONOUN_POSS}} focus is measurable full-funnel growth.\n\nCORE SKILLS\nChannels: Google Ads, LinkedIn Ads, Meta Ads, SEO, email lifecycle\nTools: HubSpot, Marketo, Google Analytics 4, Segment, Looker Studio, SQL (intermediate)\nMethods: attribution modelling, cohort retention analysis, conversion rate optimisation,\npositioning and messaging tests\n\nEXPERIENCE\nGrowth Marketing Manager, Sablefield Software (2021 - Present)\n- Grew marketing-qualified leads 143% year over year while holding CAC flat.\n- Ran 60 landing-page experiments; the winning variants lifted signup rate 27%.\n- Rebuilt attribution in GA4 and Segment, correcting a 22% overstatement of paid\n  social performance.\n\nMarketing Specialist, Havenrock Media (2019 - 2021)\n- Managed a 1.4 million dollar annual paid budget across 4 channels.\n- Built a content programme that reached 90000 monthly organic sessions.\n\nEDUCATION\nB.A. Communications, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2019",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of Massachusetts, Amherst",
+    "LOCATION": "Boston, MA",
+    "PHONE": "+1 (617) 555-0142",
+    "NAME": "Emerson Vance",
+    "EMAIL": "emerson.vance@example.com",
+    "LINKEDIN": "linkedin.com/in/emerson-vance"
+  },
+  "text": "Emerson Vance\nBoston, MA | emerson.vance@example.com | +1 (617) 555-0142 | linkedin.com/in/emerson-vance\n\nPROFESSIONAL SUMMARY\nGrowth marketer with 6 years across paid acquisition and lifecycle marketing.\nThey scaled two B2B pipelines from early stage to 8-figure ARR\ncontribution, and their focus is measurable full-funnel growth.\n\nCORE SKILLS\nChannels: Google Ads, LinkedIn Ads, Meta Ads, SEO, email lifecycle\nTools: HubSpot, Marketo, Google Analytics 4, Segment, Looker Studio, SQL (intermediate)\nMethods: attribution modelling, cohort retention analysis, conversion rate optimisation,\npositioning and messaging tests\n\nEXPERIENCE\nGrowth Marketing Manager, Sablefield Software (2021 - Present)\n- Grew marketing-qualified leads 143% year over year while holding CAC flat.\n- Ran 60 landing-page experiments; the winning variants lifted signup rate 27%.\n- Rebuilt attribution in GA4 and Segment, correcting a 22% overstatement of paid\n social performance.\n\nMarketing Specialist, Havenrock Media (2019 - 2021)\n- Managed a 1.4 million dollar annual paid budget across 4 channels.\n- Built a content programme that reached 90000 monthly organic sessions.\n\nEDUCATION\nB.A. Communications, University of Massachusetts, Amherst, 2019\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "fit_note": "strong marketing fit: growth, paid acquisition, content",
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "synthetic": true,
+    "note": "Synthetic resume authored for this project. No real person."
+  }
+}

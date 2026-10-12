@@ -1,0 +1,24 @@
+{
+  "job_id": "J04",
+  "title": "Growth Marketing Manager",
+  "job_family": "marketing",
+  "min_years_experience": 4,
+  "must_have": [
+    "paid acquisition",
+    "marketing analytics",
+    "conversion rate optimisation",
+    "4 years of marketing experience",
+    "attribution modelling"
+  ],
+  "nice_to_have": [
+    "SQL",
+    "HubSpot",
+    "SEO",
+    "lifecycle email"
+  ],
+  "source": "synthetic_sample_v1",
+  "text": "Growth Marketing Manager\nB2B software | Full-time\n\nABOUT THE ROLE\nYou will own paid acquisition and conversion for a B2B software product, with real\nbudget and real accountability for pipeline.\n\nMUST-HAVE REQUIREMENTS:\n- paid acquisition\n- marketing analytics\n- conversion rate optimisation\n- 4 years of marketing experience\n- attribution modelling\n\nNICE-TO-HAVE:\n- SQL\n- HubSpot\n- SEO\n- lifecycle email\n\nWHAT YOU WILL DO\n- Plan and run paid campaigns against a pipeline target.\n- Build and defend an attribution model the sales team trusts.\n- Run a continuous experiment programme on landing pages and messaging.\n",
+  "meta": {
+    "synthetic": true
+  }
+}

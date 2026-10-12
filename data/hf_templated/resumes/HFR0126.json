@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0126",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryDetail oriented with strong skills in researching, analyzing and troubleshooting problems, identifying solutions, recommending and implementing methods, procedures and/or techniques for resolution.  Communicating clearly and concisely, both orally and in writing.  Proven ability to exercise accurate judgment and being able to evaluate information critically and decide upon and to implement an appropriate course of action.  Experience in interacting with professionals at all levels and cross functional teams in a complex and dynamic environment. Strong interpersonal and teamwork skills; ability to develop and maintain effective professional relations with colleagues at all levels across the organization; ability to integrate actions toward objectives. Detail oriented with strong skills in researching, analyzing and troubleshooting problems, identifying solutions, recommending and implementing methods, procedures and/or techniques for resolution. Skills in which I have remained consistent are as follows:\n*    Responding to inquiries from management, employees and vendors.\n*    Operating personal computers for conducting on-line research and data acquisition.\n*    Working under time constraints and in pressure situations.\n*    Proven ability to exercise accurate judgment and being able to evaluate information critically and decide upon and to implement an appropriate course of action.\n*    Experience in interacting with professionals at all levels and cross functional teams in a complex and dynamic environment. Strong interpersonal and teamwork skills; ability to develop and maintain effective professional relations with colleagues at all levels across the organization; ability to integrate actions toward objectives.\n*    Capable of managing multiple priorities and meet closely-spaced, ambitious timelines.\n*    Highly results oriented; capable and willing to take instruction, communicate and be accountable for decisions.\n*    Communicating clearly and concisely, both orally and in writing.\n*    Interpreting and applying Federal, State and Local policies, procedures, laws and regulations.\n*      Managing multiple projects, duties and assignments.\n*    Excellent interpersonal skills with the ability to work in a team environment or independently with minimal supervision.\n*      Proficient at maintaining collaborative working relationships with others.\nSkillsGuest servicesInventory control proceduresMerchandising expertiseLoss preventionCash register operationsProduct promotions\nExperience01/2014to01/2017Data Analyst IICox Automotive|Matteson,IL,Responsible for analyzing master data management performance metrics for the following purposes:\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Matteson,IL",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nMatteson,IL | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryDetail oriented with strong skills in researching, analyzing and troubleshooting problems, identifying solutions, recommending and implementing methods, procedures and/or techniques for resolution.  Communicating clearly and concisely, both orally and in writing.  Proven ability to exercise accurate judgment and being able to evaluate information critically and decide upon and to implement an appropriate course of action.  Experience in interacting with professionals at all levels and cross functional teams in a complex and dynamic environment. Strong interpersonal and teamwork skills; ability to develop and maintain effective professional relations with colleagues at all levels across the organization; ability to integrate actions toward objectives. Detail oriented with strong skills in researching, analyzing and troubleshooting problems, identifying solutions, recommending and implementing methods, procedures and/or techniques for resolution. Skills in which I have remained consistent are as follows:\n*    Responding to inquiries from management, employees and vendors.\n*    Operating personal computers for conducting on-line research and data acquisition.\n*    Working under time constraints and in pressure situations.\n*    Proven ability to exercise accurate judgment and being able to evaluate information critically and decide upon and to implement an appropriate course of action.\n*    Experience in interacting with professionals at all levels and cross functional teams in a complex and dynamic environment. Strong interpersonal and teamwork skills; ability to develop and maintain effective professional relations with colleagues at all levels across the organization; ability to integrate actions toward objectives.\n*    Capable of managing multiple priorities and meet closely-spaced, ambitious timelines.\n*    Highly results oriented; capable and willing to take instruction, communicate and be accountable for decisions.\n*    Communicating clearly and concisely, both orally and in writing.\n*    Interpreting and applying Federal, State and Local policies, procedures, laws and regulations.\n*      Managing multiple projects, duties and assignments.\n*    Excellent interpersonal skills with the ability to work in a team environment or independently with minimal supervision.\n*      Proficient at maintaining collaborative working relationships with others.\nSkillsGuest servicesInventory control proceduresMerchandising expertiseLoss preventionCash register operationsProduct promotions\nExperience01/2014to01/2017Data Analyst IICox Automotive|Matteson,IL,Responsible for analyzing master data management performance metrics for the following purposes:\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

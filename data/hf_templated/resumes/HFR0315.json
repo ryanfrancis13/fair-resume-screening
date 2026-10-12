@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0315",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional SummaryExperienced Data Analyst with over 17 years of experience in Health Informatics. Excellent reputation for resolving problems, improving customer satisfaction, and driving overall operational improvements. Expertise in policy development and staff management procedures positively impacting overall morale and productivity.\nSkillsElectronic health recordsData privacy applicationsApplication/database designData managementDatabase and user interface softwareResearch and data analysis\nWork HistoryHealth Data Analyst,09/2001to07/2019Logistics Management Institute\u2013Chantilly,VA,Clinic EMR/EHR Administrator. Duties included consensus building, vetting software solutions to meet changing needs, and arranging demonstrationsWorked with users prioritizing their requirements then creating Purchasing Request for ProposalsLed users through the scoring of Proposals to determine a clear cut software solution for the ClinicCollaborated with Purchasing and Law to create a contract that met all departmental needsExtracted/scrubbed data to meet conversion requirementsImplemented \"kick off\" and \"go live\" dates, arranged cloud and server based software installation with Networking, planned onsite user training and ongoing training meetingsLed similar processes for Laboratory Information Management Systems interfaces with Orchard Harvest and HL7 with ShowMeVaxResponsible for monitoring, troubleshooting, contract compliance, software customization, and training of all Clinic programs/employeesSuccessfully completed these steps converting EHR to Cerner, Netsmart Insight, Patagonia Health EHRConducted statistical analysis of health data , including interpretation and reporting of results to various levels of managementEnsured integrity of data collection, data entry, and statistical analysisAdministered departmental databases. Maintained security/confidentiality of dataUpheld departmental surveillance capabilitiesDeveloped and analyzed complex project activities, such as algorithms and workflow diagramsConducted all HIPAA training for new and existing employees as the HIPAA Compliance OfficerAudited, investigated, and reported findings of HIPAA complaintsAssured all medical records met with HIPAA security regulationsProvided Help Desk functions to 130 users. Supported software included Windows (XP -2010), Office (1997-360), Adobe Reader/Deluxe, and Google Docs/SheetsInstalled computers, monitors, printers, scanners, faxes, copiers, modems, and routersPromoted use of video cameras, cell phones, WiFi, portable printers, and IPads to achieve paperless processes\nEducationMBA:Business Administration,Expected intoAlabama A & M University-Normal,ALGPA:Graduated summa cum laudeBachelor of Science:Banking/Finance,Expected intoMissouri State University-Springfield,MOGPA:\nSkillsElectronic health recordsData privacy applicationsApplication/database designData managementDatabase and user interface softwareResearch and data analysis\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Chantilly,VA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2010",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "Institute\u2013Chantilly"
+  },
+  "text": "Jordan Avery\nChantilly,VA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional SummaryExperienced Data Analyst with over 17 years of experience in Health Informatics. Excellent reputation for resolving problems, improving customer satisfaction, and driving overall operational improvements. Expertise in policy development and staff management procedures positively impacting overall morale and productivity.\nSkillsElectronic health recordsData privacy applicationsApplication/database designData managementDatabase and user interface softwareResearch and data analysis\nWork HistoryHealth Data Analyst,09/2001to07/2019Logistics Management Institute\u2013Chantilly,VA,Clinic EMR/EHR Administrator. Duties included consensus building, vetting software solutions to meet changing needs, and arranging demonstrationsWorked with users prioritizing their requirements then creating Purchasing Request for ProposalsLed users through the scoring of Proposals to determine a clear cut software solution for the ClinicCollaborated with Purchasing and Law to create a contract that met all departmental needsExtracted/scrubbed data to meet conversion requirementsImplemented \"kick off\" and \"go live\" dates, arranged cloud and server based software installation with Networking, planned onsite user training and ongoing training meetingsLed similar processes for Laboratory Information Management Systems interfaces with Orchard Harvest and HL7 with ShowMeVaxResponsible for monitoring, troubleshooting, contract compliance, software customization, and training of all Clinic programs/employeesSuccessfully completed these steps converting EHR to Cerner, Netsmart Insight, Patagonia Health EHRConducted statistical analysis of health data , including interpretation and reporting of results to various levels of managementEnsured integrity of data collection, data entry, and statistical analysisAdministered departmental databases. Maintained security/confidentiality of dataUpheld departmental surveillance capabilitiesDeveloped and analyzed complex project activities, such as algorithms and workflow diagramsConducted all HIPAA training for new and existing employees as the HIPAA Compliance OfficerAudited, investigated, and reported findings of HIPAA complaintsAssured all medical records met with HIPAA security regulationsProvided Help Desk functions to 130 users. Supported software included Windows (XP -2010), Office (1997-360), Adobe Reader/Deluxe, and Google Docs/SheetsInstalled computers, monitors, printers, scanners, faxes, copiers, modems, and routersPromoted use of video cameras, cell phones, WiFi, portable printers, and IPads to achieve paperless processes\nEducationMBA:Business Administration,Expected intoAlabama A & M University-Normal,ALGPA:Graduated summa cum laudeBachelor of Science:Banking/Finance,Expected intoMissouri State University-Springfield,MOGPA:\nSkillsElectronic health recordsData privacy applicationsApplication/database designData managementDatabase and user interface softwareResearch and data analysis\nEDUCATION & CREDENTIALS\nDegree / Program, Institute\u2013Chantilly, 2010\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

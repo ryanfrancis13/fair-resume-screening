@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0569",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummarySoftware and Web Developer\nTechnically sophisticated software and web development professional, with background in system engineering and networking. Up-to-date system analysis, integration, and design expertise. Broad experience and success in multiple web and desktop application development environments. Deep knowledge of testing, ecosystems, design and architectural patterns. Strong leader and skilled communicator, mentoring highly productive cross-functional teams.\nHighlightsProject ManagementTest Development & ExecutionSystems ImplementationObject Oriented ProgrammingIT Storage Solutions DevelopmentWeb & Desktop ApplicationsTroubleshooting & Problem SolvingContinuous IntegrationTechnical ProficienciesPC Software:MS Office Products, MS Project, SQL, SQL Reporting Services, Oracle, Access, Lotus, Visual Studio, Web Methods, Great Plains, Oracle Financials, Photoshop, Crystal Reports, Macromedia Dev. Products, Various Imaging Software ApplicationsTools:C#, C++, PHP, VB, VB.NET, VB Script, JAVA, JAVA Script, ASP, HTML, DHTML, XML, SOAP, Delphi 5.0, Chef, WordPress, Joomla, WeeblyHardware:Dell, HP, Compaq, IBM, MAC, Servers and Desktops\nEducationIowa State UniversityAmes,IowaExpected in1992\u2013\u2013Bachelor of Business Administration:Finance and Accounting-GPA:Finance and Accounting\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "MS Office Products, MS",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "UniversityAmes"
+  },
+  "text": "Jordan Avery\nMS Office Products, MS | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummarySoftware and Web Developer\nTechnically sophisticated software and web development professional, with background in system engineering and networking. Up-to-date system analysis, integration, and design expertise. Broad experience and success in multiple web and desktop application development environments. Deep knowledge of testing, ecosystems, design and architectural patterns. Strong leader and skilled communicator, mentoring highly productive cross-functional teams.\nHighlightsProject ManagementTest Development & ExecutionSystems ImplementationObject Oriented ProgrammingIT Storage Solutions DevelopmentWeb & Desktop ApplicationsTroubleshooting & Problem SolvingContinuous IntegrationTechnical ProficienciesPC Software:MS Office Products, MS Project, SQL, SQL Reporting Services, Oracle, Access, Lotus, Visual Studio, Web Methods, Great Plains, Oracle Financials, Photoshop, Crystal Reports, Macromedia Dev. Products, Various Imaging Software ApplicationsTools:C#, C++, PHP, VB, VB.NET, VB Script, JAVA, JAVA Script, ASP, HTML, DHTML, XML, SOAP, Delphi 5.0, Chef, WordPress, Joomla, WeeblyHardware:Dell, HP, Compaq, IBM, MAC, Servers and Desktops\nEducationIowa State UniversityAmes,IowaExpected in1992\u2013\u2013Bachelor of Business Administration:Finance and Accounting-GPA:Finance and Accounting\nEDUCATION & CREDENTIALS\nDegree / Program, UniversityAmes, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

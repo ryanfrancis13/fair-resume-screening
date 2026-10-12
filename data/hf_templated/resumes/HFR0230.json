@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0230",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nExecutive SummaryResults-focused management professional offering17+ yearsof progressive leadership experience. Transforms high-potential staff into outstanding leaders who demonstrate the creativity and savvy that is critical to financial and operational success.High-energy Manager successful in building and motivating dynamic teams. Cultivates a company culture in which staff members feel comfortable voicing questions and concerns, as well as contributing new ideas that drive company growth.Currently associated with Royal Ascot Hotel as Assistant Chief Engineer.\nCore QualificationsChiller RTAA 328 air coolCold water systems,calarofier,PABX Alcatel systems,Familiar with Computer ms words, Excel, AutoCAD, Photoshop and Computer HardwareMaintaining Dubai municipality requirements and documentsMaintaining Dubai Civil defense requirements and documentsWide Experience in Cost Control, Maintenance, Team Building.Familiar with all kinds of Standards.Well aware about BMS Siemens version 2.32 Software.Develop, implement and manage energy conservation programs for the property to minimize expenses.Liaise, manage and organize all external contractors as required.Successfully undergone electrical wiring and Motor Winding program Course.Actively Participated in sports and obtained prizes\nEducationImmanuel Institute of Social ScienceBangalore,KarnatakaExpected in2004\u2013\u2013Diploma:Electrical Engineering-GPA:Sharmic VidyapeethMysore,KarnatakaExpected in1996\u2013\u2013Diploma:Electrical Wring and Motor Rewinding-GPA:\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "Institute of Social ScienceBangalore"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nExecutive SummaryResults-focused management professional offering17+ yearsof progressive leadership experience. Transforms high-potential staff into outstanding leaders who demonstrate the creativity and savvy that is critical to financial and operational success.High-energy Manager successful in building and motivating dynamic teams. Cultivates a company culture in which staff members feel comfortable voicing questions and concerns, as well as contributing new ideas that drive company growth.Currently associated with Royal Ascot Hotel as Assistant Chief Engineer.\nCore QualificationsChiller RTAA 328 air coolCold water systems,calarofier,PABX Alcatel systems,Familiar with Computer ms words, Excel, AutoCAD, Photoshop and Computer HardwareMaintaining Dubai municipality requirements and documentsMaintaining Dubai Civil defense requirements and documentsWide Experience in Cost Control, Maintenance, Team Building.Familiar with all kinds of Standards.Well aware about BMS Siemens version 2.32 Software.Develop, implement and manage energy conservation programs for the property to minimize expenses.Liaise, manage and organize all external contractors as required.Successfully undergone electrical wiring and Motor Winding program Course.Actively Participated in sports and obtained prizes\nEducationImmanuel Institute of Social ScienceBangalore,KarnatakaExpected in2004\u2013\u2013Diploma:Electrical Engineering-GPA:Sharmic VidyapeethMysore,KarnatakaExpected in1996\u2013\u2013Diploma:Electrical Wring and Motor Rewinding-GPA:\nEDUCATION & CREDENTIALS\nDegree / Program, Institute of Social ScienceBangalore, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

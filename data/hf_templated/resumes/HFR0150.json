@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0150",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional SummaryAdept at managing budgets, payroll, invoicing and general accounting functions. Instrumental in keeping business operations fully compliant and working within budgetary guidelines.\nSkillsAccounts Payable and ReceivableBudget Forecasting ExpertiseTax Law UnderstandingTax PreparationMS Office SuiteAccount Reconciliation ProcessesPayroll ManagementPayroll Liability and DeductionsStock Valuation\nWork History01/2022to06/2023AccountantBurrell Behavioral Health|Fordland,,UAeDocumented cash, credit, fixed assets, accrued expenses, and line of credit transactions.Completed daily cash functions like account tracking, payroll and wage allocations, budgeting, donating, and cash, and banking reconciliations.Reconciled accounts and reviewed expense data, net worth, and assets.Evaluated and improved financial records to make important business decisions.Partnered with auditors to track errors and add contributions to maintain accuracy.Reviewed business operations and obligations to help organization function at acceptable level.Handled day-to-day accounting processes to drive financial accuracy.Trained new employees on accounting principles and company procedures.Provided journal entries and performed accounting on accrual basis.Tracked funds, prepared deposits and reconciled accounts.08/2019to12/2021Accounting AssistantManley Deas Kochalski Llc|Louisville,,UAEUsed accounting software to prepare weekly and monthly financial reports.Processed payments and documents such as invoices, journal vouchers, employee reimbursements, and statements.Maintained clean and organized files by keeping accounts payable records up-to-date.Applied proper codes to invoices, files, and receipts to keep records organized and easily searchable.Maintained accurate and complete documentation to facilitate accounting and filing functions.Assisted management with annual expense plans to strategically track income or revenue.Completed payroll functions to facilitate accurate and prompt staff payments.Assisted in budget preparation and forecasting to control expenditure and maximize profitability.Verified items billed against items ordered and reconciled differences through follow-up with vendor.Maintained account accuracy by reviewing and reconciling checks monthly.11/2015to08/2018Back Office AssistantZenvista Meditech|City,,IndiaRestocked supplies and submitted purchase orders to maintain stock levels.Provided clerical support to company employees by copying, faxing, and filing documents.Responded to inquiries from callers seeking information.Routed business correspondence, documents, and messages to correct departments and staff members.Introduced organization systems to keep filed customer documents confidential and increase operational efficiency.Managed and maintained file system covering expenses, reports, and support documentation.Processed customer orders and invoices to support timely fulfillment and delivery.Monitored and updated inventory levels and maintained accurate records of inventory and stock movements.\nEducationGraduated: 05/2016 to Bachelor of Arts|ArtHNBPG Govt Collage,Khatima,GPA:\nSkillsAccounts Payable and ReceivableBudget Forecasting ExpertiseTax Law UnderstandingTax PreparationMS Office SuiteAccount Reconciliation ProcessesPayroll ManagementPayroll Liability and DeductionsStock Valuation\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2016",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional SummaryAdept at managing budgets, payroll, invoicing and general accounting functions. Instrumental in keeping business operations fully compliant and working within budgetary guidelines.\nSkillsAccounts Payable and ReceivableBudget Forecasting ExpertiseTax Law UnderstandingTax PreparationMS Office SuiteAccount Reconciliation ProcessesPayroll ManagementPayroll Liability and DeductionsStock Valuation\nWork History01/2022to06/2023AccountantBurrell Behavioral Health|Fordland,,UAeDocumented cash, credit, fixed assets, accrued expenses, and line of credit transactions.Completed daily cash functions like account tracking, payroll and wage allocations, budgeting, donating, and cash, and banking reconciliations.Reconciled accounts and reviewed expense data, net worth, and assets.Evaluated and improved financial records to make important business decisions.Partnered with auditors to track errors and add contributions to maintain accuracy.Reviewed business operations and obligations to help organization function at acceptable level.Handled day-to-day accounting processes to drive financial accuracy.Trained new employees on accounting principles and company procedures.Provided journal entries and performed accounting on accrual basis.Tracked funds, prepared deposits and reconciled accounts.08/2019to12/2021Accounting AssistantManley Deas Kochalski Llc|Louisville,,UAEUsed accounting software to prepare weekly and monthly financial reports.Processed payments and documents such as invoices, journal vouchers, employee reimbursements, and statements.Maintained clean and organized files by keeping accounts payable records up-to-date.Applied proper codes to invoices, files, and receipts to keep records organized and easily searchable.Maintained accurate and complete documentation to facilitate accounting and filing functions.Assisted management with annual expense plans to strategically track income or revenue.Completed payroll functions to facilitate accurate and prompt staff payments.Assisted in budget preparation and forecasting to control expenditure and maximize profitability.Verified items billed against items ordered and reconciled differences through follow-up with vendor.Maintained account accuracy by reviewing and reconciling checks monthly.11/2015to08/2018Back Office AssistantZenvista Meditech|City,,IndiaRestocked supplies and submitted purchase orders to maintain stock levels.Provided clerical support to company employees by copying, faxing, and filing documents.Responded to inquiries from callers seeking information.Routed business correspondence, documents, and messages to correct departments and staff members.Introduced organization systems to keep filed customer documents confidential and increase operational efficiency.Managed and maintained file system covering expenses, reports, and support documentation.Processed customer orders and invoices to support timely fulfillment and delivery.Monitored and updated inventory levels and maintained accurate records of inventory and stock movements.\nEducationGraduated: 05/2016 to Bachelor of Arts|ArtHNBPG Govt Collage,Khatima,GPA:\nSkillsAccounts Payable and ReceivableBudget Forecasting ExpertiseTax Law UnderstandingTax PreparationMS Office SuiteAccount Reconciliation ProcessesPayroll ManagementPayroll Liability and DeductionsStock Valuation\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2016\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

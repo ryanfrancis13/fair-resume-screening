@@ -1,0 +1,54 @@
+# The project's contribution: every cue family, and an intersectional design.
+#
+#   frs pipeline --config configs/full_cues.yaml
+#
+# COST WARNING. This is the largest design in the repository. `design:
+# factorial_name_x_gender` crosses the name list with the pronoun family on top of
+# the main effects, and the call count is multiplicative. Check it before you spend
+# anything:
+#
+#   frs pipeline --config configs/full_cues.yaml --dry-run
+#
+# `levels_per_family` is the dial to turn if the estimate is too large; the name
+# family stays balanced across gender x ethnicity cells when subsampled.
+
+run_name: full_cues
+seed: 20250831
+
+llm:
+  self_consistency_samples: 3
+  requests_per_minute: 12
+
+perturbation:
+  cue_families:
+    - name
+    - pronoun
+    - affiliation_marker
+    - cultural_marker
+    - location_marker
+    - age_marker
+    - socioeconomic_marker
+    - education_prestige
+    - writing_register
+  # Five ethnicity levels for intersectional analysis. NOTE: this list is graded
+  # `literature_informed`, not peer-reviewed, and selecting it emits a warning that
+  # is recorded in the audit report and the model card. Any claim resting on its
+  # ethnicity labels must carry that caveat.
+  name_list: extended_five_group
+  levels_per_family: 6
+  design: factorial_name_x_gender
+
+fairness:
+  attributes:
+    - gender
+    - race_ethnicity
+    - nationality_region
+    - age_band
+    - disability_status
+    - socioeconomic_background
+    - religion
+    - sexual_orientation
+    - veteran_status
+  intersectional_attributes: [gender, race_ethnicity]
+  bootstrap_iterations: 2000
+  permutation_iterations: 5000

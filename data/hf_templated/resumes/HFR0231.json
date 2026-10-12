@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0231",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryEnergetic worker with a broad range of customer service and team leader skills. Data Entry specialist adept at developing and maintaining databases. Highly skilled at creating effective organizational and filing systems. Dynamic Data Analyst trained in an IT environment who goes above and beyond given job responsibilities to achieve superior results and maintain company-wide integrity.\nHighlightsCertified in 10-keyTime managementMeticulous attention to detailResults-orientedSelf-directedExcellent communication skillsStrong problem solverFiling and data archivingHIPAA complianceAdvanced MS Office Suite knowledgeResourcefulStrong interpersonal skillsPleasant demeanorUnderstands grammarCustomer service-orientedAdvanced clerical knowledgeCritical thinker\nExperience08/2009toCurrentData Entry OperatorIron Mountain Incorporated|Essex Junction,VT,8,000 key strokes per hourTrained staff to operate new environmental health technologyVerified that information in the computer system was up-to-date and accurate.Processed confidential medical information.Identified and resolved system and account issues.Developed and created a more effective filing system to accelerate paperwork processing.Trained new employees and explained protocols clearly and efficiently.Provided base level IT support to company personnel.Troubleshot hardware issues and worked with service providers to facilitate repairs.03/2012to06/2012TutorArizona State University|Tempe,AZ,Tutored college level students in the fields of reading, writing and computers.Routinely met with students regarding in-class issues and learning interruptions to discuss solutions.Performed student background reviews to develop tailored lessons based on student needs.Taught Creative writing to a diverse class of 20 students.Developed and implemented interesting and interactive learning mediums to increase student understanding of course materials.08/2007to05/2008Volunteer/MentorBoys And Girls Club Of Northeast Florida|City,STATE,Coordinated after school tutoring hours to help students in need of extra attention.Received high remarks for the creativity of classroom lesson plans and instructional techniques from students, parents and faculty.Created and enforced child-based hands-on curriculum to promote student interest and receptive learning.Designed lesson plans focused on age and level-appropriate material.Developed interesting course plans to meet academic, intellectual and social needs of students.Consistently met schedules and deadlines for all illustration projects.Worked alongside the entire development team in an energetic and creative environment.\nEducationExpected in2014 to Associate of Arts|Business AdministrationFlorida State College at Jacksonville,Jacksonville,FloridaGPA:3.60 GPAMember of Phi Theta Kappa Honor SocietyRecipient of 2014 Academic Achievement AwardCoursework in Marketing, Public Relations and Business Management\nSkills10-KeyCustomer ServiceData EntryMicrosoft Office Suite\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Essex Junction,VT",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2014",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University|Tempe"
+  },
+  "text": "Jordan Avery\nEssex Junction,VT | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryEnergetic worker with a broad range of customer service and team leader skills. Data Entry specialist adept at developing and maintaining databases. Highly skilled at creating effective organizational and filing systems. Dynamic Data Analyst trained in an IT environment who goes above and beyond given job responsibilities to achieve superior results and maintain company-wide integrity.\nHighlightsCertified in 10-keyTime managementMeticulous attention to detailResults-orientedSelf-directedExcellent communication skillsStrong problem solverFiling and data archivingHIPAA complianceAdvanced MS Office Suite knowledgeResourcefulStrong interpersonal skillsPleasant demeanorUnderstands grammarCustomer service-orientedAdvanced clerical knowledgeCritical thinker\nExperience08/2009toCurrentData Entry OperatorIron Mountain Incorporated|Essex Junction,VT,8,000 key strokes per hourTrained staff to operate new environmental health technologyVerified that information in the computer system was up-to-date and accurate.Processed confidential medical information.Identified and resolved system and account issues.Developed and created a more effective filing system to accelerate paperwork processing.Trained new employees and explained protocols clearly and efficiently.Provided base level IT support to company personnel.Troubleshot hardware issues and worked with service providers to facilitate repairs.03/2012to06/2012TutorArizona State University|Tempe,AZ,Tutored college level students in the fields of reading, writing and computers.Routinely met with students regarding in-class issues and learning interruptions to discuss solutions.Performed student background reviews to develop tailored lessons based on student needs.Taught Creative writing to a diverse class of 20 students.Developed and implemented interesting and interactive learning mediums to increase student understanding of course materials.08/2007to05/2008Volunteer/MentorBoys And Girls Club Of Northeast Florida|City,STATE,Coordinated after school tutoring hours to help students in need of extra attention.Received high remarks for the creativity of classroom lesson plans and instructional techniques from students, parents and faculty.Created and enforced child-based hands-on curriculum to promote student interest and receptive learning.Designed lesson plans focused on age and level-appropriate material.Developed interesting course plans to meet academic, intellectual and social needs of students.Consistently met schedules and deadlines for all illustration projects.Worked alongside the entire development team in an energetic and creative environment.\nEducationExpected in2014 to Associate of Arts|Business AdministrationFlorida State College at Jacksonville,Jacksonville,FloridaGPA:3.60 GPAMember of Phi Theta Kappa Honor SocietyRecipient of 2014 Academic Achievement AwardCoursework in Marketing, Public Relations and Business Management\nSkills10-KeyCustomer ServiceData EntryMicrosoft Office Suite\nEDUCATION & CREDENTIALS\nDegree / Program, University|Tempe, 2014\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

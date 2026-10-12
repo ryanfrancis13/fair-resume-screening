@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0574",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional ProfileI am a hard worker and college student with years of experience in learning new skills and am always ready to advance my\nknowledge.\nExperienceData Entry,01/2016toCurrentGuardian Pharmacy\u2013Menomonee Falls,WI,Enter data into specific data fields using keyboar and verify accuracy and completeness of data being presented.Cook,01/2015to09/2015Clubcorp Club Operations, Inc.\u2013Scottsdale,AZ,The responsibility to produce high quality bar dishes in a fast paced environment.Pantry Cook/ Line Cook/ Dish Washer/ Banquet Prep,10/2012to07/2015Taher, Inc.\u2013Savage,MN,I started my employment here as a dishwashers in charge of maintaining the cleanliness of the kitchen.I was then given the responsibility to assist them in preparing the many various banquet food items.I was then promoted to pantry station, where I prepare many salads, sandwiches and desserts for a fine dining experience.Finally I was promoted to hot line cook, learning a wide variety of techniques for preparing many fine dining and bar dishes.Wabash BBQ - Excelsior Springs, M O Dish washer.Dish washer,08/2010to10/2012Wabash BBQ\u2013City,STATE,The responsibility to keep the preparation area and dishes clean and up to health code standards.\nEducation:Communication Film and Media Arts,Expected intoUniversity of Missouri Kansas City-Kansas City,MOGPA:Communication Film and Media ArtsAssociates:Art,Expected in2014toMetropolitan Community Collage Maple Woods-Kansas City,MOGPA:Cisco Certified Networking and Computer Supourt:,Expected in2012toExcelsior Springs Area Career Center-Excelsior Springs,MOGPA:computer support repair shop technicianHigh School Diploma:,Expected in2012toExcelsior Springs High School-Excelsior Springs,MOGPA:\nSkillsCisco networking ceritifiedDigital video, film and raideo prodution experienceComputer support trained\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Menomonee Falls,WI",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "college student with years of experience in lea"
+  },
+  "text": "Jordan Avery\nMenomonee Falls,WI | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional ProfileI am a hard worker and college student with years of experience in learning new skills and am always ready to advance my\nknowledge.\nExperienceData Entry,01/2016toCurrentGuardian Pharmacy\u2013Menomonee Falls,WI,Enter data into specific data fields using keyboar and verify accuracy and completeness of data being presented.Cook,01/2015to09/2015Clubcorp Club Operations, Inc.\u2013Scottsdale,AZ,The responsibility to produce high quality bar dishes in a fast paced environment.Pantry Cook/ Line Cook/ Dish Washer/ Banquet Prep,10/2012to07/2015Taher, Inc.\u2013Savage,MN,I started my employment here as a dishwashers in charge of maintaining the cleanliness of the kitchen.I was then given the responsibility to assist them in preparing the many various banquet food items.I was then promoted to pantry station, where I prepare many salads, sandwiches and desserts for a fine dining experience.Finally I was promoted to hot line cook, learning a wide variety of techniques for preparing many fine dining and bar dishes.Wabash BBQ - Excelsior Springs, M O Dish washer.Dish washer,08/2010to10/2012Wabash BBQ\u2013City,STATE,The responsibility to keep the preparation area and dishes clean and up to health code standards.\nEducation:Communication Film and Media Arts,Expected intoUniversity of Missouri Kansas City-Kansas City,MOGPA:Communication Film and Media ArtsAssociates:Art,Expected in2014toMetropolitan Community Collage Maple Woods-Kansas City,MOGPA:Cisco Certified Networking and Computer Supourt:,Expected in2012toExcelsior Springs Area Career Center-Excelsior Springs,MOGPA:computer support repair shop technicianHigh School Diploma:,Expected in2012toExcelsior Springs High School-Excelsior Springs,MOGPA:\nSkillsCisco networking ceritifiedDigital video, film and raideo prodution experienceComputer support trained\nEDUCATION & CREDENTIALS\nDegree / Program, college student with years of experience in lea, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

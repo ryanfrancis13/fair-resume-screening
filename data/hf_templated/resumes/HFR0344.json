@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0344",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nCareer OverviewExperienced Data Analyst with extensive\nskill in Data Modelling, Analysis, and Reporting using SSMS, SSRS, Crystal\nReports,\nand CRM applications. Detail-oriented professional with proficient technical\ndocumentation, and project management skills.\nWork ExperienceData Operations Analyst,10/2015to08/2016Addepar\u2013New York,NY,Contributed to the Development and Maintenance of data quality standards on Millennium a CRM application.Designed Excel Applications for automated processes using Excel Macro and Visual Basic Editor to analyze, evaluate processes, and improve divisional efficiency.Provided technical documentation for organizational reports and project designs.Delivered self-service reports through SSRS.Designed forms and edited reports using Crystal Reports.Generated the Fiscal Year Reports for the Annual Funds division by sorting, using aggregate functions, Pivot table and VLOOKUP formula in Excel.Data Analyst (Contract),2015to04/2015Saic\u2013Cape Canaveral,FL,Committed to multiple projects and tasks during Scrum meetings, and decreased 40% of team's workload.Designed business rules for incoming vendor's files to designated folders.Analyzed, and validated Data using SSMS. Designed projects, Test Cases, tracked and conducted UAT.Produced internal and regulatory reports on regular or adhoc basis on SharePoint.Technical Support,2013to10/2014Lockheed Martin Corporation\u2013Vandenberg Air Force Base,CA,Report, track and fix defects on existing PC and Internet connections.Recommending the right Operating System, Hard Drives and Disk for compatible assembly and installation.Provide technical assistance with several computer assembly.Managed and assembled the Internet connections through the gateway router to multiple PC both wireless and cabled connection.Data Analyst,2009to03/2013MYA-Sales\u2013City,STATE,Forecast future of business sales by querying and analyzing data for the past and present business activities. Reported analytical information for business intelligence that highly impact business decisions.Analyzed daily transactions, using financial functions, Pivot Table, Charts, and\u00a0VLOOKUP with Microsoft Excel.Designed\nrelational database for enforcing data integrity, and tracking inventory with\u00a0Microsoft Access.Managed storage for user and systems databases, including database files.\nEducation and TrainingBBA:Management Information System,Expected in2014toUniversity of Central Oklahoma-Edmond,OKGPA:Certification:Business Analyst,Expected in2015toQ Tech Solutions-,New JerseyGPA:\nAdditional SkillsProficient Technical Documentation skillsAdapts fast to Business RulesAbility to read and Design Charts and Diagrams (UML, DFD, ERD)Great Team Player and also ability to work independently\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "New York,NY",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of Central Oklahoma-Edmond"
+  },
+  "text": "Jordan Avery\nNew York,NY | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nCareer OverviewExperienced Data Analyst with extensive\nskill in Data Modelling, Analysis, and Reporting using SSMS, SSRS, Crystal\nReports,\nand CRM applications. Detail-oriented professional with proficient technical\ndocumentation, and project management skills.\nWork ExperienceData Operations Analyst,10/2015to08/2016Addepar\u2013New York,NY,Contributed to the Development and Maintenance of data quality standards on Millennium a CRM application.Designed Excel Applications for automated processes using Excel Macro and Visual Basic Editor to analyze, evaluate processes, and improve divisional efficiency.Provided technical documentation for organizational reports and project designs.Delivered self-service reports through SSRS.Designed forms and edited reports using Crystal Reports.Generated the Fiscal Year Reports for the Annual Funds division by sorting, using aggregate functions, Pivot table and VLOOKUP formula in Excel.Data Analyst (Contract),2015to04/2015Saic\u2013Cape Canaveral,FL,Committed to multiple projects and tasks during Scrum meetings, and decreased 40% of team's workload.Designed business rules for incoming vendor's files to designated folders.Analyzed, and validated Data using SSMS. Designed projects, Test Cases, tracked and conducted UAT.Produced internal and regulatory reports on regular or adhoc basis on SharePoint.Technical Support,2013to10/2014Lockheed Martin Corporation\u2013Vandenberg Air Force Base,CA,Report, track and fix defects on existing PC and Internet connections.Recommending the right Operating System, Hard Drives and Disk for compatible assembly and installation.Provide technical assistance with several computer assembly.Managed and assembled the Internet connections through the gateway router to multiple PC both wireless and cabled connection.Data Analyst,2009to03/2013MYA-Sales\u2013City,STATE,Forecast future of business sales by querying and analyzing data for the past and present business activities. Reported analytical information for business intelligence that highly impact business decisions.Analyzed daily transactions, using financial functions, Pivot Table, Charts, and\u00a0VLOOKUP with Microsoft Excel.Designed\nrelational database for enforcing data integrity, and tracking inventory with\u00a0Microsoft Access.Managed storage for user and systems databases, including database files.\nEducation and TrainingBBA:Management Information System,Expected in2014toUniversity of Central Oklahoma-Edmond,OKGPA:Certification:Business Analyst,Expected in2015toQ Tech Solutions-,New JerseyGPA:\nAdditional SkillsProficient Technical Documentation skillsAdapts fast to Business RulesAbility to read and Design Charts and Diagrams (UML, DFD, ERD)Great Team Player and also ability to work independently\nEDUCATION & CREDENTIALS\nDegree / Program, University of Central Oklahoma-Edmond, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0013",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional SummaryHighly motivated Sales Associate with extensive customer service and sales experience. Outgoing sales professional with track record of driving increased sales, improving buying experience and elevating company profile with target market.\nCore QualificationsGuest servicesInventory control proceduresMerchandising expertiseLoss preventionCash register operationsProduct promotions\nExperience06/2015toPresentSoftware EngineerHcl Technologies Ltd.|Schenectady,NY,Programming language used is C, scripting experience with python Focused on Layer 2 data forwarding in one of Cisco's flagship products, the Nexus 7000(N7k).Expertise in mac table management on the Supervisor & Linecard Experience working with 3 generations of N7k supervisors & 8 generation of Line cards Features supported include Vlan, Vdc, vPC , conversational  learning, fabricpath ,vPC+ , Fabric extender(FEX), port security , HSRP , OTV, L2VPN, Vxlan , SVI, FCOE over FEX, FEX Active-Active, phy vPC & phy vPC+ Improved component design to improve system performance Successfully led the efforts to bring up L2 unicast packet flow in the next generation N7k Linecard using Cosim which required collaborating with hardware, driver and a number of software component teams Filed 32 bugs in the process of verifying L2 unicast packet flow Debugged 59 bugs and an even larger number of other issues over the last 1 year Experienced in debugging issues on live customer setup Collaborated with multiple teams to improve overall system performance and convergence in scale setup.Experienced in debugging L2 forwarding issues on complex topologies Designed Auto-correcting Mac table in a 1 day Cisco Hackathon event.06/2015to08/2015Software Engineering InternIntel Corp.|San Diego,CA,Verifying the L2 unicast packet flow in one of Cisco's flagship products, the Nexus 7000.Documented the flow mechanism required for running simulations to help future new hires.Automated test cases for future reusability.07/2015to07/2015Senior Design EngineerJohnson & Johnson|Spring House,,IndiaContributed as an RTL verification engineer for 4.5 years and an RTL Design Engineer for 0.5 years.As a team, engineered the 3G baseband of a wireless modem for a customer, Image processor and Graphics Processor going into the OMAP platform used by many of the current smartphones in the market.Authored Verification Plans for multiple design modules with clear objectives and pass/fail criteria.Responsible for successful debug at a crucial phase of my first project, which built on the trust which TI had with its customer Accomplished technology transfer in TI, Tokyo for 3 important modules in a short span of time.Pioneered a new RTL verification methodology and demonstrated its potential.Subsequently, this was used across different projects.Completed change request verification of 4 different modules simultaneously to meet the overall design schedule Collaborated with TI sites across India, US, France and Japan to solve critical bugs.Authored flow methodology documents for seamless reuse by the team.02/2015to05/2015Hardware Engineering InternBio-Techne|Detroit,,IndiaDesigned & verified a Discrete Cosine Transform module.Corrected mistakes in the algorithm given in a white paper that I had used.\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Schenectady,NY",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nSchenectady,NY | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional SummaryHighly motivated Sales Associate with extensive customer service and sales experience. Outgoing sales professional with track record of driving increased sales, improving buying experience and elevating company profile with target market.\nCore QualificationsGuest servicesInventory control proceduresMerchandising expertiseLoss preventionCash register operationsProduct promotions\nExperience06/2015toPresentSoftware EngineerHcl Technologies Ltd.|Schenectady,NY,Programming language used is C, scripting experience with python Focused on Layer 2 data forwarding in one of Cisco's flagship products, the Nexus 7000(N7k).Expertise in mac table management on the Supervisor & Linecard Experience working with 3 generations of N7k supervisors & 8 generation of Line cards Features supported include Vlan, Vdc, vPC , conversational  learning, fabricpath ,vPC+ , Fabric extender(FEX), port security , HSRP , OTV, L2VPN, Vxlan , SVI, FCOE over FEX, FEX Active-Active, phy vPC & phy vPC+ Improved component design to improve system performance Successfully led the efforts to bring up L2 unicast packet flow in the next generation N7k Linecard using Cosim which required collaborating with hardware, driver and a number of software component teams Filed 32 bugs in the process of verifying L2 unicast packet flow Debugged 59 bugs and an even larger number of other issues over the last 1 year Experienced in debugging issues on live customer setup Collaborated with multiple teams to improve overall system performance and convergence in scale setup.Experienced in debugging L2 forwarding issues on complex topologies Designed Auto-correcting Mac table in a 1 day Cisco Hackathon event.06/2015to08/2015Software Engineering InternIntel Corp.|San Diego,CA,Verifying the L2 unicast packet flow in one of Cisco's flagship products, the Nexus 7000.Documented the flow mechanism required for running simulations to help future new hires.Automated test cases for future reusability.07/2015to07/2015Senior Design EngineerJohnson & Johnson|Spring House,,IndiaContributed as an RTL verification engineer for 4.5 years and an RTL Design Engineer for 0.5 years.As a team, engineered the 3G baseband of a wireless modem for a customer, Image processor and Graphics Processor going into the OMAP platform used by many of the current smartphones in the market.Authored Verification Plans for multiple design modules with clear objectives and pass/fail criteria.Responsible for successful debug at a crucial phase of my first project, which built on the trust which TI had with its customer Accomplished technology transfer in TI, Tokyo for 3 important modules in a short span of time.Pioneered a new RTL verification methodology and demonstrated its potential.Subsequently, this was used across different projects.Completed change request verification of 4 different modules simultaneously to meet the overall design schedule Collaborated with TI sites across India, US, France and Japan to solve critical bugs.Authored flow methodology documents for seamless reuse by the team.02/2015to05/2015Hardware Engineering InternBio-Techne|Detroit,,IndiaDesigned & verified a Discrete Cosine Transform module.Corrected mistakes in the algorithm given in a white paper that I had used.\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

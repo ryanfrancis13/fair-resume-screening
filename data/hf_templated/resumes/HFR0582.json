@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0582",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryHighly motivated Sales Associate with extensive customer service and sales experience. Outgoing sales professional with track record of driving increased sales, improving buying experience and elevating company profile with target market.\nHighlightsCAD systems, including AutoCAD 2000, Microstation, PDMS CAD Designer; isometric drawings, exploded views, and 3-D modeling in PDMS and ProEngineer.\n*         A working knowledge of Windows, and Microsoft Office, Word, Excel, and Access. Programming languages: PLC programming on GE Fanuc system, and Turbo C++, C, and Visual Basic and Pascal.\n*         Adept at achieving project design objectives on time and within established budget parameters.\nEducationUniversity of Houston,Expected in1993\u2013\u2013SPED, Green Process advanced piping design training, specialized training in process design and equipment.\n*         San Jacinto College, 1991-1993Technical report writing, Turbo C++, Pascal & Desktop Publishing, advanced AutoCAD using Au to Architect, Motor Controls, and NEC Code classes I and II.:-GPA:Microstation CAD training. Electrical, Instrumentation, computer hardware, Piping, and Architectural drafting, and Technical Illustration classes.Houston Community College,Expected in1999\u2013\u2013Visual Basic 6, C++, C programming, and PLC programming; & Physics:-GPA:The University of Texas,Expected in\u2013\u2013Bachelor of Arts:Graphic Design-GPA:Graphic Design\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2000",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of Houston"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryHighly motivated Sales Associate with extensive customer service and sales experience. Outgoing sales professional with track record of driving increased sales, improving buying experience and elevating company profile with target market.\nHighlightsCAD systems, including AutoCAD 2000, Microstation, PDMS CAD Designer; isometric drawings, exploded views, and 3-D modeling in PDMS and ProEngineer.\n*         A working knowledge of Windows, and Microsoft Office, Word, Excel, and Access. Programming languages: PLC programming on GE Fanuc system, and Turbo C++, C, and Visual Basic and Pascal.\n*         Adept at achieving project design objectives on time and within established budget parameters.\nEducationUniversity of Houston,Expected in1993\u2013\u2013SPED, Green Process advanced piping design training, specialized training in process design and equipment.\n*         San Jacinto College, 1991-1993Technical report writing, Turbo C++, Pascal & Desktop Publishing, advanced AutoCAD using Au to Architect, Motor Controls, and NEC Code classes I and II.:-GPA:Microstation CAD training. Electrical, Instrumentation, computer hardware, Piping, and Architectural drafting, and Technical Illustration classes.Houston Community College,Expected in1999\u2013\u2013Visual Basic 6, C++, C programming, and PLC programming; & Physics:-GPA:The University of Texas,Expected in\u2013\u2013Bachelor of Arts:Graphic Design-GPA:Graphic Design\nEDUCATION & CREDENTIALS\nDegree / Program, University of Houston, 2000\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

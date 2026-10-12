@@ -1,0 +1,47 @@
+{
+  "resume_id": "R05",
+  "job_family": "data_science",
+  "source": "synthetic_sample_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nData scientist with 6 years in experimentation and causal inference.\n{{PRONOUN_SUBJ}} owned the experimentation platform for a subscription business,\nand {{PRONOUN_POSS}} models informed pricing decisions worth 30 million dollars\nin annual revenue.\n\nTECHNICAL SKILLS\nLanguages: Python, R, SQL\nLibraries: scikit-learn, statsmodels, PyTorch, pandas, NumPy, XGBoost\nMethods: A/B testing, causal inference, difference-in-differences, survival analysis,\nuplift modelling, Bayesian hierarchical models\nTools: dbt, Airflow, Snowflake, Spark, MLflow\n\nEXPERIENCE\nSenior Data Scientist, Meridian Subscriptions (2021 - Present)\n- Rebuilt the A/B testing engine with sequential tests, cutting average experiment\n  duration 38% while holding false positive rate at 5%.\n- Built a churn model (AUC 0.84) that lifted retention-campaign ROI by 22%.\n- Designed a difference-in-differences study that corrected a 15% overstatement in\n  the previous attribution model.\n\nData Scientist, Foxglove Analytics (2019 - 2021)\n- Built demand forecasts for 1200 SKUs, reducing stockouts 19%.\n- Automated a weekly reporting pipeline in Airflow, saving 12 analyst hours weekly.\n\nEDUCATION\nM.S. Statistics, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2019",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of Massachusetts, Amherst",
+    "LOCATION": "Boston, MA",
+    "PHONE": "+1 (617) 555-0142",
+    "NAME": "Avery Lindquist",
+    "EMAIL": "avery.lindquist@example.com",
+    "LINKEDIN": "linkedin.com/in/avery-lindquist"
+  },
+  "text": "Avery Lindquist\nBoston, MA | avery.lindquist@example.com | +1 (617) 555-0142 | linkedin.com/in/avery-lindquist\n\nPROFESSIONAL SUMMARY\nData scientist with 6 years in experimentation and causal inference.\nThey owned the experimentation platform for a subscription business,\nand their models informed pricing decisions worth 30 million dollars\nin annual revenue.\n\nTECHNICAL SKILLS\nLanguages: Python, R, SQL\nLibraries: scikit-learn, statsmodels, PyTorch, pandas, NumPy, XGBoost\nMethods: A/B testing, causal inference, difference-in-differences, survival analysis,\nuplift modelling, Bayesian hierarchical models\nTools: dbt, Airflow, Snowflake, Spark, MLflow\n\nEXPERIENCE\nSenior Data Scientist, Meridian Subscriptions (2021 - Present)\n- Rebuilt the A/B testing engine with sequential tests, cutting average experiment\n duration 38% while holding false positive rate at 5%.\n- Built a churn model (AUC 0.84) that lifted retention-campaign ROI by 22%.\n- Designed a difference-in-differences study that corrected a 15% overstatement in\n the previous attribution model.\n\nData Scientist, Foxglove Analytics (2019 - 2021)\n- Built demand forecasts for 1200 SKUs, reducing stockouts 19%.\n- Automated a weekly reporting pipeline in Airflow, saving 12 analyst hours weekly.\n\nEDUCATION\nM.S. Statistics, University of Massachusetts, Amherst, 2019\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "fit_note": "strong data science fit: causal inference, Python ML, experimentation",
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "synthetic": true,
+    "note": "Synthetic resume authored for this project. No real person."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0576",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryResults-producing and Driven business intelligence professional with 7+ years of experience managing areas such as data mining, database management and report development. Meticulous and hardworking with a disciplined and methodical approach. In depth knowledge of reporting, analytical, data warehousing and Business Intelligence Technologies with expertise in SQL Server and Python development, MSBI stack (TSQL, SSIS, SSAS, SSRS), Azure, Power BI, Excel, ERP and CRM systems like Microsoft Dynamics 365 and Salesforce, for building, deploying and managing business applications. Exceptional skills in project management, problem-solving and verbal and written communication, looking to build winning environments that consistently add value, deliver measurable results, and enhance organizational viability and growth.\nSkillsExcellent Data Modeling skills, Data Visualization, Cube Development and Data Warehousing.Experience working with SQL Servers and other databases.Strong Experience with Power BI Tools including Power BI Desktop, Power BI Service, Report Server, Power Automate, Power BI, Mobile appsStrong programming skills, relational database skills with expertise in Advanced Sql and Sql Oracle DB, MySql, DAX, M Language, C, Python.Strong analytical abilities, effective written and verbal communication skills and proven customer service / End Client Support skills.Experience working with Microsoft BI Stack like SQL Server Integration Services (SSIS), SSRS, SSAS, Azure Cloud services, Power Pivot/Query, Excel, and some AWS.Proficient in analyzing ETL operations and developing new systems that are advantageous.Excellent oral and written communication, analytical, problem-solving, interpersonal, collaborative skills.Strong Time management and Organizational Skills. Flexibility and good Multitasking ability. Strong work Ethic and Attention to detailFamiliar with both Agile (Scrum) and Waterfall Methodologies.\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryResults-producing and Driven business intelligence professional with 7+ years of experience managing areas such as data mining, database management and report development. Meticulous and hardworking with a disciplined and methodical approach. In depth knowledge of reporting, analytical, data warehousing and Business Intelligence Technologies with expertise in SQL Server and Python development, MSBI stack (TSQL, SSIS, SSAS, SSRS), Azure, Power BI, Excel, ERP and CRM systems like Microsoft Dynamics 365 and Salesforce, for building, deploying and managing business applications. Exceptional skills in project management, problem-solving and verbal and written communication, looking to build winning environments that consistently add value, deliver measurable results, and enhance organizational viability and growth.\nSkillsExcellent Data Modeling skills, Data Visualization, Cube Development and Data Warehousing.Experience working with SQL Servers and other databases.Strong Experience with Power BI Tools including Power BI Desktop, Power BI Service, Report Server, Power Automate, Power BI, Mobile appsStrong programming skills, relational database skills with expertise in Advanced Sql and Sql Oracle DB, MySql, DAX, M Language, C, Python.Strong analytical abilities, effective written and verbal communication skills and proven customer service / End Client Support skills.Experience working with Microsoft BI Stack like SQL Server Integration Services (SSIS), SSRS, SSAS, Azure Cloud services, Power Pivot/Query, Excel, and some AWS.Proficient in analyzing ETL operations and developing new systems that are advantageous.Excellent oral and written communication, analytical, problem-solving, interpersonal, collaborative skills.Strong Time management and Organizational Skills. Flexibility and good Multitasking ability. Strong work Ethic and Attention to detailFamiliar with both Agile (Scrum) and Waterfall Methodologies.\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

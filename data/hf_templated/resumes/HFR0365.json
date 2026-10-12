@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0365",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummary\u2022\nOver\nThree years of extensive experience as a Front-End UI Developer with solid\nunderstanding of database designing, development and installation of different\nmodules.\n\u2022\nProfessional\nunderstanding of System development life cycle (SDLC) as well as various phases such as Analysis Design,\nDevelopment and Testing.\n\u2022\nExpert\nin developing User Interface (UI) applications and professional web\napplications using JavaScript, JSP, XML,\nHTML5 /DHTML, DOM, XHTML, jQuery, CSS3, and Ajax.\u2022 Extensive\nexperience in various UI widgets using JavaScript\nlibraries like Angular.js, Node.js and developing Rich Internet Applications RIA.\u2022 Experience\nin implementing Web Services (RESTful/SOAP)\nand REST services.\u2022 \u00a0Experience\nin \u00a0SQL Server and T-SQL\nservers.\u2022 Experience in Hadoop,\nHive, Postgres, Cassandra, Mongo.\u2022 Sound\nknowledge in working with browsers compatibility issues with browsers like IE, Firefox, Safari, Opera, Chrome.Good\nexperience in automation testing\nwith Mocha and Jasmine using Selenium.\u2022 \u00a0Good\nExperience in Jasmine framework to\nwrite the unit tests in order to\nprevent the functional defects from being deployed to production.\u2022Good\nknowledge in the configuration management and version control software like TFS, Bit bucket, GitHub.\u2022 Highly motivated self-starter, hard worker, team player and research orientated.\u2022Flexible, team player, \u201cget-it-done\u201d personality.\nSkillsProgramming Languages: C, Java, PythonOperating Systems: WindowsDatabase: MySQLWeb Technologies: HTML, CSS, JavaScript, JQuery, Java Servlets, BootstrapProject DetailsPlay TombolaDuration: 30 DaysTeam size: 1 Java, MySQL, CSS, JavaScript, JQuery, HTML, Bootstrap, Java Servlets\nExperienceSoftware Engineer Intern,10/2016-CurrentViasat Inc.\u2013AR,State,Responsibilities:\n\u00b7 \u00a0Designed\nFrontend with in VB Scripting.\n\u00b7\nDeveloped\nSingle page application using the Router concept.\n\u00b7\nUsed\u00a0 CISA,\nPYTHON,CISM.\n\u00b7\nUsed Powershell,\u00a0 Perl for fast going application.\n\u00b7\nImproved the performance of the application by replacing the\nexisting process and controls with most suitable process flow, optimized\nqueries and code snippets\n\u00b7\nIntroduced\nmethodologies and best practices that enhanced product definition, release processes and customization of applications\nto user needs.\nEducation and TrainingMaster Of Science:Information Technology,Expected in--Hyderabad,GPA:Status-Information TechnologyB.Tech:Electrical and Electronics Engineering,Expected in2016--,GPA:Status-Electrical and Electronics Engineering Kakinada with 70.40% marksDiploma:Electrical and Electronics Engineering,Expected in2013--,GPA:Status-Electrical and Electronics Engineering from SBTET Andhra Pradesh with 69.49% marks\n*S.S.C. (2010) from State Board of Andhra Pradesh with 74.00% marks\nSkillsC, CSS, Database, HTML, Java, Java Servlets, JavaScript, JQuery, Windows, MySQL, Operating Systems, Developer, Programming, Python\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2016",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummary\u2022\nOver\nThree years of extensive experience as a Front-End UI Developer with solid\nunderstanding of database designing, development and installation of different\nmodules.\n\u2022\nProfessional\nunderstanding of System development life cycle (SDLC) as well as various phases such as Analysis Design,\nDevelopment and Testing.\n\u2022\nExpert\nin developing User Interface (UI) applications and professional web\napplications using JavaScript, JSP, XML,\nHTML5 /DHTML, DOM, XHTML, jQuery, CSS3, and Ajax.\u2022 Extensive\nexperience in various UI widgets using JavaScript\nlibraries like Angular.js, Node.js and developing Rich Internet Applications RIA.\u2022 Experience\nin implementing Web Services (RESTful/SOAP)\nand REST services.\u2022 \u00a0Experience\nin \u00a0SQL Server and T-SQL\nservers.\u2022 Experience in Hadoop,\nHive, Postgres, Cassandra, Mongo.\u2022 Sound\nknowledge in working with browsers compatibility issues with browsers like IE, Firefox, Safari, Opera, Chrome.Good\nexperience in automation testing\nwith Mocha and Jasmine using Selenium.\u2022 \u00a0Good\nExperience in Jasmine framework to\nwrite the unit tests in order to\nprevent the functional defects from being deployed to production.\u2022Good\nknowledge in the configuration management and version control software like TFS, Bit bucket, GitHub.\u2022 Highly motivated self-starter, hard worker, team player and research orientated.\u2022Flexible, team player, \u201cget-it-done\u201d personality.\nSkillsProgramming Languages: C, Java, PythonOperating Systems: WindowsDatabase: MySQLWeb Technologies: HTML, CSS, JavaScript, JQuery, Java Servlets, BootstrapProject DetailsPlay TombolaDuration: 30 DaysTeam size: 1 Java, MySQL, CSS, JavaScript, JQuery, HTML, Bootstrap, Java Servlets\nExperienceSoftware Engineer Intern,10/2016-CurrentViasat Inc.\u2013AR,State,Responsibilities:\n\u00b7 \u00a0Designed\nFrontend with in VB Scripting.\n\u00b7\nDeveloped\nSingle page application using the Router concept.\n\u00b7\nUsed\u00a0 CISA,\nPYTHON,CISM.\n\u00b7\nUsed Powershell,\u00a0 Perl for fast going application.\n\u00b7\nImproved the performance of the application by replacing the\nexisting process and controls with most suitable process flow, optimized\nqueries and code snippets\n\u00b7\nIntroduced\nmethodologies and best practices that enhanced product definition, release processes and customization of applications\nto user needs.\nEducation and TrainingMaster Of Science:Information Technology,Expected in--Hyderabad,GPA:Status-Information TechnologyB.Tech:Electrical and Electronics Engineering,Expected in2016--,GPA:Status-Electrical and Electronics Engineering Kakinada with 70.40% marksDiploma:Electrical and Electronics Engineering,Expected in2013--,GPA:Status-Electrical and Electronics Engineering from SBTET Andhra Pradesh with 69.49% marks\n*S.S.C. (2010) from State Board of Andhra Pradesh with 74.00% marks\nSkillsC, CSS, Database, HTML, Java, Java Servlets, JavaScript, JQuery, Windows, MySQL, Operating Systems, Developer, Programming, Python\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2016\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

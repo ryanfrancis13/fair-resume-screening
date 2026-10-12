@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0039",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryHighly motivated team player with a vast skill set and strong work ethic.Proficient in computer aided design (CAD). Experienced in Autocad and Microstation. On-site installation experience both domestically and internationally. Fluent in both verbal and written Spanish.\nHighlightsExcellent communication techniquesMultidisciplinary exposureProject managementLean principles knowledgeAutoCAD expertComplex problem solverSharePointMicrosoft Excel, Project and VisioEngineering operational functionsAssembly drawing\nExperienceELECTRICAL CAD DESIGNER,04/2012-02/2017Calibre Global\u2013Perth,WA,Electrical CAD Designer, North America Facilities Engineering GroupCreate and assist in creating and maintaining accurate electrical drawings such as plan views of electrical equipment, one line and riser diagrams, panel schematics, panelboard schedules and lighting plans.Support the Process Control, Forming Electronics and Cold End Packaging groups with their CAD and/or design needs.Write scopes of work for electrical contractors.Order equipment.Support the North American factories by providing drawings, technical information or spare parts and\u00a0designing minor projects.PROJECT PLANNER,2011-04/2012Columbia Forest Products\u2013Klamath Falls,OR,Project Planner for the Machine Manufacturing - Global Glass Technology group.Track orders of machine parts for on-time delivery to machine shops and glass manufacturing facilities based on production schedules .Create work orders.Go-to contact to coordinate rush shipments.Customer Service Representative to  third party suppliers and machine shopsCoordinator of the machine parts repair program.CUSTOMER SERVICE REPRESENTATIVE,08/2008-2011Dover Corporation\u2013Roseville,MN,Global Equipment Sales - Global Glass Technology.Order entry, price quotesArrange shipmentsExpedite rush shipments in emergency situationsPROCESS CONTROL DESIGNER AND FIELD SERVICE TECHNICIAN,10/1998-08/2008OWENS-ILLINOIS\u2013City,STATE,Process Control Services - Global Glass Technology.Design proprietary control panels for various furnace/forehearth heating and cooling processes, as defined by project scope, budget and customer requirements for both domestic and international facilities.Configuration of systems and field equipment.Perform functional check out of completed panels.Order all panel and field equipment.Write scope of work and specifications for field contractorsOn-site installation and training both domestically and internationally in both English and Spanish.Write technical training and troubleshooting documents for both plant personnel and colleagues.Teach training classes on new and existing systems and equipment in both English and Spanish.\nEducation:INDUSTRIAL ELECTRONICS,Expected in-OWENS COMMUNITY COLLEGE-,GPA:Status-Industrial Electronics Associates Degree Program:Spanish and International Relations,Expected in-STATE UNIVERSITY OF NEW YORK-,GPA:Status-Dual Major of Spanish and International Relations in the Bachelor of Arts Program\nSkillsMICROSOFT OFFICE (WORD, EXCEL, POWERPOINT, OUTLOOK), AUTOCAD, MICROSTATION, PROJECTWISE EXPLORER, ADOBE PROFESSIONAL, JD EDWARDS, ERP, HART COMMUNICATION, SHAREPOINT, SOME SAP EXPERIENCE.\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Perth,WA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2012",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "COLLEGE-"
+  },
+  "text": "Jordan Avery\nPerth,WA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryHighly motivated team player with a vast skill set and strong work ethic.Proficient in computer aided design (CAD). Experienced in Autocad and Microstation. On-site installation experience both domestically and internationally. Fluent in both verbal and written Spanish.\nHighlightsExcellent communication techniquesMultidisciplinary exposureProject managementLean principles knowledgeAutoCAD expertComplex problem solverSharePointMicrosoft Excel, Project and VisioEngineering operational functionsAssembly drawing\nExperienceELECTRICAL CAD DESIGNER,04/2012-02/2017Calibre Global\u2013Perth,WA,Electrical CAD Designer, North America Facilities Engineering GroupCreate and assist in creating and maintaining accurate electrical drawings such as plan views of electrical equipment, one line and riser diagrams, panel schematics, panelboard schedules and lighting plans.Support the Process Control, Forming Electronics and Cold End Packaging groups with their CAD and/or design needs.Write scopes of work for electrical contractors.Order equipment.Support the North American factories by providing drawings, technical information or spare parts and\u00a0designing minor projects.PROJECT PLANNER,2011-04/2012Columbia Forest Products\u2013Klamath Falls,OR,Project Planner for the Machine Manufacturing - Global Glass Technology group.Track orders of machine parts for on-time delivery to machine shops and glass manufacturing facilities based on production schedules .Create work orders.Go-to contact to coordinate rush shipments.Customer Service Representative to  third party suppliers and machine shopsCoordinator of the machine parts repair program.CUSTOMER SERVICE REPRESENTATIVE,08/2008-2011Dover Corporation\u2013Roseville,MN,Global Equipment Sales - Global Glass Technology.Order entry, price quotesArrange shipmentsExpedite rush shipments in emergency situationsPROCESS CONTROL DESIGNER AND FIELD SERVICE TECHNICIAN,10/1998-08/2008OWENS-ILLINOIS\u2013City,STATE,Process Control Services - Global Glass Technology.Design proprietary control panels for various furnace/forehearth heating and cooling processes, as defined by project scope, budget and customer requirements for both domestic and international facilities.Configuration of systems and field equipment.Perform functional check out of completed panels.Order all panel and field equipment.Write scope of work and specifications for field contractorsOn-site installation and training both domestically and internationally in both English and Spanish.Write technical training and troubleshooting documents for both plant personnel and colleagues.Teach training classes on new and existing systems and equipment in both English and Spanish.\nEducation:INDUSTRIAL ELECTRONICS,Expected in-OWENS COMMUNITY COLLEGE-,GPA:Status-Industrial Electronics Associates Degree Program:Spanish and International Relations,Expected in-STATE UNIVERSITY OF NEW YORK-,GPA:Status-Dual Major of Spanish and International Relations in the Bachelor of Arts Program\nSkillsMICROSOFT OFFICE (WORD, EXCEL, POWERPOINT, OUTLOOK), AUTOCAD, MICROSTATION, PROJECTWISE EXPLORER, ADOBE PROFESSIONAL, JD EDWARDS, ERP, HART COMMUNICATION, SHAREPOINT, SOME SAP EXPERIENCE.\nEDUCATION & CREDENTIALS\nDegree / Program, COLLEGE-, 2012\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

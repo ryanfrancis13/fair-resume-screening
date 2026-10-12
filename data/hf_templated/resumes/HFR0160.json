@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0160",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfileHighly motivated Sales Associate with extensive customer service and sales experience. Outgoing sales professional with track record of driving increased sales, improving buying experience and elevating company profile with target market.\nCore QualificationsExpertise in Full project life cycle development for implementation and integrationMotivational and co-ordination skills with ability to deliver systems on scheduleAnalyze and drill data marts for Information MiningChange Management Process for Data QualityExperienced in Requirement Analysis, Test Design, Test Preparation, Test Execution, Defect Management, and Management Reporting.Experienced in developing Data Mapping, Performance Tuning and Identifying Bottlenecks of sources, mappings, targets and sessions.Experienced in development of ETL mapping and scripts. Understand , Debug of ETL jobs, for transforming data , remove duplicatesExperienced with Batch systems scheduling and processing.JAD sessions to determine the requirements for Purchase Order Requisition Conceptual ModelExperience with large enterprise data warehouse (OLAP) architecture design including logical and physical model development.Data models and enterprise data models.Expertise in extracting and transforming large data-sets; experience with ETL tools like IBM Infosphere Data Stage, SSISExperienced working with offshore vendors and establishing offshore teams and processes.Demonstrated experience with database technologies (e.g. Oracle, MS SQL Server, Sybase, MySQL).Move data from Oracle to Sybase using Sybase gatewayExperience with hybrid cloud platforms, Oracle VM ServerHands-on experience with production reporting and BI platformsSetup Oracle RAC clusters for Production and Non-Production environment\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Oracle, MS",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nOracle, MS | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfileHighly motivated Sales Associate with extensive customer service and sales experience. Outgoing sales professional with track record of driving increased sales, improving buying experience and elevating company profile with target market.\nCore QualificationsExpertise in Full project life cycle development for implementation and integrationMotivational and co-ordination skills with ability to deliver systems on scheduleAnalyze and drill data marts for Information MiningChange Management Process for Data QualityExperienced in Requirement Analysis, Test Design, Test Preparation, Test Execution, Defect Management, and Management Reporting.Experienced in developing Data Mapping, Performance Tuning and Identifying Bottlenecks of sources, mappings, targets and sessions.Experienced in development of ETL mapping and scripts. Understand , Debug of ETL jobs, for transforming data , remove duplicatesExperienced with Batch systems scheduling and processing.JAD sessions to determine the requirements for Purchase Order Requisition Conceptual ModelExperience with large enterprise data warehouse (OLAP) architecture design including logical and physical model development.Data models and enterprise data models.Expertise in extracting and transforming large data-sets; experience with ETL tools like IBM Infosphere Data Stage, SSISExperienced working with offshore vendors and establishing offshore teams and processes.Demonstrated experience with database technologies (e.g. Oracle, MS SQL Server, Sybase, MySQL).Move data from Oracle to Sybase using Sybase gatewayExperience with hybrid cloud platforms, Oracle VM ServerHands-on experience with production reporting and BI platformsSetup Oracle RAC clusters for Production and Non-Production environment\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

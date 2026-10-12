@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0604",
+  "job_family": "general_professional",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nCareer OverviewA position to lead diverse teams of professionals to a new level of success.\nQualificationsCommunication/Project ManagementDemonstrated leadership skill in effectively increasing the productivity of the team.Experienced in facilitating team efforts and communicating project objectives, parameters, status, and outcome to stakeholders.Strong organization and planning skills, and ability to handle multiple projects effectively.Experienced in leading and motivating team members for timely and successful completion of projects.Strong communication skills with technical and non-technical staff both orally and in writing developed through projects and work experience.Experienced in providing quality information that is accessible, secure, manageable and effectively leveraged to meet the needs of enterprise stakeholders.Ability to build strong relationship with coworkers and other sections and divisions to ensure organization goals and objectives are met.Ability to plan long term goals to ensure the success of the organization.Ability to make effective decisions for the success of the projects.Strong public speaking skills developed through giving speeches and presentation in front of variety of audience.Strong technical, analytical and problem-solving skills and an ability to analyze problems and plan long term solutions. Programming Languages Java, JavaScript, C++, C in UNIX/Linux, C#.NET, VB.NET, COBOL, HTML, XML, Perl, Software and Database Management System Visual Studio .NET, SQL Server 2005, SQL Server 2008, SQL Server 2008 R2, SQL Server 2012, Sybase, Oracle\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "NET, VB",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2005",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nNET, VB | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nCareer OverviewA position to lead diverse teams of professionals to a new level of success.\nQualificationsCommunication/Project ManagementDemonstrated leadership skill in effectively increasing the productivity of the team.Experienced in facilitating team efforts and communicating project objectives, parameters, status, and outcome to stakeholders.Strong organization and planning skills, and ability to handle multiple projects effectively.Experienced in leading and motivating team members for timely and successful completion of projects.Strong communication skills with technical and non-technical staff both orally and in writing developed through projects and work experience.Experienced in providing quality information that is accessible, secure, manageable and effectively leveraged to meet the needs of enterprise stakeholders.Ability to build strong relationship with coworkers and other sections and divisions to ensure organization goals and objectives are met.Ability to plan long term goals to ensure the success of the organization.Ability to make effective decisions for the success of the projects.Strong public speaking skills developed through giving speeches and presentation in front of variety of audience.Strong technical, analytical and problem-solving skills and an ability to analyze problems and plan long term solutions. Programming Languages Java, JavaScript, C++, C in UNIX/Linux, C#.NET, VB.NET, COBOL, HTML, XML, Perl, Software and Database Management System Visual Studio .NET, SQL Server 2005, SQL Server 2008, SQL Server 2008 R2, SQL Server 2012, Sybase, Oracle\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2005\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

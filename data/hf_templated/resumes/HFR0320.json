@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0320",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryA senior software engineer with over 17 years of experience in software systems analysis and applications/tools development, in Financial Systems, Biotechnologies, Air Traffic Management and Database Management. Working as an individual contributor, team lead, and product lead in various projects for a diverse set of clients.\nHighlightsAgile, SDLC, OOADJIRA, Git, Stash, Requisite Pro, ClearQuest, ClearCase, CVS, CMVCEclipseOracle 10g, SQL Server, PL/SQLJava 8, J2EE, JSP, JS, JQuery, Bootstrap,  HTML, XML, Java Servlet, JDBC, C/C++, Perl/CGI, UML, Web ServicesSpring, Hibernate, Apache StrutsTomcat 8, OC4JUNIX, Windows, LinuxProject Management Professional (PMP) and CSM Certified\nEducationUniversity Of MarylandCollege Park,MarylandExpected inAug 1999\u2013\u2013M.S:Software Engineering-GPA:Software Engineering Master Project: Design and Implementation of a Web conference system.Azad University,TehranExpected inAug 1994\u2013\u2013B.S:Software Engineering-GPA:Software Engineering Design and Implementation of an Interactive Database for Dentistry.\nPUBLICATION\n\"The Sequence of the Human Genome\", Science 2001.\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "SQL Server, PL",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "1999",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University Of MarylandCollege Park"
+  },
+  "text": "Jordan Avery\nSQL Server, PL | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryA senior software engineer with over 17 years of experience in software systems analysis and applications/tools development, in Financial Systems, Biotechnologies, Air Traffic Management and Database Management. Working as an individual contributor, team lead, and product lead in various projects for a diverse set of clients.\nHighlightsAgile, SDLC, OOADJIRA, Git, Stash, Requisite Pro, ClearQuest, ClearCase, CVS, CMVCEclipseOracle 10g, SQL Server, PL/SQLJava 8, J2EE, JSP, JS, JQuery, Bootstrap,  HTML, XML, Java Servlet, JDBC, C/C++, Perl/CGI, UML, Web ServicesSpring, Hibernate, Apache StrutsTomcat 8, OC4JUNIX, Windows, LinuxProject Management Professional (PMP) and CSM Certified\nEducationUniversity Of MarylandCollege Park,MarylandExpected inAug 1999\u2013\u2013M.S:Software Engineering-GPA:Software Engineering Master Project: Design and Implementation of a Web conference system.Azad University,TehranExpected inAug 1994\u2013\u2013B.S:Software Engineering-GPA:Software Engineering Design and Implementation of an Interactive Database for Dentistry.\nPUBLICATION\n\"The Sequence of the Human Genome\", Science 2001.\nEDUCATION & CREDENTIALS\nDegree / Program, University Of MarylandCollege Park, 1999\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

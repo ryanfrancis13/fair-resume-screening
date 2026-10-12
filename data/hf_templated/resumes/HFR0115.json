@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0115",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfileExperienced Corporate and Software Professional specializing in Data & Analytics, Search and Discovery turning data investments into business results. I am subject matter expert in Search technologies and Analytics. (Solr/ElasticSearch). Leading & influencing large teams. Reputation for building professional trust by focusing on hearts, heads, and hands. A Polyglot programmer/engineer. Excellent liaison between the technical and business world and facilitator of progress among various types of people, groups, and departments. I've been a software engineer, consultant, pre-sales, principal architect, manager of IT systems, and an academic researcher.\u200b\nCore QualificationsExcellent communicationTechnical ExecutorFacilitator of progressLiaison between business and technicalIdea generatorTeam integrator\nEducation:Disruptive Strategy,Expected in2016toHarvard Business School - HBX-,GPA:Course on Disruptive Strategy in organizations.:Credential of Readiness,Expected in2016toHarvard Business School - HBX-,GPA:Primer on the fundamentals of business through coursework in Business Analytics, Economics for Managers, and Financial Accounting.Master of Science:Computer Science,Expected in2007toGeorgia Institute of Technology-Atlanta,GAGPA:National Science Foundation Fellowship WinnerMinors in Finance and Information SecurityBachelor of Science:Computer Science,Expected in2004toGeorgia Institute of Technology-Atlanta,GAGPA:Graduated with Highest Honors\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "Institute of Technology-Atlanta"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfileExperienced Corporate and Software Professional specializing in Data & Analytics, Search and Discovery turning data investments into business results. I am subject matter expert in Search technologies and Analytics. (Solr/ElasticSearch). Leading & influencing large teams. Reputation for building professional trust by focusing on hearts, heads, and hands. A Polyglot programmer/engineer. Excellent liaison between the technical and business world and facilitator of progress among various types of people, groups, and departments. I've been a software engineer, consultant, pre-sales, principal architect, manager of IT systems, and an academic researcher.\u200b\nCore QualificationsExcellent communicationTechnical ExecutorFacilitator of progressLiaison between business and technicalIdea generatorTeam integrator\nEducation:Disruptive Strategy,Expected in2016toHarvard Business School - HBX-,GPA:Course on Disruptive Strategy in organizations.:Credential of Readiness,Expected in2016toHarvard Business School - HBX-,GPA:Primer on the fundamentals of business through coursework in Business Analytics, Economics for Managers, and Financial Accounting.Master of Science:Computer Science,Expected in2007toGeorgia Institute of Technology-Atlanta,GAGPA:National Science Foundation Fellowship WinnerMinors in Finance and Information SecurityBachelor of Science:Computer Science,Expected in2004toGeorgia Institute of Technology-Atlanta,GAGPA:Graduated with Highest Honors\nEDUCATION & CREDENTIALS\nDegree / Program, Institute of Technology-Atlanta, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

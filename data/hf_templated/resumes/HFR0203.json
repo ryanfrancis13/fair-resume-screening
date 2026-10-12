@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0203",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryA well-rounded pragmatic Project Manager with broad experience on Optical Networks. In depth knowledge of SONET ADMs (Fujitsu 4500/4100), Network Synchronization, ATM Swtiches (Seabridge XP 140, Marconi TNX 1100) and Routing protocols (RIP, OSPF, PNNI). Interacts and communicates very well with team members; is cooperative and friendly. Has broad understanding of computing systems, communications and architecture; reads hardware schematics and works well alongside hardware engineers and other disciplines. Strong system analysis, problem-solving and maangement skills; sees the big-picture and the critical detail. Has excellent written and verbal communication abilities and is well-versed in project management tools and techniques. Takes pride in managing and leading complex practical projects. To obtain a challenging career in the field of Telecommunications and or Project Management that will utilize my skills and offer diverse experience.\nHighlights\u27a2 Communication Protocols: ATM/SONET, TCP/IP \u27a2 Routing Protocols: RIP, OSPF, PNNI \u27a2 Programming Languages: Visual C++, JAVA, SQL, Visual Basic 6.0 \u27a2 Operating Systems: Windows 2000/2003 Server, Sun Solaris 8 \u27a2 Software: Microsoft Visio 2003, AutoCAD 2002, Microsoft Office (95/97/2000/XP) \u27a2 Hardware: Fujitsu 4500/4100, Seabridge XP 140, Marconi TNX 1100, Adtran TA 1500, Cisco MGX 8950 \u27a2 DBMS: Microsoft Access, MySQL 4.0, Oracle 9i\nEducationPOLYTECHNIC UNIVERSITYBrooklyn,NYExpected in\u2013\u2013Master of Science:Electrical Engineering-GPA:POLYTECHNIC UNIVERSITY, Brooklyn, NY. Master of Science Degree in Electrical Engineering Graduated June 2004POLYTECHNIC UNIVERSITYBrooklyn,NYExpected in\u2013\u2013Bachelor of Science:Electrical Engineering-GPA:POLYTECHNIC UNIVERSITY, Brooklyn, NY. Bachelor of Science Degree in Electrical Engineering Graduated June 2002\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Brooklyn, NY",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2000",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "POLYTECHNIC UNIVERSITYBrooklyn"
+  },
+  "text": "Jordan Avery\nBrooklyn, NY | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryA well-rounded pragmatic Project Manager with broad experience on Optical Networks. In depth knowledge of SONET ADMs (Fujitsu 4500/4100), Network Synchronization, ATM Swtiches (Seabridge XP 140, Marconi TNX 1100) and Routing protocols (RIP, OSPF, PNNI). Interacts and communicates very well with team members; is cooperative and friendly. Has broad understanding of computing systems, communications and architecture; reads hardware schematics and works well alongside hardware engineers and other disciplines. Strong system analysis, problem-solving and maangement skills; sees the big-picture and the critical detail. Has excellent written and verbal communication abilities and is well-versed in project management tools and techniques. Takes pride in managing and leading complex practical projects. To obtain a challenging career in the field of Telecommunications and or Project Management that will utilize my skills and offer diverse experience.\nHighlights\u27a2 Communication Protocols: ATM/SONET, TCP/IP \u27a2 Routing Protocols: RIP, OSPF, PNNI \u27a2 Programming Languages: Visual C++, JAVA, SQL, Visual Basic 6.0 \u27a2 Operating Systems: Windows 2000/2003 Server, Sun Solaris 8 \u27a2 Software: Microsoft Visio 2003, AutoCAD 2002, Microsoft Office (95/97/2000/XP) \u27a2 Hardware: Fujitsu 4500/4100, Seabridge XP 140, Marconi TNX 1100, Adtran TA 1500, Cisco MGX 8950 \u27a2 DBMS: Microsoft Access, MySQL 4.0, Oracle 9i\nEducationPOLYTECHNIC UNIVERSITYBrooklyn,NYExpected in\u2013\u2013Master of Science:Electrical Engineering-GPA:POLYTECHNIC UNIVERSITY, Brooklyn, NY. Master of Science Degree in Electrical Engineering Graduated June 2004POLYTECHNIC UNIVERSITYBrooklyn,NYExpected in\u2013\u2013Bachelor of Science:Electrical Engineering-GPA:POLYTECHNIC UNIVERSITY, Brooklyn, NY. Bachelor of Science Degree in Electrical Engineering Graduated June 2002\nEDUCATION & CREDENTIALS\nDegree / Program, POLYTECHNIC UNIVERSITYBrooklyn, 2000\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

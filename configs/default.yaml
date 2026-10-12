@@ -1,0 +1,98 @@
+# Default configuration.
+#
+# Every key here matches a field in frs.config. Anything you leave out keeps its
+# dataclass default, and anything you set can still be overridden on the command
+# line with `--set key=value`. The fully resolved config is written into every run
+# directory as `resolved_config.yaml`, so an artifact folder always describes the
+# parameters that produced it.
+
+run_name: default
+seed: 20250831
+output_dir: runs
+log_level: INFO
+
+llm:
+  provider: gemini # gemini | mock | openai
+  model: gemini-3.6-flash
+  temperature: 0.0 # sample 0 is a greedy decode: reproducible headline scores
+  self_consistency_samples: 3 # >1 is what makes the model's noise floor measurable
+  self_consistency_temperature: 0.4
+  requests_per_minute: 12 # Gemini free-tier flash headroom; raise if your quota allows
+  max_concurrency: 4
+  max_retries: 5
+  cache_enabled: true # a re-run of an unchanged design costs nothing
+  cache_dir: .frs_cache
+
+data:
+  corpus: sample # sample | kaggle | dir
+  resumes_path: data/sample/resumes
+  jobs_path: data/sample/jobs
+  pairs_path: data/sample/pairs.json
+  max_resume_chars: 12000
+
+screening:
+  rubric: default
+  require_evidence: true # re-request a score whose quotes are not in the resume
+  min_evidence_support_rate: 0.5
+  debias_instruction: false # OFF by default: its effectiveness is a finding, not an assumption
+  anonymize: false # blind screening is a measured mitigation arm, not the default
+  advance_threshold: 70.0
+  borderline_threshold: 55.0
+  top_k: 5
+
+perturbation:
+  # Names plus eight non-name cue families. The non-name families are where the
+  # project's stated research gap lives: most published audits stop at names.
+  cue_families:
+    - name
+    - pronoun
+    - affiliation_marker
+    - cultural_marker
+    - location_marker
+    - age_marker
+    - socioeconomic_marker
+    - education_prestige # a VALIDITY probe, not a bias probe — keep it enabled
+    - writing_register
+  name_list: bertrand_mullainathan_2004 # the peer-reviewed default
+  design: single # one family varied at a time: clean main effects
+  levels_per_family: null # null = every level; set an integer to subsample
+  validate_variants: true # prove each variant differs only in its cue
+  seed: 20250831
+
+fairness:
+  attributes:
+    - gender
+    - race_ethnicity
+    - nationality_region
+    - age_band
+    - disability_status
+    - socioeconomic_background
+  reference_levels:
+    gender: male
+    race_ethnicity: White
+  top_k: [1, 3, 5]
+  alpha: 0.05
+  multiple_comparison_method: fdr_bh
+  min_practical_effect: 1.0 # score points; below this a gap is not actionable
+  impact_ratio_threshold: 0.8 # EEOC four-fifths reporting convention
+  counterfactual_tolerance: 2.0
+  bootstrap_iterations: 2000
+  permutation_iterations: 5000
+  intersectional_attributes: [gender, race_ethnicity]
+
+mitigation:
+  strategies:
+    - blind_screening
+    - debias_prompt
+    - counterfactual_marginalization
+    - sensitivity_gated_review
+    - cue_effect_debiasing
+  marginalization_estimator: trimmed_mean
+  review_sensitivity_threshold: 3.0
+  max_review_fraction: 0.3
+
+report:
+  formats: [html, markdown, json]
+  make_plots: true
+  explanation_cards: true
+  model_card: true

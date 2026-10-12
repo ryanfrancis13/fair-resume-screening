@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0169",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryJessicaenjoys solving technology business problems within electrification, digital and automation industry. Jessicais a qualified engineer and have a strong focus in a New Business & Project development, Design Advisory and Segment Strategy. Prior experience includes in various industrial market segment Industrial Application Designs, Sales, and Project Delivery.Bilal\u2019s current area of focus in electrification is solution management, strategic marketing & business development for energy and infrastructure projects promotion and design support, building demand creation for sustainable technologies across Australia, digital transformation for industry to support industry 4 transition combining with new energy emerging market verticals.\nSkillsCommercial:Strong demonstrated leadership skills and strategic business mindset.Technology business growth through influencing technical leaders.Consulting across industry verticals (Utilities, Buildings, Data Centers, F&B, Industrial Plants, Renewable)Marketing and Sales strategy for business segment growth.Strong long term project pipeline development.Attend and present in industry conference and external events.Mange diverse internal and external stakeholders as part of the delivery of complex technology projects.Experience of public sector and building strategic partnerships/ managing 3rd parties.Preparing commercial offers through technical solutions.Sales forecast based on flow business, project pursuits and prospects including maintain CRM.Product marketing leads to help establish a product roadmap/market requirements to meet industry demands, supported by a solid business case that aligns with the ABB business modelTechnology and Engineering:Smart Cities, Transport, Buildings and Energy technologies.Electrification through Digital Power and Digital Buildings \u2013 AI technologies in buildings.Power Protection, Medium/Low Voltage Switchgear and Digital Substation IEC 61850.Industrial automation technologies, IT/OT, Cloud connected servicesSaaS models, Energy and Asset monitoring, digital and cyber security strategies for businesses.Building networks, Energy monitoring, BMS and Lighting control (KNX, DALI).EV charging AC/DC and connection services (MaaS, Billing, Load Management).Large-Scale Renewable solar farms technologies.Control Systems for industrial plants (Modbus TCP/RTU, Profinet, Profibus, Ethernet IP, OPC UA, IEC61850).Edge gateways technologies 4G/5G.Open-source development (C/C++, Python, Node Red, REST, Linux) for IoT applications.SCADA and PLC programming, Instrumentation, and control design.Industry 4.0 IoT design architectures.Industrial communications, cybersecurity, and networking.Wireless connectivity - radio cellular devices, VPN & Firewalls.Power transmission and distribution solutions.\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Industrial automation technologies, IT",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nIndustrial automation technologies, IT | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryJessicaenjoys solving technology business problems within electrification, digital and automation industry. Jessicais a qualified engineer and have a strong focus in a New Business & Project development, Design Advisory and Segment Strategy. Prior experience includes in various industrial market segment Industrial Application Designs, Sales, and Project Delivery.Bilal\u2019s current area of focus in electrification is solution management, strategic marketing & business development for energy and infrastructure projects promotion and design support, building demand creation for sustainable technologies across Australia, digital transformation for industry to support industry 4 transition combining with new energy emerging market verticals.\nSkillsCommercial:Strong demonstrated leadership skills and strategic business mindset.Technology business growth through influencing technical leaders.Consulting across industry verticals (Utilities, Buildings, Data Centers, F&B, Industrial Plants, Renewable)Marketing and Sales strategy for business segment growth.Strong long term project pipeline development.Attend and present in industry conference and external events.Mange diverse internal and external stakeholders as part of the delivery of complex technology projects.Experience of public sector and building strategic partnerships/ managing 3rd parties.Preparing commercial offers through technical solutions.Sales forecast based on flow business, project pursuits and prospects including maintain CRM.Product marketing leads to help establish a product roadmap/market requirements to meet industry demands, supported by a solid business case that aligns with the ABB business modelTechnology and Engineering:Smart Cities, Transport, Buildings and Energy technologies.Electrification through Digital Power and Digital Buildings \u2013 AI technologies in buildings.Power Protection, Medium/Low Voltage Switchgear and Digital Substation IEC 61850.Industrial automation technologies, IT/OT, Cloud connected servicesSaaS models, Energy and Asset monitoring, digital and cyber security strategies for businesses.Building networks, Energy monitoring, BMS and Lighting control (KNX, DALI).EV charging AC/DC and connection services (MaaS, Billing, Load Management).Large-Scale Renewable solar farms technologies.Control Systems for industrial plants (Modbus TCP/RTU, Profinet, Profibus, Ethernet IP, OPC UA, IEC61850).Edge gateways technologies 4G/5G.Open-source development (C/C++, Python, Node Red, REST, Linux) for IoT applications.SCADA and PLC programming, Instrumentation, and control design.Industry 4.0 IoT design architectures.Industrial communications, cybersecurity, and networking.Wireless connectivity - radio cellular devices, VPN & Firewalls.Power transmission and distribution solutions.\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

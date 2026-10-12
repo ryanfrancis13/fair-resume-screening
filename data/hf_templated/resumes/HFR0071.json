@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0071",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryMotivatedSoftware Developerseeks employment as part of a dynamic software development team. Fluent in C, C++, HTML, and JavaScript with extensive experience in Python and Java.\nHighlightsProficient in multiple modern programming languagesRESTful web API developmentExperience with cloud based computing including Google App EngineSuccessful leader and team player\nExperienceMechanical Engineer,02/2013to05/2015Viasat Inc.\u2013DC,State,Develop, improve, and maintain Magnetic Bearing Analysis SoftwareLead Engineer for Turbine-Generator Governor-Regulator dynamic modelingAssisted with testing of Advanced Control Features on existing platformsAssisted with trouble-shooting Magnetic Bearing Engineering Model test platform.LEGO Robotics Instructor,06/2012to07/2012Viasat Inc.\u2013Linthicum Heights,MD,LEGO Robotics Instructor for Grades 4-6, responsible for curriculum design and teaching.Mechanical Engineer,08/2008to11/2011Calportland\u2013Avondale,AZ,Performed on-site Material Condition Assessments on topside Fire Control SystemsOn-site representative and Quality Assurance for phased-array radar coating applicationFabricated antenna and radome composite moisture standardsDeveloped Testing Procedures for Non-Destructive Polymer Cleaning PadsUpdated branch training materials and official response messages.Mechanical Engineer, Intern,06/2005to2006Panasonic Avionics Corporation\u2013City,STATE,Prototyping & Assembly of Engineering Design Models Test Support & DocumentationThermal Chamber, Bench-Top Thermal & Vibration Shake-TableTechnical Drawing Updates: Aluminum Sheet Metal and Electronic Cable Design\nEducationBachelor of Science:Computer Science,Expected in2016toOregon State University-Corvallis,ORGPA:Bachelor of Science:Mechanical Engineering / Mechatronics Concentration,Expected in2008toCalifornia Polytechnic State University-San Luis Obispo,CAGPA:\nSkills\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Linthicum Heights,MD",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University-Corvallis"
+  },
+  "text": "Jordan Avery\nLinthicum Heights,MD | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryMotivatedSoftware Developerseeks employment as part of a dynamic software development team. Fluent in C, C++, HTML, and JavaScript with extensive experience in Python and Java.\nHighlightsProficient in multiple modern programming languagesRESTful web API developmentExperience with cloud based computing including Google App EngineSuccessful leader and team player\nExperienceMechanical Engineer,02/2013to05/2015Viasat Inc.\u2013DC,State,Develop, improve, and maintain Magnetic Bearing Analysis SoftwareLead Engineer for Turbine-Generator Governor-Regulator dynamic modelingAssisted with testing of Advanced Control Features on existing platformsAssisted with trouble-shooting Magnetic Bearing Engineering Model test platform.LEGO Robotics Instructor,06/2012to07/2012Viasat Inc.\u2013Linthicum Heights,MD,LEGO Robotics Instructor for Grades 4-6, responsible for curriculum design and teaching.Mechanical Engineer,08/2008to11/2011Calportland\u2013Avondale,AZ,Performed on-site Material Condition Assessments on topside Fire Control SystemsOn-site representative and Quality Assurance for phased-array radar coating applicationFabricated antenna and radome composite moisture standardsDeveloped Testing Procedures for Non-Destructive Polymer Cleaning PadsUpdated branch training materials and official response messages.Mechanical Engineer, Intern,06/2005to2006Panasonic Avionics Corporation\u2013City,STATE,Prototyping & Assembly of Engineering Design Models Test Support & DocumentationThermal Chamber, Bench-Top Thermal & Vibration Shake-TableTechnical Drawing Updates: Aluminum Sheet Metal and Electronic Cable Design\nEducationBachelor of Science:Computer Science,Expected in2016toOregon State University-Corvallis,ORGPA:Bachelor of Science:Mechanical Engineering / Mechatronics Concentration,Expected in2008toCalifornia Polytechnic State University-San Luis Obispo,CAGPA:\nSkills\nEDUCATION & CREDENTIALS\nDegree / Program, University-Corvallis, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

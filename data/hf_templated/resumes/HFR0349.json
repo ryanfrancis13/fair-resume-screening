@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0349",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryOver 3 years of professional IT experience inData EngineeringandData Analyticsusing various languages and tools likeSQL, Python, Big/HadoopExtensive experience on Data Engineering field including Ingestion, Datalake, Datawarehouse, Reporting and Analytics.Strong knowledge and experience on Data Analysis, Data Lineage, Big Data pipelines, Data quality, Data Reconciliation, Data transformation rules, Data flow diagram including Data replication, Data integration and Data orchestration toolsKnowledge and experience on AWS services like Redshift,Redshift spectrum,S3,Glue,Athena, Lambda,cloudwatch and EMRs like HIVE, PrestoExtensively used ETL methodology for performing Data Migration, Extraction, Transformation and loading usingTalendand designed data conversions from wide variety of source systems.Experienced in Data Ingestion projects to inject data intoData lakeusing multiple sources systems using Talend Bigdata.Good technical Skills inSQL Server,ETLDevelopment usingInformatica tool.Expertise in writingSQL,PL/SQLto integrate of complex OLTP and OLAP database models and data marts, worked extensively onOracle, SQL SERVER.Experience in all the life cycle phases of the projects onlarge data setsand experience with performancetuningandtroubleshooting.Ability to work effectively with associates at all levels within the organization.Strong background in mathematics and have very good analytical and problem-solving skills.\nSkillsBig Data Ecosystems:-HDFS, MapReduce, Spark, Kafka, Hive, Airflow, Stream Sets, HBase, Flume, Zookeeper, Nifi, Sentry, Ranger.Scripting Language:-Python, PowerShell Scripting, Pig Latin, HiveQL.Cloud Environment:-Amazon Web Services (AWS), Microsoft Azure,NoSQL DatabaseDatabase:-MySQL, Oracle, Teradata, MS SQL SERVER, PostgreSQL, DB2.Version Control:-Git, SVN, Bitbucket.ETL Tools:-Tableau, Microsoft Excel, Informatica, Power BI, R, Google Data Studio.\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Expertise in writingSQL,PL",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nExpertise in writingSQL,PL | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryOver 3 years of professional IT experience inData EngineeringandData Analyticsusing various languages and tools likeSQL, Python, Big/HadoopExtensive experience on Data Engineering field including Ingestion, Datalake, Datawarehouse, Reporting and Analytics.Strong knowledge and experience on Data Analysis, Data Lineage, Big Data pipelines, Data quality, Data Reconciliation, Data transformation rules, Data flow diagram including Data replication, Data integration and Data orchestration toolsKnowledge and experience on AWS services like Redshift,Redshift spectrum,S3,Glue,Athena, Lambda,cloudwatch and EMRs like HIVE, PrestoExtensively used ETL methodology for performing Data Migration, Extraction, Transformation and loading usingTalendand designed data conversions from wide variety of source systems.Experienced in Data Ingestion projects to inject data intoData lakeusing multiple sources systems using Talend Bigdata.Good technical Skills inSQL Server,ETLDevelopment usingInformatica tool.Expertise in writingSQL,PL/SQLto integrate of complex OLTP and OLAP database models and data marts, worked extensively onOracle, SQL SERVER.Experience in all the life cycle phases of the projects onlarge data setsand experience with performancetuningandtroubleshooting.Ability to work effectively with associates at all levels within the organization.Strong background in mathematics and have very good analytical and problem-solving skills.\nSkillsBig Data Ecosystems:-HDFS, MapReduce, Spark, Kafka, Hive, Airflow, Stream Sets, HBase, Flume, Zookeeper, Nifi, Sentry, Ranger.Scripting Language:-Python, PowerShell Scripting, Pig Latin, HiveQL.Cloud Environment:-Amazon Web Services (AWS), Microsoft Azure,NoSQL DatabaseDatabase:-MySQL, Oracle, Teradata, MS SQL SERVER, PostgreSQL, DB2.Version Control:-Git, SVN, Bitbucket.ETL Tools:-Tableau, Microsoft Excel, Informatica, Power BI, R, Google Data Studio.\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

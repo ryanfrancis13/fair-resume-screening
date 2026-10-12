@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0579",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nExecutive ProfileExperienced business executive with demonstrated success in managing P&L and growing new business through innovative growth strategies worldwide.  Excellent ability to develop relationships and strategic alliances with organization leaders to align, support and grow business initiatives.  Outstanding presentation, communication and cross-cultural team management skills.  Highly results-oriented leader with an entrepreneurial attitude.\nSkill Highlights2010 - 2011 \t Shunra Software, Philadelphia, PADirector, SalesResponsibilitiesEstablished sales in high value verticals and potential acquirers.HighlightsInitiated relationship and closed business with key teams at major networking and consumer software technology firms.Identified and shepherded an OEM relationship with Cisco.2008 - 2010\t dynaTrace Software, Linz, Austria/Lexington, MA (sold to Compuware)Director, West SalesResponsibilitiesEstablished direct sales in western US.HighlightsInitiated and closed opportunities with a diverse range of enterprise and SaaS businesses, including Bank of America, Microsoft, LinkedIn, Salesforce, Zappos.2003 - 2007\t  Network Physics Inc., Mountain View, CA (sold to OPNET)VP, SalesResponsibilitiesDeveloped and managed international sales and US channel sales.HighlightsEstablished European presence and closed first sales in major markets.Recruited and managed an EMEA sales team and built a profitable dynamic EMEA business.Recruited and managed a US channels team and built a strong VAR community in major US metro areas.2000 -2002\tNativeMinds, Inc., San Francisco, CA (sold to Verity)VP, US West & InternationalResponsibilitiesBuilt and managed a sales organization.HighlightsSold first major US deals and then built and drove a sales organization.Opened EMEA HQ in London.1996--2000 \tTivoli Systems/IBM, San Jose, CA (sold to IBM)Mid-Market Sales Director, 1996Enterprise Channels Director, 1997-1998Application Service Providers Sales Director, 1999-2000ResponsibilitiesDrove revenue in new markets.HighlightsExtensive deal making in large and mid-sized enterprises on all continents, direct and through systems integrators and consulting houses.Hired, trained and managed direct, inside and channels teams to drive business.Selected for executive sales management program at IBM.Small business developmentLeadership/communication skillsBusiness operations organizationClient account managementBudgeting expertiseNegotiations expertCustomer-orientedBusiness operations organizationBudgeting expertiseSelf-motivated\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Lexington, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2011",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nLexington, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nExecutive ProfileExperienced business executive with demonstrated success in managing P&L and growing new business through innovative growth strategies worldwide.  Excellent ability to develop relationships and strategic alliances with organization leaders to align, support and grow business initiatives.  Outstanding presentation, communication and cross-cultural team management skills.  Highly results-oriented leader with an entrepreneurial attitude.\nSkill Highlights2010 - 2011 \t Shunra Software, Philadelphia, PADirector, SalesResponsibilitiesEstablished sales in high value verticals and potential acquirers.HighlightsInitiated relationship and closed business with key teams at major networking and consumer software technology firms.Identified and shepherded an OEM relationship with Cisco.2008 - 2010\t dynaTrace Software, Linz, Austria/Lexington, MA (sold to Compuware)Director, West SalesResponsibilitiesEstablished direct sales in western US.HighlightsInitiated and closed opportunities with a diverse range of enterprise and SaaS businesses, including Bank of America, Microsoft, LinkedIn, Salesforce, Zappos.2003 - 2007\t  Network Physics Inc., Mountain View, CA (sold to OPNET)VP, SalesResponsibilitiesDeveloped and managed international sales and US channel sales.HighlightsEstablished European presence and closed first sales in major markets.Recruited and managed an EMEA sales team and built a profitable dynamic EMEA business.Recruited and managed a US channels team and built a strong VAR community in major US metro areas.2000 -2002\tNativeMinds, Inc., San Francisco, CA (sold to Verity)VP, US West & InternationalResponsibilitiesBuilt and managed a sales organization.HighlightsSold first major US deals and then built and drove a sales organization.Opened EMEA HQ in London.1996--2000 \tTivoli Systems/IBM, San Jose, CA (sold to IBM)Mid-Market Sales Director, 1996Enterprise Channels Director, 1997-1998Application Service Providers Sales Director, 1999-2000ResponsibilitiesDrove revenue in new markets.HighlightsExtensive deal making in large and mid-sized enterprises on all continents, direct and through systems integrators and consulting houses.Hired, trained and managed direct, inside and channels teams to drive business.Selected for executive sales management program at IBM.Small business developmentLeadership/communication skillsBusiness operations organizationClient account managementBudgeting expertiseNegotiations expertCustomer-orientedBusiness operations organizationBudgeting expertiseSelf-motivated\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2011\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

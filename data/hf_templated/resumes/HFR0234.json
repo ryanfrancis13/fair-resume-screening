@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0234",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional Summary* Data Quality Analyst * Data Enhancement Strategist * Efficiency Specialist * Goal Oriented * Market Research * Executive Assistant * Organizationally Inclined * Strategic Planning * Superior Attention to Detail *\nCore QualificationsOracle Forms, Google Drive, Google Docs, Google Sheets, Microsoft Office, Made to Manage\nExperience07/2014toCurrentData Quality AnalystVanguard|Washington,MN,Analyzing and improving data from multiple sources including State Licensing Boards, National Provider Identifier (NPI), Drug Enforcement Agency (DEA), and American Medical Association (AMA) among others.Managing and scheduling all NPI, AMA, HIN, CPI, DEA Chemical, HCO and NCPDP data.Supporting customer driven data analysis for Pharma and device companies relating to Health Care Practitioner (HCP) and Health Care Organization (HCO) data.Assisting Customer Service in resolving data inquires discovered by customers.Creating, developing, and diligently completing ad-hoc data projects internally and for customers such as Regeneron, Shire, ABSG, Merck, Endo, Boehringer Ingelheim, and Astra Zeneca.Establishing data quality best practices for data matching rules, address verification and methods to link various sources of data together.Formulating data rules based on observed data patterns to increase data linking efficiency rates.Assisting PASID team in completing yearly Aggregate Spend reports and files.Quality checking all company SOP's for audits done by customers and clients.Executing and refining test scripts to validate new and updated MedPro system functionality.08/2013to07/2014Executive Assistant to CEOKronospan Holdings Ltd.|Anniston,AL,Provided exemplary, efficient, and dynamic administrative support, including coordination and scheduling\nall on/off-site meetings and events.Planned and executed all travel arrangements for the owner and all other employees.Confidentially assisted the owner with personal and business related matters.Created a new inventory system; managed all incoming and outgoing inventory and related data entry.Produced and generated daily, weekly, and monthly sales reports.Drafted documents; ensured deposit amounts were on track to meet weekly and monthly forecasts.Conducted extensive research on emerging markets.Recorded, transcribed, and distributed meeting minutes.Completed monthly expense and budget reports.Built and maintained reference files, retrieved documents and reference materials.Answered and managed incoming calls and client relations.Assisted project managers in meeting project deadlines and sales goals.Received and interacted with clients and other tasking as may be needed.12/2011to03/2013Executive Assistant to Chief Executive Officer CEOIheartmedia, Inc.|Mansfield,OH,Conducted extensive research on emerging markets, providing superior, efficient, and dynamic administrative\nsupport, to include: coordination and scheduling all on/off-site meetings and events, planned and executed\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Washington,MN",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nWashington,MN | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional Summary* Data Quality Analyst * Data Enhancement Strategist * Efficiency Specialist * Goal Oriented * Market Research * Executive Assistant * Organizationally Inclined * Strategic Planning * Superior Attention to Detail *\nCore QualificationsOracle Forms, Google Drive, Google Docs, Google Sheets, Microsoft Office, Made to Manage\nExperience07/2014toCurrentData Quality AnalystVanguard|Washington,MN,Analyzing and improving data from multiple sources including State Licensing Boards, National Provider Identifier (NPI), Drug Enforcement Agency (DEA), and American Medical Association (AMA) among others.Managing and scheduling all NPI, AMA, HIN, CPI, DEA Chemical, HCO and NCPDP data.Supporting customer driven data analysis for Pharma and device companies relating to Health Care Practitioner (HCP) and Health Care Organization (HCO) data.Assisting Customer Service in resolving data inquires discovered by customers.Creating, developing, and diligently completing ad-hoc data projects internally and for customers such as Regeneron, Shire, ABSG, Merck, Endo, Boehringer Ingelheim, and Astra Zeneca.Establishing data quality best practices for data matching rules, address verification and methods to link various sources of data together.Formulating data rules based on observed data patterns to increase data linking efficiency rates.Assisting PASID team in completing yearly Aggregate Spend reports and files.Quality checking all company SOP's for audits done by customers and clients.Executing and refining test scripts to validate new and updated MedPro system functionality.08/2013to07/2014Executive Assistant to CEOKronospan Holdings Ltd.|Anniston,AL,Provided exemplary, efficient, and dynamic administrative support, including coordination and scheduling\nall on/off-site meetings and events.Planned and executed all travel arrangements for the owner and all other employees.Confidentially assisted the owner with personal and business related matters.Created a new inventory system; managed all incoming and outgoing inventory and related data entry.Produced and generated daily, weekly, and monthly sales reports.Drafted documents; ensured deposit amounts were on track to meet weekly and monthly forecasts.Conducted extensive research on emerging markets.Recorded, transcribed, and distributed meeting minutes.Completed monthly expense and budget reports.Built and maintained reference files, retrieved documents and reference materials.Answered and managed incoming calls and client relations.Assisted project managers in meeting project deadlines and sales goals.Received and interacted with clients and other tasking as may be needed.12/2011to03/2013Executive Assistant to Chief Executive Officer CEOIheartmedia, Inc.|Mansfield,OH,Conducted extensive research on emerging markets, providing superior, efficient, and dynamic administrative\nsupport, to include: coordination and scheduling all on/off-site meetings and events, planned and executed\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

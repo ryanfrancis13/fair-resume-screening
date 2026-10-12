@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0137",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryInnovative, result oriented \u00a0with over eight years of experience and a passion for building relationships and exceeding client and management expectations. Proven success in the areas of project management, operations, business development and new project implementation, process re-engineering, and new market expansion. Strong skills in team building, communication and presentation, as well as inter-department and executive client relations\u00a0and detailed strategic project planning.Subject Matter expertise includes:\u2022 Project Management\u2022 Business Development\u2022 Multiple Project Methodologies\u2022 Energy, Water infrastructure, business development, transmission and distribution including global market growth.\u2022 Strategy and Planning\u2022 Large Global System Implementations\u2022 Business Process Analysis\u00a0As a Project and Business Development ManagerI oversee all aspects of assigned commercial projects from commencement to completion. Manage these projects in a manner that exceeds our customers\u2019 expectations and ensures that our work adheres to all company safety policies and OSHA mandated requirements. When it come to business development I am \u00a0responsible for identifying and developing strategic business relationships with project developers, investors, project directors and large global infrastructure giants. Taking lead in the development of new business opportunities that supports \u00a0overall growth strategy. With an entrepreneurial spirit, passion for beyond achievement of success, establishment of goals and implement business development initiatives that maximize the global growth footprint.\nHighlightsProject managementStatistical analysisTechnical writingStrong decision makerCommunication skillsAbility to translate technical specificationsBuilding commissioning experienceExcellent communication skillsNatural leaderQuality assurance and controlOrganizedResults-orientedContract reviewAdept multi-taskerWork force managementConsultative sales techniquesExcellent written and verbal skillsExperience with Main Generator/Turbine upgradesLarge-scale energy project design experienceProblem-solving and analysis skillsTechnical writing skillsBudgeting and forecastingRisk managementCost reduction and containmentContract managementRelationship buildingTroubleshootingDetail-orientedExcellent sales techniquesExcellent communicator\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryInnovative, result oriented \u00a0with over eight years of experience and a passion for building relationships and exceeding client and management expectations. Proven success in the areas of project management, operations, business development and new project implementation, process re-engineering, and new market expansion. Strong skills in team building, communication and presentation, as well as inter-department and executive client relations\u00a0and detailed strategic project planning.Subject Matter expertise includes:\u2022 Project Management\u2022 Business Development\u2022 Multiple Project Methodologies\u2022 Energy, Water infrastructure, business development, transmission and distribution including global market growth.\u2022 Strategy and Planning\u2022 Large Global System Implementations\u2022 Business Process Analysis\u00a0As a Project and Business Development ManagerI oversee all aspects of assigned commercial projects from commencement to completion. Manage these projects in a manner that exceeds our customers\u2019 expectations and ensures that our work adheres to all company safety policies and OSHA mandated requirements. When it come to business development I am \u00a0responsible for identifying and developing strategic business relationships with project developers, investors, project directors and large global infrastructure giants. Taking lead in the development of new business opportunities that supports \u00a0overall growth strategy. With an entrepreneurial spirit, passion for beyond achievement of success, establishment of goals and implement business development initiatives that maximize the global growth footprint.\nHighlightsProject managementStatistical analysisTechnical writingStrong decision makerCommunication skillsAbility to translate technical specificationsBuilding commissioning experienceExcellent communication skillsNatural leaderQuality assurance and controlOrganizedResults-orientedContract reviewAdept multi-taskerWork force managementConsultative sales techniquesExcellent written and verbal skillsExperience with Main Generator/Turbine upgradesLarge-scale energy project design experienceProblem-solving and analysis skillsTechnical writing skillsBudgeting and forecastingRisk managementCost reduction and containmentContract managementRelationship buildingTroubleshootingDetail-orientedExcellent sales techniquesExcellent communicator\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

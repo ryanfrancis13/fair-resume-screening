@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0265",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfileOver 4 Years of Business Intelligence /SQL Developer and Data Analyst experience with Bachelors of Computer Science and Information Systems. Extensive background and knowledge in Power BI, Tableau, T-SQL, SSIS, SSRS and many more reporting tools. with initiatives that utilizes software and hardware components within a creative and technology-driven organization. Solid knowledge of Power BI and Tableau Desktop report performance optimization. Expert in Microsoft Power BI dashboards and publishing to the end users for executive level business decision. Expert in maintain and managing Tableau driven dashboards. T-SQL development skills in Objects creation such as Tables and Views, User Defined functions, Indexes, Stored Procedures, CTE, Cursors and Triggers using SQL Server 2008R2/2012/2014. Expertise in generating on-demand and scheduled reports for business analysis or management decision using SQL Servers Reporting Services (SSRS). Creating Excel reports, Dashboards & Performing Data validation activity VLOOKUP, HLOOKUP, Macros, formulas, index match, Slicer with (Pivot table, Get Pivot Data, Dashboards), Power View, Power Map and Heat Map. Expertise in generating on-demand and scheduled reports for business analysis or management decision using SQL Servers Reporting Services (SSRS). Periodic reporting is done on a daily, weekly, monthly and quarterly basis which helps the client. Experience in migration of Data from heterogeneous databases like Excel, Flat files, MS Access, Oracle to SQL Server using SQL Server Integration Services (SSIS) /DTS to overcome the transformation constraints.\nCore QualificationsData Warehouse Tools: Power BI, Tableau, SSIS, SSRS, SSAS, Business Intelligence Development Studio, DTS, SQL Profiler.Database: MS SQL 2014/2012/2008, MySQLReporting Tools: Excel, SQL Server Reporting Services 2012,2008, 2005...Other Tools: MS Office, Visio, MS Excel, MS-Project, Star UML, Eclipse, Load Runner, NetBeans, Adobe Photoshop CS, Corel paint shop pro, Microsoft Photo edition 2006, Illustrator. Microsoft Office Suite, Office Mac.Troubleshooting skills in hardware and software, upgrades, Domain Controller, User account management, setup and Network printer services management.Operating Systems: Windows 2003, Windows Vista, Windows XP, Windows 7 and Windows 8:  Install, configure and troubleshoot.CCNA Cisco Training (Cisco I, Cisco II, Cisco III and Cisco IV)Windows Server 2003 Administration, Windows 2003 Web Server Administration,Microsoft Access Database I and Database II (SQL Programming),Help Desk and customer support, A+ training.Web Production I (HTML, XML), Abode CS3 Suite (Photoshop and Illustrator)\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Flat files, MS",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2012",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nFlat files, MS | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfileOver 4 Years of Business Intelligence /SQL Developer and Data Analyst experience with Bachelors of Computer Science and Information Systems. Extensive background and knowledge in Power BI, Tableau, T-SQL, SSIS, SSRS and many more reporting tools. with initiatives that utilizes software and hardware components within a creative and technology-driven organization. Solid knowledge of Power BI and Tableau Desktop report performance optimization. Expert in Microsoft Power BI dashboards and publishing to the end users for executive level business decision. Expert in maintain and managing Tableau driven dashboards. T-SQL development skills in Objects creation such as Tables and Views, User Defined functions, Indexes, Stored Procedures, CTE, Cursors and Triggers using SQL Server 2008R2/2012/2014. Expertise in generating on-demand and scheduled reports for business analysis or management decision using SQL Servers Reporting Services (SSRS). Creating Excel reports, Dashboards & Performing Data validation activity VLOOKUP, HLOOKUP, Macros, formulas, index match, Slicer with (Pivot table, Get Pivot Data, Dashboards), Power View, Power Map and Heat Map. Expertise in generating on-demand and scheduled reports for business analysis or management decision using SQL Servers Reporting Services (SSRS). Periodic reporting is done on a daily, weekly, monthly and quarterly basis which helps the client. Experience in migration of Data from heterogeneous databases like Excel, Flat files, MS Access, Oracle to SQL Server using SQL Server Integration Services (SSIS) /DTS to overcome the transformation constraints.\nCore QualificationsData Warehouse Tools: Power BI, Tableau, SSIS, SSRS, SSAS, Business Intelligence Development Studio, DTS, SQL Profiler.Database: MS SQL 2014/2012/2008, MySQLReporting Tools: Excel, SQL Server Reporting Services 2012,2008, 2005...Other Tools: MS Office, Visio, MS Excel, MS-Project, Star UML, Eclipse, Load Runner, NetBeans, Adobe Photoshop CS, Corel paint shop pro, Microsoft Photo edition 2006, Illustrator. Microsoft Office Suite, Office Mac.Troubleshooting skills in hardware and software, upgrades, Domain Controller, User account management, setup and Network printer services management.Operating Systems: Windows 2003, Windows Vista, Windows XP, Windows 7 and Windows 8:  Install, configure and troubleshoot.CCNA Cisco Training (Cisco I, Cisco II, Cisco III and Cisco IV)Windows Server 2003 Administration, Windows 2003 Web Server Administration,Microsoft Access Database I and Database II (SQL Programming),Help Desk and customer support, A+ training.Web Production I (HTML, XML), Abode CS3 Suite (Photoshop and Illustrator)\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2012\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0121",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nCareer OverviewHighly motivated Sales Associate with extensive customer service and sales experience. Outgoing sales professional with track record of driving increased sales, improving buying experience and elevating company profile with target market.\nQualificationsDevelopment: Using Apache Tomcat Server, Web Services, MVC pattern and OOP.\n*Programming Languages: C#, Java, JavaScript, CSS3 and HTML5\nWork ExperienceSoftware Development Intern,11/2016-PresentKion Group\u2013Indianapolis,IN,Design, develop and test Android and iOS applications.Involving with all phases of mobile app development from initial concept, through design, development, testing and deployment.Work with product managers to clarify function flows and provide technical insight on optimization.Work with the entire project team to balance creative objectives with business and technical requirements.Data Center Operations Associate,01/2016-PresentBoulder County, Co\u2013Boulder,CO,Develop internal application to process tracking data.Responsible for on-site support of, Data Operations Processes and providing Security Access Controls to Life Sys users through various system applications.Troubleshoot production issues reported by end users and demonstrate ability toward the resolution on restoring functionality and monitor network server.IT Intern,01/2013-10/2013Department Of State\u2013City,STATE,Install, configure, and upgrade the network hardware and software.Identify and solve problems with hardware and software.Troubleshoot network connectivity issues, working with remote employees.\nEducation and Training:Computer Sciences/Mathematics,Expected inMay-2017-University of Lincoln Nebraska-Lincoln,NEGPA:Status-Computer Sciences/Mathematics 3.36\nSkillsApache, balance, clarify, hardware, concept, CSS3, HTML5, Java, JavaScript, Access, C#, MVC, network hardware, network, OOP, optimization, Processes, Programming, Tomcat, Troubleshoot, upgrade\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Indianapolis,IN",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2016",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of Lincoln Nebraska-Lincoln"
+  },
+  "text": "Jordan Avery\nIndianapolis,IN | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nCareer OverviewHighly motivated Sales Associate with extensive customer service and sales experience. Outgoing sales professional with track record of driving increased sales, improving buying experience and elevating company profile with target market.\nQualificationsDevelopment: Using Apache Tomcat Server, Web Services, MVC pattern and OOP.\n*Programming Languages: C#, Java, JavaScript, CSS3 and HTML5\nWork ExperienceSoftware Development Intern,11/2016-PresentKion Group\u2013Indianapolis,IN,Design, develop and test Android and iOS applications.Involving with all phases of mobile app development from initial concept, through design, development, testing and deployment.Work with product managers to clarify function flows and provide technical insight on optimization.Work with the entire project team to balance creative objectives with business and technical requirements.Data Center Operations Associate,01/2016-PresentBoulder County, Co\u2013Boulder,CO,Develop internal application to process tracking data.Responsible for on-site support of, Data Operations Processes and providing Security Access Controls to Life Sys users through various system applications.Troubleshoot production issues reported by end users and demonstrate ability toward the resolution on restoring functionality and monitor network server.IT Intern,01/2013-10/2013Department Of State\u2013City,STATE,Install, configure, and upgrade the network hardware and software.Identify and solve problems with hardware and software.Troubleshoot network connectivity issues, working with remote employees.\nEducation and Training:Computer Sciences/Mathematics,Expected inMay-2017-University of Lincoln Nebraska-Lincoln,NEGPA:Status-Computer Sciences/Mathematics 3.36\nSkillsApache, balance, clarify, hardware, concept, CSS3, HTML5, Java, JavaScript, Access, C#, MVC, network hardware, network, OOP, optimization, Processes, Programming, Tomcat, Troubleshoot, upgrade\nEDUCATION & CREDENTIALS\nDegree / Program, University of Lincoln Nebraska-Lincoln, 2016\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

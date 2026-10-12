@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0467",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryIf you need someone who delivers sharp results, I can help. Well qualified and results oriented Accounting Professional with over fourteen years of successful experience in positions of increasing responsibility in dynamic entertainment companies. Skilled at training staff in Accounts Payable and Receivable and Payroll functions and creating effective teams.\nHighlightsWindows XP, Microsoft Office (Outlook, Excel, Word), QuickBooks Enterprise 17.0, Timberline, File Maker, POS.\nExperienceAccountant,01/2009-PresentTaylor Corp\u2013Byron,MN,Responsible for all aspects of accounts payable, receivable and payroll.Banking liaison: reconciled statements, credit card and additional  reconciliations.Month end analysis, closing and production of month and year end financial reporting.Preparation of monthly commission reports.Control and monitoring of complex, high volume Production Petty Cash and daily Cash Report.Preparation of 1099-s.Accountant,01/2006-01/2009Taylor Corp\u2013Dallas,TX,Supervised, trained and managed a staff of four permanent employees, plus interns.Oversaw the general accounting department areas: accounts payable, receivable and payroll.Banking liaison: reconciled statements, credit card, lockbox and additional  reconciliations.Month end analysis, closing and production of month and year end financial reporting.Preparation of monthly commission reports.Control and monitoring of complex, high volume Production Petty Cash process.Junior Accountant,01/2004-01/2006Anatomage\u2013San Jose,CA,Responsible for all aspects of accounts payable and accounts receivable functions.Reorganizing and reconciling online based business transactions.Bank, credit card and other  reconciliations.Month end analysis and closing.Managed and trained college interns.Preparation of royalty reports.Preparation of 1099-s.\nEducation:Accounting,Expected in-Phoenix University/US-Florida-Miami-,GPA:Status-Accounting - PresentSheridan Technical Center/US-Florida-Miami\nCertificate - Bookkeeping Fundamentals:,Expected in2003--,GPA:Status-CUC University /Colombia:,Expected in--,GPA:Status-Bachelor Arts Degree:Business Administration,Expected in1998--,GPA:Status-Business Administration\nSkillsGeneral Accounting, accounts payable, accounts receivable, Microsoft office, Outlook, Windows XP, Word,  Excel, Quickbooks Enterprise 17.0,\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Byron,MN",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2009",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "college interns.Preparation of royalty reports."
+  },
+  "text": "Jordan Avery\nByron,MN | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryIf you need someone who delivers sharp results, I can help. Well qualified and results oriented Accounting Professional with over fourteen years of successful experience in positions of increasing responsibility in dynamic entertainment companies. Skilled at training staff in Accounts Payable and Receivable and Payroll functions and creating effective teams.\nHighlightsWindows XP, Microsoft Office (Outlook, Excel, Word), QuickBooks Enterprise 17.0, Timberline, File Maker, POS.\nExperienceAccountant,01/2009-PresentTaylor Corp\u2013Byron,MN,Responsible for all aspects of accounts payable, receivable and payroll.Banking liaison: reconciled statements, credit card and additional  reconciliations.Month end analysis, closing and production of month and year end financial reporting.Preparation of monthly commission reports.Control and monitoring of complex, high volume Production Petty Cash and daily Cash Report.Preparation of 1099-s.Accountant,01/2006-01/2009Taylor Corp\u2013Dallas,TX,Supervised, trained and managed a staff of four permanent employees, plus interns.Oversaw the general accounting department areas: accounts payable, receivable and payroll.Banking liaison: reconciled statements, credit card, lockbox and additional  reconciliations.Month end analysis, closing and production of month and year end financial reporting.Preparation of monthly commission reports.Control and monitoring of complex, high volume Production Petty Cash process.Junior Accountant,01/2004-01/2006Anatomage\u2013San Jose,CA,Responsible for all aspects of accounts payable and accounts receivable functions.Reorganizing and reconciling online based business transactions.Bank, credit card and other  reconciliations.Month end analysis and closing.Managed and trained college interns.Preparation of royalty reports.Preparation of 1099-s.\nEducation:Accounting,Expected in-Phoenix University/US-Florida-Miami-,GPA:Status-Accounting - PresentSheridan Technical Center/US-Florida-Miami\nCertificate - Bookkeeping Fundamentals:,Expected in2003--,GPA:Status-CUC University /Colombia:,Expected in--,GPA:Status-Bachelor Arts Degree:Business Administration,Expected in1998--,GPA:Status-Business Administration\nSkillsGeneral Accounting, accounts payable, accounts receivable, Microsoft office, Outlook, Windows XP, Word,  Excel, Quickbooks Enterprise 17.0,\nEDUCATION & CREDENTIALS\nDegree / Program, college interns.Preparation of royalty reports., 2009\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

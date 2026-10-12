@@ -1,0 +1,47 @@
+{
+  "resume_id": "R11",
+  "job_family": "finance",
+  "source": "synthetic_sample_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nAccountant with 4 years in financial reporting and controls.\n{{PRONOUN_SUBJ}} managed month-end close for a mid-market manufacturer, and\n{{PRONOUN_POSS}} experience centres on reconciliation and compliance.\n\nCORE SKILLS\nAccounting: month-end close, reconciliations, accruals, fixed assets, IFRS and US GAAP\nTools: SAP, QuickBooks, Excel (advanced), basic SQL\nCompliance: SOX documentation, audit support, internal controls testing\n\nEXPERIENCE\nSenior Accountant, Winterbourne Manufacturing (2022 - Present)\n- Reduced close cycle from 9 days to 5 days by re-sequencing 30 reconciliations.\n- Documented 22 SOX controls ahead of a first-year audit with no findings.\n- Cleaned a fixed-asset register of 1400 items, correcting 380000 dollars of\n  misstated depreciation.\n\nAccountant, Ravenhill Supply (2020 - 2022)\n- Prepared monthly financial statements for 2 legal entities.\n\nEDUCATION\nB.Com Accounting, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2019",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of Massachusetts, Amherst",
+    "LOCATION": "Boston, MA",
+    "PHONE": "+1 (617) 555-0142",
+    "NAME": "Harper Nolan",
+    "EMAIL": "harper.nolan@example.com",
+    "LINKEDIN": "linkedin.com/in/harper-nolan"
+  },
+  "text": "Harper Nolan\nBoston, MA | harper.nolan@example.com | +1 (617) 555-0142 | linkedin.com/in/harper-nolan\n\nPROFESSIONAL SUMMARY\nAccountant with 4 years in financial reporting and controls.\nThey managed month-end close for a mid-market manufacturer, and\ntheir experience centres on reconciliation and compliance.\n\nCORE SKILLS\nAccounting: month-end close, reconciliations, accruals, fixed assets, IFRS and US GAAP\nTools: SAP, QuickBooks, Excel (advanced), basic SQL\nCompliance: SOX documentation, audit support, internal controls testing\n\nEXPERIENCE\nSenior Accountant, Winterbourne Manufacturing (2022 - Present)\n- Reduced close cycle from 9 days to 5 days by re-sequencing 30 reconciliations.\n- Documented 22 SOX controls ahead of a first-year audit with no findings.\n- Cleaned a fixed-asset register of 1400 items, correcting 380000 dollars of\n misstated depreciation.\n\nAccountant, Ravenhill Supply (2020 - 2022)\n- Prepared monthly financial statements for 2 legal entities.\n\nEDUCATION\nB.Com Accounting, University of Massachusetts, Amherst, 2019\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "fit_note": "moderate FP&A fit: accounting-heavy, less forecasting",
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "synthetic": true,
+    "note": "Synthetic resume authored for this project. No real person."
+  }
+}

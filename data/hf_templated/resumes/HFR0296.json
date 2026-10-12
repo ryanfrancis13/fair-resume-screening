@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0296",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryDemonstrated ability to analyze datasets, draw conclusions, and converse with professionals from diverse subject areas\n*Diverse, in-depth experience with exploratory data analysis, categorical data analysis and classification methods, linear regression and shrinkage, PCA, factor analysis, clustering techniques, mixed effects models, repeated measures, survival analysis, probability distribution fitting, and experimental design\n*Enthusiastic, self-motivated problem solver who can work effectively within a multi-disciplinary team\n*Detail-oriented professional with outstanding analytical and problem-solving skills\n*Excellent oral and written communication skills\nHighlightsR, Matlab, SAS, SAS Enterprise, JMP, and SPSSProficient with Microsoft Office (Excel, Powerpoint, Word, and Outlook)Lean Six Sigma White BeltLean Six Sigma Yellow BeltCertified Six Sigma Green Belt (American Society for Quality)\nExperienceDATA ANALYST/ STATISTICIAN,06/2016toPresentOhsu\u2013Klamath Falls,OR,Used descriptive statistics to assist auditors with control testing of various internal procedures.Used correlations and linear regression to describe audit rating trends and performance across the organization.Communicated findings with business partners, auditors, and managers.Produced written reports of statistical findings and conclusions for audit reporting and communicated them to individuals with varied understanding of statistics.GRADUATE TEACHING ASSISTANT,08/2012toPresentUniversity Of Tennessee Knoxville\u2013City,STATE,Taught nine consecutive semesters, and two summer courses.Taught over 1000 students over the course of four years.Collected, analyzed, and processed all necessary data to complete dissertation research.Determined sample sizes, designed experiments, and completed all statistical analyses (generalized linear mixed models, PCA, factor analysis, multivariate methods, etc.) for dissertation research.\nEducationMaster of Science:Business Analytics and Statistics,Expected inMay 2017toUNIVERSITY OF TENNESSEE-KNOXVILLE,TNGPA:Business Analytics and Statistics 4.00Doctorate of Philosophy:Ecology And Evolutionary Biology,Expected inMay 2017toUNIVERSITY OF TENNESSEE-KNOXVILLE,TNGPA:Date Defended: February 6, 2017Date Conferred: May 11, 2017Bachelor of Arts:Biology,Expected in2012toCOLLEGE OF THE HOLY CROSS-WORCESTER,MAGPA:Biology 3.83 Magna Cum Laude\n*Member of Phi Beta Kappa\nSkillsStatistical software (Matlab, R, SAS, JMP, Minitab), Microsoft Office (Excel, Outlook, Powerpoint, Word), Lean - Six Sigma\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Klamath Falls,OR",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University Of Tennessee Knoxville\u2013City"
+  },
+  "text": "Jordan Avery\nKlamath Falls,OR | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryDemonstrated ability to analyze datasets, draw conclusions, and converse with professionals from diverse subject areas\n*Diverse, in-depth experience with exploratory data analysis, categorical data analysis and classification methods, linear regression and shrinkage, PCA, factor analysis, clustering techniques, mixed effects models, repeated measures, survival analysis, probability distribution fitting, and experimental design\n*Enthusiastic, self-motivated problem solver who can work effectively within a multi-disciplinary team\n*Detail-oriented professional with outstanding analytical and problem-solving skills\n*Excellent oral and written communication skills\nHighlightsR, Matlab, SAS, SAS Enterprise, JMP, and SPSSProficient with Microsoft Office (Excel, Powerpoint, Word, and Outlook)Lean Six Sigma White BeltLean Six Sigma Yellow BeltCertified Six Sigma Green Belt (American Society for Quality)\nExperienceDATA ANALYST/ STATISTICIAN,06/2016toPresentOhsu\u2013Klamath Falls,OR,Used descriptive statistics to assist auditors with control testing of various internal procedures.Used correlations and linear regression to describe audit rating trends and performance across the organization.Communicated findings with business partners, auditors, and managers.Produced written reports of statistical findings and conclusions for audit reporting and communicated them to individuals with varied understanding of statistics.GRADUATE TEACHING ASSISTANT,08/2012toPresentUniversity Of Tennessee Knoxville\u2013City,STATE,Taught nine consecutive semesters, and two summer courses.Taught over 1000 students over the course of four years.Collected, analyzed, and processed all necessary data to complete dissertation research.Determined sample sizes, designed experiments, and completed all statistical analyses (generalized linear mixed models, PCA, factor analysis, multivariate methods, etc.) for dissertation research.\nEducationMaster of Science:Business Analytics and Statistics,Expected inMay 2017toUNIVERSITY OF TENNESSEE-KNOXVILLE,TNGPA:Business Analytics and Statistics 4.00Doctorate of Philosophy:Ecology And Evolutionary Biology,Expected inMay 2017toUNIVERSITY OF TENNESSEE-KNOXVILLE,TNGPA:Date Defended: February 6, 2017Date Conferred: May 11, 2017Bachelor of Arts:Biology,Expected in2012toCOLLEGE OF THE HOLY CROSS-WORCESTER,MAGPA:Biology 3.83 Magna Cum Laude\n*Member of Phi Beta Kappa\nSkillsStatistical software (Matlab, R, SAS, JMP, Minitab), Microsoft Office (Excel, Outlook, Powerpoint, Word), Lean - Six Sigma\nEDUCATION & CREDENTIALS\nDegree / Program, University Of Tennessee Knoxville\u2013City, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

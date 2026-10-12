@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0371",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummary7+ years of extensive hands on experience of designing, developing and deploying n-tier based applications.\nPreviously worked in NetSol Technologies, a CMMI Level 5 assessed company.\nAn experienced of team lead and team player with excellent communication and interpersonal skills who has the ability to work independently under pressure can lead, motivate and influence others and can train and mentor subordinates.\nHighlightsMicrosoft C# .NETWeb Development:Microsoft ASP .NET,WPF, Silverlight, WCF, MVVM, Ajax, JQuery, Telerik, Infragistics, HTML, JavaScriptORMs:LINQ to SQL, LINQ to Object, Entity FrameworkDatabases:SQL , Microsoft SQL Server, OracleTools:MS Visual Studio, Toad for SQL, Toad for Oracle, SVN, VSS, FileZilla, MS Project, MS Visio, Rational Rose, ErwinC#, ASP.NET, Windows Application, Silverlight, WPF, WCF, AJAX, java script, J-Query, XAML, ADO.Net and third party controls like Telerik, Infragistics.Databases\tMicrosoft SQL Server. Oracle.\nExperienceSenior Software Engineer / Team Lead,08/2012-CurrentMotion Recruitment\u2013Exeter,RI,http://www.macrosoftinc.comSenior Software Engineer / Team Lead,06/2010-08/2012Motion Recruitment\u2013Farmers Branch,TX,http://www.netsoltech.comSoftware Engineer,11/2009-08/2010Gaf Buildings Materials Corp. Of America\u2013Denver,CO,http://www.seainfosys.comSoftware Engineer,01/2008-05/2010Gaf Buildings Materials Corp. Of America\u2013Des Moines,IA,http://sims.edu.pk/shl.aspx\nEducationMSC:Computer Sciences,Expected in-Punjab University College of Information Technology (PUCIT)-Lahore,PunjabGPA:Status-http://www.pucit.edu.pk/\nSkillsASP .NET, .NET, ASP.NET, ADO, com, Databases, Erwin, HTML, http, JavaScript, java script, Languages, C#, Microsoft C#, MS Project, Windows, enterprise, Oracle, Rational Rose, Microsoft SQL Server, SQL, Toad, Visio, MS Visual Studio, Web Development\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "FileZilla, MS",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2012",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University College of Information Technology (PUCI"
+  },
+  "text": "Jordan Avery\nFileZilla, MS | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummary7+ years of extensive hands on experience of designing, developing and deploying n-tier based applications.\nPreviously worked in NetSol Technologies, a CMMI Level 5 assessed company.\nAn experienced of team lead and team player with excellent communication and interpersonal skills who has the ability to work independently under pressure can lead, motivate and influence others and can train and mentor subordinates.\nHighlightsMicrosoft C# .NETWeb Development:Microsoft ASP .NET,WPF, Silverlight, WCF, MVVM, Ajax, JQuery, Telerik, Infragistics, HTML, JavaScriptORMs:LINQ to SQL, LINQ to Object, Entity FrameworkDatabases:SQL , Microsoft SQL Server, OracleTools:MS Visual Studio, Toad for SQL, Toad for Oracle, SVN, VSS, FileZilla, MS Project, MS Visio, Rational Rose, ErwinC#, ASP.NET, Windows Application, Silverlight, WPF, WCF, AJAX, java script, J-Query, XAML, ADO.Net and third party controls like Telerik, Infragistics.Databases\tMicrosoft SQL Server. Oracle.\nExperienceSenior Software Engineer / Team Lead,08/2012-CurrentMotion Recruitment\u2013Exeter,RI,http://www.macrosoftinc.comSenior Software Engineer / Team Lead,06/2010-08/2012Motion Recruitment\u2013Farmers Branch,TX,http://www.netsoltech.comSoftware Engineer,11/2009-08/2010Gaf Buildings Materials Corp. Of America\u2013Denver,CO,http://www.seainfosys.comSoftware Engineer,01/2008-05/2010Gaf Buildings Materials Corp. Of America\u2013Des Moines,IA,http://sims.edu.pk/shl.aspx\nEducationMSC:Computer Sciences,Expected in-Punjab University College of Information Technology (PUCIT)-Lahore,PunjabGPA:Status-http://www.pucit.edu.pk/\nSkillsASP .NET, .NET, ASP.NET, ADO, com, Databases, Erwin, HTML, http, JavaScript, java script, Languages, C#, Microsoft C#, MS Project, Windows, enterprise, Oracle, Rational Rose, Microsoft SQL Server, SQL, Toad, Visio, MS Visual Studio, Web Development\nEDUCATION & CREDENTIALS\nDegree / Program, University College of Information Technology (PUCI, 2012\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

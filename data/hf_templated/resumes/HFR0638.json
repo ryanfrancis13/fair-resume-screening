@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0638",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional SummaryCurrent Accountant with the City of Alexandria with over 15 years experience in the accounting industry. Knowledge in governmental accounting procedures, financial statement preparation, general ledger activity, budget preparation & analysis, bank reconciliations, accounts payables & receivables, payroll, fixed assets, tax preparation & audit procedures.\nSkills15+ years of experience in Accounting & Bookkeeping ServicesFinancial statements, Bank reconciliations and General Ledger expertiseFlexible team playerResponsible, Concise & Detail OrientedMicrosoft Word, Excel, Access, PowerPoint, & Outlook expertiseBanner Finance, Xtender, Asset Keeper Pro & QuickBooks Software proficiency\nWork History08/2013toCurrentAccountantTaylor Corp|Rexburg,ID,Help prepare Financial Statements and Bank Reconciliations.Responsible for Accounts Payable & Fixed Assets for the City of Alexandria.Perform accounts payable functions for governmental expenses.Manage vendor accounts and prepare 1099s for contract labor.Prepare, Record Journal Entries, & Reconcile Asset accounts, including surplus, depreciation expense, and the purchase, & addition of new assets.Organize new asset tagging & yearly department assets counts.Organize and carry out efficient month-end, quarterly and year-end processes.Record journal entries and perform accounting on accrual basis for year end procedures.Work closely with GOHSEP to gain reimbursement of expenses from Hurricanes Katrina, Rita, Gustav & Isaac.Maintain integrity of general ledger, including chart of accounts.08/2009to02/2013AccountantTeledyne Technologies|Eagan,MN,Preparation and Analysis of Hospital Financial Statements.Investigate and resolve discrepancies in financial statements while under tight deadlines.Compile general ledger entries on short time schedule with nearly 100% accuracy.Analyze monthly balance sheet accounts & \u00a0record journal entries for corporate reporting.01/2006to04/2008AccountantTeledyne Technologies|Kiln,MS,Prepare & File tax returns for individual, partnership, corporate, and tax exempt clients.Prepare LLC & Corporate monthly payroll & Quarterly Reports.Generate financial statements and facilitate account closing procedures each month.01/2003to08/2004AccountantTeledyne Technologies|Tracy,CA,Prepare individual, partnership, corporate & fiduciary tax returns.Audit governmental, for-profit and not for profit entities.Uphold strict confidentiality protocols with all client details and tax return information.\nEducationExpected in2002 to Bachelor|AccountingNorthwestern State University of Louisiana,Natchitoches,LAGPA:Graduated Magna Cum LaudePhi Kappa Phi Honor SocietyCPAExcel ScholarDean's List for the entirety of College.George H Rothschild ScholarAlpha Lambda Delta Honor Society\nSkillsAdvanced bookkeeping skillsAccounting and bookkeepingFinancial statement analysisTax return filingGAAP understandingBank reconciliations and balancingFlexible team playerMicrosoft Word, Excel, Access, PowerPoint, & OutlookAsset Keeper Pro SoftwareQuickBooks SoftwareFixed Asset Solutions SoftwareCreative Solutions Bookkeeping SoftwareHOST SoftwareDocument Manager SoftwareProSystem, UltraTax, and Lacerte Tax Preparation Software\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Rexburg,ID",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of Louisiana"
+  },
+  "text": "Jordan Avery\nRexburg,ID | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional SummaryCurrent Accountant with the City of Alexandria with over 15 years experience in the accounting industry. Knowledge in governmental accounting procedures, financial statement preparation, general ledger activity, budget preparation & analysis, bank reconciliations, accounts payables & receivables, payroll, fixed assets, tax preparation & audit procedures.\nSkills15+ years of experience in Accounting & Bookkeeping ServicesFinancial statements, Bank reconciliations and General Ledger expertiseFlexible team playerResponsible, Concise & Detail OrientedMicrosoft Word, Excel, Access, PowerPoint, & Outlook expertiseBanner Finance, Xtender, Asset Keeper Pro & QuickBooks Software proficiency\nWork History08/2013toCurrentAccountantTaylor Corp|Rexburg,ID,Help prepare Financial Statements and Bank Reconciliations.Responsible for Accounts Payable & Fixed Assets for the City of Alexandria.Perform accounts payable functions for governmental expenses.Manage vendor accounts and prepare 1099s for contract labor.Prepare, Record Journal Entries, & Reconcile Asset accounts, including surplus, depreciation expense, and the purchase, & addition of new assets.Organize new asset tagging & yearly department assets counts.Organize and carry out efficient month-end, quarterly and year-end processes.Record journal entries and perform accounting on accrual basis for year end procedures.Work closely with GOHSEP to gain reimbursement of expenses from Hurricanes Katrina, Rita, Gustav & Isaac.Maintain integrity of general ledger, including chart of accounts.08/2009to02/2013AccountantTeledyne Technologies|Eagan,MN,Preparation and Analysis of Hospital Financial Statements.Investigate and resolve discrepancies in financial statements while under tight deadlines.Compile general ledger entries on short time schedule with nearly 100% accuracy.Analyze monthly balance sheet accounts & \u00a0record journal entries for corporate reporting.01/2006to04/2008AccountantTeledyne Technologies|Kiln,MS,Prepare & File tax returns for individual, partnership, corporate, and tax exempt clients.Prepare LLC & Corporate monthly payroll & Quarterly Reports.Generate financial statements and facilitate account closing procedures each month.01/2003to08/2004AccountantTeledyne Technologies|Tracy,CA,Prepare individual, partnership, corporate & fiduciary tax returns.Audit governmental, for-profit and not for profit entities.Uphold strict confidentiality protocols with all client details and tax return information.\nEducationExpected in2002 to Bachelor|AccountingNorthwestern State University of Louisiana,Natchitoches,LAGPA:Graduated Magna Cum LaudePhi Kappa Phi Honor SocietyCPAExcel ScholarDean's List for the entirety of College.George H Rothschild ScholarAlpha Lambda Delta Honor Society\nSkillsAdvanced bookkeeping skillsAccounting and bookkeepingFinancial statement analysisTax return filingGAAP understandingBank reconciliations and balancingFlexible team playerMicrosoft Word, Excel, Access, PowerPoint, & OutlookAsset Keeper Pro SoftwareQuickBooks SoftwareFixed Asset Solutions SoftwareCreative Solutions Bookkeeping SoftwareHOST SoftwareDocument Manager SoftwareProSystem, UltraTax, and Lacerte Tax Preparation Software\nEDUCATION & CREDENTIALS\nDegree / Program, University of Louisiana, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

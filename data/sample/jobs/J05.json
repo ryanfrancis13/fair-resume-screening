@@ -1,0 +1,24 @@
+{
+  "job_id": "J05",
+  "title": "Senior Financial Analyst, FP&A",
+  "job_family": "finance",
+  "min_years_experience": 4,
+  "must_have": [
+    "financial modelling",
+    "forecasting",
+    "variance analysis",
+    "advanced Excel",
+    "4 years of FP&A experience"
+  ],
+  "nice_to_have": [
+    "SQL",
+    "Tableau",
+    "Anaplan",
+    "subscription unit economics"
+  ],
+  "source": "synthetic_sample_v1",
+  "text": "Senior Financial Analyst, FP&A\nFinance | Full-time\n\nABOUT THE ROLE\nYou will own the forecast for a major revenue line and the analysis that goes with\nit, including the parts leadership does not want to hear.\n\nMUST-HAVE REQUIREMENTS:\n- financial modelling\n- forecasting\n- variance analysis\n- advanced Excel\n- 4 years of FP&A experience\n\nNICE-TO-HAVE:\n- SQL\n- Tableau\n- Anaplan\n- subscription unit economics\n\nWHAT YOU WILL DO\n- Build and maintain driver-based forecast models.\n- Run monthly variance analysis and explain the drivers.\n- Support board reporting and scenario planning.\n",
+  "meta": {
+    "synthetic": true
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0491",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryResults-oriented accountant with strong work ethic and over four years of experience.Successful at managing multiple projects and consistently meeting deadlines under pressure.\nBi-lingual\nin English and Spanish with outstanding analytical, oral and written communication skills across all levels of the organization. Extensive knowledge of accounting software and processes.\nSkillsFull Accounting cycleAccount reconciliationGeneral ledger accountingFinancial statement analysisBudget PlanningCash ManagementAccounts Receivable\nAccounts PayableInventory & PurchasesFixed AssetsAuditingPayrollTaxesBenefit and compensationTeam work orientedEmployee training and developmentSupervisingEffective time managementDeadline-oriented\nExperienceAccountant,03/2018-Abs Group Of Companies\u2013Hamburg,NY,Manage\nand oversee the daily operation of accounting department including.Monthly bank reconciliations over 10 companies.Manage rent roll, and collections.Prepare overall accounting reports and internal financial statement.Accounting and Finance Supervisor,07/2017-12/2017Republic Services, Inc.\u2013Tyngsboro,MA,Manage and oversee the daily operation of accounting department.Conducted month-end balance sheet reviews and reconciled any variances.Coded the general ledger and processed vendor invoice payments.Coordinated approval processes of all accounts payable invoices.Investigated and resolved discrepancies in monthly bank accounts while under tight deadlines.Prepared annual federal, state and local tax returns.Administrator/Accountant,03/2015-06/2017Openx\u2013New York City,NY,Manage and oversee the daily operation of accounting department including;\u00a0Account payable/receivable *Cash recipes * General ledger * Payroll * Collection * Bank Reconciliations * Check run * Fixed assets activity.Quarterly,monthly and annual local and state tax returns.Monitor and analyze accounting data and produce financial and productivity reports.Banks deposit and office mail pickup.Monitors and maintains office supplies inventory.Manage office vendors, service providers and maintains certifications documentation updated.Maintain fiscal files and all documents transaction.Preparation of Annual 480 and W2.Collaborated extensively with auditors during preliminary and year-end audit processes.In charge of HR includinf, \u00a0hiring process, supervising, vacation and sick monitor, coordination of office activities and benefits for office staff including; medical plan and 401k.Assistant Controller,03/2013-03/2015Jimenez Seda & Archilla, PSC.\u2013City,STATE,Account reconciliations.Journal and general ledger entries and postings.Manage Accounts payable and accounts receivable as well, also make collection efforts.In charge of payroll and administration of employee benefits.Responsible for all invoicing activities.In charge of office supply and inventory.Assist the Controller with overall administrative duties including human resources and financial analysis of the\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Hamburg,NY",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nHamburg,NY | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryResults-oriented accountant with strong work ethic and over four years of experience.Successful at managing multiple projects and consistently meeting deadlines under pressure.\nBi-lingual\nin English and Spanish with outstanding analytical, oral and written communication skills across all levels of the organization. Extensive knowledge of accounting software and processes.\nSkillsFull Accounting cycleAccount reconciliationGeneral ledger accountingFinancial statement analysisBudget PlanningCash ManagementAccounts Receivable\nAccounts PayableInventory & PurchasesFixed AssetsAuditingPayrollTaxesBenefit and compensationTeam work orientedEmployee training and developmentSupervisingEffective time managementDeadline-oriented\nExperienceAccountant,03/2018-Abs Group Of Companies\u2013Hamburg,NY,Manage\nand oversee the daily operation of accounting department including.Monthly bank reconciliations over 10 companies.Manage rent roll, and collections.Prepare overall accounting reports and internal financial statement.Accounting and Finance Supervisor,07/2017-12/2017Republic Services, Inc.\u2013Tyngsboro,MA,Manage and oversee the daily operation of accounting department.Conducted month-end balance sheet reviews and reconciled any variances.Coded the general ledger and processed vendor invoice payments.Coordinated approval processes of all accounts payable invoices.Investigated and resolved discrepancies in monthly bank accounts while under tight deadlines.Prepared annual federal, state and local tax returns.Administrator/Accountant,03/2015-06/2017Openx\u2013New York City,NY,Manage and oversee the daily operation of accounting department including;\u00a0Account payable/receivable *Cash recipes * General ledger * Payroll * Collection * Bank Reconciliations * Check run * Fixed assets activity.Quarterly,monthly and annual local and state tax returns.Monitor and analyze accounting data and produce financial and productivity reports.Banks deposit and office mail pickup.Monitors and maintains office supplies inventory.Manage office vendors, service providers and maintains certifications documentation updated.Maintain fiscal files and all documents transaction.Preparation of Annual 480 and W2.Collaborated extensively with auditors during preliminary and year-end audit processes.In charge of HR includinf, \u00a0hiring process, supervising, vacation and sick monitor, coordination of office activities and benefits for office staff including; medical plan and 401k.Assistant Controller,03/2013-03/2015Jimenez Seda & Archilla, PSC.\u2013City,STATE,Account reconciliations.Journal and general ledger entries and postings.Manage Accounts payable and accounts receivable as well, also make collection efforts.In charge of payroll and administration of employee benefits.Responsible for all invoicing activities.In charge of office supply and inventory.Assist the Controller with overall administrative duties including human resources and financial analysis of the\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0359",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional Overview10+ years' research experience in academia and industry.Concentrating in data analysis and related areas including: data mining, linear/logistic regression, predictive modeling.\nCore QualificationsExcellent hands-on skills in  statistical analysis using SAS and R.Expertise in experiment design , exploratory data analysis, reproducible research, machine learning.Proficient in Python, SQL, Shell Script and Linux/HPC environment.Systematic approach with analytical, reasoning, and problem solving skills to develop and modify software tools.\nExperience11/2014toCurrentNGS Data AnalystUnitypoint Health\u2013Norwalk,IA,Developing statistical and analytical methods to interpret the genotype data for a variety of clinical phenotyping assays.Lead team effort of developing strategies and software to validate, store, visualize and interpret data in order to ensure quality control of the next generation sequencing data.Optimized the sequencing protocol and decreased the cost by 66.7%.Developed and automated the data analysis pipeline for Illumina and PacBio sequencing Platform on Amazon Web Services.09/2010to07/2014Research Fellow (Dr.Leslie Baier's Lab)Verizon Media (Former Oath)\u2013San Francisco,CA,Independently developed and published a pipeline (NGSPE) for Next Generation Sequencing data analysis which initialized the bioinformatics research in the branch..Analyzed terabytes of whole exome & genome sequencing data (from alignment, recalibration and genotype calling to variant annotation) under Linux/High Performance Computing environment.Data mining of the genotypes and type 2 diabetes related clinical traits using SAS/SQL and R.Developed and deployed a database system in MySQL to provide genetic data support for the branch.Customized the Pima Indian common variant (MAF*5%) chips by selecting tag variants from the whole genome sequencing data.05/2011to05/2014Adjunct FacultyArizona State University\u2013City,STATE,Collaborated with Prof. Valentin Dinu on the Next Generation Sequencing ProjectMentored graduate students.03/2009to2010Research ScientistBio-X Center, Shanghai Jiao Tong University\u2013City,,ChinaLeaded the human genome wide association (Affymatrix SNP 6.0 Array) studies from genotyping to data analysis using the Affymatrix Genotyping Console and Plink.Identified several susceptibility genes of schizophrenia, diabetic retinopathy using linkage disequilibrium mapping, case-control and functional studies.Mentored Ph.D candidate Students.\nEducationExpected in2015 to Certificate:Data ScienceJohn Hopkins University-Coursera,GPA:Expected in2009 to Ph.D:Statistical GeneticsShanghai Jiao Tong University-Shanghai,GPA:Expected in2004 to B.S:Biological SciencesHuazhong Agriculture University-Wuhan,GPA:\nSkillsStatistical analysis, R, SAS, Python,C/C++, MySQL, Database, Linux/HPC/AWS, Machine learning, Classification, Cluster, Predictive modeling,Experiment design, Management,Genetics, Quality Control, Scientific research, Software development,.\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Norwalk,IA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University\u2013City"
+  },
+  "text": "Jordan Avery\nNorwalk,IA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional Overview10+ years' research experience in academia and industry.Concentrating in data analysis and related areas including: data mining, linear/logistic regression, predictive modeling.\nCore QualificationsExcellent hands-on skills in  statistical analysis using SAS and R.Expertise in experiment design , exploratory data analysis, reproducible research, machine learning.Proficient in Python, SQL, Shell Script and Linux/HPC environment.Systematic approach with analytical, reasoning, and problem solving skills to develop and modify software tools.\nExperience11/2014toCurrentNGS Data AnalystUnitypoint Health\u2013Norwalk,IA,Developing statistical and analytical methods to interpret the genotype data for a variety of clinical phenotyping assays.Lead team effort of developing strategies and software to validate, store, visualize and interpret data in order to ensure quality control of the next generation sequencing data.Optimized the sequencing protocol and decreased the cost by 66.7%.Developed and automated the data analysis pipeline for Illumina and PacBio sequencing Platform on Amazon Web Services.09/2010to07/2014Research Fellow (Dr.Leslie Baier's Lab)Verizon Media (Former Oath)\u2013San Francisco,CA,Independently developed and published a pipeline (NGSPE) for Next Generation Sequencing data analysis which initialized the bioinformatics research in the branch..Analyzed terabytes of whole exome & genome sequencing data (from alignment, recalibration and genotype calling to variant annotation) under Linux/High Performance Computing environment.Data mining of the genotypes and type 2 diabetes related clinical traits using SAS/SQL and R.Developed and deployed a database system in MySQL to provide genetic data support for the branch.Customized the Pima Indian common variant (MAF*5%) chips by selecting tag variants from the whole genome sequencing data.05/2011to05/2014Adjunct FacultyArizona State University\u2013City,STATE,Collaborated with Prof. Valentin Dinu on the Next Generation Sequencing ProjectMentored graduate students.03/2009to2010Research ScientistBio-X Center, Shanghai Jiao Tong University\u2013City,,ChinaLeaded the human genome wide association (Affymatrix SNP 6.0 Array) studies from genotyping to data analysis using the Affymatrix Genotyping Console and Plink.Identified several susceptibility genes of schizophrenia, diabetic retinopathy using linkage disequilibrium mapping, case-control and functional studies.Mentored Ph.D candidate Students.\nEducationExpected in2015 to Certificate:Data ScienceJohn Hopkins University-Coursera,GPA:Expected in2009 to Ph.D:Statistical GeneticsShanghai Jiao Tong University-Shanghai,GPA:Expected in2004 to B.S:Biological SciencesHuazhong Agriculture University-Wuhan,GPA:\nSkillsStatistical analysis, R, SAS, Python,C/C++, MySQL, Database, Linux/HPC/AWS, Machine learning, Classification, Cluster, Predictive modeling,Experiment design, Management,Genetics, Quality Control, Scientific research, Software development,.\nEDUCATION & CREDENTIALS\nDegree / Program, University\u2013City, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

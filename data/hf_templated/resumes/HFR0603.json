@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0603",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfileSecure a position with a well-established organization with a stable environment that will lead to a lasting in the field of Electrical Engineering.I want to gain experience and to be a part of a dynamic team. I want to apply all that I have learned through experience and academics in engineering and put to use what I have learned.PROFESSIONAL SNAPSHOTSA budding professional with 1+ years in the field of Operation maintenance, plant reactive, preventive and predictive maintenance, Report analysis and Executive Reporting.Work on distribution, transmission and generation of electricity.Deep wise knowledge of grid stations.Technical Codes: for the Facility department.Experience in Enterprise Resource Planning for the projects.Report of breakdown root cause, equipment faults to concern management.Identifies operational problems by observing and system functional and performance results.Develops operational solutions by defining, studying, estimating and screening.Knowledge in Pre-Planning, Conceptual Design, Schematic Design, Design Development, Construction Drawings (or Contract Documents), and Construction Administration.Experience in making of Bill of Material and Group Manufacturing Specifications.Effective communications between Engineering, Technical, Construction, and Project controls groups and Assistance to the Manager.Ability to manage and complete projects to the highest standards meticulously and within specified deadlines of the work.\nAreas of ExpertiseGuest servicesInventory control proceduresMerchandising expertiseLoss preventionCash register operationsProduct promotions\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfileSecure a position with a well-established organization with a stable environment that will lead to a lasting in the field of Electrical Engineering.I want to gain experience and to be a part of a dynamic team. I want to apply all that I have learned through experience and academics in engineering and put to use what I have learned.PROFESSIONAL SNAPSHOTSA budding professional with 1+ years in the field of Operation maintenance, plant reactive, preventive and predictive maintenance, Report analysis and Executive Reporting.Work on distribution, transmission and generation of electricity.Deep wise knowledge of grid stations.Technical Codes: for the Facility department.Experience in Enterprise Resource Planning for the projects.Report of breakdown root cause, equipment faults to concern management.Identifies operational problems by observing and system functional and performance results.Develops operational solutions by defining, studying, estimating and screening.Knowledge in Pre-Planning, Conceptual Design, Schematic Design, Design Development, Construction Drawings (or Contract Documents), and Construction Administration.Experience in making of Bill of Material and Group Manufacturing Specifications.Effective communications between Engineering, Technical, Construction, and Project controls groups and Assistance to the Manager.Ability to manage and complete projects to the highest standards meticulously and within specified deadlines of the work.\nAreas of ExpertiseGuest servicesInventory control proceduresMerchandising expertiseLoss preventionCash register operationsProduct promotions\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

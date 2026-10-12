@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0209",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional SummaryHighly motivated Sales Associate with extensive customer service and sales experience. Outgoing sales professional with track record of driving increased sales, improving buying experience and elevating company profile with target market.\nEducation and TrainingM.S:Applied and Resource Economics,Expected in2010toEast Carolina University-Greenville,NCGPA:Applied and Resource EconomicsB.S:Biological Sciences,Expected in2006toNorth Carolina State University-Raleigh,NCGPA:Biological Sciences\nSkill HighlightsSAS, SAS/STAT, SAS/GRAPH, SAS/MACRO, JMP, SAS Enterprise Guide, CSPro, R, Maple, MATLAB, SPSS/PASW, SQL, MS SQL Server 2008, Microsoft Visual Studio, Business Intelligence Development Studio (BIDS), Banner Operational Data StoreCoding:  ICD-9-CM, CPTAnalytics:  Econometric Views (E-Views), NVivoSurvey Assessment Tools:  Qualtrics, Perseus/Vovici, NCS Design ExpertMicrosoft Office Suite (Word, Access, Excel, OneNote, Outlook, Visio, Publisher and PowerPoint)Computer Aided Design:  AutoCAD, SolidWorksOnline Instruction Modules:  Blackboard, MoodleGraphics/Media Editing:  Adobe Photoshop, Final Cut Pro, BTV Pro Carbon, QuickTimeOperating Systems: Windows, Macintosh, Unix\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "SQL, MS",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2008",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University-Greenville"
+  },
+  "text": "Jordan Avery\nSQL, MS | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional SummaryHighly motivated Sales Associate with extensive customer service and sales experience. Outgoing sales professional with track record of driving increased sales, improving buying experience and elevating company profile with target market.\nEducation and TrainingM.S:Applied and Resource Economics,Expected in2010toEast Carolina University-Greenville,NCGPA:Applied and Resource EconomicsB.S:Biological Sciences,Expected in2006toNorth Carolina State University-Raleigh,NCGPA:Biological Sciences\nSkill HighlightsSAS, SAS/STAT, SAS/GRAPH, SAS/MACRO, JMP, SAS Enterprise Guide, CSPro, R, Maple, MATLAB, SPSS/PASW, SQL, MS SQL Server 2008, Microsoft Visual Studio, Business Intelligence Development Studio (BIDS), Banner Operational Data StoreCoding:  ICD-9-CM, CPTAnalytics:  Econometric Views (E-Views), NVivoSurvey Assessment Tools:  Qualtrics, Perseus/Vovici, NCS Design ExpertMicrosoft Office Suite (Word, Access, Excel, OneNote, Outlook, Visio, Publisher and PowerPoint)Computer Aided Design:  AutoCAD, SolidWorksOnline Instruction Modules:  Blackboard, MoodleGraphics/Media Editing:  Adobe Photoshop, Final Cut Pro, BTV Pro Carbon, QuickTimeOperating Systems: Windows, Macintosh, Unix\nEDUCATION & CREDENTIALS\nDegree / Program, University-Greenville, 2008\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

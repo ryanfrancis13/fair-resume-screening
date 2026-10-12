@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0462",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryI am seeking a position that utilizes my strong Software QA Engineer /Android QA Lead and bilingual background, and proven written and verbal communication skills in Japanese and English.  Have excellent Japanese linguistic skill and knowledge and deep understanding in Japanese culture and business custom. I am a Japanese native. Excellent people skills, interpersonal communication and business skills. Enjoy working independently as well as with a team.  Am passionate about new technologies, love to learn and pick things up quickly. Worked withDetermined and proactive Thrives in a fast paced, dynamic environment.Determined and proactive . Worked with customers, partners and development teams in India, China, Canada and Japan to manage various projects and teams.   My strength are IT software and mobile knowledge, interpersonal communication, business communication and teamwork skills.\nHighlightsFluent Japanese/English,  Japanese Native and translations experiencesProfessional, mature, and proper phone etiquette, articulate and well-spokenTime management and organizational skilsStrong problem solver, service-oriented and good customer supportsWork well with cross-functional team membersExperience with IT software,  Remedy, BMC AR System (Action Request System) 4.5, 5.0, 5.0.1, 5.1, 6.0 and 7.0.x, ITIL, ITSM applications: Configuration Management (previously Service Desk (ITSM)) , Help Desk, Change Management, Asset Management and SLA, Administrative Certificate in ARS and Change Management AdministratorManaged multiple projects, customers and partners.Familiar with following technical knowledge:Browsers:Firefox, IE, Chrome, Safari on iPhone, iPod Touch, iPod and  Pad, and Chrome and  Browser on AndroidAndroid mobile device:4.0.x, 4.1x, 4.2 system-baseAndroid Version :2.3.x  (Gingerbread), 4.0.3, 4.0.4 (Ice cream Sandwich), 4.1.x and 4.2.x (Jerry bean)Database: Oracle 8.i and 9.x and SQL 7, 2000, DB2OS:Linux, Solaris 7, 8, 9 and 10,  HP-UX 11.0, AIX, and Windows NT Server, Windows 2000 Server, 2000 Advance Server, Windows 2003 and XP.  Vista, Window 7 and 8Webserver:IIS 4, 5, Tomcat 3.x, Apache 1.3.x, Web logic and othersVirtual machines: VMware environment\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Firefox, IE",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2000",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nFirefox, IE | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryI am seeking a position that utilizes my strong Software QA Engineer /Android QA Lead and bilingual background, and proven written and verbal communication skills in Japanese and English.  Have excellent Japanese linguistic skill and knowledge and deep understanding in Japanese culture and business custom. I am a Japanese native. Excellent people skills, interpersonal communication and business skills. Enjoy working independently as well as with a team.  Am passionate about new technologies, love to learn and pick things up quickly. Worked withDetermined and proactive Thrives in a fast paced, dynamic environment.Determined and proactive . Worked with customers, partners and development teams in India, China, Canada and Japan to manage various projects and teams.   My strength are IT software and mobile knowledge, interpersonal communication, business communication and teamwork skills.\nHighlightsFluent Japanese/English,  Japanese Native and translations experiencesProfessional, mature, and proper phone etiquette, articulate and well-spokenTime management and organizational skilsStrong problem solver, service-oriented and good customer supportsWork well with cross-functional team membersExperience with IT software,  Remedy, BMC AR System (Action Request System) 4.5, 5.0, 5.0.1, 5.1, 6.0 and 7.0.x, ITIL, ITSM applications: Configuration Management (previously Service Desk (ITSM)) , Help Desk, Change Management, Asset Management and SLA, Administrative Certificate in ARS and Change Management AdministratorManaged multiple projects, customers and partners.Familiar with following technical knowledge:Browsers:Firefox, IE, Chrome, Safari on iPhone, iPod Touch, iPod and  Pad, and Chrome and  Browser on AndroidAndroid mobile device:4.0.x, 4.1x, 4.2 system-baseAndroid Version :2.3.x  (Gingerbread), 4.0.3, 4.0.4 (Ice cream Sandwich), 4.1.x and 4.2.x (Jerry bean)Database: Oracle 8.i and 9.x and SQL 7, 2000, DB2OS:Linux, Solaris 7, 8, 9 and 10,  HP-UX 11.0, AIX, and Windows NT Server, Windows 2000 Server, 2000 Advance Server, Windows 2003 and XP.  Vista, Window 7 and 8Webserver:IIS 4, 5, Tomcat 3.x, Apache 1.3.x, Web logic and othersVirtual machines: VMware environment\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2000\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "pair_id": "P001",
+    "job_id": "J01",
+    "resume_id": "R01",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1
+  },
+  {
+    "pair_id": "P002",
+    "job_id": "J01",
+    "resume_id": "R02",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1
+  },
+  {
+    "pair_id": "P003",
+    "job_id": "J01",
+    "resume_id": "R03",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1
+  },
+  {
+    "pair_id": "P004",
+    "job_id": "J01",
+    "resume_id": "R04",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0
+  },
+  {
+    "pair_id": "P005",
+    "job_id": "J02",
+    "resume_id": "R03",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1
+  },
+  {
+    "pair_id": "P006",
+    "job_id": "J02",
+    "resume_id": "R01",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1
+  },
+  {
+    "pair_id": "P007",
+    "job_id": "J02",
+    "resume_id": "R02",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0
+  },
+  {
+    "pair_id": "P008",
+    "job_id": "J03",
+    "resume_id": "R05",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1
+  },
+  {
+    "pair_id": "P009",
+    "job_id": "J03",
+    "resume_id": "R07",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1
+  },
+  {
+    "pair_id": "P010",
+    "job_id": "J03",
+    "resume_id": "R06",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1
+  },
+  {
+    "pair_id": "P011",
+    "job_id": "J04",
+    "resume_id": "R08",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1
+  },
+  {
+    "pair_id": "P012",
+    "job_id": "J04",
+    "resume_id": "R09",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 0
+  },
+  {
+    "pair_id": "P013",
+    "job_id": "J05",
+    "resume_id": "R10",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1
+  },
+  {
+    "pair_id": "P014",
+    "job_id": "J05",
+    "resume_id": "R11",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1
+  },
+  {
+    "pair_id": "P015",
+    "job_id": "J06",
+    "resume_id": "R12",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1
+  },
+  {
+    "pair_id": "P016",
+    "job_id": "J01",
+    "resume_id": "R08",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0
+  },
+  {
+    "pair_id": "P017",
+    "job_id": "J03",
+    "resume_id": "R09",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0
+  },
+  {
+    "pair_id": "P018",
+    "job_id": "J05",
+    "resume_id": "R04",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0
+  }
+]

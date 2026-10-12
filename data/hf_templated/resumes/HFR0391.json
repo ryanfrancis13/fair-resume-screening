@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0391",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummarySeeking a position as an accountant, utilizing knowledge of general accounting procedures in order to assist the office with its periodic accounting processes.\nHighlightsMicrosoft Office (Excel, Word, PowerPoint)Advanced problem solving abilitiesCritical thinkingDecisiveExcellent mathematical skillsBudgeting\nExperienceAccountant helper,04/2014-06/2014Abbvie, Inc\u2013Poughkeepsie,NY,Assisted the Accounting Clerk in accounting tasks: entered A/P and A/R, processed payments, organized client billing folders, procedure documentation.Performed general office duties: filing, scanning, mail processing and data entry.Assisted Accounting Manager with different assignments.Reconciled bank statements and ledger accounts.Assisted with daily cash balancing.Major Strengths: Good knowledge of coordinating, monitoring and participating in monthly accounting procedures.Strong know-how of organizing the preparation of periodic financial reports.In-depth knowledge of preparing reconciliation of outstanding payments.Knowledge of liabilities and payment obligation.Verified and logged in deadlines for responding to daily inquiries.Organized files, developed spreadsheets, faxed reports and scanned documents.Dispersed incoming mail to correct recipients throughout the office.Created and maintained spreadsheets using advanced Excel functions and calculations to develop reports and lists.Laboratory Technician III,09/2012-CurrentCounty Of Contra Costa, California\u2013Martinez,CA,United StatesReceive and prepare laboratory samples for analysis, following proper protocols to ensure that they will be stored, prepared, and disposed of efficiently and effectively.Record data pertaining to experimentation, research, or animal care.Measure or weigh ingredients used in testing or for purposes such as animal feed and waste.Operate laboratory equipment such as spectrometers, nitrogen determination apparatus, air samplers, centrifuges, and potential hydrogen (pH) meters to perform tests.Adjust testing equipment, and prepare culture media, following standard procedures.Maintain or repair agricultural facilities, equipment, or tools to ensure operational readiness, safety, and cleanliness.Prepare or present agricultural demonstrations.Respond to inquiries and requests from the public that do not require specialized scientific knowledge or expertise.Supervise student workers and train new technicians.Laboratory Technician II,06/2007-08/2012University Of Georgia Soil, Plant And Water Laboratory\u2013City,STATE,United StatesReceive and prepare laboratory samples for analysis, following proper protocols to ensure that they will be stored, prepared, and disposed of efficiently and effectively.Prepare samples to be analyzed on the ICP.Analyze samples via AS-3000 PH Dual analyzer.Maintain or repair agricultural facilities, equipment, or tools to ensure operational readiness, safety, and cleanliness.Prepare laboratory reagents for analytical purposes.Service walk-in customers.Prepare or present agricultural demonstrations.Additional skills and capabilities: Operate effectively within an agricultural laboratory setting.Willing participant in environmentally sustainable work practices.Thoroughly perform standard calibrations.Excellent communication and collaboration skills.Efficient and precise when recording and presenting data.Proficient in the use laboratory application software and instruments.Strong contributor to the achievement of quality objectives.\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Poughkeepsie,NY",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2014",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University Of Georgia Soil"
+  },
+  "text": "Jordan Avery\nPoughkeepsie,NY | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummarySeeking a position as an accountant, utilizing knowledge of general accounting procedures in order to assist the office with its periodic accounting processes.\nHighlightsMicrosoft Office (Excel, Word, PowerPoint)Advanced problem solving abilitiesCritical thinkingDecisiveExcellent mathematical skillsBudgeting\nExperienceAccountant helper,04/2014-06/2014Abbvie, Inc\u2013Poughkeepsie,NY,Assisted the Accounting Clerk in accounting tasks: entered A/P and A/R, processed payments, organized client billing folders, procedure documentation.Performed general office duties: filing, scanning, mail processing and data entry.Assisted Accounting Manager with different assignments.Reconciled bank statements and ledger accounts.Assisted with daily cash balancing.Major Strengths: Good knowledge of coordinating, monitoring and participating in monthly accounting procedures.Strong know-how of organizing the preparation of periodic financial reports.In-depth knowledge of preparing reconciliation of outstanding payments.Knowledge of liabilities and payment obligation.Verified and logged in deadlines for responding to daily inquiries.Organized files, developed spreadsheets, faxed reports and scanned documents.Dispersed incoming mail to correct recipients throughout the office.Created and maintained spreadsheets using advanced Excel functions and calculations to develop reports and lists.Laboratory Technician III,09/2012-CurrentCounty Of Contra Costa, California\u2013Martinez,CA,United StatesReceive and prepare laboratory samples for analysis, following proper protocols to ensure that they will be stored, prepared, and disposed of efficiently and effectively.Record data pertaining to experimentation, research, or animal care.Measure or weigh ingredients used in testing or for purposes such as animal feed and waste.Operate laboratory equipment such as spectrometers, nitrogen determination apparatus, air samplers, centrifuges, and potential hydrogen (pH) meters to perform tests.Adjust testing equipment, and prepare culture media, following standard procedures.Maintain or repair agricultural facilities, equipment, or tools to ensure operational readiness, safety, and cleanliness.Prepare or present agricultural demonstrations.Respond to inquiries and requests from the public that do not require specialized scientific knowledge or expertise.Supervise student workers and train new technicians.Laboratory Technician II,06/2007-08/2012University Of Georgia Soil, Plant And Water Laboratory\u2013City,STATE,United StatesReceive and prepare laboratory samples for analysis, following proper protocols to ensure that they will be stored, prepared, and disposed of efficiently and effectively.Prepare samples to be analyzed on the ICP.Analyze samples via AS-3000 PH Dual analyzer.Maintain or repair agricultural facilities, equipment, or tools to ensure operational readiness, safety, and cleanliness.Prepare laboratory reagents for analytical purposes.Service walk-in customers.Prepare or present agricultural demonstrations.Additional skills and capabilities: Operate effectively within an agricultural laboratory setting.Willing participant in environmentally sustainable work practices.Thoroughly perform standard calibrations.Excellent communication and collaboration skills.Efficient and precise when recording and presenting data.Proficient in the use laboratory application software and instruments.Strong contributor to the achievement of quality objectives.\nEDUCATION & CREDENTIALS\nDegree / Program, University Of Georgia Soil, 2014\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0346",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryA capable Cost Accountant successful at managing multiple projects and consistently meeting deadlines under pressure.  Extensive knowledge of manufacturing and accounting software and processes\nHighlightsFinancial statement analysisAnalytical reasoningBudget forecasting expertiseAccount reconciliation expertAdvanced computer proficiency (PC and Mac)Complex problem solvingStrong organizational skillsGeneral ledger accountingSuperior research skills\nExperienceCost Accountant,01/2000-10/2013Collins Aerospace\u2013Troy,OH,Collaborated extensively with auditors during preliminary and year-end audit processes.Reduced closing time for monthly and quarterly close by 50% by implementing new consolidation procedures.Tracked all capital spending against approved capital requests.Restructured and analyzed QAD to improve budget reporting.Aligned all financial activity with the regulations of the GAAP.Prepared financial statements for month end and year end close.Thoroughly reviewed financial statements and tax audits to correct any discrepancies.Reduced entry input time by 75% and decreased errors by 50%.Revised and streamlined inefficient work procedures with automation software.Analyzed costs and revenues to project future trends.Coordinated fixed asset additions, depreciation and retirements.Created and maintained BOM and routers for the parts that were manufactured.Work order variance analysis and closureCompleted required government surveys for our industryEntered production information as neededEntered month end journal entries as neededWorked on inventory control and cycle counts to reduce excess purchasingCost Accountant,11/1998-2000Collins Aerospace\u2013Monroe,NC,Created and maintained the BOM and routers of the elevators that were manufacturedEntered production information as needed and reviewed and analyzed variances as neededWork order variance analysis and closure which included labor and overhead analysisEntered month end journal entriesExtensive use of excel for analysis and reporting to managementWorked on inventory control and cycle counts to reduce excess purchasingCost Accountant,01/1998-11/1998Collins Aerospace\u2013Simpsonville,SC,Created and maintained BOM and routers for the tubs that were manufacturedWork order variance analysis and closure which included labor and overhead analysisEntered production as neededEntered month end journal entriesWorked on inventory control and cycle counts\nEducation:Accounting,Expected in-University of Texas at San Antonio-San Antonio,TXGPA:Status-\nSkillsMS Office ( Excel, Word, Power Point )QAD ( Mfg Pro ) - manufacturing software ( ERP system )Type - 40wpm10 Key - 10,000 kph\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Troy,OH",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2000",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of Texas at San Antonio-San Antonio"
+  },
+  "text": "Jordan Avery\nTroy,OH | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryA capable Cost Accountant successful at managing multiple projects and consistently meeting deadlines under pressure.  Extensive knowledge of manufacturing and accounting software and processes\nHighlightsFinancial statement analysisAnalytical reasoningBudget forecasting expertiseAccount reconciliation expertAdvanced computer proficiency (PC and Mac)Complex problem solvingStrong organizational skillsGeneral ledger accountingSuperior research skills\nExperienceCost Accountant,01/2000-10/2013Collins Aerospace\u2013Troy,OH,Collaborated extensively with auditors during preliminary and year-end audit processes.Reduced closing time for monthly and quarterly close by 50% by implementing new consolidation procedures.Tracked all capital spending against approved capital requests.Restructured and analyzed QAD to improve budget reporting.Aligned all financial activity with the regulations of the GAAP.Prepared financial statements for month end and year end close.Thoroughly reviewed financial statements and tax audits to correct any discrepancies.Reduced entry input time by 75% and decreased errors by 50%.Revised and streamlined inefficient work procedures with automation software.Analyzed costs and revenues to project future trends.Coordinated fixed asset additions, depreciation and retirements.Created and maintained BOM and routers for the parts that were manufactured.Work order variance analysis and closureCompleted required government surveys for our industryEntered production information as neededEntered month end journal entries as neededWorked on inventory control and cycle counts to reduce excess purchasingCost Accountant,11/1998-2000Collins Aerospace\u2013Monroe,NC,Created and maintained the BOM and routers of the elevators that were manufacturedEntered production information as needed and reviewed and analyzed variances as neededWork order variance analysis and closure which included labor and overhead analysisEntered month end journal entriesExtensive use of excel for analysis and reporting to managementWorked on inventory control and cycle counts to reduce excess purchasingCost Accountant,01/1998-11/1998Collins Aerospace\u2013Simpsonville,SC,Created and maintained BOM and routers for the tubs that were manufacturedWork order variance analysis and closure which included labor and overhead analysisEntered production as neededEntered month end journal entriesWorked on inventory control and cycle counts\nEducation:Accounting,Expected in-University of Texas at San Antonio-San Antonio,TXGPA:Status-\nSkillsMS Office ( Excel, Word, Power Point )QAD ( Mfg Pro ) - manufacturing software ( ERP system )Type - 40wpm10 Key - 10,000 kph\nEDUCATION & CREDENTIALS\nDegree / Program, University of Texas at San Antonio-San Antonio, 2000\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

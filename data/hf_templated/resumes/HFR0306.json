@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0306",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional SummaryFemale, 29 years old, Newly-graduate \"Health Information Technologist\" and \"Medical Coding Specialist\" Knowledgeable with Medical diagnosis and Procedural Coding Skills (ICD-10-CM/PCS and ICD-9-CM , CPT/HCPCS) , Health care data content and delivery, Health Care Billing and reimbursement, health Care Management, Medical terminology and Health care legal and policies including Managing Electronic Health Records. MAJOR STRENGTHS HighInpatient and outpatient records coding specialist with ICD-9, ICD-10 and ASC coding expertise. Familiar with commercial and private insurance carriers. Seeks a position of increased responsibility and authority.ly skilled in abstracting information and assigning codes to describe each documented analysis Thorough understanding of Medical diagnosis and Procedural Coding Skills (ICD-10-CM/PCS and ICD-9-CM , CPT/HCPCS) , anatomy, pharmacology and disease management Strong familiarity with coding related to medicine, surgery, radiology and pathology including modifiers Working knowledge of official coding conventions and rules Demonstrated ability to liaise insurance companies regarding questions about claims Knowledgeable in Electronic Health Record and its guidlines Well versed in using computers including MS Word, Excel, Internet and Email  and other softwaresInpatient and outpatient records coding specialist with ICD-9, ICD-10 and ASC coding expertise. Familiar with commercial and private insurance carriers. Seeks a position of increased responsibility and authority.26\nSkill HighlightsCode Assignment ICD-10-CM/ICD-10-PCS and ICD-9 -CM (Volume 1, 2 and 3), Cancer Registry and Consultation.CPT and HCPCSCoding GuidelinesMedical TerminologyBilling and ReimbursementHIPPA ComplianceAnatomy and Physiology * Surgery and Modifiers * HCPCS Level (II and III)Maintains strict confidentialityKnowledge of HMOs, Medicare and Medi-CalOB-GYN, surgery, gastro, ENT, ortho experienceExtensive anatomy/physiology knowledgeMedical Manager SoftwareManaged care contract knowledgeElectronic Medical Record (EMR) softwareICD-9 codingTrained in ASC CodingNeurology billing expertiseCPT and HCPCS codingCertified coding instructorOphthalmology codingHHM and Medisoft billing systemsInterpreting instructionMedical billing softwareStrong planning skillsPatient-focused careStrong work ethicGood written communicationExercises good judgmentDeadline-drivenGood written communicationExercises good judgmentTeam player with positive attitudeStrong work ethicPatient-focused care\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional SummaryFemale, 29 years old, Newly-graduate \"Health Information Technologist\" and \"Medical Coding Specialist\" Knowledgeable with Medical diagnosis and Procedural Coding Skills (ICD-10-CM/PCS and ICD-9-CM , CPT/HCPCS) , Health care data content and delivery, Health Care Billing and reimbursement, health Care Management, Medical terminology and Health care legal and policies including Managing Electronic Health Records. MAJOR STRENGTHS HighInpatient and outpatient records coding specialist with ICD-9, ICD-10 and ASC coding expertise. Familiar with commercial and private insurance carriers. Seeks a position of increased responsibility and authority.ly skilled in abstracting information and assigning codes to describe each documented analysis Thorough understanding of Medical diagnosis and Procedural Coding Skills (ICD-10-CM/PCS and ICD-9-CM , CPT/HCPCS) , anatomy, pharmacology and disease management Strong familiarity with coding related to medicine, surgery, radiology and pathology including modifiers Working knowledge of official coding conventions and rules Demonstrated ability to liaise insurance companies regarding questions about claims Knowledgeable in Electronic Health Record and its guidlines Well versed in using computers including MS Word, Excel, Internet and Email  and other softwaresInpatient and outpatient records coding specialist with ICD-9, ICD-10 and ASC coding expertise. Familiar with commercial and private insurance carriers. Seeks a position of increased responsibility and authority.26\nSkill HighlightsCode Assignment ICD-10-CM/ICD-10-PCS and ICD-9 -CM (Volume 1, 2 and 3), Cancer Registry and Consultation.CPT and HCPCSCoding GuidelinesMedical TerminologyBilling and ReimbursementHIPPA ComplianceAnatomy and Physiology * Surgery and Modifiers * HCPCS Level (II and III)Maintains strict confidentialityKnowledge of HMOs, Medicare and Medi-CalOB-GYN, surgery, gastro, ENT, ortho experienceExtensive anatomy/physiology knowledgeMedical Manager SoftwareManaged care contract knowledgeElectronic Medical Record (EMR) softwareICD-9 codingTrained in ASC CodingNeurology billing expertiseCPT and HCPCS codingCertified coding instructorOphthalmology codingHHM and Medisoft billing systemsInterpreting instructionMedical billing softwareStrong planning skillsPatient-focused careStrong work ethicGood written communicationExercises good judgmentDeadline-drivenGood written communicationExercises good judgmentTeam player with positive attitudeStrong work ethicPatient-focused care\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

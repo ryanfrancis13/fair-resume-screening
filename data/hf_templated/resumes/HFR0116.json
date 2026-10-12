@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0116",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional SummaryTo obtain a position as a Financial Analyst. Ambitious financial professional with superior analytical and problem solving skills.\nSkillsStrong organizationExcellent attention to detailFlexible team playerData trendingCritical thinkingQuality assuranceUS GAAP principlesStrong problem-solving capabilities\nEducationUniversity of South CarolinaSC,Expected in5 2009\u2013\u2013Bachelor of Science:Mathematics Finance-GPA:Mathematics FinanceEmphasis in Finance and Risk Management InsuranceAdvanced courses in Finance Management,Expected in\u2013\u2013Microsoft Master Certification          January 2014:-GPA:\nWork HistoryAscension Health-Data AnalystMount Juliet,,10/2012-CurrentVendor Risk Management Reviewed banking rules and regulations to ensure third-party vendors are within compliance of the client.Used Microsoft Excel to organize vendor information using pivot tables and Vlookups Communicated with team members regarding questions or documentation concerning Vendor Risk Management.Analyzed risk assessment documents of vendors, to ensure compliance of risk management, auditing and testing, consumer complaints, and regulations.Reviewed team members files to ensure high quality.Customers Bank-Document Processor AssociatePhoenixville,PA,10/2010-10/2012Processed documents and checks for large, corporate banks Operated folder and postage machines Mailed checks via U.S.Postal service and FedEx Used Microsoft Excel to create spreadsheets to organize loans Used internet skills to research location of checks and documents Met compliance dates Started as a temporary contractor, in April 2011 rolled permanent.PriceWaterhouseCoopers-AML ANALYST,,10/2012-CurrentResearched businesses and individuals, using Google and Accuity,  that were suspected of illegal money laundering.Used Excel and Macro skills to organize  client's files and perform calculations of multiple transactions that may have occurred.Used my business writing skills to create written reports Analyzed businesses' or individuals' profiles to determine if they were  participating in illegal transactions of money laundering.Guidewire Validated test cases per analytic review of testing procedure lines Retrieved and interpreted User Stories from Business Analysts.Composed test cases that tested the button/field functionality, navigation flow and page processing/validation for Guidewire screens as directed by User Stories.Parameterized variables and entered data values into the Test Data Harness database for corresponding screens.Developed reusable scripts by contributing to the Page Reference Library and Login; Navigate scripts.Peer reviewed test cases and adjusted design steps accordingly.Escalated questions and technical difficulties to managers.Provided daily status updates to manager.\nSkillsauditing, banking, business writing, client, database, documentation, Internet Savvy, internet skills, Java Script, Lotus Notes, Access, Microsoft Excel, Excel, money, Microsoft Office, Outlook, PowerPoint, Word, navigation, Page, postage machines, quality, research, risk assessment, Risk Management, SAS, scripts, spreadsheets, SQL, Stories, tables, validation, written\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Document Processor AssociatePhoenixville,PA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2009",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of South CarolinaSC"
+  },
+  "text": "Jordan Avery\nDocument Processor AssociatePhoenixville,PA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional SummaryTo obtain a position as a Financial Analyst. Ambitious financial professional with superior analytical and problem solving skills.\nSkillsStrong organizationExcellent attention to detailFlexible team playerData trendingCritical thinkingQuality assuranceUS GAAP principlesStrong problem-solving capabilities\nEducationUniversity of South CarolinaSC,Expected in5 2009\u2013\u2013Bachelor of Science:Mathematics Finance-GPA:Mathematics FinanceEmphasis in Finance and Risk Management InsuranceAdvanced courses in Finance Management,Expected in\u2013\u2013Microsoft Master Certification          January 2014:-GPA:\nWork HistoryAscension Health-Data AnalystMount Juliet,,10/2012-CurrentVendor Risk Management Reviewed banking rules and regulations to ensure third-party vendors are within compliance of the client.Used Microsoft Excel to organize vendor information using pivot tables and Vlookups Communicated with team members regarding questions or documentation concerning Vendor Risk Management.Analyzed risk assessment documents of vendors, to ensure compliance of risk management, auditing and testing, consumer complaints, and regulations.Reviewed team members files to ensure high quality.Customers Bank-Document Processor AssociatePhoenixville,PA,10/2010-10/2012Processed documents and checks for large, corporate banks Operated folder and postage machines Mailed checks via U.S.Postal service and FedEx Used Microsoft Excel to create spreadsheets to organize loans Used internet skills to research location of checks and documents Met compliance dates Started as a temporary contractor, in April 2011 rolled permanent.PriceWaterhouseCoopers-AML ANALYST,,10/2012-CurrentResearched businesses and individuals, using Google and Accuity,  that were suspected of illegal money laundering.Used Excel and Macro skills to organize  client's files and perform calculations of multiple transactions that may have occurred.Used my business writing skills to create written reports Analyzed businesses' or individuals' profiles to determine if they were  participating in illegal transactions of money laundering.Guidewire Validated test cases per analytic review of testing procedure lines Retrieved and interpreted User Stories from Business Analysts.Composed test cases that tested the button/field functionality, navigation flow and page processing/validation for Guidewire screens as directed by User Stories.Parameterized variables and entered data values into the Test Data Harness database for corresponding screens.Developed reusable scripts by contributing to the Page Reference Library and Login; Navigate scripts.Peer reviewed test cases and adjusted design steps accordingly.Escalated questions and technical difficulties to managers.Provided daily status updates to manager.\nSkillsauditing, banking, business writing, client, database, documentation, Internet Savvy, internet skills, Java Script, Lotus Notes, Access, Microsoft Excel, Excel, money, Microsoft Office, Outlook, PowerPoint, Word, navigation, Page, postage machines, quality, research, risk assessment, Risk Management, SAS, scripts, spreadsheets, SQL, Stories, tables, validation, written\nEDUCATION & CREDENTIALS\nDegree / Program, University of South CarolinaSC, 2009\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

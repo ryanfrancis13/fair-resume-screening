@@ -1,0 +1,225 @@
+# =============================================================================
+# Fair Resume Screening — .gitignore
+#
+# Three things must never be committed, and the rest of this file is ordinary
+# hygiene:
+#
+#   1. SECRETS.        Every developer uses their own API key.
+#   2. CORPORA.        A scraped resume dataset is not ours to redistribute, and
+#                      real resumes are personal data.
+#   3. RUN ARTIFACTS.  Reproducible from a config plus a seed, and they contain
+#                      full resume text — so a run built from real resumes is
+#                      itself personal data.
+#
+# Anything that IS needed and could be caught by a broad rule is re-included with
+# an explicit `!` negation placed IMMEDIATELY AFTER the rule it corrects — later
+# patterns win in a .gitignore, so a broad negation at the end of the file
+# silently un-ignores things earlier rules meant to exclude.
+# =============================================================================
+
+# --- 1. secrets and credentials ----------------------------------------------
+.env
+.env.*
+!.env.example
+.envrc
+.netrc
+secrets.yaml
+secrets.yml
+secrets.json
+credentials.json
+service-account*.json
+client_secret*.json
+*token.json
+*.key
+*.pem
+*.p12
+*.pfx
+.streamlit/secrets.toml
+
+# --- 2. corpora and derived data ---------------------------------------------
+# Only data/sample/ (synthetic) and data/lexicons/ (name lists) are tracked.
+data/raw/*
+!data/raw/.gitkeep
+data/external/*
+!data/external/.gitkeep
+data/interim/
+data/processed/
+data/cache/
+
+# Downloaded archives, wherever they land.
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.7z
+*.rar
+*.gz
+*.bz2
+*.xz
+
+# Bulk data and model formats. Never source in this project; always an output,
+# a cache, or a download.
+*.parquet
+*.feather
+*.arrow
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.bin
+*.db
+*.sqlite
+*.sqlite3
+
+# --- 3. run artifacts and the response cache ---------------------------------
+# A run directory is reproducible: `frs pipeline --config <the resolved config>`
+# rebuilds it. Keeping them out also keeps resume text out of git history.
+runs/*
+!runs/.gitkeep
+.frs_cache/
+frs_cache/
+*.frs_cache/
+
+# Atomic writes stage through a `.tmp-` prefix; an interrupted run can leave one.
+.tmp-*
+
+# --- python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+/build/
+/develop-eggs/
+/dist/
+/downloads/
+/eggs/
+.eggs/
+/lib/
+/lib64/
+/parts/
+/sdist/
+/var/
+/wheels/
+share/python-wheels/
+*.egg-info/
+*.egg
+.installed.cfg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- virtual environments ----------------------------------------------------
+.venv/
+.venv-*/
+venv/
+venv*/
+/env/
+/ENV/
+pyvenv.cfg
+
+# NOTE: .python-version and uv.lock are deliberately NOT ignored. uv uses the
+# first to pin the interpreter and the second to pin exact dependency versions,
+# so both belong in version control — that is what makes `uv sync` reproduce the
+# same environment on every machine.
+
+# --- testing, coverage, profiling --------------------------------------------
+.pytest_cache/
+.cache/
+.tox/
+.nox/
+.hypothesis/
+.benchmarks/
+.coverage
+.coverage.*
+coverage.xml
+coverage.json
+htmlcov/
+nosetests.xml
+junit*.xml
+test-results/
+*.prof
+*.lprof
+
+# --- linters and type checkers -----------------------------------------------
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.pylint.d/
+
+# --- notebooks ---------------------------------------------------------------
+# notebooks/*.ipynb IS tracked; only checkpoints and exports are not.
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+*-checkpoint.ipynb
+
+# --- editors and IDEs --------------------------------------------------------
+.idea/
+.vscode/
+!.vscode/extensions.json
+.zed/
+.cursor/
+.fleet/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.swn
+*~
+.claude/settings.local.json
+
+# --- operating system --------------------------------------------------------
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.fseventsd
+.apdisk
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.directory
+.Trash-*
+.nfs*
+
+# --- logs and scratch --------------------------------------------------------
+*.log
+logs/
+log/
+tmp/
+temp/
+scratch/
+scratchpad/
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.patch.bak
+
+
+Fair_Resume_Screening_Build_Brief.pdf

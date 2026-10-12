@@ -1,0 +1,8 @@
+{
+  "job_id": "HFJ0331",
+  "title": "Lead Data EngineerLocation: RemoteDuration: Long Term 8 to 10 years of exp",
+  "text": "Role: Lead Data EngineerLocation: RemoteDuration: Long Term 8 to 10 years of experience working in data engineering, business intelligence or related field delivering large scale data platforms and services. Ideal candidate will have the following skills: A successful history of manipulating, processing and extracting value from large, disconnected datasets. Expertise in data modeling, data access and data storage techniques. The candidate should have foundational knowledge of dimensional modeling to build a data warehouse Strong experience building transformational logic using SQL on relational SQL and NoSQL databases. Skills using DBT framework for data transformation is plus Robust programming skills and strong experience with Python to ingest, transform and load the data Experience building and optimizing big data data pipelines, architectures and data sets using tools like Airflow. Experience with AWS cloud services: EC2, EMR, RDS, Redshift",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit",
+  "meta": {}
+}

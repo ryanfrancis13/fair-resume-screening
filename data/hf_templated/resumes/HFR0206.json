@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0206",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryMotivated professional offering Bachelor's Degree in Educational Studies with a focus on Special and Elementary Education. Adds value to any organization in need of great collaboration, interpersonal, and multitasking abilities. Meets tight deadlines every time. Hardworking and reliable Data Assistant with strong ability in researching and analyzing. Offering research, analytical and conflict-resolution skills. Highly organized, proactive and punctual with team-oriented mentality. Dedicated employee known for punctuality, pursuing employment options where good customer service and positive attitude will make a difference.\nSkillsRelational databasesRequirements gatheringData warehousingAnalysis and modelingCollaborationData managementWork ethicVerification and testingActive listeningTeambuildingCustomer serviceTime managementProblem resolution\nEducation and TrainingWestern Governors UniversitySalt Lake City,UTGraduated: 07/2021\u2013\u2013Bachelor of Arts:Educational Studies Special & Elementary Education-GPA:Pima Community CollegeTucson, AZ,Graduated: 05/2006\u2013\u2013Associate of Arts:Liberal Arts-GPA:\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Pima Community CollegeTucson, AZ",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2021",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "UniversitySalt Lake City"
+  },
+  "text": "Jordan Avery\nPima Community CollegeTucson, AZ | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryMotivated professional offering Bachelor's Degree in Educational Studies with a focus on Special and Elementary Education. Adds value to any organization in need of great collaboration, interpersonal, and multitasking abilities. Meets tight deadlines every time. Hardworking and reliable Data Assistant with strong ability in researching and analyzing. Offering research, analytical and conflict-resolution skills. Highly organized, proactive and punctual with team-oriented mentality. Dedicated employee known for punctuality, pursuing employment options where good customer service and positive attitude will make a difference.\nSkillsRelational databasesRequirements gatheringData warehousingAnalysis and modelingCollaborationData managementWork ethicVerification and testingActive listeningTeambuildingCustomer serviceTime managementProblem resolution\nEducation and TrainingWestern Governors UniversitySalt Lake City,UTGraduated: 07/2021\u2013\u2013Bachelor of Arts:Educational Studies Special & Elementary Education-GPA:Pima Community CollegeTucson, AZ,Graduated: 05/2006\u2013\u2013Associate of Arts:Liberal Arts-GPA:\nEDUCATION & CREDENTIALS\nDegree / Program, UniversitySalt Lake City, 2021\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

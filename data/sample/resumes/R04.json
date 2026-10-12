@@ -1,0 +1,47 @@
+{
+  "resume_id": "R04",
+  "job_family": "software_engineering",
+  "source": "synthetic_sample_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nProduct designer with 3 years of experience in visual and interaction design.\n{{PRONOUN_SUBJ}} designed interfaces for two consumer applications, and\n{{PRONOUN_POSS}} portfolio focuses on design systems and accessibility.\n\nTECHNICAL SKILLS\nDesign: Figma, Adobe Illustrator, Sketch, InVision\nWeb: HTML, CSS, basic JavaScript\nResearch: usability testing, card sorting, WCAG 2.1 audits\n\nEXPERIENCE\nProduct Designer, Brightfold Studio (2022 - Present)\n- Designed a 42-component design system adopted across 3 product lines.\n- Ran 18 usability sessions that raised task completion from 61% to 88%.\n- Delivered accessibility remediation for 24 screens to WCAG 2.1 AA.\n\nJunior Designer, Marchmont Creative (2020 - 2022)\n- Produced 40 social and print assets per month for 6 retail clients.\n\nEDUCATION\nB.A. Visual Communication, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2019",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of Massachusetts, Amherst",
+    "LOCATION": "Boston, MA",
+    "PHONE": "+1 (617) 555-0142",
+    "NAME": "Morgan Ellery",
+    "EMAIL": "morgan.ellery@example.com",
+    "LINKEDIN": "linkedin.com/in/morgan-ellery"
+  },
+  "text": "Morgan Ellery\nBoston, MA | morgan.ellery@example.com | +1 (617) 555-0142 | linkedin.com/in/morgan-ellery\n\nPROFESSIONAL SUMMARY\nProduct designer with 3 years of experience in visual and interaction design.\nThey designed interfaces for two consumer applications, and\ntheir portfolio focuses on design systems and accessibility.\n\nTECHNICAL SKILLS\nDesign: Figma, Adobe Illustrator, Sketch, InVision\nWeb: HTML, CSS, basic JavaScript\nResearch: usability testing, card sorting, WCAG 2.1 audits\n\nEXPERIENCE\nProduct Designer, Brightfold Studio (2022 - Present)\n- Designed a 42-component design system adopted across 3 product lines.\n- Ran 18 usability sessions that raised task completion from 61% to 88%.\n- Delivered accessibility remediation for 24 screens to WCAG 2.1 AA.\n\nJunior Designer, Marchmont Creative (2020 - 2022)\n- Produced 40 social and print assets per month for 6 retail clients.\n\nEDUCATION\nB.A. Visual Communication, University of Massachusetts, Amherst, 2019\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "fit_note": "weak backend fit: design background, minimal engineering",
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "synthetic": true,
+    "note": "Synthetic resume authored for this project. No real person."
+  }
+}

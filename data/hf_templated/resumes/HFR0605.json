@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0605",
+  "job_family": "finance",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummarySeeking an accounting position with a corporation where my analytical, customer service, and problem solving skills will increase profitability Self-motivated, individual with the ability to multitask\n*Driven, hard worker with the ability to adapt to changing environments\nHighlightsMicrosoft Word, Microsoft Excel, PowerPoint, QuickBooks, and Peachtree\nEducationTexas Southern UniversityHouston,TexasExpected inMay 2015\u2013\u2013Bachelors of Business Administration:Accounting-GPA:AccountingHouston Community CollegeHouston,TexasExpected inMay 2010\u2013\u2013Associate of Arts:Accounting-GPA:Accounting\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2015",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "UniversityHouston"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummarySeeking an accounting position with a corporation where my analytical, customer service, and problem solving skills will increase profitability Self-motivated, individual with the ability to multitask\n*Driven, hard worker with the ability to adapt to changing environments\nHighlightsMicrosoft Word, Microsoft Excel, PowerPoint, QuickBooks, and Peachtree\nEducationTexas Southern UniversityHouston,TexasExpected inMay 2015\u2013\u2013Bachelors of Business Administration:Accounting-GPA:AccountingHouston Community CollegeHouston,TexasExpected inMay 2010\u2013\u2013Associate of Arts:Accounting-GPA:Accounting\nEDUCATION & CREDENTIALS\nDegree / Program, UniversityHouston, 2015\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

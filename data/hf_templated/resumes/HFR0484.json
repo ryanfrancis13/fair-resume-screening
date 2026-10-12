@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0484",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryProficient use of Java (JSE /JEE) /C++\n*More than 10 years' experience in IT industry, have participated in or been responsible for the design and implementation of various technology product inititiaves\n*Excellent problem-solving skills, self-learning ability, and ownership\n*Good at coordination, interpersonal and communication skills\n*Adept and skilled in various software development roles and have in-depth understanding of the software development process\n\u00bb Skills\n*Proficiency in Java SE related technologies, Swing, RMI, threading, etc.\n*Proficiency in Java EE, and has solid skills and rich practical experience in the Open Source (Struts / JSF, Spring, Hibernate, Guice, Lucence, dom4j, etc.)\n*Proficiency in C++, like multi-threaded, asynchronous programming\n*Proficiency in B/S architecture project development, like JSP, Servlet, web-backend etc.\n*Deep understanding of TCP/IP, and socket programming\n*Deep understanding of storing/retrieving high speed network traffic on physical storage\n*Deep understanding and rich experience of the UML modeling and JAVA & JEE design patterns\n*Deep understanding of NoSQL (Mongo DB, Cassandra etc.)\n*Deep understanding of Oracle, MySQL, Postgres, trigger, procedure etc.\n*Experience with web front-end technologies, like, HTML, JavaScript, CSS etc.\n*Experience with other network protocols, like SNMP\n*Experience with network diagnostic tools, like, Wireshark, Tcpdump etc.\n*Familiar with the common web/app servers (Tomcat, JBoss etc.)\n*Familiar with Android platform\n*Familiar with Berkeley DB, SQLlite\n*Knowledge on big data platform, like, Storm, Hadoop, HBase etc.\nSkillsGuest servicesInventory control proceduresMerchandising expertiseLoss preventionCash register operationsProduct promotions\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryProficient use of Java (JSE /JEE) /C++\n*More than 10 years' experience in IT industry, have participated in or been responsible for the design and implementation of various technology product inititiaves\n*Excellent problem-solving skills, self-learning ability, and ownership\n*Good at coordination, interpersonal and communication skills\n*Adept and skilled in various software development roles and have in-depth understanding of the software development process\n\u00bb Skills\n*Proficiency in Java SE related technologies, Swing, RMI, threading, etc.\n*Proficiency in Java EE, and has solid skills and rich practical experience in the Open Source (Struts / JSF, Spring, Hibernate, Guice, Lucence, dom4j, etc.)\n*Proficiency in C++, like multi-threaded, asynchronous programming\n*Proficiency in B/S architecture project development, like JSP, Servlet, web-backend etc.\n*Deep understanding of TCP/IP, and socket programming\n*Deep understanding of storing/retrieving high speed network traffic on physical storage\n*Deep understanding and rich experience of the UML modeling and JAVA & JEE design patterns\n*Deep understanding of NoSQL (Mongo DB, Cassandra etc.)\n*Deep understanding of Oracle, MySQL, Postgres, trigger, procedure etc.\n*Experience with web front-end technologies, like, HTML, JavaScript, CSS etc.\n*Experience with other network protocols, like SNMP\n*Experience with network diagnostic tools, like, Wireshark, Tcpdump etc.\n*Familiar with the common web/app servers (Tomcat, JBoss etc.)\n*Familiar with Android platform\n*Familiar with Berkeley DB, SQLlite\n*Knowledge on big data platform, like, Storm, Hadoop, HBase etc.\nSkillsGuest servicesInventory control proceduresMerchandising expertiseLoss preventionCash register operationsProduct promotions\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

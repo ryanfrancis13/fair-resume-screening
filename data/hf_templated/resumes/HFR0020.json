@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0020",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfileFull stack senior software developer with 15 year experience in high tech industry, fluent in VB, C#, C++ on .NET/Windows platform. Strong background as hardware systems engineer, responsible for software, but contributing to architectural, electronic, mechanical design, doing product evaluation, documentation, maintenance and customer support.\nCore QualificationsFluent in VB.NET, C#, C++ and VB6Excellent verbal and written communication skillsSQL, Data Acquisition, SECS/GEM etc related to Automated Test EquipmentMicrosoft Visual Studio Tools and Remote DebuggingHTML, XAML, Xilinx (Verilog/VHDL)GIT, JIRA - both use and administrationRobotics (motion, data acquisition, vision, OCR)Familiarity and test automation using wide array of electronic test equipmentData Analysis using Excel (VBA)sysadmin level of knowledge of Windows XP/7/8/10, scripting and automation\nEducation and TrainingExpected in2008 to Bachelor of Science|Information Technology (Honors)University of Phoenix,San Jose,CAGPA:GPA 3.95Graduated in 1.5 years, while being full-time employed.Expected in2000 to Associate of Arts|Computer Science (Honors)Foothill College,Los Altos,CAGPA:GPA 3.9Perfect grade in all major-related classes (C++, software development,\nMath, etc). Extra-curriculum: Dos, Basic, Pascal, C++ courses.\nProfessional Experience09/2000toCurrentLead Software EngineerCox Automotive|Mount Juliet,TN,Lead developer for 100+ active software modulesAPI documentation and samples in C# and VB.NET on githubSoftware for low and high frequency analog and digital signals, 2D magnetic field control, including Ferro-Magnetic Resonance tester, Inductance, Capacitance modules,\nSTT-MRAM tests, ESD tester and others.Hardware module design evaluation, and transfer to productionR&D - developing small applications and tests for inhouse use for NI Motion\nControllers,Data Acquisition hardware, oscilloscopes, signal generators,\nnetwork analyzer, laser diode driver, piezo-electric stage and others.Writing Technical Documentation and User's Manuals for product mechanics, electronics and software.Developing pick-and-place handler software for Wafer, Row Bar level and others.Developing vision analysis tests based on Matrox Video, OCR and Geometric Model Finder libraries on Magneto-optics project.On-site customer support, including equipment installation, user training, problem diagnostics and repair. System troubleshooting and repair, both factory and remote.System QC of QST-2002 and Blazers testers, and toolingsIntegration of new head designs: developing HDD pre-amplifier chip drivers for use with Quasi97. In-depth knowledge of preamp features and functionality.Developing quality assurance test procedures to verify functionality of various ISI - made equipment.Head Failure Analysis and developing new tests.Working with Microsoft Excel to build macros, statistical charts and to document experiment data, and to help customers find the root cause of problems they experience.Developing applications to optimize QC of ISI-made equipment,\nincluding writing GPIB and Serial COM drivers for remotely controlling\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Mount Juliet,TN",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2002",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of Phoenix"
+  },
+  "text": "Jordan Avery\nMount Juliet,TN | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfileFull stack senior software developer with 15 year experience in high tech industry, fluent in VB, C#, C++ on .NET/Windows platform. Strong background as hardware systems engineer, responsible for software, but contributing to architectural, electronic, mechanical design, doing product evaluation, documentation, maintenance and customer support.\nCore QualificationsFluent in VB.NET, C#, C++ and VB6Excellent verbal and written communication skillsSQL, Data Acquisition, SECS/GEM etc related to Automated Test EquipmentMicrosoft Visual Studio Tools and Remote DebuggingHTML, XAML, Xilinx (Verilog/VHDL)GIT, JIRA - both use and administrationRobotics (motion, data acquisition, vision, OCR)Familiarity and test automation using wide array of electronic test equipmentData Analysis using Excel (VBA)sysadmin level of knowledge of Windows XP/7/8/10, scripting and automation\nEducation and TrainingExpected in2008 to Bachelor of Science|Information Technology (Honors)University of Phoenix,San Jose,CAGPA:GPA 3.95Graduated in 1.5 years, while being full-time employed.Expected in2000 to Associate of Arts|Computer Science (Honors)Foothill College,Los Altos,CAGPA:GPA 3.9Perfect grade in all major-related classes (C++, software development,\nMath, etc). Extra-curriculum: Dos, Basic, Pascal, C++ courses.\nProfessional Experience09/2000toCurrentLead Software EngineerCox Automotive|Mount Juliet,TN,Lead developer for 100+ active software modulesAPI documentation and samples in C# and VB.NET on githubSoftware for low and high frequency analog and digital signals, 2D magnetic field control, including Ferro-Magnetic Resonance tester, Inductance, Capacitance modules,\nSTT-MRAM tests, ESD tester and others.Hardware module design evaluation, and transfer to productionR&D - developing small applications and tests for inhouse use for NI Motion\nControllers,Data Acquisition hardware, oscilloscopes, signal generators,\nnetwork analyzer, laser diode driver, piezo-electric stage and others.Writing Technical Documentation and User's Manuals for product mechanics, electronics and software.Developing pick-and-place handler software for Wafer, Row Bar level and others.Developing vision analysis tests based on Matrox Video, OCR and Geometric Model Finder libraries on Magneto-optics project.On-site customer support, including equipment installation, user training, problem diagnostics and repair. System troubleshooting and repair, both factory and remote.System QC of QST-2002 and Blazers testers, and toolingsIntegration of new head designs: developing HDD pre-amplifier chip drivers for use with Quasi97. In-depth knowledge of preamp features and functionality.Developing quality assurance test procedures to verify functionality of various ISI - made equipment.Head Failure Analysis and developing new tests.Working with Microsoft Excel to build macros, statistical charts and to document experiment data, and to help customers find the root cause of problems they experience.Developing applications to optimize QC of ISI-made equipment,\nincluding writing GPIB and Serial COM drivers for remotely controlling\nEDUCATION & CREDENTIALS\nDegree / Program, University of Phoenix, 2002\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

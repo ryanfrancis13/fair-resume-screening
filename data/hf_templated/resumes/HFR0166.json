@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0166",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryProfessional office administrator, offering 10 plus years of office management and executive level administrative support reporting to a CEO and other upper level executives, with an extensive background in bookkeeping; accounts receivable and payables. Proficient user of MS Office; Word, Excel, PowerPoint, Outlook, and Quickbooks. Type 65 WPM, Ten Key 140 SPM\nHighlightsMicrosoft Office proficiencyBusiness correspondenceAppointment settingSchedulingMeeting / Event planningAccounts receivable / payable professionalExcel spreadsheetsDatabase managementFinancial reportingStrong communication skills\nExperienceAssociate Coordinator / Data Analyst,07/2012to01/2015AT&T/Cricket Wireless\u2013City,STATE,Actively assisted revenue assurance department by preparing and auditing monthly reconciliation reports for government reimbursement using MS Excel and MS Access.Drafted training documents and procedures; including establishing processes and procedures.Reviewed internal billing systems for lifeline wireless customer accounts.Coordinated and prepared reconciliation data to assign & track team progress.Researched and verified fraudulent customer activity.Processed daily an average of 85 lifeline applications utilizing the CRM corporate billing system.Reviewed and approved lifeline applicationsExecutive Office Administrator/Event Coordinator,08/2002to08/2012Nu-Way ICM / Operation BHILD\u2013,,Responsibilities included administrative support to the Sr.Pastor with minimal clerical assistance to executive & alliance board members.Tasks included appointment scheduling and calendar management, travel arrangements, preparation and distribution of meeting minutes, correspondence and memos; preparing and updating ministry departments' standard operating procedures, staff and member relations, operations and logistics, facilities management; customer & tenant services.Oversaw department administrative functions and the non-profit community outreach division, including event coordination; grant writing and contract management, general bookkeeping; accounts receivable/payable, and budgeting, customer service, website design and management, marketing & advertising, and volunteer and guest relations.Executive Secretary administrative support,09/1997to08/2002XO Communications\u2013,,to the Vice President / General Manager of the National Sales Organization of the Enterprise West region, Office Administrator, Operations & Engineering Administrator providing administrative support to the Director of Operations & Engineering,  and department managers, Human Resources and Authorized Requisitioner.Responsibilities included providing ; scheduling meetings and conferences, coordinating travel, maintaining sales reports and expenditures, researching and generating profiles for prospective customers; order processing, invoices and purchase requisitions, tracking and managing the company purchasing card program.Oversaw maintenance of facilities and office equipment, ordered and managed distribution of supplies, coordinated new hire set-up and training, hired and supervised sales coordinators, and the receptionist position.\nEducation:,Expected into-,GPA:GPA: 4.0Bachelors of Science:Business Administration Finance/Organizational Leadership,Expected inPresenttoArgosy University-,GPA:GPA: 3.66GPA: 3.66 Business Administration Finance/Organizational LeadershipPost Graduate:,Expected into-,GPA:\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University-"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryProfessional office administrator, offering 10 plus years of office management and executive level administrative support reporting to a CEO and other upper level executives, with an extensive background in bookkeeping; accounts receivable and payables. Proficient user of MS Office; Word, Excel, PowerPoint, Outlook, and Quickbooks. Type 65 WPM, Ten Key 140 SPM\nHighlightsMicrosoft Office proficiencyBusiness correspondenceAppointment settingSchedulingMeeting / Event planningAccounts receivable / payable professionalExcel spreadsheetsDatabase managementFinancial reportingStrong communication skills\nExperienceAssociate Coordinator / Data Analyst,07/2012to01/2015AT&T/Cricket Wireless\u2013City,STATE,Actively assisted revenue assurance department by preparing and auditing monthly reconciliation reports for government reimbursement using MS Excel and MS Access.Drafted training documents and procedures; including establishing processes and procedures.Reviewed internal billing systems for lifeline wireless customer accounts.Coordinated and prepared reconciliation data to assign & track team progress.Researched and verified fraudulent customer activity.Processed daily an average of 85 lifeline applications utilizing the CRM corporate billing system.Reviewed and approved lifeline applicationsExecutive Office Administrator/Event Coordinator,08/2002to08/2012Nu-Way ICM / Operation BHILD\u2013,,Responsibilities included administrative support to the Sr.Pastor with minimal clerical assistance to executive & alliance board members.Tasks included appointment scheduling and calendar management, travel arrangements, preparation and distribution of meeting minutes, correspondence and memos; preparing and updating ministry departments' standard operating procedures, staff and member relations, operations and logistics, facilities management; customer & tenant services.Oversaw department administrative functions and the non-profit community outreach division, including event coordination; grant writing and contract management, general bookkeeping; accounts receivable/payable, and budgeting, customer service, website design and management, marketing & advertising, and volunteer and guest relations.Executive Secretary administrative support,09/1997to08/2002XO Communications\u2013,,to the Vice President / General Manager of the National Sales Organization of the Enterprise West region, Office Administrator, Operations & Engineering Administrator providing administrative support to the Director of Operations & Engineering,  and department managers, Human Resources and Authorized Requisitioner.Responsibilities included providing ; scheduling meetings and conferences, coordinating travel, maintaining sales reports and expenditures, researching and generating profiles for prospective customers; order processing, invoices and purchase requisitions, tracking and managing the company purchasing card program.Oversaw maintenance of facilities and office equipment, ordered and managed distribution of supplies, coordinated new hire set-up and training, hired and supervised sales coordinators, and the receptionist position.\nEducation:,Expected into-,GPA:GPA: 4.0Bachelors of Science:Business Administration Finance/Organizational Leadership,Expected inPresenttoArgosy University-,GPA:GPA: 3.66GPA: 3.66 Business Administration Finance/Organizational LeadershipPost Graduate:,Expected into-,GPA:\nEDUCATION & CREDENTIALS\nDegree / Program, University-, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

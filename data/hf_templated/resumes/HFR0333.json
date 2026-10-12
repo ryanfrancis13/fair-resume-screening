@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0333",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryHardworking Senior Accountant proficient in providing cost-effective and accurate accounting. Exceptionally talented at preparing financial statements, reconciling transactions and employee development. Highly-motivated employee with desire to take on new challenges. Strong worth ethic, adaptability and exceptional interpersonal skills. Adept at working effectively unsupervised and quickly mastering new skills.\nSkillsExperience with software programs including but not limited to SAP, Microsoft Word, PowerPoint, ExcelAbility to lead and motivate other team members to achieve goalsStrong verbal and written communication skills.Generally Accepted Accounting PrinciplesGeneral Ledger UpdatesMonthly and Annual Journal EntriesInventory VerificationVerbal and Written CommunicationCash AnalysisProblem-SolvingAccounting Policy and ControlInventory AssessmentAccount ReconciliationReport PreparationAccounts PayableProcessing Checks and InvoicesFinancial ReportingCritical Thinking and AnalysisFinancial StatementsFixed Assets ManagementJournal Entry Preparation\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryHardworking Senior Accountant proficient in providing cost-effective and accurate accounting. Exceptionally talented at preparing financial statements, reconciling transactions and employee development. Highly-motivated employee with desire to take on new challenges. Strong worth ethic, adaptability and exceptional interpersonal skills. Adept at working effectively unsupervised and quickly mastering new skills.\nSkillsExperience with software programs including but not limited to SAP, Microsoft Word, PowerPoint, ExcelAbility to lead and motivate other team members to achieve goalsStrong verbal and written communication skills.Generally Accepted Accounting PrinciplesGeneral Ledger UpdatesMonthly and Annual Journal EntriesInventory VerificationVerbal and Written CommunicationCash AnalysisProblem-SolvingAccounting Policy and ControlInventory AssessmentAccount ReconciliationReport PreparationAccounts PayableProcessing Checks and InvoicesFinancial ReportingCritical Thinking and AnalysisFinancial StatementsFixed Assets ManagementJournal Entry Preparation\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

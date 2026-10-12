@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0471",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummarySenior Software Engineer with 26+ years of experience as an enterprise-level database web applications developer, technical lead, and project manager.  Expert Microsoft SQL database administrator with SQL server integration services (SSIS) and SharePoint experience.\u200bProven leader and strategic thinker, able to architect cutting-edge software solutions and lead development teams through the entire software development life cycle (SDLC).\u00a0 Recipient of NASA's Space Flight Awareness Honoree award for significant contributions in the preservation and management of Lunar sample data.\nSkillsDatabases: Microsoft SQL Server 2000-2014, MongoDB, MySQLLanguages: SQL, Microsoft .NET C# and VB, ColdFusion 11, Java, JavaScript, PowerShell, Python, C/C++.Development Tools/Methodologies: SDLC, Agile & Waterfall Methodologies, Object Oriented Programming (OOP), Application Programming Interfaces (API), MVC, Visual Studio, Eclipse, Git, Subversion, UML, SSIS, SSRS HTML5, CSS, SASS/LESS, web services, REST, jQuery, Bootstrap, Accessibility/508 Compliance, Website Security, UX Design,Graphic Design/Multimedia:Adobe Creative Suite CC: Photoshop, Illustrator, InDesign, Dreamweaver, Premiere Pro, Lightroom. Inkscape.Software:Adobe Acrobat Pro, Microsoft SharePoint, Visio, and Project, R.\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Website Security, UX",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2000",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nWebsite Security, UX | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummarySenior Software Engineer with 26+ years of experience as an enterprise-level database web applications developer, technical lead, and project manager.  Expert Microsoft SQL database administrator with SQL server integration services (SSIS) and SharePoint experience.\u200bProven leader and strategic thinker, able to architect cutting-edge software solutions and lead development teams through the entire software development life cycle (SDLC).\u00a0 Recipient of NASA's Space Flight Awareness Honoree award for significant contributions in the preservation and management of Lunar sample data.\nSkillsDatabases: Microsoft SQL Server 2000-2014, MongoDB, MySQLLanguages: SQL, Microsoft .NET C# and VB, ColdFusion 11, Java, JavaScript, PowerShell, Python, C/C++.Development Tools/Methodologies: SDLC, Agile & Waterfall Methodologies, Object Oriented Programming (OOP), Application Programming Interfaces (API), MVC, Visual Studio, Eclipse, Git, Subversion, UML, SSIS, SSRS HTML5, CSS, SASS/LESS, web services, REST, jQuery, Bootstrap, Accessibility/508 Compliance, Website Security, UX Design,Graphic Design/Multimedia:Adobe Creative Suite CC: Photoshop, Illustrator, InDesign, Dreamweaver, Premiere Pro, Lightroom. Inkscape.Software:Adobe Acrobat Pro, Microsoft SharePoint, Visio, and Project, R.\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2000\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

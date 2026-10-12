@@ -1,0 +1,47 @@
+{
+  "resume_id": "R10",
+  "job_family": "finance",
+  "source": "synthetic_sample_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nFinancial analyst with 5 years in FP&A for subscription businesses.\n{{PRONOUN_SUBJ}} owned the quarterly forecast for a 240 million dollar revenue\nline, and {{PRONOUN_POSS}} models are used in board reporting.\n\nCORE SKILLS\nModelling: three-statement models, driver-based forecasting, scenario and sensitivity\nanalysis, unit economics, cohort-based LTV\nTools: Excel (advanced, no VBA), SQL, Anaplan, NetSuite, Tableau\nReporting: board packs, variance analysis, monthly close support\n\nEXPERIENCE\nSenior Financial Analyst, Pellworth Group (2021 - Present)\n- Rebuilt the driver-based revenue forecast, cutting quarterly forecast error from\n  11% to 3.5%.\n- Automated variance reporting in SQL and Tableau, saving 30 hours per close.\n- Modelled a pricing change that added 6.8 million dollars in annual recurring revenue.\n\nFinancial Analyst, Tarnbrook Holdings (2020 - 2021)\n- Supported monthly close for 4 entities and 3 currencies.\n- Built a 5-year scenario model used in a 45 million dollar financing round.\n\nEDUCATION\nB.S. Finance, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2019",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of Massachusetts, Amherst",
+    "LOCATION": "Boston, MA",
+    "PHONE": "+1 (617) 555-0142",
+    "NAME": "Devon Ashby",
+    "EMAIL": "devon.ashby@example.com",
+    "LINKEDIN": "linkedin.com/in/devon-ashby"
+  },
+  "text": "Devon Ashby\nBoston, MA | devon.ashby@example.com | +1 (617) 555-0142 | linkedin.com/in/devon-ashby\n\nPROFESSIONAL SUMMARY\nFinancial analyst with 5 years in FP&A for subscription businesses.\nThey owned the quarterly forecast for a 240 million dollar revenue\nline, and their models are used in board reporting.\n\nCORE SKILLS\nModelling: three-statement models, driver-based forecasting, scenario and sensitivity\nanalysis, unit economics, cohort-based LTV\nTools: Excel (advanced, no VBA), SQL, Anaplan, NetSuite, Tableau\nReporting: board packs, variance analysis, monthly close support\n\nEXPERIENCE\nSenior Financial Analyst, Pellworth Group (2021 - Present)\n- Rebuilt the driver-based revenue forecast, cutting quarterly forecast error from\n 11% to 3.5%.\n- Automated variance reporting in SQL and Tableau, saving 30 hours per close.\n- Modelled a pricing change that added 6.8 million dollars in annual recurring revenue.\n\nFinancial Analyst, Tarnbrook Holdings (2020 - 2021)\n- Supported monthly close for 4 entities and 3 currencies.\n- Built a 5-year scenario model used in a 45 million dollar financing round.\n\nEDUCATION\nB.S. Finance, University of Massachusetts, Amherst, 2019\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "fit_note": "strong FP&A fit: modelling, forecasting, SQL",
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "synthetic": true,
+    "note": "Synthetic resume authored for this project. No real person."
+  }
+}

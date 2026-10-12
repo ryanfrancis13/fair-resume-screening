@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0329",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummarySoftware Developer with overall 3+ years of experience in the development of Web & Enterprise\napplications using Java, JavaScript, HTML, CSS and J2EE technologies\nSkillsJava 7, Python, Matlab          PL/SQL, MongoDB, MySQL, SQLiteHTML 5, CSS 3, JavaScript, JQuery,      Backbone.js, MVC, SpringPHP, Ajax, JSON, Angular          HibernateEclipse, Visual Studio,          Git, Bit bucket, JiraPyCharm, Net Beans,          Apache Tomcat, Glassfish, MavenIntelliJ IDEA, XAMPP, Tableau          Rest, Soap Web Services,\nExperience01/2017to07/2017Software EngineerWithin3\u2013Lakewood,NJ,Developed user interface for windows tablet client application using Java\nframeworks: Swing, JavaFX.Embedded VLC media player into the application using VCLJ\nlibrary.Interacted with YouTube, Periscope and Facebook APIs to play\nlive streaming video.Participated in requirement gathering, development, testing and\ndeployed the application using webswing server.Analyzed and detected application errors and performance issues.05/2015to08/2016App DeveloperMotion Recruitment\u2013Gilbert,AZ,Worked in both Agile and Waterfall settings.Implemented functionality to capture image, record audio and video\nDeveloped user profile screens using HTML, CSS and JavaScript\nusing Appcelerator Studio.Cooperated with web designers to match the visual design intent.Deployed the\napplication on user's phone for beta testing.07/2014to12/2014Web DeveloperWithin3\u2013Los Angeles,CA,Collaborated with other team member to update documentation.Created responsive web design using JavaScript, JQuery\nTested the website in multiple browsers to ensure cross-browser\ncompatibility.Fixed bugs from existing website and built reusable code for future use.06/2012to07/2013Software EngineerBaroda Electrical Ltd\u2013City,STATE,Created database schema and interacted with database to add, update and\ndelete records through jdbc.Executed and monitored standards for user interfaces, page design and\ngraphics development.Implemented and debugged the algorithm for energy measurement.Enabled dynamic behavior of the site using Bootstrap.Tested the code using Tera Term Emulator to ensure its correctness.\nEducation and TrainingExpected in2016 to Master of Science:Computer and Information SciencePurdue University-Indianapolis,INGPA:Computer and Information ScienceExpected in2013 to Bachelor of Science:Electronics and CommunicationsGujarat Technological University  Anand-,GujaratGPA:Electronics and Communications\nSkillsAgile, Ajax, Apache, audio, browsers, CSS, CSS 3, client, database, documentation, Eclipse, graphics, HTML, HTML 5, PHP, image, Java, Java 7, Beans, JavaScript, jdbc, JQuery, JSON, Matlab, windows, MongoDB, MVC, MySQL, PL/SQL, page, Python, requirement, Soap, streaming video, Swing, Tableau, phone, Tomcat, user interface, video, visual design, Visual Studio, web design, website\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Lakewood,NJ",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University-Indianapolis"
+  },
+  "text": "Jordan Avery\nLakewood,NJ | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummarySoftware Developer with overall 3+ years of experience in the development of Web & Enterprise\napplications using Java, JavaScript, HTML, CSS and J2EE technologies\nSkillsJava 7, Python, Matlab          PL/SQL, MongoDB, MySQL, SQLiteHTML 5, CSS 3, JavaScript, JQuery,      Backbone.js, MVC, SpringPHP, Ajax, JSON, Angular          HibernateEclipse, Visual Studio,          Git, Bit bucket, JiraPyCharm, Net Beans,          Apache Tomcat, Glassfish, MavenIntelliJ IDEA, XAMPP, Tableau          Rest, Soap Web Services,\nExperience01/2017to07/2017Software EngineerWithin3\u2013Lakewood,NJ,Developed user interface for windows tablet client application using Java\nframeworks: Swing, JavaFX.Embedded VLC media player into the application using VCLJ\nlibrary.Interacted with YouTube, Periscope and Facebook APIs to play\nlive streaming video.Participated in requirement gathering, development, testing and\ndeployed the application using webswing server.Analyzed and detected application errors and performance issues.05/2015to08/2016App DeveloperMotion Recruitment\u2013Gilbert,AZ,Worked in both Agile and Waterfall settings.Implemented functionality to capture image, record audio and video\nDeveloped user profile screens using HTML, CSS and JavaScript\nusing Appcelerator Studio.Cooperated with web designers to match the visual design intent.Deployed the\napplication on user's phone for beta testing.07/2014to12/2014Web DeveloperWithin3\u2013Los Angeles,CA,Collaborated with other team member to update documentation.Created responsive web design using JavaScript, JQuery\nTested the website in multiple browsers to ensure cross-browser\ncompatibility.Fixed bugs from existing website and built reusable code for future use.06/2012to07/2013Software EngineerBaroda Electrical Ltd\u2013City,STATE,Created database schema and interacted with database to add, update and\ndelete records through jdbc.Executed and monitored standards for user interfaces, page design and\ngraphics development.Implemented and debugged the algorithm for energy measurement.Enabled dynamic behavior of the site using Bootstrap.Tested the code using Tera Term Emulator to ensure its correctness.\nEducation and TrainingExpected in2016 to Master of Science:Computer and Information SciencePurdue University-Indianapolis,INGPA:Computer and Information ScienceExpected in2013 to Bachelor of Science:Electronics and CommunicationsGujarat Technological University  Anand-,GujaratGPA:Electronics and Communications\nSkillsAgile, Ajax, Apache, audio, browsers, CSS, CSS 3, client, database, documentation, Eclipse, graphics, HTML, HTML 5, PHP, image, Java, Java 7, Beans, JavaScript, jdbc, JQuery, JSON, Matlab, windows, MongoDB, MVC, MySQL, PL/SQL, page, Python, requirement, Soap, streaming video, Swing, Tableau, phone, Tomcat, user interface, video, visual design, Visual Studio, web design, website\nEDUCATION & CREDENTIALS\nDegree / Program, University-Indianapolis, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

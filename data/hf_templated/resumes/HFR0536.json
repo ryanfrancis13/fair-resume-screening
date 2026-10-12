@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0536",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryHighly motivated Sales Associate with extensive customer service and sales experience. Outgoing sales professional with track record of driving increased sales, improving buying experience and elevating company profile with target market.\nHighlightsSTATA programming, R programming, SAS programming, GIS, NVIVO, Microsoft Office\nExperienceData Analyst Consultant,09/2014-01/2015C.H. Robinson Worldwide, Inc.\u2013,,Conducting research and assisting with technical analyses of continued issues related to human exposure to contaminants in the environment; researching and understanding pollution control operations, and assessing the risks to human health and the environment from the application of wastewater effluent in wetland areas; conducting human bio-assays and other laboratory bench work to determine the estrogenicity of wastewater effluent; evaluating pollution control technologies; evaluating alternatives to wastewater chlorination; and overseeing the training of other laboratory assistants.Primary duties included: Provided analytical research and technical support for the Zimbabwe Health Results Based Financing Project Impact Evaluation.Duties include: Management of data received in the field, building statistical models from the data, and assisting with preparation.EXPERIENCES of summary reports and working papers.Research Assistant,06/2014-PresentSt. Joseph's Healthcare System\u2013Paramus,NJ,Primary duties include: Applying epidemiologic methods to understand DNA abnormalities in male reproductive health using fluorescence in situ hybridization (FISH) techniques in the GW Men's Health Study (MHS) population; Evaluating data collection, conducting data quality control, and utilizing statistical methods to study epidemiological problems in reproductive public health; Applying epidemiologic methods to identify and interpret associations between FISH data, urinary bio-marker data, and self-reported questionnaire data from the MHS population; sample collection and analysis; critically reviewing, abstracting environmental health research; Overseeing research proposals, grants, and manuscript preparation; Designing, planning and initiating epidemiologic studies using available sources of public health data; Overseeing the recruitment of study participants and data collection in the MHS; and managing lab associates and graduate students in epidemiologic study protocols and laboratory experiment protocols.Environmental Health and Safety Intern,06/2013-08/2013Alamo Group\u2013,,Primary duties included: Critically reviewed environmental safety and health regulations; devel- oped Board procedural programs and operating guidance on health/environmental risks assessment; reviewing workplace projects and providing training in health and safety procedures to Federal Reserve Board employees; reviewing and interpreting federal hazard communication legislation to assure Board compliance; wrote evaluation reports documenting compliance and recommendations; writing program documents identifying roles and responsibilities in areas such as hearing conserva- tion, respiratory protection, etc.Graduate Teaching Assistant,08/2012-12/2015Ohsu\u2013,,Primary duties included: Assisting with various environmental and occupational health courses, including \"Environmental and Occupational Epidemiology\" and \"Toxicology: Implications for Public Health Policy\"; managing students over multiple courses; leading organized classroom discussions; serving as liaison between instructors and students; and grading of assignments and exams.\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Paramus,NJ",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2014",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nParamus,NJ | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryHighly motivated Sales Associate with extensive customer service and sales experience. Outgoing sales professional with track record of driving increased sales, improving buying experience and elevating company profile with target market.\nHighlightsSTATA programming, R programming, SAS programming, GIS, NVIVO, Microsoft Office\nExperienceData Analyst Consultant,09/2014-01/2015C.H. Robinson Worldwide, Inc.\u2013,,Conducting research and assisting with technical analyses of continued issues related to human exposure to contaminants in the environment; researching and understanding pollution control operations, and assessing the risks to human health and the environment from the application of wastewater effluent in wetland areas; conducting human bio-assays and other laboratory bench work to determine the estrogenicity of wastewater effluent; evaluating pollution control technologies; evaluating alternatives to wastewater chlorination; and overseeing the training of other laboratory assistants.Primary duties included: Provided analytical research and technical support for the Zimbabwe Health Results Based Financing Project Impact Evaluation.Duties include: Management of data received in the field, building statistical models from the data, and assisting with preparation.EXPERIENCES of summary reports and working papers.Research Assistant,06/2014-PresentSt. Joseph's Healthcare System\u2013Paramus,NJ,Primary duties include: Applying epidemiologic methods to understand DNA abnormalities in male reproductive health using fluorescence in situ hybridization (FISH) techniques in the GW Men's Health Study (MHS) population; Evaluating data collection, conducting data quality control, and utilizing statistical methods to study epidemiological problems in reproductive public health; Applying epidemiologic methods to identify and interpret associations between FISH data, urinary bio-marker data, and self-reported questionnaire data from the MHS population; sample collection and analysis; critically reviewing, abstracting environmental health research; Overseeing research proposals, grants, and manuscript preparation; Designing, planning and initiating epidemiologic studies using available sources of public health data; Overseeing the recruitment of study participants and data collection in the MHS; and managing lab associates and graduate students in epidemiologic study protocols and laboratory experiment protocols.Environmental Health and Safety Intern,06/2013-08/2013Alamo Group\u2013,,Primary duties included: Critically reviewed environmental safety and health regulations; devel- oped Board procedural programs and operating guidance on health/environmental risks assessment; reviewing workplace projects and providing training in health and safety procedures to Federal Reserve Board employees; reviewing and interpreting federal hazard communication legislation to assure Board compliance; wrote evaluation reports documenting compliance and recommendations; writing program documents identifying roles and responsibilities in areas such as hearing conserva- tion, respiratory protection, etc.Graduate Teaching Assistant,08/2012-12/2015Ohsu\u2013,,Primary duties included: Assisting with various environmental and occupational health courses, including \"Environmental and Occupational Epidemiology\" and \"Toxicology: Implications for Public Health Policy\"; managing students over multiple courses; leading organized classroom discussions; serving as liaison between instructors and students; and grading of assignments and exams.\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2014\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0202",
+  "job_family": "marketing",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfessional SummaryHighly motivated Sales Associate with extensive customer service and sales experience. Outgoing sales professional with track record of driving increased sales, improving buying experience and elevating company profile with target market.\nCore QualificationsFamiliar with PLC and C/C++ programing and editingFluent with: Microsoft Office: PowerPoint, Word, Excel, MS Project, FrontPageUsed Basic CAD: P Spice, Power Station ETAP, Matlab, Electronic WorkbenchBilingual (English, Arabic) FluentCoaching and mentoring kids\nExperienceAccount Manager,06/2014-PresentMenzies Aviation\u2013Miami,FL,PSC is an automation and control company.Played several roles in this positions.Application Engineering: Provided instrumentation, control and automation solutions for I&C projects Account Management: Managed existing and future developed accounts in Houston metro-area Project Management: Managed multiple small projects including estimating and scheduling Business/ Project Development: Sales process for complex accounts, project development process Assisted clients with technical applications including design, PLC modifications, instrument recommendation and automation solutions Additional Role: Attended and arranged events, trade shows, Lunch & Learns and training seminars Assisted in product marketing and product management.Business Development Manager,01/2005-06/2014Aegion Corp\u2013Columbus,OH,ITS is a small engineering licensed firm in Louisiana, technical contract staff and engineering recruiting.Started in sales to assist this small business grow and maintain a steady sales pipeline.Assisted in several aspects of the business, from simple engineering, marketing, contract negations and full cycle recruiting.Business Development: developed new business and identified prospective clients, starting from Baton Rouge covering the Gulf-coast region.Called on engineering firms, refineries, manufacturing and the petrochemical industry Recruiting: Full cycle recruiting engineering, technical contract and direct hire staff.Preparation and negotiation of contract and subcontract documents reviewing and authorizing change orders.Project Manager,01/2004-01/2004Emcor Group, Inc.\u2013Mount Orab,OH,Recruited from College to start after graduation.Official title is Project Manager.Role day to day: Managed electrical construction projects, Sending RFQ's & Bidding, Review Plans, Specs and Documents, Prepared Material take-offs; Obtained best available prices for material and subcontractors (quoted and standard pricing); Prepared man-hour analysis.Estimator: Material submittals: Obtained Stock list, prepare & send orders to suppliers.Obtained submittal drawings for timely reviews by owner, timely follow-up with suppliers and obtained delivery time.Plan/spec review, analysis and problem solving.Electrical Engineer,-\u2013,,Reviewed and edited electrical block diagrams and drawings.\nEducationB.S:Electrical Engineering,Expected inMay 2004-Iowa State University-,GPA:Status-Electrical EngineeringOlympic Developmental Program State Select Teams - LSA ODP (U11-U15): Trained and managed the team\nAcademy Trainer (Coach) with Eclipse Soccer Club, Sugar Land, TX -2015 & 2016 (max 10 hours/ week):,Expected in-Middle School & High school Coach-,GPA:Status-Managed, prepared and trained the team\nCredentials: USSF National B, NSCAA Advanced National Diploma, USSF D License (National), USSF National Youth, NSCAA National Diploma\nThis role required time management, team leader, parent organizer, dealing with pressure, dedication and winner\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Excel, MS",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2014",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "College to start after graduation.Official titl"
+  },
+  "text": "Jordan Avery\nExcel, MS | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfessional SummaryHighly motivated Sales Associate with extensive customer service and sales experience. Outgoing sales professional with track record of driving increased sales, improving buying experience and elevating company profile with target market.\nCore QualificationsFamiliar with PLC and C/C++ programing and editingFluent with: Microsoft Office: PowerPoint, Word, Excel, MS Project, FrontPageUsed Basic CAD: P Spice, Power Station ETAP, Matlab, Electronic WorkbenchBilingual (English, Arabic) FluentCoaching and mentoring kids\nExperienceAccount Manager,06/2014-PresentMenzies Aviation\u2013Miami,FL,PSC is an automation and control company.Played several roles in this positions.Application Engineering: Provided instrumentation, control and automation solutions for I&C projects Account Management: Managed existing and future developed accounts in Houston metro-area Project Management: Managed multiple small projects including estimating and scheduling Business/ Project Development: Sales process for complex accounts, project development process Assisted clients with technical applications including design, PLC modifications, instrument recommendation and automation solutions Additional Role: Attended and arranged events, trade shows, Lunch & Learns and training seminars Assisted in product marketing and product management.Business Development Manager,01/2005-06/2014Aegion Corp\u2013Columbus,OH,ITS is a small engineering licensed firm in Louisiana, technical contract staff and engineering recruiting.Started in sales to assist this small business grow and maintain a steady sales pipeline.Assisted in several aspects of the business, from simple engineering, marketing, contract negations and full cycle recruiting.Business Development: developed new business and identified prospective clients, starting from Baton Rouge covering the Gulf-coast region.Called on engineering firms, refineries, manufacturing and the petrochemical industry Recruiting: Full cycle recruiting engineering, technical contract and direct hire staff.Preparation and negotiation of contract and subcontract documents reviewing and authorizing change orders.Project Manager,01/2004-01/2004Emcor Group, Inc.\u2013Mount Orab,OH,Recruited from College to start after graduation.Official title is Project Manager.Role day to day: Managed electrical construction projects, Sending RFQ's & Bidding, Review Plans, Specs and Documents, Prepared Material take-offs; Obtained best available prices for material and subcontractors (quoted and standard pricing); Prepared man-hour analysis.Estimator: Material submittals: Obtained Stock list, prepare & send orders to suppliers.Obtained submittal drawings for timely reviews by owner, timely follow-up with suppliers and obtained delivery time.Plan/spec review, analysis and problem solving.Electrical Engineer,-\u2013,,Reviewed and edited electrical block diagrams and drawings.\nEducationB.S:Electrical Engineering,Expected inMay 2004-Iowa State University-,GPA:Status-Electrical EngineeringOlympic Developmental Program State Select Teams - LSA ODP (U11-U15): Trained and managed the team\nAcademy Trainer (Coach) with Eclipse Soccer Club, Sugar Land, TX -2015 & 2016 (max 10 hours/ week):,Expected in-Middle School & High school Coach-,GPA:Status-Managed, prepared and trained the team\nCredentials: USSF National B, NSCAA Advanced National Diploma, USSF D License (National), USSF National Youth, NSCAA National Diploma\nThis role required time management, team leader, parent organizer, dealing with pressure, dedication and winner\nEDUCATION & CREDENTIALS\nDegree / Program, College to start after graduation.Official titl, 2014\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

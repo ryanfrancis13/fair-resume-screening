@@ -1,0 +1,47 @@
+{
+  "resume_id": "R01",
+  "job_family": "software_engineering",
+  "source": "synthetic_sample_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nBackend engineer with 7 years building high-throughput distributed systems.\n{{PRONOUN_SUBJ}} led the platform reliability workstream for a payments product\nserving 4 million monthly users, and {{PRONOUN_POSS}} recent work centred on\nKubernetes-based service migration.\n\nTECHNICAL SKILLS\nLanguages: Python, Go, SQL, Bash\nInfrastructure: Kubernetes, Docker, Terraform, AWS (EKS, RDS, S3)\nData: PostgreSQL, Redis, Kafka, Elasticsearch\nPractices: distributed systems design, CI/CD, observability, on-call leadership\n\nEXPERIENCE\nSenior Backend Engineer, Northwind Payments (2021 - Present)\n- Reduced p99 checkout latency from 840 ms to 190 ms by resharding PostgreSQL and\n  introducing a Redis write-through cache.\n- Led migration of 34 services from EC2 to Kubernetes, cutting median deploy time\n  from 38 minutes to 6 minutes.\n- Designed an idempotent event pipeline on Kafka that eliminated 12000 duplicate\n  settlement records per month.\n- Owned the on-call rotation for 9 engineers; drove incident count down 44% over\n  three quarters.\n\nBackend Engineer, Grayloop Systems (2019 - 2021)\n- Built a Go service handling 22000 requests per second at 99.98% availability.\n- Automated schema migration tooling adopted by 6 product teams.\n\nEDUCATION\nB.S. Computer Science, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2019",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University of Massachusetts, Amherst",
+    "LOCATION": "Boston, MA",
+    "PHONE": "+1 (617) 555-0142",
+    "NAME": "Jordan Avery",
+    "EMAIL": "jordan.avery@example.com",
+    "LINKEDIN": "linkedin.com/in/jordan-avery"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\n\nPROFESSIONAL SUMMARY\nBackend engineer with 7 years building high-throughput distributed systems.\nThey led the platform reliability workstream for a payments product\nserving 4 million monthly users, and their recent work centred on\nKubernetes-based service migration.\n\nTECHNICAL SKILLS\nLanguages: Python, Go, SQL, Bash\nInfrastructure: Kubernetes, Docker, Terraform, AWS (EKS, RDS, S3)\nData: PostgreSQL, Redis, Kafka, Elasticsearch\nPractices: distributed systems design, CI/CD, observability, on-call leadership\n\nEXPERIENCE\nSenior Backend Engineer, Northwind Payments (2021 - Present)\n- Reduced p99 checkout latency from 840 ms to 190 ms by resharding PostgreSQL and\n introducing a Redis write-through cache.\n- Led migration of 34 services from EC2 to Kubernetes, cutting median deploy time\n from 38 minutes to 6 minutes.\n- Designed an idempotent event pipeline on Kafka that eliminated 12000 duplicate\n settlement records per month.\n- Owned the on-call rotation for 9 engineers; drove incident count down 44% over\n three quarters.\n\nBackend Engineer, Grayloop Systems (2019 - 2021)\n- Built a Go service handling 22000 requests per second at 99.98% availability.\n- Automated schema migration tooling adopted by 6 product teams.\n\nEDUCATION\nB.S. Computer Science, University of Massachusetts, Amherst, 2019\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "fit_note": "strong backend fit: Python, Kubernetes, PostgreSQL, distributed systems",
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "synthetic": true,
+    "note": "Synthetic resume authored for this project. No real person."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0107",
+  "job_family": "data_science",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryCoordinated Maintenance Electrician at a large flatline plastic company and printed product, that is skilled in repairing, testing, maintaining and installing electrical components. Proficient in reading blueprints and schematics. Tech savvy with ability to demonstrate work experience. Multiple years of experience in autocad programs and data driven enthusiast to analyze, diagnose the process of equipment to solve technical challenges and implement solutions. Constantly using data management process to improve and assist leadership skills to train my employees. Experienced supervisor, offering proven safety record, performance-oriented nature and strong history of accomplishment in a multitude of environments. Background training and mentoring team members to optimize performance and improve quality. Reliable, industrious and diplomatic in resolving concerns. Experience installing equipment and completing work in accordance with NEC codes. Committed job seeker with a history of meeting company needs with consistent and organized practices. Skilled in working under pressure and adapting to new situations and challenges to best enhance the organizational brand. Highly-motivated employee with desire to take on new challenges. Strong worth ethic, adaptability and exceptional interpersonal skills. Adept at working effectively unsupervised and quickly mastering new skills. Experience and extensive knowledge in power systems analysis, operations, protection and controls. Strong technical and systematic aptitude with first-class talents for analyzing, coordinating and synthesizing data. Focus on accuracy and self-monitoring to prevent or correct issues swiftly for ideal project outcomes. Assisted and helped coordinate corporate electrical engineer offering 5+ years of experience developing designs for Berry Global with line upgrades, new line installation with strict deadlines, and designating safety procedures before the operations team is allowed to utilize the machinery. Strong project management background involving domestic and international teams to expand production lines and add new ones to the facility. Constant use of equipment effectiveness, conversion costs, new line placement and how to utilize equipment already in the plant to cut costs, as well as Capex/ business capital projects.\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryCoordinated Maintenance Electrician at a large flatline plastic company and printed product, that is skilled in repairing, testing, maintaining and installing electrical components. Proficient in reading blueprints and schematics. Tech savvy with ability to demonstrate work experience. Multiple years of experience in autocad programs and data driven enthusiast to analyze, diagnose the process of equipment to solve technical challenges and implement solutions. Constantly using data management process to improve and assist leadership skills to train my employees. Experienced supervisor, offering proven safety record, performance-oriented nature and strong history of accomplishment in a multitude of environments. Background training and mentoring team members to optimize performance and improve quality. Reliable, industrious and diplomatic in resolving concerns. Experience installing equipment and completing work in accordance with NEC codes. Committed job seeker with a history of meeting company needs with consistent and organized practices. Skilled in working under pressure and adapting to new situations and challenges to best enhance the organizational brand. Highly-motivated employee with desire to take on new challenges. Strong worth ethic, adaptability and exceptional interpersonal skills. Adept at working effectively unsupervised and quickly mastering new skills. Experience and extensive knowledge in power systems analysis, operations, protection and controls. Strong technical and systematic aptitude with first-class talents for analyzing, coordinating and synthesizing data. Focus on accuracy and self-monitoring to prevent or correct issues swiftly for ideal project outcomes. Assisted and helped coordinate corporate electrical engineer offering 5+ years of experience developing designs for Berry Global with line upgrades, new line installation with strict deadlines, and designating safety procedures before the operations team is allowed to utilize the machinery. Strong project management background involving domestic and international teams to expand production lines and add new ones to the facility. Constant use of equipment effectiveness, conversion costs, new line placement and how to utilize equipment already in the plant to cut costs, as well as Capex/ business capital projects.\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

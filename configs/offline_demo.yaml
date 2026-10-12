@@ -1,0 +1,40 @@
+# Full pipeline, no API key, no network.
+#
+#   frs pipeline --config configs/offline_demo.yaml
+#
+# Uses the deterministic offline provider, which is a competent requirement-coverage
+# scorer rather than a stub, so the Phase-2 discrimination gate is a real check.
+# `llm.mock_bias` is empty here, which makes this a NULL condition: a well-behaved
+# audit should report no significant protected-attribute effect. To see the
+# instrument respond to a known effect instead, set for example
+#
+#   llm:
+#     mock_bias: {gender: {female: -3.0}}
+#
+# or run `frs validate-auditor`, which does both conditions and grades the suite.
+
+run_name: offline_demo
+seed: 20250831
+
+llm:
+  provider: mock
+  model: mock-rubric-v1
+  self_consistency_samples: 3
+  self_consistency_temperature: 0.4
+  mock_noise_sd: 1.5 # realistic decoding noise, so the noise floor is non-trivial
+  mock_bias: {}
+  requests_per_minute: 1000000 # the offline provider is unmetered
+  max_concurrency: 8
+  cache_enabled: true
+
+fairness:
+  bootstrap_iterations: 1000
+  permutation_iterations: 2000
+
+mitigation:
+  strategies:
+    - blind_screening
+    - debias_prompt
+    - counterfactual_marginalization
+    - sensitivity_gated_review
+    - cue_effect_debiasing

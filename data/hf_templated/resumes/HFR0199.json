@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0199",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nCareer OverviewTechnically-advanced information technology specialist successful in software administration and data communications.\nQualificationsProgramming and design skillsStrong analytical skillsExcellent problem solving skillsStrong collaborative skillsStructured query language (SQL) expertProficiency in TCP/IP protocolsUNIX/LINUX\nTechnical SkillsLanguages:Perl, Korn/ BASH shell, C shell, Sybase, C, C++, JavaScript, XML/HTML, Java, J2EE.Database System:  SQL Server 2000/2005, Oracle 9i/10g-PL/SQL, SAP R3/CRM/ERP, DB2, MS Access.SCM Tool:Rational ClearCase, ClearQuest, Serena Dimensions, Teamforge (GIT), BMC Remedy.Middleware:  JDBC, JMS, LDAP, SOAP, IIS, Apache, Websphere Message Broker(WMB), MQ Series, WebMethods, Iplanet, Policy DirectorWeb Servers:  Weblogic, Websphere, JBOSS, Apache Tomcat.Web Technologies:  Google Web Toolkit, HTML, JavaScript, CSS, XML, XSLT.Platform:  UNIX, Linux, AIX, Solaris, Microsoft Windows 7/8/10.\nEducation and Training:Java Web Development Certified Profressional,Expected in2004-Learning Tree International-Reston,VAGPA:Status-:Unix Systems Administration,Expected in2003-Learning Tree International-Reston,VAGPA:Status-Bachelor of Science:Computer Science,Expected in2001-George Mason University-Fairfax,VAGPA:Status-:Microsoft Certified Professional (MCP),Expected in2000-Nextec Inc.-Herndon,VAGPA:Status-:Information System and Networking,Expected in1996-Northern Virginia Community College-Fairfax,VAGPA:Status-\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Boston, MA",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2000",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University-Fairfax"
+  },
+  "text": "Jordan Avery\nBoston, MA | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nCareer OverviewTechnically-advanced information technology specialist successful in software administration and data communications.\nQualificationsProgramming and design skillsStrong analytical skillsExcellent problem solving skillsStrong collaborative skillsStructured query language (SQL) expertProficiency in TCP/IP protocolsUNIX/LINUX\nTechnical SkillsLanguages:Perl, Korn/ BASH shell, C shell, Sybase, C, C++, JavaScript, XML/HTML, Java, J2EE.Database System:  SQL Server 2000/2005, Oracle 9i/10g-PL/SQL, SAP R3/CRM/ERP, DB2, MS Access.SCM Tool:Rational ClearCase, ClearQuest, Serena Dimensions, Teamforge (GIT), BMC Remedy.Middleware:  JDBC, JMS, LDAP, SOAP, IIS, Apache, Websphere Message Broker(WMB), MQ Series, WebMethods, Iplanet, Policy DirectorWeb Servers:  Weblogic, Websphere, JBOSS, Apache Tomcat.Web Technologies:  Google Web Toolkit, HTML, JavaScript, CSS, XML, XSLT.Platform:  UNIX, Linux, AIX, Solaris, Microsoft Windows 7/8/10.\nEducation and Training:Java Web Development Certified Profressional,Expected in2004-Learning Tree International-Reston,VAGPA:Status-:Unix Systems Administration,Expected in2003-Learning Tree International-Reston,VAGPA:Status-Bachelor of Science:Computer Science,Expected in2001-George Mason University-Fairfax,VAGPA:Status-:Microsoft Certified Professional (MCP),Expected in2000-Nextec Inc.-Herndon,VAGPA:Status-:Information System and Networking,Expected in1996-Northern Virginia Community College-Fairfax,VAGPA:Status-\nEDUCATION & CREDENTIALS\nDegree / Program, University-Fairfax, 2000\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

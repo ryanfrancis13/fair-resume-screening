@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0008",
+  "job_family": "marketing",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummaryTo participate as a team member in a dynamic work environment focused on promoting business growth and building\nUniversity popularity by providing superior value and service. Effective as a team member and as an individual. Experienced customer service representative          Experience with Oracle PeopleSoft SIS with excellent communication skills          Highly proficient in Slate CRM systems Enthusiastic, resourceful and enjoy challenges          Passionate about prospective student access Capable of effectively communicating at          to opportunity various levels with individuals and groups\nCore QualificationsGuest servicesInventory control proceduresMerchandising expertiseLoss preventionCash register operationsProduct promotions\nProfessional Experience08/2014toCurrentData ProcessorAltus Group Limited\u2013Dallas,TX,Process and verify prospective student application materials.Ensure data integrity for accurate dissemination among all offices of enrollment services.Manage email marketing campaigns for various high school level search name purchases.Advise applicants on various requirements, deadlines, and application status to drive application completion.06/2013to08/2013Executive AssistantAmerican Well\u2013Cleveland,OH,Prepared papers/reports for consideration and presentation by head Chartered Accountant.Responsible for all aspects of the day to day running of the filing, copying, and report writing.Maintained expense reports of personal projects for head C.A.02/2011to05/2014Admissions AssistantMiddlebury College\u2013Middlebury,VT,Greet visitors, conduct tours as needed, provide basic information regarding the University.Interact with a large number of staff, students (pre-college), faculty, and parents.Promote a positive work atmosphere by behaving and communicating in a manner that supports students, staff, parents, and general public.Maintain confidentiality of student records.10/2010to04/2014Assistant Cross-Country CoachPlatte Canyon District\u2013Bailey,CO,Communicate goals and expectations to team members.Lead team practices during scheduled summer weekdays.Promote a constructive and safe learning environment to allow runners of all levels to advance both as athletes as well as mindful students.\nEducation and TrainingExpected in2014 to Bachelor of Arts:Liberal Arts Environmental StudiesSoka University of America-Aliso Viejo,CaliforniaGPA:Dean's List MemberLiberal Arts Environmental Studies Dean's List MemberExpected in2012 to Intensive Language Program:La Universidad de San Francisco de Quito  Cumbaya-Quito,GPA:\nSkillsAccountant, basic, C, copying, email, expense reports, filing, marketing, materials, report writing\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Dallas,TX",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "University popularity by providing superior value"
+  },
+  "text": "Jordan Avery\nDallas,TX | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummaryTo participate as a team member in a dynamic work environment focused on promoting business growth and building\nUniversity popularity by providing superior value and service. Effective as a team member and as an individual. Experienced customer service representative          Experience with Oracle PeopleSoft SIS with excellent communication skills          Highly proficient in Slate CRM systems Enthusiastic, resourceful and enjoy challenges          Passionate about prospective student access Capable of effectively communicating at          to opportunity various levels with individuals and groups\nCore QualificationsGuest servicesInventory control proceduresMerchandising expertiseLoss preventionCash register operationsProduct promotions\nProfessional Experience08/2014toCurrentData ProcessorAltus Group Limited\u2013Dallas,TX,Process and verify prospective student application materials.Ensure data integrity for accurate dissemination among all offices of enrollment services.Manage email marketing campaigns for various high school level search name purchases.Advise applicants on various requirements, deadlines, and application status to drive application completion.06/2013to08/2013Executive AssistantAmerican Well\u2013Cleveland,OH,Prepared papers/reports for consideration and presentation by head Chartered Accountant.Responsible for all aspects of the day to day running of the filing, copying, and report writing.Maintained expense reports of personal projects for head C.A.02/2011to05/2014Admissions AssistantMiddlebury College\u2013Middlebury,VT,Greet visitors, conduct tours as needed, provide basic information regarding the University.Interact with a large number of staff, students (pre-college), faculty, and parents.Promote a positive work atmosphere by behaving and communicating in a manner that supports students, staff, parents, and general public.Maintain confidentiality of student records.10/2010to04/2014Assistant Cross-Country CoachPlatte Canyon District\u2013Bailey,CO,Communicate goals and expectations to team members.Lead team practices during scheduled summer weekdays.Promote a constructive and safe learning environment to allow runners of all levels to advance both as athletes as well as mindful students.\nEducation and TrainingExpected in2014 to Bachelor of Arts:Liberal Arts Environmental StudiesSoka University of America-Aliso Viejo,CaliforniaGPA:Dean's List MemberLiberal Arts Environmental Studies Dean's List MemberExpected in2012 to Intensive Language Program:La Universidad de San Francisco de Quito  Cumbaya-Quito,GPA:\nSkillsAccountant, basic, C, copying, email, expense reports, filing, marketing, materials, report writing\nEDUCATION & CREDENTIALS\nDegree / Program, University popularity by providing superior value, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

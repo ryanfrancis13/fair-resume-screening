@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0623",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nSummary5+ years of work experience in Software QA and testing. Experience working in Automation & Manual testing\n*Experience in Software Testing for Android and Windows Mobiles/tablet devices and web-site testing\n*Experience working in Agile and Scrum environment\nHighlightsPython, Perl, SQL\nTools: \tAppium, Android debugging tools (ADB), Microsoft Windows SDK and WDK, Microsoft Windows debugger tools, Wireshark, Microsoft Putty, Qualcomm tools, Microsoft Visio, Jenkins, Quality Center, HP ALM, Bugzilla, Jira, Selenium web-driver\nNetworking:\tTCP/IP, LAN, WAN, Cisco Network Configurations\nPlatforms:\tAndroid, Windows-Mobile, iOS, Windows-PC, Linux\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Quality Center, HP",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2018",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "State University"
+  },
+  "text": "Jordan Avery\nQuality Center, HP | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nSummary5+ years of work experience in Software QA and testing. Experience working in Automation & Manual testing\n*Experience in Software Testing for Android and Windows Mobiles/tablet devices and web-site testing\n*Experience working in Agile and Scrum environment\nHighlightsPython, Perl, SQL\nTools: \tAppium, Android debugging tools (ADB), Microsoft Windows SDK and WDK, Microsoft Windows debugger tools, Wireshark, Microsoft Putty, Qualcomm tools, Microsoft Visio, Jenkins, Quality Center, HP ALM, Bugzilla, Jira, Selenium web-driver\nNetworking:\tTCP/IP, LAN, WAN, Cisco Network Configurations\nPlatforms:\tAndroid, Windows-Mobile, iOS, Windows-PC, Linux\nEDUCATION & CREDENTIALS\nDegree / Program, State University, 2018\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}

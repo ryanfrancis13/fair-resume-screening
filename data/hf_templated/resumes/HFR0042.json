@@ -1,0 +1,45 @@
+{
+  "resume_id": "HFR0042",
+  "job_family": "software_engineering",
+  "source": "huggingface_resume_job_fit_augmented",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nProfileActively seeking full time opportunities in computer engineering to build a career in engineering industry and to work with a leading corporate hi-tech environment along with a team of committed & dedicated people.\nCore QualificationsProgramming skills: C/C++, MATLAB, Java. Verilog, MIPS, Python,Linux\nSoftware skills: Eclipse, Net Beans, E-Tap, AutoCAD, Quartus, Open stack, Open Nebula, Open MP, Putty, Docker, Mininet, MS Office.\nEquipment used:  Oscillator, Logic analyze, Signal generator, Ubuntu, Virtual Box, VMware.\nNetworking Protocols:- TCP/IP, UDP,IPv4,Ipv6,EIGR,DNS,VPN,SDN,MPLS,BGP,OSPF,ARP,DHCP,MPLS,SNMP,.\nEducationSouthern Methodist UniversityDallas,TXExpected inMay 2017\u2013\u2013Bobby B. Lyle school of Engineering          Grad:-GPA:,Expected in\u2013\u2013M.S:Computer Engineering-GPA:Computer Engineering 3.72/4.00Mumbai University,Expected inMay 2014\u2013\u2013B.E:Electrical Engineering-GPA:Electrical Engineering\nProfessional ExperienceOshkosh Corp.-Lab/Student monitor Student Assistant,,08/2017-PresentActively monitor students.Organize schedules.Provide technical assistance for lab devices.Maintain order in study hall.Technical presenter in national -level competition Nirman 2014          February-2014\nPaper Title: 'Medium Voltage Circuit Breaker Simulator'.Secretary of Electrical Engineers Students Association (EESA)          Aug 12- May- 13.Led a team in planning executing the entire departmental fest 'Vidyut' organized by EESA.A Member of Creative and the sponsorship committee for the college technical fest \"Vectors\" in the year 2012-2013.Was a Member of the organizing committee for blood donation camp organized in college by BOMBAY Hospital.Power Consultants-Trainee Electrical Engineer,,08/2017-02/2017Was responsible for relay settings for Electrical Equipment's used in the Substations and preparation of electrical drawing\nUsing AutoCAD-2010 which includes one-line diagram, area classification, layout drawings, schematic, interconnection\nDiagram, detailed installation drawings, etc.for 200KV, 33KV, 11KV, 6.6KV, 3.3KV and 415V systems.Siemens LTD-Intern,,06/2017-07/2017Build a Medium Voltage Circuit Breaker Simulator which was used for testing of the Panels in the absence of an\nactual Circuit Breaker.Engineering project:.Process and Memory Management for an Operating System: - Designed and implemented a simulated OS using Java for general process and memory management which included designing a Process Control Block (PCB) using doubly linked list and the scheduling algorithm scheduled the processes according to Shortest Job First, Non-preemptive Priority scheduling, First Cum First Serve and Round Robin algorithms.Memory management for the processes were implemented where each process was assigned a memory on the basis of first fit, best fit & worst fit algorithms.Literature review on Comparison of various Encryption Algorithms for security of smart Cards: -\n\nEDUCATION & CREDENTIALS\nDegree / Program, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}",
+  "baseline_slots": {
+    "NAME": "Jordan Avery",
+    "LOCATION": "Mininet, MS",
+    "EMAIL": "jordan.avery@example.com",
+    "PHONE": "+1 (617) 555-0142",
+    "LINKEDIN": "linkedin.com/in/jordan-avery",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "AFFILIATION": "Member, Professional Association (2 years)",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food bank",
+    "GRAD_YEAR": "2017",
+    "EARLY_CAREER_NOTE": "",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "UNIVERSITY": "UniversityDallas"
+  },
+  "text": "Jordan Avery\nMininet, MS | jordan.avery@example.com | +1 (617) 555-0142 | linkedin.com/in/jordan-avery\nProfileActively seeking full time opportunities in computer engineering to build a career in engineering industry and to work with a leading corporate hi-tech environment along with a team of committed & dedicated people.\nCore QualificationsProgramming skills: C/C++, MATLAB, Java. Verilog, MIPS, Python,Linux\nSoftware skills: Eclipse, Net Beans, E-Tap, AutoCAD, Quartus, Open stack, Open Nebula, Open MP, Putty, Docker, Mininet, MS Office.\nEquipment used:  Oscillator, Logic analyze, Signal generator, Ubuntu, Virtual Box, VMware.\nNetworking Protocols:- TCP/IP, UDP,IPv4,Ipv6,EIGR,DNS,VPN,SDN,MPLS,BGP,OSPF,ARP,DHCP,MPLS,SNMP,.\nEducationSouthern Methodist UniversityDallas,TXExpected inMay 2017\u2013\u2013Bobby B. Lyle school of Engineering          Grad:-GPA:,Expected in\u2013\u2013M.S:Computer Engineering-GPA:Computer Engineering 3.72/4.00Mumbai University,Expected inMay 2014\u2013\u2013B.E:Electrical Engineering-GPA:Electrical Engineering\nProfessional ExperienceOshkosh Corp.-Lab/Student monitor Student Assistant,,08/2017-PresentActively monitor students.Organize schedules.Provide technical assistance for lab devices.Maintain order in study hall.Technical presenter in national -level competition Nirman 2014          February-2014\nPaper Title: 'Medium Voltage Circuit Breaker Simulator'.Secretary of Electrical Engineers Students Association (EESA)          Aug 12- May- 13.Led a team in planning executing the entire departmental fest 'Vidyut' organized by EESA.A Member of Creative and the sponsorship committee for the college technical fest \"Vectors\" in the year 2012-2013.Was a Member of the organizing committee for blood donation camp organized in college by BOMBAY Hospital.Power Consultants-Trainee Electrical Engineer,,08/2017-02/2017Was responsible for relay settings for Electrical Equipment's used in the Substations and preparation of electrical drawing\nUsing AutoCAD-2010 which includes one-line diagram, area classification, layout drawings, schematic, interconnection\nDiagram, detailed installation drawings, etc.for 200KV, 33KV, 11KV, 6.6KV, 3.3KV and 415V systems.Siemens LTD-Intern,,06/2017-07/2017Build a Medium Voltage Circuit Breaker Simulator which was used for testing of the Panels in the absence of an\nactual Circuit Breaker.Engineering project:.Process and Memory Management for an Operating System: - Designed and implemented a simulated OS using Java for general process and memory management which included designing a Process Control Block (PCB) using doubly linked list and the scheduling algorithm scheduled the processes according to Shortest Job First, Non-preemptive Priority scheduling, First Cum First Serve and Round Robin algorithms.Memory management for the processes were implemented where each process was assigned a memory on the basis of first fit, best fit & worst fit algorithms.Literature review on Comparison of various Encryption Algorithms for security of smart Cards: -\nEDUCATION & CREDENTIALS\nDegree / Program, UniversityDallas, 2017\nADDITIONAL INFORMATION\nAffiliations: Member, Professional Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food bank\nInterests: Long-distance running, chess",
+  "meta": {
+    "declared_slots": [
+      "NAME",
+      "LOCATION",
+      "EMAIL",
+      "PHONE",
+      "LINKEDIN",
+      "PRONOUN_SUBJ",
+      "PRONOUN_POSS",
+      "AFFILIATION",
+      "LANGUAGES",
+      "CULTURAL_ACTIVITY",
+      "GRAD_YEAR",
+      "EARLY_CAREER_NOTE",
+      "HOBBIES",
+      "FUNDING_NOTE",
+      "UNIVERSITY"
+    ],
+    "augmented_with_cues": true,
+    "original_source": "cnamuangtoun/resume-job-description-fit"
+  }
+}
