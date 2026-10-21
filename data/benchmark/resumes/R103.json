@@ -1,0 +1,88 @@
+{
+  "resume_id": "R103",
+  "job_family": "human_resources",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nHR Business Partner with 4 years of experience in human resources.\n{{PRONOUN_SUBJ}} led campus recruitment drive, and {{PRONOUN_POSS}} recent work centred on annual appraisal cycle.\n\nSKILLS\nCore: Employee Engagement, Onboarding, Labour Law Compliance, Performance Management\nAdditional: Campus Hiring\n\nEXPERIENCE\nHR Business Partner, Narmada Retail (2024 - Present)\n- Applied Performance Management across campus recruitment drive, improving offer acceptance rate by 21%.\n- Owned policy refresh using Onboarding, improving offer acceptance rate by 37%.\n- Redesigned annual appraisal cycle using Labour Law Compliance, improving time-to-hire by 42%.\n\nHR Executive, Kaziranga Services (2022 - 2024)\n- Applied Campus Hiring across campus recruitment drive, improving offer acceptance rate by 22%.\n- Streamlined policy refresh for 120 employees, drawing on Employee Engagement to improve retention by 14%.\n\nEDUCATION\nMBA in Human Resources, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 49221",
+    "AFFILIATION": "Member, HR Association Student Chapter (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2022"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 49221 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nHR Business Partner with 4 years of experience in human resources.\nThey led campus recruitment drive, and their recent work centred on annual appraisal cycle.\n\nSKILLS\nCore: Employee Engagement, Onboarding, Labour Law Compliance, Performance Management\nAdditional: Campus Hiring\n\nEXPERIENCE\nHR Business Partner, Narmada Retail (2024 - Present)\n- Applied Performance Management across campus recruitment drive, improving offer acceptance rate by 21%.\n- Owned policy refresh using Onboarding, improving offer acceptance rate by 37%.\n- Redesigned annual appraisal cycle using Labour Law Compliance, improving time-to-hire by 42%.\n\nHR Executive, Kaziranga Services (2022 - 2024)\n- Applied Campus Hiring across campus recruitment drive, improving offer acceptance rate by 22%.\n- Streamlined policy refresh for 120 employees, drawing on Employee Engagement to improve retention by 14%.\n\nEDUCATION\nMBA in Human Resources, Christ University, 2022\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, HR Association Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 4,
+    "true_qualification": 0.24,
+    "skills": [
+      "Campus Hiring",
+      "Employee Engagement",
+      "Labour Law Compliance",
+      "Onboarding",
+      "Performance Management"
+    ],
+    "skills_all": [
+      "Talent Acquisition",
+      "Employee Engagement",
+      "Payroll Processing",
+      "HRIS",
+      "Performance Management",
+      "Onboarding",
+      "Labour Law Compliance",
+      "Compensation Benchmarking",
+      "Stakeholder Management",
+      "Workday",
+      "Learning and Development",
+      "HR Analytics",
+      "Campus Hiring",
+      "Employer Branding",
+      "Succession Planning"
+    ],
+    "employers": [
+      "Kaziranga Services",
+      "Narmada Retail"
+    ],
+    "titles": [
+      "HR Business Partner",
+      "HR Executive"
+    ],
+    "degree": "MBA in Human Resources",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Tata Institute of Social Sciences, Mumbai",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

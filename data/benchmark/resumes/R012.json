@@ -1,0 +1,88 @@
+{
+  "resume_id": "R012",
+  "job_family": "finance",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nFinancial Analyst with 6 years of experience in corporate finance.\n{{PRONOUN_SUBJ}} managed cost-centre review process, and {{PRONOUN_POSS}} recent work centred on vendor payment cycle.\n\nWORK HISTORY\nFinancial Analyst, Godavari Finserv (2023 - Present)\n- Streamlined working-capital programme for 40 accounts, drawing on Tally to improve cost savings by 26%.\n- Redesigned monthly close cycle for 2500 accounts, drawing on Audit to improve cost savings by 8%.\n- Automated quarterly board reporting using Variance Analysis, improving close timeline by 39%.\n\nFinance Associate, Hoysala Group (2020 - 2023)\n- Delivered monthly close cycle for 40 accounts, drawing on Audit to improve cost savings by 36%.\n- Applied Ind AS across cost-centre review process, improving forecast accuracy by 13%.\n\nCORE COMPETENCIES\nCore: Tally, Financial Reporting, Variance Analysis, Ind AS\nAdditional: Audit\n\nACADEMIC BACKGROUND\nMBA in Finance, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 54460",
+    "AFFILIATION": "Member, Finance Club (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2020"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 54460\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nFinancial Analyst with 6 years of experience in corporate finance.\nThey managed cost-centre review process, and their recent work centred on vendor payment cycle.\n\nWORK HISTORY\nFinancial Analyst, Godavari Finserv (2023 - Present)\n- Streamlined working-capital programme for 40 accounts, drawing on Tally to improve cost savings by 26%.\n- Redesigned monthly close cycle for 2500 accounts, drawing on Audit to improve cost savings by 8%.\n- Automated quarterly board reporting using Variance Analysis, improving close timeline by 39%.\n\nFinance Associate, Hoysala Group (2020 - 2023)\n- Delivered monthly close cycle for 40 accounts, drawing on Audit to improve cost savings by 36%.\n- Applied Ind AS across cost-centre review process, improving forecast accuracy by 13%.\n\nCORE COMPETENCIES\nCore: Tally, Financial Reporting, Variance Analysis, Ind AS\nAdditional: Audit\n\nACADEMIC BACKGROUND\nMBA in Finance, Christ University, 2020\n\n\nPERSONAL DETAILS\nAffiliations: Member, Finance Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 6,
+    "true_qualification": 0.35,
+    "skills": [
+      "Audit",
+      "Financial Reporting",
+      "Ind AS",
+      "Tally",
+      "Variance Analysis"
+    ],
+    "skills_all": [
+      "Financial Modelling",
+      "Advanced Excel",
+      "Budgeting",
+      "Forecasting",
+      "Financial Reporting",
+      "Variance Analysis",
+      "GST Compliance",
+      "Tally",
+      "Ind AS",
+      "SAP FICO",
+      "Power BI",
+      "Treasury Management",
+      "Audit",
+      "Valuation",
+      "SQL"
+    ],
+    "employers": [
+      "Godavari Finserv",
+      "Hoysala Group"
+    ],
+    "titles": [
+      "Finance Associate",
+      "Financial Analyst"
+    ],
+    "degree": "MBA in Finance",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Shri Ram College of Commerce, University of Delhi",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Commerce"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

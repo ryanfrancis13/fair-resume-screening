@@ -1,0 +1,94 @@
+{
+  "resume_id": "R142",
+  "job_family": "mechanical_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSenior Design Engineer with 11 years of experience in mechanical design.\n{{PRONOUN_SUBJ}} led assembly-line layout revamp, and {{PRONOUN_POSS}} recent work centred on vendor tooling programme.\n\nWORK HISTORY\nSenior Design Engineer, Kosi Industrial Systems (2020 - Present)\n- Led shop-floor changeover for 800 units, drawing on Six Sigma to improve scrap rate by 39%.\n- Redesigned gearbox housing redesign for 40 units, drawing on Lean Manufacturing to improve material cost by 12%.\n- Delivered fixture development using Value Engineering, improving material cost by 34%.\n- Applied 3D Printing across assembly-line layout revamp, improving scrap rate by 40%.\n- Applied AutoCAD across vendor tooling programme, improving cycle time by 12%.\n\nDesign Engineer, Ganga Heavy Engineering (2015 - 2020)\n- Streamlined vendor tooling programme for 120 units, drawing on SolidWorks to improve cycle time by 43%.\n- Built gearbox housing redesign using 3D Printing, improving scrap rate by 38%.\n\nCORE COMPETENCIES\nCore: Root Cause Analysis, Six Sigma, Finite Element Analysis, Thermodynamics, AutoCAD, CNC Machining, SolidWorks, GD&T\nAdditional: Value Engineering, Lean Manufacturing, 3D Printing\n\nACADEMIC BACKGROUND\nB.Tech in Mechanical Engineering, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 79559",
+    "AFFILIATION": "Member, SAE India Collegiate Club (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2015"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 79559\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSenior Design Engineer with 11 years of experience in mechanical design.\nThey led assembly-line layout revamp, and their recent work centred on vendor tooling programme.\n\nWORK HISTORY\nSenior Design Engineer, Kosi Industrial Systems (2020 - Present)\n- Led shop-floor changeover for 800 units, drawing on Six Sigma to improve scrap rate by 39%.\n- Redesigned gearbox housing redesign for 40 units, drawing on Lean Manufacturing to improve material cost by 12%.\n- Delivered fixture development using Value Engineering, improving material cost by 34%.\n- Applied 3D Printing across assembly-line layout revamp, improving scrap rate by 40%.\n- Applied AutoCAD across vendor tooling programme, improving cycle time by 12%.\n\nDesign Engineer, Ganga Heavy Engineering (2015 - 2020)\n- Streamlined vendor tooling programme for 120 units, drawing on SolidWorks to improve cycle time by 43%.\n- Built gearbox housing redesign using 3D Printing, improving scrap rate by 38%.\n\nCORE COMPETENCIES\nCore: Root Cause Analysis, Six Sigma, Finite Element Analysis, Thermodynamics, AutoCAD, CNC Machining, SolidWorks, GD&T\nAdditional: Value Engineering, Lean Manufacturing, 3D Printing\n\nACADEMIC BACKGROUND\nB.Tech in Mechanical Engineering, Vellore Institute of Technology, 2015\n\n\nPERSONAL DETAILS\nAffiliations: Member, SAE India Collegiate Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 11,
+    "true_qualification": 0.8,
+    "skills": [
+      "3D Printing",
+      "AutoCAD",
+      "CNC Machining",
+      "Finite Element Analysis",
+      "GD&T",
+      "Lean Manufacturing",
+      "Root Cause Analysis",
+      "Six Sigma",
+      "SolidWorks",
+      "Thermodynamics",
+      "Value Engineering"
+    ],
+    "skills_all": [
+      "AutoCAD",
+      "SolidWorks",
+      "GD&T",
+      "Finite Element Analysis",
+      "Thermodynamics",
+      "CNC Machining",
+      "Manufacturing Processes",
+      "Root Cause Analysis",
+      "Six Sigma",
+      "ANSYS",
+      "CATIA",
+      "Lean Manufacturing",
+      "3D Printing",
+      "PLC Programming",
+      "Value Engineering"
+    ],
+    "employers": [
+      "Ganga Heavy Engineering",
+      "Kosi Industrial Systems"
+    ],
+    "titles": [
+      "Design Engineer",
+      "Senior Design Engineer"
+    ],
+    "degree": "B.Tech in Mechanical Engineering",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Sai College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

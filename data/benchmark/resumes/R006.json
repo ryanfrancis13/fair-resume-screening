@@ -1,0 +1,91 @@
+{
+  "resume_id": "R006",
+  "job_family": "mechanical_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nGraduate Engineer Trainee with 2 years of experience in mechanical design.\n{{PRONOUN_SUBJ}} delivered vendor tooling programme, and {{PRONOUN_POSS}} recent work centred on heat-exchanger redesign.\n\nSKILLS\nCore: SolidWorks, AutoCAD, GD&T, Thermodynamics, Finite Element Analysis, Manufacturing Processes, Root Cause Analysis, Six Sigma\nAdditional: 3D Printing, Value Engineering\n\nEXPERIENCE\nGraduate Engineer Trainee, Sahyadri Auto Components (2024 - Present)\n- Streamlined gearbox housing redesign for 2500 units, drawing on Thermodynamics to improve first-pass yield by 44%.\n- Applied Value Engineering across shop-floor changeover, improving material cost by 9%.\n- Applied Manufacturing Processes across vendor tooling programme, improving scrap rate by 39%.\n\nEDUCATION\nB.Tech in Mechanical Engineering, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 44608",
+    "AFFILIATION": "Member, SAE India Collegiate Club (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2024"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 44608 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nGraduate Engineer Trainee with 2 years of experience in mechanical design.\nThey delivered vendor tooling programme, and their recent work centred on heat-exchanger redesign.\n\nSKILLS\nCore: SolidWorks, AutoCAD, GD&T, Thermodynamics, Finite Element Analysis, Manufacturing Processes, Root Cause Analysis, Six Sigma\nAdditional: 3D Printing, Value Engineering\n\nEXPERIENCE\nGraduate Engineer Trainee, Sahyadri Auto Components (2024 - Present)\n- Streamlined gearbox housing redesign for 2500 units, drawing on Thermodynamics to improve first-pass yield by 44%.\n- Applied Value Engineering across shop-floor changeover, improving material cost by 9%.\n- Applied Manufacturing Processes across vendor tooling programme, improving scrap rate by 39%.\n\nEDUCATION\nB.Tech in Mechanical Engineering, Vellore Institute of Technology, 2024\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, SAE India Collegiate Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 2,
+    "true_qualification": 0.83,
+    "skills": [
+      "3D Printing",
+      "AutoCAD",
+      "Finite Element Analysis",
+      "GD&T",
+      "Manufacturing Processes",
+      "Root Cause Analysis",
+      "Six Sigma",
+      "SolidWorks",
+      "Thermodynamics",
+      "Value Engineering"
+    ],
+    "skills_all": [
+      "AutoCAD",
+      "SolidWorks",
+      "GD&T",
+      "Finite Element Analysis",
+      "Thermodynamics",
+      "CNC Machining",
+      "Manufacturing Processes",
+      "Root Cause Analysis",
+      "Six Sigma",
+      "ANSYS",
+      "CATIA",
+      "Lean Manufacturing",
+      "3D Printing",
+      "PLC Programming",
+      "Value Engineering"
+    ],
+    "employers": [
+      "Sahyadri Auto Components"
+    ],
+    "titles": [
+      "Graduate Engineer Trainee"
+    ],
+    "degree": "B.Tech in Mechanical Engineering",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Sai College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

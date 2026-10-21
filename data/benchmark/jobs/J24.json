@@ -1,0 +1,26 @@
+{
+  "job_id": "J24",
+  "title": "Senior Sales Manager",
+  "job_family": "sales",
+  "min_years_experience": 6,
+  "must_have": [
+    "Negotiation",
+    "B2B Sales",
+    "Account Management",
+    "Cold Outreach",
+    "Client Presentations",
+    "6+ years of experience in business sales"
+  ],
+  "nice_to_have": [
+    "Market Mapping",
+    "Tender Responses",
+    "Channel Partnerships",
+    "Pipeline Management"
+  ],
+  "source": "india_synth_v1",
+  "text": "Senior Sales Manager\nPushkar Trading Group | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a senior sales manager to join our business sales team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- Negotiation\n- B2B Sales\n- Account Management\n- Cold Outreach\n- Client Presentations\n- 6+ years of experience in business sales\n\nNICE-TO-HAVE:\n- Market Mapping\n- Tender Responses\n- Channel Partnerships\n- Pipeline Management\n\nWHAT YOU WILL DO\n- Drive distributor network expansion with measurable outcomes.\n- Drive renewal cycle with measurable outcomes.\n- Drive festive-season quota delivery with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "resume_id": "R129",
+  "job_family": "software_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSoftware Engineer with 6 years of experience in software engineering.\n{{PRONOUN_SUBJ}} delivered payment reconciliation automation, and {{PRONOUN_POSS}} recent work centred on internal developer tooling.\n\nWORK HISTORY\nSoftware Engineer, Aravalli Digital (2023 - Present)\n- Applied Java across payment reconciliation automation, improving release frequency by 17%.\n- Built inventory synchronisation rollout using Kubernetes, improving response time by 27%.\n- Delivered notification delivery overhaul for 40 users, drawing on Go to improve defect rate by 8%.\n\nAssociate Software Engineer, Nilgiri Technologies (2020 - 2023)\n- Owned internal developer tooling for 40 users, drawing on AWS to improve release frequency by 28%.\n- Applied Microservices across inventory synchronisation rollout, improving defect rate by 32%.\n\nCORE COMPETENCIES\nCore: AWS, Microservices, System Design, Java, Git, Docker, REST APIs, SQL, Python\nAdditional: GraphQL, Go, Kubernetes, Redis, Terraform, Kafka\n\nACADEMIC BACKGROUND\nM.Tech in Computer Science, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 70909",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2020"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 70909\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSoftware Engineer with 6 years of experience in software engineering.\nThey delivered payment reconciliation automation, and their recent work centred on internal developer tooling.\n\nWORK HISTORY\nSoftware Engineer, Aravalli Digital (2023 - Present)\n- Applied Java across payment reconciliation automation, improving release frequency by 17%.\n- Built inventory synchronisation rollout using Kubernetes, improving response time by 27%.\n- Delivered notification delivery overhaul for 40 users, drawing on Go to improve defect rate by 8%.\n\nAssociate Software Engineer, Nilgiri Technologies (2020 - 2023)\n- Owned internal developer tooling for 40 users, drawing on AWS to improve release frequency by 28%.\n- Applied Microservices across inventory synchronisation rollout, improving defect rate by 32%.\n\nCORE COMPETENCIES\nCore: AWS, Microservices, System Design, Java, Git, Docker, REST APIs, SQL, Python\nAdditional: GraphQL, Go, Kubernetes, Redis, Terraform, Kafka\n\nACADEMIC BACKGROUND\nM.Tech in Computer Science, Vellore Institute of Technology, 2020\n\n\nPERSONAL DETAILS\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 6,
+    "true_qualification": 0.95,
+    "skills": [
+      "AWS",
+      "Docker",
+      "Git",
+      "Go",
+      "GraphQL",
+      "Java",
+      "Kafka",
+      "Kubernetes",
+      "Microservices",
+      "Python",
+      "REST APIs",
+      "Redis",
+      "SQL",
+      "System Design",
+      "Terraform"
+    ],
+    "skills_all": [
+      "Python",
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Docker",
+      "Git",
+      "Microservices",
+      "AWS",
+      "System Design",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "GraphQL",
+      "Go"
+    ],
+    "employers": [
+      "Aravalli Digital",
+      "Nilgiri Technologies"
+    ],
+    "titles": [
+      "Associate Software Engineer",
+      "Software Engineer"
+    ],
+    "degree": "M.Tech in Computer Science",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Bombay",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

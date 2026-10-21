@@ -1,0 +1,90 @@
+{
+  "resume_id": "R024",
+  "job_family": "sales",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nSales Manager with 6 years of experience in business sales.\n{{PRONOUN_SUBJ}} delivered channel onboarding, and {{PRONOUN_POSS}} recent work centred on enterprise accounts in the western region.\n\nSKILLS\nCore: CRM, B2B Sales, Lead Generation, Account Management, Negotiation, Cold Outreach\nAdditional: Channel Partnerships\n\nEXPERIENCE\nSales Manager, Pushkar Trading Group (2023 - Present)\n- Led enterprise accounts in the western region using Cold Outreach, improving average deal size by 28%.\n- Streamlined channel onboarding for 800 accounts, drawing on Account Management to improve quarterly revenue by 19%.\n- Streamlined distributor network expansion for 350 accounts, drawing on Lead Generation to improve quarterly revenue by 24%.\n\nSales Executive, Tapti Industries (2020 - 2023)\n- Delivered enterprise accounts in the western region for 350 accounts, drawing on Lead Generation to improve average deal size by 13%.\n- Applied Account Management across festive-season quota delivery, improving quarterly revenue by 43%.\n\nEDUCATION\nBBA, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 20644",
+    "AFFILIATION": "Member, Business Club (2 years)",
+    "UNIVERSITY": "Symbiosis International University",
+    "GRAD_YEAR": "2020"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 20644 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nSales Manager with 6 years of experience in business sales.\nThey delivered channel onboarding, and their recent work centred on enterprise accounts in the western region.\n\nSKILLS\nCore: CRM, B2B Sales, Lead Generation, Account Management, Negotiation, Cold Outreach\nAdditional: Channel Partnerships\n\nEXPERIENCE\nSales Manager, Pushkar Trading Group (2023 - Present)\n- Led enterprise accounts in the western region using Cold Outreach, improving average deal size by 28%.\n- Streamlined channel onboarding for 800 accounts, drawing on Account Management to improve quarterly revenue by 19%.\n- Streamlined distributor network expansion for 350 accounts, drawing on Lead Generation to improve quarterly revenue by 24%.\n\nSales Executive, Tapti Industries (2020 - 2023)\n- Delivered enterprise accounts in the western region for 350 accounts, drawing on Lead Generation to improve average deal size by 13%.\n- Applied Account Management across festive-season quota delivery, improving quarterly revenue by 43%.\n\nEDUCATION\nBBA, Symbiosis International University, 2020\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, Business Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 6,
+    "true_qualification": 0.44,
+    "skills": [
+      "Account Management",
+      "B2B Sales",
+      "CRM",
+      "Channel Partnerships",
+      "Cold Outreach",
+      "Lead Generation",
+      "Negotiation"
+    ],
+    "skills_all": [
+      "B2B Sales",
+      "Lead Generation",
+      "CRM",
+      "Negotiation",
+      "Account Management",
+      "Pipeline Management",
+      "Sales Forecasting",
+      "Cold Outreach",
+      "Client Presentations",
+      "Salesforce",
+      "Channel Partnerships",
+      "Upselling",
+      "Territory Planning",
+      "Tender Responses",
+      "Market Mapping"
+    ],
+    "employers": [
+      "Pushkar Trading Group",
+      "Tapti Industries"
+    ],
+    "titles": [
+      "Sales Executive",
+      "Sales Manager"
+    ],
+    "degree": "BBA",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Management Bangalore",
+      "mid": "Symbiosis International University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

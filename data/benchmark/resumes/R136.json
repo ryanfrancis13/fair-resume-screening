@@ -1,0 +1,89 @@
+{
+  "resume_id": "R136",
+  "job_family": "sales",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nSales Executive with 2 years of experience in business sales.\n{{PRONOUN_SUBJ}} managed channel onboarding, and {{PRONOUN_POSS}} recent work centred on enterprise accounts in the western region.\n\nSKILLS\nCore: Lead Generation, Pipeline Management, Cold Outreach, Sales Forecasting, B2B Sales, Negotiation\nAdditional: Tender Responses, Channel Partnerships\n\nEXPERIENCE\nSales Executive, Kalinga Enterprises (2024 - Present)\n- Applied Tender Responses across enterprise accounts in the western region, improving quarterly revenue by 11%.\n- Applied Cold Outreach across mid-market segment launch, improving average deal size by 40%.\n- Applied Lead Generation across festive-season quota delivery, improving win rate by 17%.\n\nEDUCATION\nMBA in Sales and Marketing, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 44944",
+    "AFFILIATION": "Member, Business Club (2 years)",
+    "UNIVERSITY": "Symbiosis International University",
+    "GRAD_YEAR": "2024"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 44944 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nSales Executive with 2 years of experience in business sales.\nThey managed channel onboarding, and their recent work centred on enterprise accounts in the western region.\n\nSKILLS\nCore: Lead Generation, Pipeline Management, Cold Outreach, Sales Forecasting, B2B Sales, Negotiation\nAdditional: Tender Responses, Channel Partnerships\n\nEXPERIENCE\nSales Executive, Kalinga Enterprises (2024 - Present)\n- Applied Tender Responses across enterprise accounts in the western region, improving quarterly revenue by 11%.\n- Applied Cold Outreach across mid-market segment launch, improving average deal size by 40%.\n- Applied Lead Generation across festive-season quota delivery, improving win rate by 17%.\n\nEDUCATION\nMBA in Sales and Marketing, Symbiosis International University, 2024\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, Business Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 2,
+    "true_qualification": 0.52,
+    "skills": [
+      "B2B Sales",
+      "Channel Partnerships",
+      "Cold Outreach",
+      "Lead Generation",
+      "Negotiation",
+      "Pipeline Management",
+      "Sales Forecasting",
+      "Tender Responses"
+    ],
+    "skills_all": [
+      "B2B Sales",
+      "Lead Generation",
+      "CRM",
+      "Negotiation",
+      "Account Management",
+      "Pipeline Management",
+      "Sales Forecasting",
+      "Cold Outreach",
+      "Client Presentations",
+      "Salesforce",
+      "Channel Partnerships",
+      "Upselling",
+      "Territory Planning",
+      "Tender Responses",
+      "Market Mapping"
+    ],
+    "employers": [
+      "Kalinga Enterprises"
+    ],
+    "titles": [
+      "Sales Executive"
+    ],
+    "degree": "MBA in Sales and Marketing",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Management Bangalore",
+      "mid": "Symbiosis International University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

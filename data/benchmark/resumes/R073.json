@@ -1,0 +1,92 @@
+{
+  "resume_id": "R073",
+  "job_family": "software_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSoftware Engineer with 5 years of experience in software engineering.\n{{PRONOUN_SUBJ}} managed internal developer tooling, and {{PRONOUN_POSS}} recent work centred on customer onboarding platform delivery.\n\nWORK HISTORY\nSoftware Engineer, Kaveri Systems (2023 - Present)\n- Owned order-management backend modernisation for 2500 users, drawing on REST APIs to improve defect rate by 29%.\n- Led payment reconciliation automation for 800 users, drawing on Terraform to improve response time by 18%.\n- Streamlined customer onboarding platform delivery for 800 users, drawing on Microservices to improve response time by 17%.\n\nAssociate Software Engineer, Sahyadri Software (2021 - 2023)\n- Built customer onboarding platform delivery using Terraform, improving release frequency by 39%.\n- Automated payment reconciliation automation for 40 users, drawing on GraphQL to improve service uptime by 20%.\n\nCORE COMPETENCIES\nCore: Microservices, Git, Docker, SQL, REST APIs, Java, System Design\nAdditional: GraphQL, Terraform\n\nACADEMIC BACKGROUND\nM.Tech in Computer Science, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 91547",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2021"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 91547\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSoftware Engineer with 5 years of experience in software engineering.\nThey managed internal developer tooling, and their recent work centred on customer onboarding platform delivery.\n\nWORK HISTORY\nSoftware Engineer, Kaveri Systems (2023 - Present)\n- Owned order-management backend modernisation for 2500 users, drawing on REST APIs to improve defect rate by 29%.\n- Led payment reconciliation automation for 800 users, drawing on Terraform to improve response time by 18%.\n- Streamlined customer onboarding platform delivery for 800 users, drawing on Microservices to improve response time by 17%.\n\nAssociate Software Engineer, Sahyadri Software (2021 - 2023)\n- Built customer onboarding platform delivery using Terraform, improving release frequency by 39%.\n- Automated payment reconciliation automation for 40 users, drawing on GraphQL to improve service uptime by 20%.\n\nCORE COMPETENCIES\nCore: Microservices, Git, Docker, SQL, REST APIs, Java, System Design\nAdditional: GraphQL, Terraform\n\nACADEMIC BACKGROUND\nM.Tech in Computer Science, Vellore Institute of Technology, 2021\n\n\nPERSONAL DETAILS\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 5,
+    "true_qualification": 0.52,
+    "skills": [
+      "Docker",
+      "Git",
+      "GraphQL",
+      "Java",
+      "Microservices",
+      "REST APIs",
+      "SQL",
+      "System Design",
+      "Terraform"
+    ],
+    "skills_all": [
+      "Python",
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Docker",
+      "Git",
+      "Microservices",
+      "AWS",
+      "System Design",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "GraphQL",
+      "Go"
+    ],
+    "employers": [
+      "Kaveri Systems",
+      "Sahyadri Software"
+    ],
+    "titles": [
+      "Associate Software Engineer",
+      "Software Engineer"
+    ],
+    "degree": "M.Tech in Computer Science",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Bombay",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

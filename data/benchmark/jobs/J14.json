@@ -1,0 +1,26 @@
+{
+  "job_id": "J14",
+  "title": "Senior Staff Nurse",
+  "job_family": "nursing",
+  "min_years_experience": 3,
+  "must_have": [
+    "Vital Signs Monitoring",
+    "IV Therapy",
+    "Basic Life Support",
+    "Infection Control",
+    "Medication Administration",
+    "3+ years of experience in clinical nursing"
+  ],
+  "nice_to_have": [
+    "Pediatric Care",
+    "Electronic Health Records",
+    "ICU Care",
+    "Ventilator Management"
+  ],
+  "source": "india_synth_v1",
+  "text": "Senior Staff Nurse\nKalyani Health Trust | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a senior staff nurse to join our clinical nursing team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- Vital Signs Monitoring\n- IV Therapy\n- Basic Life Support\n- Infection Control\n- Medication Administration\n- 3+ years of experience in clinical nursing\n\nNICE-TO-HAVE:\n- Pediatric Care\n- Electronic Health Records\n- ICU Care\n- Ventilator Management\n\nWHAT YOU WILL DO\n- Drive outpatient department flow with measurable outcomes.\n- Drive maternity ward rounds with measurable outcomes.\n- Drive emergency admissions workflow with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid"
+  }
+}

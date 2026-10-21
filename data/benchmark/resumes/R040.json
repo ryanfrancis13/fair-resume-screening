@@ -1,0 +1,89 @@
+{
+  "resume_id": "R040",
+  "job_family": "sales",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nSales Manager with 5 years of experience in business sales.\n{{PRONOUN_SUBJ}} managed enterprise accounts in the western region, and {{PRONOUN_POSS}} recent work centred on renewal cycle.\n\nSKILLS\nCore: Sales Forecasting, Client Presentations, B2B Sales, Negotiation, Account Management\nAdditional: Territory Planning\n\nEXPERIENCE\nSales Manager, Tapti Industries (2023 - Present)\n- Automated channel onboarding using Territory Planning, improving quarterly revenue by 14%.\n- Applied Sales Forecasting across mid-market segment launch, improving win rate by 36%.\n- Delivered festive-season quota delivery using Client Presentations, improving average deal size by 45%.\n\nSales Executive, Hemkund Distribution (2021 - 2023)\n- Streamlined channel onboarding for 120 accounts, drawing on Account Management to improve pipeline value by 37%.\n- Applied B2B Sales across renewal cycle, improving pipeline value by 38%.\n\nEDUCATION\nB.Com, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 91326",
+    "AFFILIATION": "Member, Business Club (2 years)",
+    "UNIVERSITY": "Symbiosis International University",
+    "GRAD_YEAR": "2021"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 91326 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nSales Manager with 5 years of experience in business sales.\nThey managed enterprise accounts in the western region, and their recent work centred on renewal cycle.\n\nSKILLS\nCore: Sales Forecasting, Client Presentations, B2B Sales, Negotiation, Account Management\nAdditional: Territory Planning\n\nEXPERIENCE\nSales Manager, Tapti Industries (2023 - Present)\n- Automated channel onboarding using Territory Planning, improving quarterly revenue by 14%.\n- Applied Sales Forecasting across mid-market segment launch, improving win rate by 36%.\n- Delivered festive-season quota delivery using Client Presentations, improving average deal size by 45%.\n\nSales Executive, Hemkund Distribution (2021 - 2023)\n- Streamlined channel onboarding for 120 accounts, drawing on Account Management to improve pipeline value by 37%.\n- Applied B2B Sales across renewal cycle, improving pipeline value by 38%.\n\nEDUCATION\nB.Com, Symbiosis International University, 2021\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, Business Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 5,
+    "true_qualification": 0.34,
+    "skills": [
+      "Account Management",
+      "B2B Sales",
+      "Client Presentations",
+      "Negotiation",
+      "Sales Forecasting",
+      "Territory Planning"
+    ],
+    "skills_all": [
+      "B2B Sales",
+      "Lead Generation",
+      "CRM",
+      "Negotiation",
+      "Account Management",
+      "Pipeline Management",
+      "Sales Forecasting",
+      "Cold Outreach",
+      "Client Presentations",
+      "Salesforce",
+      "Channel Partnerships",
+      "Upselling",
+      "Territory Planning",
+      "Tender Responses",
+      "Market Mapping"
+    ],
+    "employers": [
+      "Hemkund Distribution",
+      "Tapti Industries"
+    ],
+    "titles": [
+      "Sales Executive",
+      "Sales Manager"
+    ],
+    "degree": "B.Com",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Management Bangalore",
+      "mid": "Symbiosis International University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "resume_id": "R070",
+  "job_family": "mechanical_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nDesign Engineer with 4 years of experience in mechanical design.\n{{PRONOUN_SUBJ}} managed heat-exchanger redesign, and {{PRONOUN_POSS}} recent work centred on vendor tooling programme.\n\nSKILLS\nCore: CNC Machining, AutoCAD, SolidWorks, Finite Element Analysis, Manufacturing Processes, Root Cause Analysis, Thermodynamics\nAdditional: ANSYS, CATIA\n\nEXPERIENCE\nDesign Engineer, Kosi Industrial Systems (2024 - Present)\n- Streamlined heat-exchanger redesign for 120 units, drawing on AutoCAD to improve material cost by 32%.\n- Applied CNC Machining across assembly-line layout revamp, improving material cost by 30%.\n- Applied CATIA across shop-floor changeover, improving cycle time by 40%.\n\nGraduate Engineer Trainee, Tungabhadra Machine Works (2022 - 2024)\n- Applied Root Cause Analysis across heat-exchanger redesign, improving first-pass yield by 29%.\n- Built shop-floor changeover for 120 units, drawing on CATIA to improve first-pass yield by 38%.\n\nEDUCATION\nB.Tech in Mechanical Engineering, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 53857",
+    "AFFILIATION": "Member, SAE India Collegiate Club (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2022"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 53857 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nDesign Engineer with 4 years of experience in mechanical design.\nThey managed heat-exchanger redesign, and their recent work centred on vendor tooling programme.\n\nSKILLS\nCore: CNC Machining, AutoCAD, SolidWorks, Finite Element Analysis, Manufacturing Processes, Root Cause Analysis, Thermodynamics\nAdditional: ANSYS, CATIA\n\nEXPERIENCE\nDesign Engineer, Kosi Industrial Systems (2024 - Present)\n- Streamlined heat-exchanger redesign for 120 units, drawing on AutoCAD to improve material cost by 32%.\n- Applied CNC Machining across assembly-line layout revamp, improving material cost by 30%.\n- Applied CATIA across shop-floor changeover, improving cycle time by 40%.\n\nGraduate Engineer Trainee, Tungabhadra Machine Works (2022 - 2024)\n- Applied Root Cause Analysis across heat-exchanger redesign, improving first-pass yield by 29%.\n- Built shop-floor changeover for 120 units, drawing on CATIA to improve first-pass yield by 38%.\n\nEDUCATION\nB.Tech in Mechanical Engineering, Vellore Institute of Technology, 2022\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, SAE India Collegiate Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 4,
+    "true_qualification": 0.74,
+    "skills": [
+      "ANSYS",
+      "AutoCAD",
+      "CATIA",
+      "CNC Machining",
+      "Finite Element Analysis",
+      "Manufacturing Processes",
+      "Root Cause Analysis",
+      "SolidWorks",
+      "Thermodynamics"
+    ],
+    "skills_all": [
+      "AutoCAD",
+      "SolidWorks",
+      "GD&T",
+      "Finite Element Analysis",
+      "Thermodynamics",
+      "CNC Machining",
+      "Manufacturing Processes",
+      "Root Cause Analysis",
+      "Six Sigma",
+      "ANSYS",
+      "CATIA",
+      "Lean Manufacturing",
+      "3D Printing",
+      "PLC Programming",
+      "Value Engineering"
+    ],
+    "employers": [
+      "Kosi Industrial Systems",
+      "Tungabhadra Machine Works"
+    ],
+    "titles": [
+      "Design Engineer",
+      "Graduate Engineer Trainee"
+    ],
+    "degree": "B.Tech in Mechanical Engineering",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Sai College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

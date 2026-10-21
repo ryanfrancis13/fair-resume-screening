@@ -1,0 +1,26 @@
+{
+  "job_id": "J18",
+  "title": "Senior Design Engineer",
+  "job_family": "mechanical_engineering",
+  "min_years_experience": 6,
+  "must_have": [
+    "SolidWorks",
+    "Manufacturing Processes",
+    "GD&T",
+    "Finite Element Analysis",
+    "CNC Machining",
+    "6+ years of experience in mechanical design"
+  ],
+  "nice_to_have": [
+    "3D Printing",
+    "AutoCAD",
+    "Thermodynamics",
+    "PLC Programming"
+  ],
+  "source": "india_synth_v1",
+  "text": "Senior Design Engineer\nGanga Heavy Engineering | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a senior design engineer to join our mechanical design team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- SolidWorks\n- Manufacturing Processes\n- GD&T\n- Finite Element Analysis\n- CNC Machining\n- 6+ years of experience in mechanical design\n\nNICE-TO-HAVE:\n- 3D Printing\n- AutoCAD\n- Thermodynamics\n- PLC Programming\n\nWHAT YOU WILL DO\n- Drive heat-exchanger redesign with measurable outcomes.\n- Drive fixture development with measurable outcomes.\n- Drive gearbox housing redesign with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior"
+  }
+}

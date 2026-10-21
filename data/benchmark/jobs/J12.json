@@ -1,0 +1,26 @@
+{
+  "job_id": "J12",
+  "title": "Senior Financial Analyst",
+  "job_family": "finance",
+  "min_years_experience": 6,
+  "must_have": [
+    "Ind AS",
+    "Budgeting",
+    "Financial Reporting",
+    "Financial Modelling",
+    "Tally",
+    "6+ years of experience in corporate finance"
+  ],
+  "nice_to_have": [
+    "Valuation",
+    "GST Compliance",
+    "Variance Analysis",
+    "Audit"
+  ],
+  "source": "india_synth_v1",
+  "text": "Senior Financial Analyst\nHoysala Group | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a senior financial analyst to join our corporate finance team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- Ind AS\n- Budgeting\n- Financial Reporting\n- Financial Modelling\n- Tally\n- 6+ years of experience in corporate finance\n\nNICE-TO-HAVE:\n- Valuation\n- GST Compliance\n- Variance Analysis\n- Audit\n\nWHAT YOU WILL DO\n- Drive annual operating plan with measurable outcomes.\n- Drive quarterly board reporting with measurable outcomes.\n- Drive monthly close cycle with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior"
+  }
+}

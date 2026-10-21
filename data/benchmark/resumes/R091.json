@@ -1,0 +1,92 @@
+{
+  "resume_id": "R091",
+  "job_family": "marketing",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nSenior Marketing Manager with 11 years of experience in digital marketing.\n{{PRONOUN_SUBJ}} led dealer outreach initiative, and {{PRONOUN_POSS}} recent work centred on festive-season launch.\n\nSKILLS\nCore: Brand Management, Copywriting, Market Research, Google Analytics, Email Marketing, Campaign Management, Content Strategy\nAdditional: HubSpot, Google Ads\n\nEXPERIENCE\nSenior Marketing Manager, Saffron Digital (2020 - Present)\n- Delivered product relaunch for 2500 prospects, drawing on HubSpot to improve organic traffic by 27%.\n- Applied Content Strategy across customer acquisition drive, improving qualified leads by 15%.\n- Redesigned festive-season launch using Email Marketing, improving engagement rate by 44%.\n- Applied Market Research across dealer outreach initiative, improving campaign ROI by 20%.\n- Built regional expansion push for 40 prospects, drawing on Copywriting to improve engagement rate by 38%.\n\nMarketing Manager, Malabar Commerce (2015 - 2020)\n- Delivered festive-season launch for 2500 prospects, drawing on Google Ads to improve qualified leads by 21%.\n- Applied Copywriting across retention programme, improving organic traffic by 12%.\n\nEDUCATION\nBBA, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 44453",
+    "AFFILIATION": "Member, Marketing Club (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2015"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 44453 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nSenior Marketing Manager with 11 years of experience in digital marketing.\nThey led dealer outreach initiative, and their recent work centred on festive-season launch.\n\nSKILLS\nCore: Brand Management, Copywriting, Market Research, Google Analytics, Email Marketing, Campaign Management, Content Strategy\nAdditional: HubSpot, Google Ads\n\nEXPERIENCE\nSenior Marketing Manager, Saffron Digital (2020 - Present)\n- Delivered product relaunch for 2500 prospects, drawing on HubSpot to improve organic traffic by 27%.\n- Applied Content Strategy across customer acquisition drive, improving qualified leads by 15%.\n- Redesigned festive-season launch using Email Marketing, improving engagement rate by 44%.\n- Applied Market Research across dealer outreach initiative, improving campaign ROI by 20%.\n- Built regional expansion push for 40 prospects, drawing on Copywriting to improve engagement rate by 38%.\n\nMarketing Manager, Malabar Commerce (2015 - 2020)\n- Delivered festive-season launch for 2500 prospects, drawing on Google Ads to improve qualified leads by 21%.\n- Applied Copywriting across retention programme, improving organic traffic by 12%.\n\nEDUCATION\nBBA, Christ University, 2015\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, Marketing Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 11,
+    "true_qualification": 0.6,
+    "skills": [
+      "Brand Management",
+      "Campaign Management",
+      "Content Strategy",
+      "Copywriting",
+      "Email Marketing",
+      "Google Ads",
+      "Google Analytics",
+      "HubSpot",
+      "Market Research"
+    ],
+    "skills_all": [
+      "SEO",
+      "Google Analytics",
+      "Content Strategy",
+      "Social Media Marketing",
+      "Email Marketing",
+      "Campaign Management",
+      "Market Research",
+      "Brand Management",
+      "Copywriting",
+      "Google Ads",
+      "HubSpot",
+      "A/B Testing",
+      "Marketing Automation",
+      "Canva",
+      "Influencer Outreach"
+    ],
+    "employers": [
+      "Malabar Commerce",
+      "Saffron Digital"
+    ],
+    "titles": [
+      "Marketing Manager",
+      "Senior Marketing Manager"
+    ],
+    "degree": "BBA",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Management Ahmedabad",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

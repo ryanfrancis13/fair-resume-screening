@@ -1,0 +1,95 @@
+{
+  "resume_id": "R068",
+  "job_family": "finance",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nFinancial Analyst with 3 years of experience in corporate finance.\n{{PRONOUN_SUBJ}} delivered quarterly board reporting, and {{PRONOUN_POSS}} recent work centred on annual operating plan.\n\nSKILLS\nCore: Advanced Excel, Financial Modelling, Variance Analysis, Tally, Budgeting, GST Compliance, Ind AS, Financial Reporting\nAdditional: Treasury Management, Audit, Valuation, Power BI\n\nEXPERIENCE\nFinancial Analyst, Vindhya Capital (2024 - Present)\n- Streamlined annual operating plan using Financial Modelling, improving cost savings by 21%.\n- Automated monthly close cycle using Power BI, improving forecast accuracy by 18%.\n- Owned quarterly board reporting using Financial Reporting, improving cost savings by 20%.\n\nFinance Associate, Mahanadi Enterprises (2023 - 2024)\n- Applied Advanced Excel across annual operating plan, improving forecast accuracy by 23%.\n- Applied Variance Analysis across working-capital programme, improving close timeline by 20%.\n\nEDUCATION\nB.Com (Hons), {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 43036",
+    "AFFILIATION": "Member, Finance Club (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2023"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 43036 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nFinancial Analyst with 3 years of experience in corporate finance.\nThey delivered quarterly board reporting, and their recent work centred on annual operating plan.\n\nSKILLS\nCore: Advanced Excel, Financial Modelling, Variance Analysis, Tally, Budgeting, GST Compliance, Ind AS, Financial Reporting\nAdditional: Treasury Management, Audit, Valuation, Power BI\n\nEXPERIENCE\nFinancial Analyst, Vindhya Capital (2024 - Present)\n- Streamlined annual operating plan using Financial Modelling, improving cost savings by 21%.\n- Automated monthly close cycle using Power BI, improving forecast accuracy by 18%.\n- Owned quarterly board reporting using Financial Reporting, improving cost savings by 20%.\n\nFinance Associate, Mahanadi Enterprises (2023 - 2024)\n- Applied Advanced Excel across annual operating plan, improving forecast accuracy by 23%.\n- Applied Variance Analysis across working-capital programme, improving close timeline by 20%.\n\nEDUCATION\nB.Com (Hons), Christ University, 2023\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, Finance Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 3,
+    "true_qualification": 0.82,
+    "skills": [
+      "Advanced Excel",
+      "Audit",
+      "Budgeting",
+      "Financial Modelling",
+      "Financial Reporting",
+      "GST Compliance",
+      "Ind AS",
+      "Power BI",
+      "Tally",
+      "Treasury Management",
+      "Valuation",
+      "Variance Analysis"
+    ],
+    "skills_all": [
+      "Financial Modelling",
+      "Advanced Excel",
+      "Budgeting",
+      "Forecasting",
+      "Financial Reporting",
+      "Variance Analysis",
+      "GST Compliance",
+      "Tally",
+      "Ind AS",
+      "SAP FICO",
+      "Power BI",
+      "Treasury Management",
+      "Audit",
+      "Valuation",
+      "SQL"
+    ],
+    "employers": [
+      "Mahanadi Enterprises",
+      "Vindhya Capital"
+    ],
+    "titles": [
+      "Finance Associate",
+      "Financial Analyst"
+    ],
+    "degree": "B.Com (Hons)",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Shri Ram College of Commerce, University of Delhi",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Commerce"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

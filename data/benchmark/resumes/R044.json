@@ -1,0 +1,92 @@
+{
+  "resume_id": "R044",
+  "job_family": "finance",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nFinance Associate with 2 years of experience in corporate finance.\n{{PRONOUN_SUBJ}} led vendor payment cycle, and {{PRONOUN_POSS}} recent work centred on monthly close cycle.\n\nWORK HISTORY\nFinance Associate, Konkan Industries (2024 - Present)\n- Built annual operating plan for 120 accounts, drawing on Ind AS to improve payment turnaround by 12%.\n- Delivered quarterly board reporting for 40 accounts, drawing on Tally to improve payment turnaround by 8%.\n- Applied Audit across cost-centre review process, improving close timeline by 35%.\n\nCORE COMPETENCIES\nCore: Financial Modelling, Ind AS, Tally, Variance Analysis, Forecasting, GST Compliance, Financial Reporting, Budgeting\nAdditional: SAP FICO, Audit, Power BI\n\nACADEMIC BACKGROUND\nB.Com (Hons), {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 30008",
+    "AFFILIATION": "Member, Finance Club (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2024"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 30008\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nFinance Associate with 2 years of experience in corporate finance.\nThey led vendor payment cycle, and their recent work centred on monthly close cycle.\n\nWORK HISTORY\nFinance Associate, Konkan Industries (2024 - Present)\n- Built annual operating plan for 120 accounts, drawing on Ind AS to improve payment turnaround by 12%.\n- Delivered quarterly board reporting for 40 accounts, drawing on Tally to improve payment turnaround by 8%.\n- Applied Audit across cost-centre review process, improving close timeline by 35%.\n\nCORE COMPETENCIES\nCore: Financial Modelling, Ind AS, Tally, Variance Analysis, Forecasting, GST Compliance, Financial Reporting, Budgeting\nAdditional: SAP FICO, Audit, Power BI\n\nACADEMIC BACKGROUND\nB.Com (Hons), Christ University, 2024\n\n\nPERSONAL DETAILS\nAffiliations: Member, Finance Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 2,
+    "true_qualification": 0.78,
+    "skills": [
+      "Audit",
+      "Budgeting",
+      "Financial Modelling",
+      "Financial Reporting",
+      "Forecasting",
+      "GST Compliance",
+      "Ind AS",
+      "Power BI",
+      "SAP FICO",
+      "Tally",
+      "Variance Analysis"
+    ],
+    "skills_all": [
+      "Financial Modelling",
+      "Advanced Excel",
+      "Budgeting",
+      "Forecasting",
+      "Financial Reporting",
+      "Variance Analysis",
+      "GST Compliance",
+      "Tally",
+      "Ind AS",
+      "SAP FICO",
+      "Power BI",
+      "Treasury Management",
+      "Audit",
+      "Valuation",
+      "SQL"
+    ],
+    "employers": [
+      "Konkan Industries"
+    ],
+    "titles": [
+      "Finance Associate"
+    ],
+    "degree": "B.Com (Hons)",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Shri Ram College of Commerce, University of Delhi",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Commerce"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "resume_id": "R029",
+  "job_family": "nursing",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSenior Staff Nurse with 5 years of experience in clinical nursing.\n{{PRONOUN_SUBJ}} delivered medical-surgical unit handover, and {{PRONOUN_POSS}} recent work centred on day-care unit operations.\n\nWORK HISTORY\nSenior Staff Nurse, Sanjeevani Hospital (2023 - Present)\n- Streamlined post-operative ward coordination using IV Therapy, improving medication error rate by 22%.\n- Redesigned outpatient department flow for 40 patients, drawing on Medication Administration to improve discharge turnaround by 38%.\n- Streamlined maternity ward rounds using Vital Signs Monitoring, improving medication error rate by 8%.\n\nStaff Nurse, Dhanvantari Care Institute (2021 - 2023)\n- Owned emergency admissions workflow for 120 patients, drawing on Electronic Health Records to improve patient satisfaction by 44%.\n- Led post-operative ward coordination using Basic Life Support, improving patient satisfaction by 19%.\n\nCORE COMPETENCIES\nCore: Basic Life Support, Electronic Health Records, Medication Administration, IV Therapy, Vital Signs Monitoring\nAdditional: Triage\n\nACADEMIC BACKGROUND\nPost Basic B.Sc. Nursing, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 64930",
+    "AFFILIATION": "Member, Student Nurses Association (2 years)",
+    "UNIVERSITY": "Rajiv Gandhi University of Health Sciences",
+    "GRAD_YEAR": "2021"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 64930\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSenior Staff Nurse with 5 years of experience in clinical nursing.\nThey delivered medical-surgical unit handover, and their recent work centred on day-care unit operations.\n\nWORK HISTORY\nSenior Staff Nurse, Sanjeevani Hospital (2023 - Present)\n- Streamlined post-operative ward coordination using IV Therapy, improving medication error rate by 22%.\n- Redesigned outpatient department flow for 40 patients, drawing on Medication Administration to improve discharge turnaround by 38%.\n- Streamlined maternity ward rounds using Vital Signs Monitoring, improving medication error rate by 8%.\n\nStaff Nurse, Dhanvantari Care Institute (2021 - 2023)\n- Owned emergency admissions workflow for 120 patients, drawing on Electronic Health Records to improve patient satisfaction by 44%.\n- Led post-operative ward coordination using Basic Life Support, improving patient satisfaction by 19%.\n\nCORE COMPETENCIES\nCore: Basic Life Support, Electronic Health Records, Medication Administration, IV Therapy, Vital Signs Monitoring\nAdditional: Triage\n\nACADEMIC BACKGROUND\nPost Basic B.Sc. Nursing, Rajiv Gandhi University of Health Sciences, 2021\n\n\nPERSONAL DETAILS\nAffiliations: Member, Student Nurses Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 5,
+    "true_qualification": 0.38,
+    "skills": [
+      "Basic Life Support",
+      "Electronic Health Records",
+      "IV Therapy",
+      "Medication Administration",
+      "Triage",
+      "Vital Signs Monitoring"
+    ],
+    "skills_all": [
+      "Patient Assessment",
+      "Vital Signs Monitoring",
+      "IV Therapy",
+      "Medication Administration",
+      "Wound Care",
+      "Infection Control",
+      "Electronic Health Records",
+      "Patient Education",
+      "Basic Life Support",
+      "ICU Care",
+      "Phlebotomy",
+      "Triage",
+      "Ventilator Management",
+      "Pediatric Care",
+      "Dialysis Care"
+    ],
+    "employers": [
+      "Dhanvantari Care Institute",
+      "Sanjeevani Hospital"
+    ],
+    "titles": [
+      "Senior Staff Nurse",
+      "Staff Nurse"
+    ],
+    "degree": "Post Basic B.Sc. Nursing",
+    "layout": "B",
+    "prestige_options": {
+      "high": "All India Institute of Medical Sciences, New Delhi",
+      "mid": "Rajiv Gandhi University of Health Sciences",
+      "low": "Sri Sai College of Nursing"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

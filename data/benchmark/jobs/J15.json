@@ -1,0 +1,26 @@
+{
+  "job_id": "J15",
+  "title": "Nursing Supervisor",
+  "job_family": "nursing",
+  "min_years_experience": 6,
+  "must_have": [
+    "Medication Administration",
+    "Wound Care",
+    "Basic Life Support",
+    "Infection Control",
+    "IV Therapy",
+    "6+ years of experience in clinical nursing"
+  ],
+  "nice_to_have": [
+    "Ventilator Management",
+    "Pediatric Care",
+    "Dialysis Care",
+    "Patient Assessment"
+  ],
+  "source": "india_synth_v1",
+  "text": "Nursing Supervisor\nDhanvantari Care Institute | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a nursing supervisor to join our clinical nursing team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- Medication Administration\n- Wound Care\n- Basic Life Support\n- Infection Control\n- IV Therapy\n- 6+ years of experience in clinical nursing\n\nNICE-TO-HAVE:\n- Ventilator Management\n- Pediatric Care\n- Dialysis Care\n- Patient Assessment\n\nWHAT YOU WILL DO\n- Drive emergency admissions workflow with measurable outcomes.\n- Drive medical-surgical unit handover with measurable outcomes.\n- Drive post-operative ward coordination with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior"
+  }
+}

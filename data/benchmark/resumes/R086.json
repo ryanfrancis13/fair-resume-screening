@@ -1,0 +1,89 @@
+{
+  "resume_id": "R086",
+  "job_family": "mechanical_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nGraduate Engineer Trainee with 2 years of experience in mechanical design.\n{{PRONOUN_SUBJ}} led assembly-line layout revamp, and {{PRONOUN_POSS}} recent work centred on vendor tooling programme.\n\nSKILLS\nCore: Manufacturing Processes, Finite Element Analysis, Root Cause Analysis, SolidWorks, Thermodynamics, CNC Machining\nAdditional: Lean Manufacturing, PLC Programming\n\nEXPERIENCE\nGraduate Engineer Trainee, Tungabhadra Machine Works (2024 - Present)\n- Owned fixture development using PLC Programming, improving cycle time by 19%.\n- Applied Manufacturing Processes across heat-exchanger redesign, improving cycle time by 28%.\n- Redesigned gearbox housing redesign using Lean Manufacturing, improving material cost by 36%.\n\nEDUCATION\nM.Tech in Mechanical Engineering, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 13994",
+    "AFFILIATION": "Member, SAE India Collegiate Club (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2024"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 13994 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nGraduate Engineer Trainee with 2 years of experience in mechanical design.\nThey led assembly-line layout revamp, and their recent work centred on vendor tooling programme.\n\nSKILLS\nCore: Manufacturing Processes, Finite Element Analysis, Root Cause Analysis, SolidWorks, Thermodynamics, CNC Machining\nAdditional: Lean Manufacturing, PLC Programming\n\nEXPERIENCE\nGraduate Engineer Trainee, Tungabhadra Machine Works (2024 - Present)\n- Owned fixture development using PLC Programming, improving cycle time by 19%.\n- Applied Manufacturing Processes across heat-exchanger redesign, improving cycle time by 28%.\n- Redesigned gearbox housing redesign using Lean Manufacturing, improving material cost by 36%.\n\nEDUCATION\nM.Tech in Mechanical Engineering, Vellore Institute of Technology, 2024\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, SAE India Collegiate Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 2,
+    "true_qualification": 0.68,
+    "skills": [
+      "CNC Machining",
+      "Finite Element Analysis",
+      "Lean Manufacturing",
+      "Manufacturing Processes",
+      "PLC Programming",
+      "Root Cause Analysis",
+      "SolidWorks",
+      "Thermodynamics"
+    ],
+    "skills_all": [
+      "AutoCAD",
+      "SolidWorks",
+      "GD&T",
+      "Finite Element Analysis",
+      "Thermodynamics",
+      "CNC Machining",
+      "Manufacturing Processes",
+      "Root Cause Analysis",
+      "Six Sigma",
+      "ANSYS",
+      "CATIA",
+      "Lean Manufacturing",
+      "3D Printing",
+      "PLC Programming",
+      "Value Engineering"
+    ],
+    "employers": [
+      "Tungabhadra Machine Works"
+    ],
+    "titles": [
+      "Graduate Engineer Trainee"
+    ],
+    "degree": "M.Tech in Mechanical Engineering",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Sai College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

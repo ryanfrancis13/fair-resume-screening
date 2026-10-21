@@ -1,0 +1,26 @@
+{
+  "job_id": "J22",
+  "title": "Sales Executive",
+  "job_family": "sales",
+  "min_years_experience": 1,
+  "must_have": [
+    "Negotiation",
+    "Account Management",
+    "Lead Generation",
+    "B2B Sales",
+    "Cold Outreach",
+    "1+ years of experience in business sales"
+  ],
+  "nice_to_have": [
+    "Tender Responses",
+    "CRM",
+    "Channel Partnerships",
+    "Market Mapping"
+  ],
+  "source": "india_synth_v1",
+  "text": "Sales Executive\nTapti Industries | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a sales executive to join our business sales team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- Negotiation\n- Account Management\n- Lead Generation\n- B2B Sales\n- Cold Outreach\n- 1+ years of experience in business sales\n\nNICE-TO-HAVE:\n- Tender Responses\n- CRM\n- Channel Partnerships\n- Market Mapping\n\nWHAT YOU WILL DO\n- Drive enterprise accounts in the western region with measurable outcomes.\n- Drive channel onboarding with measurable outcomes.\n- Drive mid-market segment launch with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior"
+  }
+}

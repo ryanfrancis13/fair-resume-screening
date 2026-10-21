@@ -1,0 +1,91 @@
+{
+  "resume_id": "R088",
+  "job_family": "sales",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSales Manager with 3 years of experience in business sales.\n{{PRONOUN_SUBJ}} managed mid-market segment launch, and {{PRONOUN_POSS}} recent work centred on renewal cycle.\n\nWORK HISTORY\nSales Manager, Vaigai Solutions (2024 - Present)\n- Streamlined renewal cycle using Negotiation, improving win rate by 45%.\n- Built enterprise accounts in the western region using Cold Outreach, improving average deal size by 28%.\n- Applied Salesforce across channel onboarding, improving average deal size by 45%.\n\nSales Executive, Pushkar Trading Group (2023 - 2024)\n- Applied Cold Outreach across distributor network expansion, improving win rate by 32%.\n- Redesigned festive-season quota delivery for 350 accounts, drawing on Salesforce to improve quarterly revenue by 18%.\n\nCORE COMPETENCIES\nCore: B2B Sales, Negotiation, Account Management, Sales Forecasting, Cold Outreach, Client Presentations\nAdditional: Tender Responses, Salesforce\n\nACADEMIC BACKGROUND\nBBA, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 19672",
+    "AFFILIATION": "Member, Business Club (2 years)",
+    "UNIVERSITY": "Symbiosis International University",
+    "GRAD_YEAR": "2023"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 19672\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSales Manager with 3 years of experience in business sales.\nThey managed mid-market segment launch, and their recent work centred on renewal cycle.\n\nWORK HISTORY\nSales Manager, Vaigai Solutions (2024 - Present)\n- Streamlined renewal cycle using Negotiation, improving win rate by 45%.\n- Built enterprise accounts in the western region using Cold Outreach, improving average deal size by 28%.\n- Applied Salesforce across channel onboarding, improving average deal size by 45%.\n\nSales Executive, Pushkar Trading Group (2023 - 2024)\n- Applied Cold Outreach across distributor network expansion, improving win rate by 32%.\n- Redesigned festive-season quota delivery for 350 accounts, drawing on Salesforce to improve quarterly revenue by 18%.\n\nCORE COMPETENCIES\nCore: B2B Sales, Negotiation, Account Management, Sales Forecasting, Cold Outreach, Client Presentations\nAdditional: Tender Responses, Salesforce\n\nACADEMIC BACKGROUND\nBBA, Symbiosis International University, 2023\n\n\nPERSONAL DETAILS\nAffiliations: Member, Business Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 3,
+    "true_qualification": 0.57,
+    "skills": [
+      "Account Management",
+      "B2B Sales",
+      "Client Presentations",
+      "Cold Outreach",
+      "Negotiation",
+      "Sales Forecasting",
+      "Salesforce",
+      "Tender Responses"
+    ],
+    "skills_all": [
+      "B2B Sales",
+      "Lead Generation",
+      "CRM",
+      "Negotiation",
+      "Account Management",
+      "Pipeline Management",
+      "Sales Forecasting",
+      "Cold Outreach",
+      "Client Presentations",
+      "Salesforce",
+      "Channel Partnerships",
+      "Upselling",
+      "Territory Planning",
+      "Tender Responses",
+      "Market Mapping"
+    ],
+    "employers": [
+      "Pushkar Trading Group",
+      "Vaigai Solutions"
+    ],
+    "titles": [
+      "Sales Executive",
+      "Sales Manager"
+    ],
+    "degree": "BBA",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Management Bangalore",
+      "mid": "Symbiosis International University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

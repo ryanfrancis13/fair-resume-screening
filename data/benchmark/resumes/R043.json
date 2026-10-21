@@ -1,0 +1,92 @@
+{
+  "resume_id": "R043",
+  "job_family": "marketing",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSenior Marketing Manager with 7 years of experience in digital marketing.\n{{PRONOUN_SUBJ}} managed customer acquisition drive, and {{PRONOUN_POSS}} recent work centred on festive-season launch.\n\nWORK HISTORY\nSenior Marketing Manager, Malabar Commerce (2022 - Present)\n- Built festive-season launch using Market Research, improving organic traffic by 16%.\n- Applied Content Strategy across dealer outreach initiative, improving organic traffic by 23%.\n- Streamlined regional expansion push for 350 prospects, drawing on Campaign Management to improve campaign ROI by 44%.\n- Redesigned customer acquisition drive for 40 prospects, drawing on Copywriting to improve engagement rate by 36%.\n- Delivered product relaunch for 2500 prospects, drawing on Social Media Marketing to improve qualified leads by 33%.\n\nMarketing Manager, Lotus Brand Studio (2019 - 2022)\n- Applied Brand Management across festive-season launch, improving campaign ROI by 35%.\n- Applied Marketing Automation across retention programme, improving organic traffic by 28%.\n\nCORE COMPETENCIES\nCore: Social Media Marketing, Copywriting, Market Research, Campaign Management, Email Marketing, Content Strategy, Brand Management\nAdditional: Marketing Automation, HubSpot\n\nACADEMIC BACKGROUND\nMBA in Marketing, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 75750",
+    "AFFILIATION": "Member, Marketing Club (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2019"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 75750\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSenior Marketing Manager with 7 years of experience in digital marketing.\nThey managed customer acquisition drive, and their recent work centred on festive-season launch.\n\nWORK HISTORY\nSenior Marketing Manager, Malabar Commerce (2022 - Present)\n- Built festive-season launch using Market Research, improving organic traffic by 16%.\n- Applied Content Strategy across dealer outreach initiative, improving organic traffic by 23%.\n- Streamlined regional expansion push for 350 prospects, drawing on Campaign Management to improve campaign ROI by 44%.\n- Redesigned customer acquisition drive for 40 prospects, drawing on Copywriting to improve engagement rate by 36%.\n- Delivered product relaunch for 2500 prospects, drawing on Social Media Marketing to improve qualified leads by 33%.\n\nMarketing Manager, Lotus Brand Studio (2019 - 2022)\n- Applied Brand Management across festive-season launch, improving campaign ROI by 35%.\n- Applied Marketing Automation across retention programme, improving organic traffic by 28%.\n\nCORE COMPETENCIES\nCore: Social Media Marketing, Copywriting, Market Research, Campaign Management, Email Marketing, Content Strategy, Brand Management\nAdditional: Marketing Automation, HubSpot\n\nACADEMIC BACKGROUND\nMBA in Marketing, Christ University, 2019\n\n\nPERSONAL DETAILS\nAffiliations: Member, Marketing Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 7,
+    "true_qualification": 0.5,
+    "skills": [
+      "Brand Management",
+      "Campaign Management",
+      "Content Strategy",
+      "Copywriting",
+      "Email Marketing",
+      "HubSpot",
+      "Market Research",
+      "Marketing Automation",
+      "Social Media Marketing"
+    ],
+    "skills_all": [
+      "SEO",
+      "Google Analytics",
+      "Content Strategy",
+      "Social Media Marketing",
+      "Email Marketing",
+      "Campaign Management",
+      "Market Research",
+      "Brand Management",
+      "Copywriting",
+      "Google Ads",
+      "HubSpot",
+      "A/B Testing",
+      "Marketing Automation",
+      "Canva",
+      "Influencer Outreach"
+    ],
+    "employers": [
+      "Lotus Brand Studio",
+      "Malabar Commerce"
+    ],
+    "titles": [
+      "Marketing Manager",
+      "Senior Marketing Manager"
+    ],
+    "degree": "MBA in Marketing",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Management Ahmedabad",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

@@ -7,6 +7,7 @@
 | `data/sample/resumes/*.json` | yes | 12 synthetic templated resumes |
 | `data/sample/jobs/*.json` | yes | 6 synthetic job descriptions |
 | `data/sample/pairs.json` | yes | 18 hand-graded resume↔job pairs |
+| `data/benchmark/` | yes | controlled synthetic fairness benchmark: 150 resumes, 24 jobs, 355 pairs |
 | `data/lexicons/` | yes | exported name lists, for inspection |
 | `data/raw/` | **no** | downloaded corpora (git-ignored) |
 | `data/external/` | **no** | anything else third-party (git-ignored) |

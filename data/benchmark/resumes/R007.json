@@ -1,0 +1,89 @@
+{
+  "resume_id": "R007",
+  "job_family": "human_resources",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nHR Executive with 2 years of experience in human resources.\n{{PRONOUN_SUBJ}} led annual appraisal cycle, and {{PRONOUN_POSS}} recent work centred on policy refresh.\n\nSKILLS\nCore: HRIS, Employee Engagement, Compensation Benchmarking, Onboarding, Stakeholder Management, Performance Management\nAdditional: Learning and Development, Campus Hiring\n\nEXPERIENCE\nHR Executive, Chambal Manufacturing (2024 - Present)\n- Applied HRIS across annual appraisal cycle, improving offer acceptance rate by 37%.\n- Built joining formalities redesign for 40 employees, drawing on Employee Engagement to improve offer acceptance rate by 22%.\n- Built wellness initiative for 2500 employees, drawing on Performance Management to improve offer acceptance rate by 15%.\n\nEDUCATION\nMBA in Human Resources, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 28361",
+    "AFFILIATION": "Member, HR Association Student Chapter (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2024"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 28361 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nHR Executive with 2 years of experience in human resources.\nThey led annual appraisal cycle, and their recent work centred on policy refresh.\n\nSKILLS\nCore: HRIS, Employee Engagement, Compensation Benchmarking, Onboarding, Stakeholder Management, Performance Management\nAdditional: Learning and Development, Campus Hiring\n\nEXPERIENCE\nHR Executive, Chambal Manufacturing (2024 - Present)\n- Applied HRIS across annual appraisal cycle, improving offer acceptance rate by 37%.\n- Built joining formalities redesign for 40 employees, drawing on Employee Engagement to improve offer acceptance rate by 22%.\n- Built wellness initiative for 2500 employees, drawing on Performance Management to improve offer acceptance rate by 15%.\n\nEDUCATION\nMBA in Human Resources, Christ University, 2024\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, HR Association Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 2,
+    "true_qualification": 0.59,
+    "skills": [
+      "Campus Hiring",
+      "Compensation Benchmarking",
+      "Employee Engagement",
+      "HRIS",
+      "Learning and Development",
+      "Onboarding",
+      "Performance Management",
+      "Stakeholder Management"
+    ],
+    "skills_all": [
+      "Talent Acquisition",
+      "Employee Engagement",
+      "Payroll Processing",
+      "HRIS",
+      "Performance Management",
+      "Onboarding",
+      "Labour Law Compliance",
+      "Compensation Benchmarking",
+      "Stakeholder Management",
+      "Workday",
+      "Learning and Development",
+      "HR Analytics",
+      "Campus Hiring",
+      "Employer Branding",
+      "Succession Planning"
+    ],
+    "employers": [
+      "Chambal Manufacturing"
+    ],
+    "titles": [
+      "HR Executive"
+    ],
+    "degree": "MBA in Human Resources",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Tata Institute of Social Sciences, Mumbai",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

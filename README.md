@@ -12,13 +12,16 @@ SDG alignment: **SDG 8** (Decent Work), **SDG 9** (Industry & Innovation), **SDG
 
 ```bash
 uv sync         # create the environment from uv.lock
-make hf-demo    # run the audit on the Hugging Face Templated dataset (643 resumes, 351 jobs, 8,000 pairs)
+make synthetic-corpus  # regenerate and validate the controlled fairness benchmark
 make demo       # baseline demo run — no API key, no network
 make validate   # prove the audit suite itself works
 uv run frs dashboard  # launch interactive web dashboard
 ```
 
-`make hf-demo` runs the fairness audit pipeline across the **Hugging Face Templated dataset** (`configs/hf_templated.yaml`), covering real-world resumes across all 9 cue families, producing an audit report and interactive dashboard visualizations with zero API credentials needed.
+`make demo` runs the complete fairness audit pipeline on the offline sample. For the
+larger controlled benchmark, use `make synthetic-corpus` and point a pipeline config
+at `data/benchmark`; the benchmark contains 150 synthetic resumes, 24 jobs, and
+355 quality-checked pairs across eight job families.
 
 ---
 
@@ -620,8 +623,9 @@ its fully resolved config into the run directory.
 
 | preset | for |
 | --- | --- |
-| `configs/hf_templated.yaml` | **Primary dataset:** real Hugging Face resumes + jobs with all 9 cue families |
+| `data/benchmark/` | **Primary benchmark:** controlled, balanced synthetic resumes, jobs, pairs, and perturbation validation |
 | `configs/default.yaml` | standard Gemini run on synthetic sample: 9 cue families, 5 mitigation arms |
+| `configs/synthetic.yaml` | offline run on the controlled 150-resume fairness benchmark |
 | `configs/offline_demo.yaml` | everything offline, no key — baseline demo |
 | `configs/names_only.yaml` | the peer-reviewed Bertrand & Mullainathan replication |
 | `configs/full_cues.yaml` | every family + intersectional factorial design (check `--dry-run`) |
@@ -802,6 +806,7 @@ fair-resume-screening/
 ├── configs/                     5 presets, from names-only to full factorial
 ├── data/
 │   ├── sample/                  12 templated resumes, 6 jobs, 18 graded pairs
+│   ├── benchmark/               150 controlled resumes, 24 jobs, 355 pairs
 │   ├── lexicons/                exported name lists + cue registry, for review
 │   └── raw/                     downloaded corpora (git-ignored)
 ├── docs/
@@ -809,7 +814,7 @@ fair-resume-screening/
 │   ├── ARCHITECTURE.md          layers, contracts, extension points
 │   └── DATA.md                  corpora, name lists, provenance, privacy
 ├── notebooks/01_explore_audit.ipynb
-├── scripts/make_sample_corpus.py
+├── scripts/                    corpus generation and benchmark validation
 ├── tests/                       299 tests, all offline
 │
 └── src/                         ← imported as `frs` (see the note below)

@@ -1,0 +1,87 @@
+{
+  "resume_id": "R089",
+  "job_family": "software_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nAssociate Software Engineer with 1 years of experience in software engineering.\n{{PRONOUN_SUBJ}} managed order-management backend modernisation, and {{PRONOUN_POSS}} recent work centred on internal developer tooling.\n\nWORK HISTORY\nAssociate Software Engineer, Nilgiri Technologies (2025 - Present)\n- Automated inventory synchronisation rollout using SQL, improving defect rate by 34%.\n- Applied Kafka across notification delivery overhaul, improving response time by 23%.\n- Led payment reconciliation automation using Microservices, improving release frequency by 11%.\n\nCORE COMPETENCIES\nCore: Microservices, Docker, SQL, Git, REST APIs\nAdditional: Kafka\n\nACADEMIC BACKGROUND\nB.Tech in Computer Science and Engineering, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 45746",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2025"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 45746\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nAssociate Software Engineer with 1 years of experience in software engineering.\nThey managed order-management backend modernisation, and their recent work centred on internal developer tooling.\n\nWORK HISTORY\nAssociate Software Engineer, Nilgiri Technologies (2025 - Present)\n- Automated inventory synchronisation rollout using SQL, improving defect rate by 34%.\n- Applied Kafka across notification delivery overhaul, improving response time by 23%.\n- Led payment reconciliation automation using Microservices, improving release frequency by 11%.\n\nCORE COMPETENCIES\nCore: Microservices, Docker, SQL, Git, REST APIs\nAdditional: Kafka\n\nACADEMIC BACKGROUND\nB.Tech in Computer Science and Engineering, Vellore Institute of Technology, 2025\n\n\nPERSONAL DETAILS\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 1,
+    "true_qualification": 0.29,
+    "skills": [
+      "Docker",
+      "Git",
+      "Kafka",
+      "Microservices",
+      "REST APIs",
+      "SQL"
+    ],
+    "skills_all": [
+      "Python",
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Docker",
+      "Git",
+      "Microservices",
+      "AWS",
+      "System Design",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "GraphQL",
+      "Go"
+    ],
+    "employers": [
+      "Nilgiri Technologies"
+    ],
+    "titles": [
+      "Associate Software Engineer"
+    ],
+    "degree": "B.Tech in Computer Science and Engineering",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Bombay",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

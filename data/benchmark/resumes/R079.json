@@ -1,0 +1,90 @@
+{
+  "resume_id": "R079",
+  "job_family": "human_resources",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSenior HR Business Partner with 10 years of experience in human resources.\n{{PRONOUN_SUBJ}} managed wellness initiative, and {{PRONOUN_POSS}} recent work centred on joining formalities redesign.\n\nWORK HISTORY\nSenior HR Business Partner, Periyar Infotech (2021 - Present)\n- Led joining formalities redesign using Learning and Development, improving retention by 28%.\n- Applied Employer Branding across policy refresh, improving time-to-hire by 19%.\n- Led wellness initiative for 800 employees, drawing on Stakeholder Management to improve offer acceptance rate by 16%.\n- Streamlined annual appraisal cycle using Talent Acquisition, improving retention by 13%.\n- Applied Payroll Processing across campus recruitment drive, improving retention by 29%.\n\nHR Business Partner, Kaziranga Services (2016 - 2021)\n- Built campus recruitment drive using Payroll Processing, improving time-to-hire by 42%.\n- Redesigned annual appraisal cycle using Employer Branding, improving offer acceptance rate by 32%.\n\nCORE COMPETENCIES\nCore: Labour Law Compliance, Stakeholder Management, Employee Engagement, Payroll Processing, Talent Acquisition\nAdditional: Learning and Development, Employer Branding\n\nACADEMIC BACKGROUND\nBBA, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 32631",
+    "AFFILIATION": "Member, HR Association Student Chapter (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2016"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 32631\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSenior HR Business Partner with 10 years of experience in human resources.\nThey managed wellness initiative, and their recent work centred on joining formalities redesign.\n\nWORK HISTORY\nSenior HR Business Partner, Periyar Infotech (2021 - Present)\n- Led joining formalities redesign using Learning and Development, improving retention by 28%.\n- Applied Employer Branding across policy refresh, improving time-to-hire by 19%.\n- Led wellness initiative for 800 employees, drawing on Stakeholder Management to improve offer acceptance rate by 16%.\n- Streamlined annual appraisal cycle using Talent Acquisition, improving retention by 13%.\n- Applied Payroll Processing across campus recruitment drive, improving retention by 29%.\n\nHR Business Partner, Kaziranga Services (2016 - 2021)\n- Built campus recruitment drive using Payroll Processing, improving time-to-hire by 42%.\n- Redesigned annual appraisal cycle using Employer Branding, improving offer acceptance rate by 32%.\n\nCORE COMPETENCIES\nCore: Labour Law Compliance, Stakeholder Management, Employee Engagement, Payroll Processing, Talent Acquisition\nAdditional: Learning and Development, Employer Branding\n\nACADEMIC BACKGROUND\nBBA, Christ University, 2016\n\n\nPERSONAL DETAILS\nAffiliations: Member, HR Association Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 10,
+    "true_qualification": 0.47,
+    "skills": [
+      "Employee Engagement",
+      "Employer Branding",
+      "Labour Law Compliance",
+      "Learning and Development",
+      "Payroll Processing",
+      "Stakeholder Management",
+      "Talent Acquisition"
+    ],
+    "skills_all": [
+      "Talent Acquisition",
+      "Employee Engagement",
+      "Payroll Processing",
+      "HRIS",
+      "Performance Management",
+      "Onboarding",
+      "Labour Law Compliance",
+      "Compensation Benchmarking",
+      "Stakeholder Management",
+      "Workday",
+      "Learning and Development",
+      "HR Analytics",
+      "Campus Hiring",
+      "Employer Branding",
+      "Succession Planning"
+    ],
+    "employers": [
+      "Kaziranga Services",
+      "Periyar Infotech"
+    ],
+    "titles": [
+      "HR Business Partner",
+      "Senior HR Business Partner"
+    ],
+    "degree": "BBA",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Tata Institute of Social Sciences, Mumbai",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "resume_id": "R003",
+  "job_family": "marketing",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nMarketing Manager with 3 years of experience in digital marketing.\n{{PRONOUN_SUBJ}} managed regional expansion push, and {{PRONOUN_POSS}} recent work centred on customer acquisition drive.\n\nWORK HISTORY\nMarketing Manager, Lotus Brand Studio (2024 - Present)\n- Applied Email Marketing across dealer outreach initiative, improving engagement rate by 21%.\n- Owned product relaunch for 350 prospects, drawing on Canva to improve campaign ROI by 13%.\n- Delivered customer acquisition drive for 120 prospects, drawing on Copywriting to improve organic traffic by 13%.\n\nMarketing Executive, Chinar Consumer Brands (2023 - 2024)\n- Built regional expansion push using Campaign Management, improving engagement rate by 39%.\n- Built product relaunch using Market Research, improving qualified leads by 14%.\n\nCORE COMPETENCIES\nCore: Email Marketing, Copywriting, Campaign Management, Social Media Marketing, Content Strategy, Market Research\nAdditional: Canva, HubSpot\n\nACADEMIC BACKGROUND\nB.A. in Mass Communication, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 67889",
+    "AFFILIATION": "Member, Marketing Club (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2023"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 67889\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nMarketing Manager with 3 years of experience in digital marketing.\nThey managed regional expansion push, and their recent work centred on customer acquisition drive.\n\nWORK HISTORY\nMarketing Manager, Lotus Brand Studio (2024 - Present)\n- Applied Email Marketing across dealer outreach initiative, improving engagement rate by 21%.\n- Owned product relaunch for 350 prospects, drawing on Canva to improve campaign ROI by 13%.\n- Delivered customer acquisition drive for 120 prospects, drawing on Copywriting to improve organic traffic by 13%.\n\nMarketing Executive, Chinar Consumer Brands (2023 - 2024)\n- Built regional expansion push using Campaign Management, improving engagement rate by 39%.\n- Built product relaunch using Market Research, improving qualified leads by 14%.\n\nCORE COMPETENCIES\nCore: Email Marketing, Copywriting, Campaign Management, Social Media Marketing, Content Strategy, Market Research\nAdditional: Canva, HubSpot\n\nACADEMIC BACKGROUND\nB.A. in Mass Communication, Christ University, 2023\n\n\nPERSONAL DETAILS\nAffiliations: Member, Marketing Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 3,
+    "true_qualification": 0.52,
+    "skills": [
+      "Campaign Management",
+      "Canva",
+      "Content Strategy",
+      "Copywriting",
+      "Email Marketing",
+      "HubSpot",
+      "Market Research",
+      "Social Media Marketing"
+    ],
+    "skills_all": [
+      "SEO",
+      "Google Analytics",
+      "Content Strategy",
+      "Social Media Marketing",
+      "Email Marketing",
+      "Campaign Management",
+      "Market Research",
+      "Brand Management",
+      "Copywriting",
+      "Google Ads",
+      "HubSpot",
+      "A/B Testing",
+      "Marketing Automation",
+      "Canva",
+      "Influencer Outreach"
+    ],
+    "employers": [
+      "Chinar Consumer Brands",
+      "Lotus Brand Studio"
+    ],
+    "titles": [
+      "Marketing Executive",
+      "Marketing Manager"
+    ],
+    "degree": "B.A. in Mass Communication",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Management Ahmedabad",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "job_id": "J06",
+  "title": "Senior Data Scientist",
+  "job_family": "data_science",
+  "min_years_experience": 6,
+  "must_have": [
+    "A/B Testing",
+    "Scikit-learn",
+    "SQL",
+    "Machine Learning",
+    "Feature Engineering",
+    "6+ years of experience in data science"
+  ],
+  "nice_to_have": [
+    "Data Visualization",
+    "PyTorch",
+    "Statistics",
+    "MLflow"
+  ],
+  "source": "india_synth_v1",
+  "text": "Senior Data Scientist\nDeccan Insights | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a senior data scientist to join our data science team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- A/B Testing\n- Scikit-learn\n- SQL\n- Machine Learning\n- Feature Engineering\n- 6+ years of experience in data science\n\nNICE-TO-HAVE:\n- Data Visualization\n- PyTorch\n- Statistics\n- MLflow\n\nWHAT YOU WILL DO\n- Drive customer segmentation refresh with measurable outcomes.\n- Drive demand planning revamp with measurable outcomes.\n- Drive pricing experiment framework with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior"
+  }
+}

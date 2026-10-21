@@ -1,0 +1,26 @@
+{
+  "job_id": "J08",
+  "title": "Marketing Manager",
+  "job_family": "marketing",
+  "min_years_experience": 3,
+  "must_have": [
+    "Google Analytics",
+    "Social Media Marketing",
+    "Email Marketing",
+    "Campaign Management",
+    "Content Strategy",
+    "3+ years of experience in digital marketing"
+  ],
+  "nice_to_have": [
+    "Copywriting",
+    "Marketing Automation",
+    "A/B Testing",
+    "HubSpot"
+  ],
+  "source": "india_synth_v1",
+  "text": "Marketing Manager\nLotus Brand Studio | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a marketing manager to join our digital marketing team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- Google Analytics\n- Social Media Marketing\n- Email Marketing\n- Campaign Management\n- Content Strategy\n- 3+ years of experience in digital marketing\n\nNICE-TO-HAVE:\n- Copywriting\n- Marketing Automation\n- A/B Testing\n- HubSpot\n\nWHAT YOU WILL DO\n- Drive regional expansion push with measurable outcomes.\n- Drive customer acquisition drive with measurable outcomes.\n- Drive product relaunch with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid"
+  }
+}

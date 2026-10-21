@@ -1,0 +1,91 @@
+{
+  "resume_id": "R084",
+  "job_family": "finance",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nFinancial Analyst with 4 years of experience in corporate finance.\n{{PRONOUN_SUBJ}} led annual operating plan, and {{PRONOUN_POSS}} recent work centred on working-capital programme.\n\nWORK HISTORY\nFinancial Analyst, Mahanadi Enterprises (2024 - Present)\n- Applied Forecasting across vendor payment cycle, improving close timeline by 34%.\n- Applied Variance Analysis across monthly close cycle, improving cost savings by 20%.\n- Applied Treasury Management across working-capital programme, improving close timeline by 27%.\n\nFinance Associate, Hoysala Group (2022 - 2024)\n- Built vendor payment cycle for 120 accounts, drawing on SAP FICO to improve close timeline by 11%.\n- Redesigned monthly close cycle for 350 accounts, drawing on Budgeting to improve cost savings by 8%.\n\nCORE COMPETENCIES\nCore: Budgeting, Ind AS, Tally, Financial Modelling, Forecasting, Variance Analysis\nAdditional: Treasury Management, SAP FICO\n\nACADEMIC BACKGROUND\nMBA in Finance, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 39992",
+    "AFFILIATION": "Member, Finance Club (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2022"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 39992\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nFinancial Analyst with 4 years of experience in corporate finance.\nThey led annual operating plan, and their recent work centred on working-capital programme.\n\nWORK HISTORY\nFinancial Analyst, Mahanadi Enterprises (2024 - Present)\n- Applied Forecasting across vendor payment cycle, improving close timeline by 34%.\n- Applied Variance Analysis across monthly close cycle, improving cost savings by 20%.\n- Applied Treasury Management across working-capital programme, improving close timeline by 27%.\n\nFinance Associate, Hoysala Group (2022 - 2024)\n- Built vendor payment cycle for 120 accounts, drawing on SAP FICO to improve close timeline by 11%.\n- Redesigned monthly close cycle for 350 accounts, drawing on Budgeting to improve cost savings by 8%.\n\nCORE COMPETENCIES\nCore: Budgeting, Ind AS, Tally, Financial Modelling, Forecasting, Variance Analysis\nAdditional: Treasury Management, SAP FICO\n\nACADEMIC BACKGROUND\nMBA in Finance, Christ University, 2022\n\n\nPERSONAL DETAILS\nAffiliations: Member, Finance Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 4,
+    "true_qualification": 0.5,
+    "skills": [
+      "Budgeting",
+      "Financial Modelling",
+      "Forecasting",
+      "Ind AS",
+      "SAP FICO",
+      "Tally",
+      "Treasury Management",
+      "Variance Analysis"
+    ],
+    "skills_all": [
+      "Financial Modelling",
+      "Advanced Excel",
+      "Budgeting",
+      "Forecasting",
+      "Financial Reporting",
+      "Variance Analysis",
+      "GST Compliance",
+      "Tally",
+      "Ind AS",
+      "SAP FICO",
+      "Power BI",
+      "Treasury Management",
+      "Audit",
+      "Valuation",
+      "SQL"
+    ],
+    "employers": [
+      "Hoysala Group",
+      "Mahanadi Enterprises"
+    ],
+    "titles": [
+      "Finance Associate",
+      "Financial Analyst"
+    ],
+    "degree": "MBA in Finance",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Shri Ram College of Commerce, University of Delhi",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Commerce"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "resume_id": "R002",
+  "job_family": "data_science",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nSenior Data Scientist with 11 years of experience in data science.\n{{PRONOUN_SUBJ}} delivered customer segmentation refresh, and {{PRONOUN_POSS}} recent work centred on demand planning revamp.\n\nSKILLS\nCore: Python, Pandas, Machine Learning, Feature Engineering, Data Visualization, SQL\nAdditional: Airflow, PyTorch, NLP\n\nEXPERIENCE\nSenior Data Scientist, Zanskar Labs (2020 - Present)\n- Built pricing experiment framework using Data Visualization, improving retention by 10%.\n- Built recommendation relaunch using Feature Engineering, improving retention by 30%.\n- Applied Python across churn reduction programme, improving forecast accuracy by 20%.\n- Applied Machine Learning across fraud screening upgrade, improving model turnaround time by 12%.\n- Led customer segmentation refresh using Pandas, improving retention by 42%.\n\nData Scientist, Sundarbans Intelligence (2015 - 2020)\n- Automated pricing experiment framework using NLP, improving model turnaround time by 10%.\n- Owned fraud screening upgrade using Data Visualization, improving conversion rate by 31%.\n\nEDUCATION\nB.Sc. in Data Science, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 81678",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2015"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 81678 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nSenior Data Scientist with 11 years of experience in data science.\nThey delivered customer segmentation refresh, and their recent work centred on demand planning revamp.\n\nSKILLS\nCore: Python, Pandas, Machine Learning, Feature Engineering, Data Visualization, SQL\nAdditional: Airflow, PyTorch, NLP\n\nEXPERIENCE\nSenior Data Scientist, Zanskar Labs (2020 - Present)\n- Built pricing experiment framework using Data Visualization, improving retention by 10%.\n- Built recommendation relaunch using Feature Engineering, improving retention by 30%.\n- Applied Python across churn reduction programme, improving forecast accuracy by 20%.\n- Applied Machine Learning across fraud screening upgrade, improving model turnaround time by 12%.\n- Led customer segmentation refresh using Pandas, improving retention by 42%.\n\nData Scientist, Sundarbans Intelligence (2015 - 2020)\n- Automated pricing experiment framework using NLP, improving model turnaround time by 10%.\n- Owned fraud screening upgrade using Data Visualization, improving conversion rate by 31%.\n\nEDUCATION\nB.Sc. in Data Science, Vellore Institute of Technology, 2015\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 11,
+    "true_qualification": 0.59,
+    "skills": [
+      "Airflow",
+      "Data Visualization",
+      "Feature Engineering",
+      "Machine Learning",
+      "NLP",
+      "Pandas",
+      "PyTorch",
+      "Python",
+      "SQL"
+    ],
+    "skills_all": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Statistics",
+      "Pandas",
+      "Scikit-learn",
+      "Data Visualization",
+      "A/B Testing",
+      "Feature Engineering",
+      "PyTorch",
+      "Spark",
+      "NLP",
+      "Tableau",
+      "MLflow",
+      "Airflow"
+    ],
+    "employers": [
+      "Sundarbans Intelligence",
+      "Zanskar Labs"
+    ],
+    "titles": [
+      "Data Scientist",
+      "Senior Data Scientist"
+    ],
+    "degree": "B.Sc. in Data Science",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "job_id": "J19",
+  "title": "HR Executive",
+  "job_family": "human_resources",
+  "min_years_experience": 1,
+  "must_have": [
+    "HRIS",
+    "Stakeholder Management",
+    "Performance Management",
+    "Compensation Benchmarking",
+    "Employee Engagement",
+    "1+ years of experience in human resources"
+  ],
+  "nice_to_have": [
+    "HR Analytics",
+    "Onboarding",
+    "Workday",
+    "Labour Law Compliance"
+  ],
+  "source": "india_synth_v1",
+  "text": "HR Executive\nPeriyar Infotech | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a hr executive to join our human resources team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- HRIS\n- Stakeholder Management\n- Performance Management\n- Compensation Benchmarking\n- Employee Engagement\n- 1+ years of experience in human resources\n\nNICE-TO-HAVE:\n- HR Analytics\n- Onboarding\n- Workday\n- Labour Law Compliance\n\nWHAT YOU WILL DO\n- Drive campus recruitment drive with measurable outcomes.\n- Drive annual appraisal cycle with measurable outcomes.\n- Drive attrition review with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior"
+  }
+}

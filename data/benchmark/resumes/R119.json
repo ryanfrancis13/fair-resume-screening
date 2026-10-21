@@ -1,0 +1,88 @@
+{
+  "resume_id": "R119",
+  "job_family": "human_resources",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nHR Business Partner with 3 years of experience in human resources.\n{{PRONOUN_SUBJ}} managed wellness initiative, and {{PRONOUN_POSS}} recent work centred on joining formalities redesign.\n\nWORK HISTORY\nHR Business Partner, Narmada Retail (2024 - Present)\n- Automated attrition review for 2500 employees, drawing on Compensation Benchmarking to improve time-to-hire by 9%.\n- Delivered wellness initiative using Payroll Processing, improving retention by 13%.\n- Streamlined joining formalities redesign for 800 employees, drawing on Succession Planning to improve retention by 11%.\n\nHR Executive, Kaziranga Services (2023 - 2024)\n- Owned wellness initiative using Compensation Benchmarking, improving employee satisfaction by 39%.\n- Applied Succession Planning across attrition review, improving retention by 20%.\n\nCORE COMPETENCIES\nCore: Payroll Processing, Labour Law Compliance, Compensation Benchmarking, Stakeholder Management\nAdditional: Succession Planning\n\nACADEMIC BACKGROUND\nMBA in Human Resources, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 64771",
+    "AFFILIATION": "Member, HR Association Student Chapter (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2023"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 64771\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nHR Business Partner with 3 years of experience in human resources.\nThey managed wellness initiative, and their recent work centred on joining formalities redesign.\n\nWORK HISTORY\nHR Business Partner, Narmada Retail (2024 - Present)\n- Automated attrition review for 2500 employees, drawing on Compensation Benchmarking to improve time-to-hire by 9%.\n- Delivered wellness initiative using Payroll Processing, improving retention by 13%.\n- Streamlined joining formalities redesign for 800 employees, drawing on Succession Planning to improve retention by 11%.\n\nHR Executive, Kaziranga Services (2023 - 2024)\n- Owned wellness initiative using Compensation Benchmarking, improving employee satisfaction by 39%.\n- Applied Succession Planning across attrition review, improving retention by 20%.\n\nCORE COMPETENCIES\nCore: Payroll Processing, Labour Law Compliance, Compensation Benchmarking, Stakeholder Management\nAdditional: Succession Planning\n\nACADEMIC BACKGROUND\nMBA in Human Resources, Christ University, 2023\n\n\nPERSONAL DETAILS\nAffiliations: Member, HR Association Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 3,
+    "true_qualification": 0.24,
+    "skills": [
+      "Compensation Benchmarking",
+      "Labour Law Compliance",
+      "Payroll Processing",
+      "Stakeholder Management",
+      "Succession Planning"
+    ],
+    "skills_all": [
+      "Talent Acquisition",
+      "Employee Engagement",
+      "Payroll Processing",
+      "HRIS",
+      "Performance Management",
+      "Onboarding",
+      "Labour Law Compliance",
+      "Compensation Benchmarking",
+      "Stakeholder Management",
+      "Workday",
+      "Learning and Development",
+      "HR Analytics",
+      "Campus Hiring",
+      "Employer Branding",
+      "Succession Planning"
+    ],
+    "employers": [
+      "Kaziranga Services",
+      "Narmada Retail"
+    ],
+    "titles": [
+      "HR Business Partner",
+      "HR Executive"
+    ],
+    "degree": "MBA in Human Resources",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Tata Institute of Social Sciences, Mumbai",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

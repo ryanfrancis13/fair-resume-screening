@@ -1,0 +1,91 @@
+{
+  "resume_id": "R034",
+  "job_family": "data_science",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nData Scientist with 4 years of experience in data science.\n{{PRONOUN_SUBJ}} led recommendation relaunch, and {{PRONOUN_POSS}} recent work centred on churn reduction programme.\n\nSKILLS\nCore: Python, Data Visualization, Statistics, Pandas, Scikit-learn, SQL, A/B Testing\nAdditional: Spark\n\nEXPERIENCE\nData Scientist, Nilgiri Data Works (2024 - Present)\n- Built demand planning revamp using Statistics, improving model turnaround time by 27%.\n- Automated customer segmentation refresh for 120 customers, drawing on Python to improve forecast accuracy by 38%.\n- Delivered pricing experiment framework for 120 customers, drawing on Pandas to improve conversion rate by 33%.\n\nAssociate Data Analyst, Kaveri Analytics (2022 - 2024)\n- Applied SQL across churn reduction programme, improving retention by 28%.\n- Redesigned demand planning revamp for 40 customers, drawing on Python to improve model turnaround time by 34%.\n\nEDUCATION\nM.Sc. in Mathematics and Computing, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 97157",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2022"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 97157 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nData Scientist with 4 years of experience in data science.\nThey led recommendation relaunch, and their recent work centred on churn reduction programme.\n\nSKILLS\nCore: Python, Data Visualization, Statistics, Pandas, Scikit-learn, SQL, A/B Testing\nAdditional: Spark\n\nEXPERIENCE\nData Scientist, Nilgiri Data Works (2024 - Present)\n- Built demand planning revamp using Statistics, improving model turnaround time by 27%.\n- Automated customer segmentation refresh for 120 customers, drawing on Python to improve forecast accuracy by 38%.\n- Delivered pricing experiment framework for 120 customers, drawing on Pandas to improve conversion rate by 33%.\n\nAssociate Data Analyst, Kaveri Analytics (2022 - 2024)\n- Applied SQL across churn reduction programme, improving retention by 28%.\n- Redesigned demand planning revamp for 40 customers, drawing on Python to improve model turnaround time by 34%.\n\nEDUCATION\nM.Sc. in Mathematics and Computing, Vellore Institute of Technology, 2022\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 4,
+    "true_qualification": 0.52,
+    "skills": [
+      "A/B Testing",
+      "Data Visualization",
+      "Pandas",
+      "Python",
+      "SQL",
+      "Scikit-learn",
+      "Spark",
+      "Statistics"
+    ],
+    "skills_all": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Statistics",
+      "Pandas",
+      "Scikit-learn",
+      "Data Visualization",
+      "A/B Testing",
+      "Feature Engineering",
+      "PyTorch",
+      "Spark",
+      "NLP",
+      "Tableau",
+      "MLflow",
+      "Airflow"
+    ],
+    "employers": [
+      "Kaveri Analytics",
+      "Nilgiri Data Works"
+    ],
+    "titles": [
+      "Associate Data Analyst",
+      "Data Scientist"
+    ],
+    "degree": "M.Sc. in Mathematics and Computing",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

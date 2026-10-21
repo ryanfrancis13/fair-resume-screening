@@ -1,0 +1,26 @@
+{
+  "job_id": "J02",
+  "title": "Software Engineer",
+  "job_family": "software_engineering",
+  "min_years_experience": 3,
+  "must_have": [
+    "Microservices",
+    "Python",
+    "AWS",
+    "System Design",
+    "Java",
+    "3+ years of experience in software engineering"
+  ],
+  "nice_to_have": [
+    "Git",
+    "GraphQL",
+    "SQL",
+    "Kubernetes"
+  ],
+  "source": "india_synth_v1",
+  "text": "Software Engineer\nKaveri Systems | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a software engineer to join our software engineering team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- Microservices\n- Python\n- AWS\n- System Design\n- Java\n- 3+ years of experience in software engineering\n\nNICE-TO-HAVE:\n- Git\n- GraphQL\n- SQL\n- Kubernetes\n\nWHAT YOU WILL DO\n- Drive payment reconciliation automation with measurable outcomes.\n- Drive internal developer tooling with measurable outcomes.\n- Drive customer onboarding platform delivery with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid"
+  }
+}

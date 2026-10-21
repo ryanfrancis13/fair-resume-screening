@@ -11,7 +11,7 @@
 UV ?= uv
 
 .DEFAULT_GOAL := help
-.PHONY: help setup setup-min lock upgrade corpus demo names-only full-cues validate \
+.PHONY: help setup setup-min lock upgrade corpus synthetic-corpus demo names-only full-cues validate \
         score audit report dashboard doctor runs test test-fast test-py39 \
         lint format check build clean clean-cache clean-runs
 
@@ -39,12 +39,13 @@ upgrade: ## re-resolve every dependency to its newest allowed version
 corpus: ## regenerate the committed sample corpus
 	$(UV) run python scripts/make_sample_corpus.py
 
+synthetic-corpus: ## regenerate the controlled fairness benchmark
+	$(UV) run python scripts/benchmark_dataset/build_dataset.py --out data/benchmark
+	$(UV) run python scripts/benchmark_dataset/validate_dataset.py --out data/benchmark
+
 # --------------------------------------------------------------------------- #
 # running the pipeline
 # --------------------------------------------------------------------------- #
-hf-demo: ## full pipeline on Hugging Face Templated dataset (offline)
-	$(UV) run frs pipeline --config configs/hf_templated.yaml --provider mock
-
 demo: ## full pipeline, offline, no API key
 	$(UV) run frs pipeline --config configs/offline_demo.yaml
 

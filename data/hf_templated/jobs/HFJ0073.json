@@ -1,8 +1,0 @@
-{
-  "job_id": "HFJ0073",
-  "title": "Business Analyst Tableau DeveloperMalvern, PA1+ year",
-  "text": "Business Analyst Tableau DeveloperMalvern, PA1+ year\nResponsibilities: Learns and understands client area business functions and requirements. Determines the appropriate technical tool to address the client's business needs. Storytelling  communication ability to both technical and non-technical audiences will be extremely beneficial in this role. Business Analyst mindset (ability to think outside the box, ask questions, uncover gaps) Learns and experiments with new technologies, tools, and processes. Experience with SQL development and Tableau reporting required. Ability to create complex and interactive tableau dashboards. Experience in data wrangling (i.e. connecting to multiple data sources such as Athena, S3) Experience working with sensitive data (e.g., fraud) preferred. Experience with Data Prep or Data Wrangler would be beneficial.\nQualifications: SQL (required) Tableau (required) SageMaker (preferred) Python (preferred)",
-  "job_family": "software_engineering",
-  "source": "huggingface_resume_job_fit",
-  "meta": {}
-}

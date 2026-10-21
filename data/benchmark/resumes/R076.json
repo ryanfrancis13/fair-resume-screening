@@ -1,0 +1,89 @@
+{
+  "resume_id": "R076",
+  "job_family": "finance",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSenior Financial Analyst with 8 years of experience in corporate finance.\n{{PRONOUN_SUBJ}} led vendor payment cycle, and {{PRONOUN_POSS}} recent work centred on quarterly board reporting.\n\nWORK HISTORY\nSenior Financial Analyst, Mahanadi Enterprises (2022 - Present)\n- Applied Power BI across cost-centre review process, improving payment turnaround by 35%.\n- Applied Ind AS across working-capital programme, improving cost savings by 31%.\n- Automated monthly close cycle using Tally, improving payment turnaround by 19%.\n- Automated vendor payment cycle using Budgeting, improving forecast accuracy by 14%.\n- Redesigned quarterly board reporting using Financial Modelling, improving payment turnaround by 32%.\n\nFinancial Analyst, Vindhya Capital (2018 - 2022)\n- Redesigned quarterly board reporting for 350 accounts, drawing on Ind AS to improve payment turnaround by 27%.\n- Built vendor payment cycle for 40 accounts, drawing on Financial Modelling to improve close timeline by 33%.\n\nCORE COMPETENCIES\nCore: Ind AS, Tally, Budgeting, Variance Analysis, Financial Modelling\nAdditional: Power BI\n\nACADEMIC BACKGROUND\nM.Com, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 28241",
+    "AFFILIATION": "Member, Finance Club (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2018"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 28241\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSenior Financial Analyst with 8 years of experience in corporate finance.\nThey led vendor payment cycle, and their recent work centred on quarterly board reporting.\n\nWORK HISTORY\nSenior Financial Analyst, Mahanadi Enterprises (2022 - Present)\n- Applied Power BI across cost-centre review process, improving payment turnaround by 35%.\n- Applied Ind AS across working-capital programme, improving cost savings by 31%.\n- Automated monthly close cycle using Tally, improving payment turnaround by 19%.\n- Automated vendor payment cycle using Budgeting, improving forecast accuracy by 14%.\n- Redesigned quarterly board reporting using Financial Modelling, improving payment turnaround by 32%.\n\nFinancial Analyst, Vindhya Capital (2018 - 2022)\n- Redesigned quarterly board reporting for 350 accounts, drawing on Ind AS to improve payment turnaround by 27%.\n- Built vendor payment cycle for 40 accounts, drawing on Financial Modelling to improve close timeline by 33%.\n\nCORE COMPETENCIES\nCore: Ind AS, Tally, Budgeting, Variance Analysis, Financial Modelling\nAdditional: Power BI\n\nACADEMIC BACKGROUND\nM.Com, Christ University, 2018\n\n\nPERSONAL DETAILS\nAffiliations: Member, Finance Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 8,
+    "true_qualification": 0.52,
+    "skills": [
+      "Budgeting",
+      "Financial Modelling",
+      "Ind AS",
+      "Power BI",
+      "Tally",
+      "Variance Analysis"
+    ],
+    "skills_all": [
+      "Financial Modelling",
+      "Advanced Excel",
+      "Budgeting",
+      "Forecasting",
+      "Financial Reporting",
+      "Variance Analysis",
+      "GST Compliance",
+      "Tally",
+      "Ind AS",
+      "SAP FICO",
+      "Power BI",
+      "Treasury Management",
+      "Audit",
+      "Valuation",
+      "SQL"
+    ],
+    "employers": [
+      "Mahanadi Enterprises",
+      "Vindhya Capital"
+    ],
+    "titles": [
+      "Financial Analyst",
+      "Senior Financial Analyst"
+    ],
+    "degree": "M.Com",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Shri Ram College of Commerce, University of Delhi",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Commerce"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

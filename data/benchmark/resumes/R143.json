@@ -1,0 +1,87 @@
+{
+  "resume_id": "R143",
+  "job_family": "human_resources",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nHR Executive with 2 years of experience in human resources.\n{{PRONOUN_SUBJ}} managed annual appraisal cycle, and {{PRONOUN_POSS}} recent work centred on joining formalities redesign.\n\nSKILLS\nCore: Payroll Processing, Employee Engagement, Onboarding, Talent Acquisition, Stakeholder Management\nAdditional: HR Analytics\n\nEXPERIENCE\nHR Executive, Narmada Retail (2024 - Present)\n- Built wellness initiative using Onboarding, improving retention by 23%.\n- Led policy refresh using Employee Engagement, improving time-to-hire by 9%.\n- Led campus recruitment drive using HR Analytics, improving offer acceptance rate by 20%.\n\nEDUCATION\nM.A. in Social Work (HRM), {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 22004",
+    "AFFILIATION": "Member, HR Association Student Chapter (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2024"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 22004 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nHR Executive with 2 years of experience in human resources.\nThey managed annual appraisal cycle, and their recent work centred on joining formalities redesign.\n\nSKILLS\nCore: Payroll Processing, Employee Engagement, Onboarding, Talent Acquisition, Stakeholder Management\nAdditional: HR Analytics\n\nEXPERIENCE\nHR Executive, Narmada Retail (2024 - Present)\n- Built wellness initiative using Onboarding, improving retention by 23%.\n- Led policy refresh using Employee Engagement, improving time-to-hire by 9%.\n- Led campus recruitment drive using HR Analytics, improving offer acceptance rate by 20%.\n\nEDUCATION\nM.A. in Social Work (HRM), Christ University, 2024\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, HR Association Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 2,
+    "true_qualification": 0.25,
+    "skills": [
+      "Employee Engagement",
+      "HR Analytics",
+      "Onboarding",
+      "Payroll Processing",
+      "Stakeholder Management",
+      "Talent Acquisition"
+    ],
+    "skills_all": [
+      "Talent Acquisition",
+      "Employee Engagement",
+      "Payroll Processing",
+      "HRIS",
+      "Performance Management",
+      "Onboarding",
+      "Labour Law Compliance",
+      "Compensation Benchmarking",
+      "Stakeholder Management",
+      "Workday",
+      "Learning and Development",
+      "HR Analytics",
+      "Campus Hiring",
+      "Employer Branding",
+      "Succession Planning"
+    ],
+    "employers": [
+      "Narmada Retail"
+    ],
+    "titles": [
+      "HR Executive"
+    ],
+    "degree": "M.A. in Social Work (HRM)",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Tata Institute of Social Sciences, Mumbai",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

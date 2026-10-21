@@ -1,0 +1,26 @@
+{
+  "job_id": "J11",
+  "title": "Financial Analyst",
+  "job_family": "finance",
+  "min_years_experience": 3,
+  "must_have": [
+    "Financial Modelling",
+    "Advanced Excel",
+    "Variance Analysis",
+    "Financial Reporting",
+    "Budgeting",
+    "3+ years of experience in corporate finance"
+  ],
+  "nice_to_have": [
+    "Power BI",
+    "GST Compliance",
+    "SAP FICO",
+    "Ind AS"
+  ],
+  "source": "india_synth_v1",
+  "text": "Financial Analyst\nGodavari Finserv | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a financial analyst to join our corporate finance team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- Financial Modelling\n- Advanced Excel\n- Variance Analysis\n- Financial Reporting\n- Budgeting\n- 3+ years of experience in corporate finance\n\nNICE-TO-HAVE:\n- Power BI\n- GST Compliance\n- SAP FICO\n- Ind AS\n\nWHAT YOU WILL DO\n- Drive annual operating plan with measurable outcomes.\n- Drive cost-centre review process with measurable outcomes.\n- Drive monthly close cycle with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid"
+  }
+}

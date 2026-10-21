@@ -1,0 +1,93 @@
+{
+  "resume_id": "R087",
+  "job_family": "human_resources",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nHR Executive with 1 years of experience in human resources.\n{{PRONOUN_SUBJ}} managed attrition review, and {{PRONOUN_POSS}} recent work centred on wellness initiative.\n\nSKILLS\nCore: Performance Management, HRIS, Stakeholder Management, Employee Engagement, Onboarding, Talent Acquisition, Labour Law Compliance, Compensation Benchmarking\nAdditional: Campus Hiring, Learning and Development, Succession Planning, HR Analytics\n\nEXPERIENCE\nHR Executive, Kaziranga Services (2025 - Present)\n- Applied Succession Planning across policy refresh, improving offer acceptance rate by 37%.\n- Redesigned attrition review for 2500 employees, drawing on Stakeholder Management to improve employee satisfaction by 10%.\n- Owned annual appraisal cycle for 800 employees, drawing on Compensation Benchmarking to improve employee satisfaction by 28%.\n\nEDUCATION\nBBA, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 77831",
+    "AFFILIATION": "Member, HR Association Student Chapter (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2025"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 77831 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nHR Executive with 1 years of experience in human resources.\nThey managed attrition review, and their recent work centred on wellness initiative.\n\nSKILLS\nCore: Performance Management, HRIS, Stakeholder Management, Employee Engagement, Onboarding, Talent Acquisition, Labour Law Compliance, Compensation Benchmarking\nAdditional: Campus Hiring, Learning and Development, Succession Planning, HR Analytics\n\nEXPERIENCE\nHR Executive, Kaziranga Services (2025 - Present)\n- Applied Succession Planning across policy refresh, improving offer acceptance rate by 37%.\n- Redesigned attrition review for 2500 employees, drawing on Stakeholder Management to improve employee satisfaction by 10%.\n- Owned annual appraisal cycle for 800 employees, drawing on Compensation Benchmarking to improve employee satisfaction by 28%.\n\nEDUCATION\nBBA, Christ University, 2025\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, HR Association Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 1,
+    "true_qualification": 0.76,
+    "skills": [
+      "Campus Hiring",
+      "Compensation Benchmarking",
+      "Employee Engagement",
+      "HR Analytics",
+      "HRIS",
+      "Labour Law Compliance",
+      "Learning and Development",
+      "Onboarding",
+      "Performance Management",
+      "Stakeholder Management",
+      "Succession Planning",
+      "Talent Acquisition"
+    ],
+    "skills_all": [
+      "Talent Acquisition",
+      "Employee Engagement",
+      "Payroll Processing",
+      "HRIS",
+      "Performance Management",
+      "Onboarding",
+      "Labour Law Compliance",
+      "Compensation Benchmarking",
+      "Stakeholder Management",
+      "Workday",
+      "Learning and Development",
+      "HR Analytics",
+      "Campus Hiring",
+      "Employer Branding",
+      "Succession Planning"
+    ],
+    "employers": [
+      "Kaziranga Services"
+    ],
+    "titles": [
+      "HR Executive"
+    ],
+    "degree": "BBA",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Tata Institute of Social Sciences, Mumbai",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "resume_id": "R113",
+  "job_family": "software_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSenior Software Engineer with 9 years of experience in software engineering.\n{{PRONOUN_SUBJ}} delivered customer onboarding platform delivery, and {{PRONOUN_POSS}} recent work centred on inventory synchronisation rollout.\n\nWORK HISTORY\nSenior Software Engineer, Brahmaputra Labs (2021 - Present)\n- Built order-management backend modernisation for 120 users, drawing on AWS to improve defect rate by 39%.\n- Streamlined inventory synchronisation rollout using Go, improving response time by 14%.\n- Owned payment reconciliation automation for 800 users, drawing on Git to improve response time by 19%.\n- Automated customer onboarding platform delivery for 350 users, drawing on Microservices to improve service uptime by 17%.\n- Applied REST APIs across internal developer tooling, improving response time by 12%.\n\nSoftware Engineer, Sahyadri Software (2017 - 2021)\n- Streamlined order-management backend modernisation using Microservices, improving response time by 10%.\n- Applied Java across internal developer tooling, improving defect rate by 28%.\n\nCORE COMPETENCIES\nCore: Microservices, Java, AWS, REST APIs, Git\nAdditional: Go\n\nACADEMIC BACKGROUND\nM.Tech in Computer Science, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 04716",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2017"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 04716\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSenior Software Engineer with 9 years of experience in software engineering.\nThey delivered customer onboarding platform delivery, and their recent work centred on inventory synchronisation rollout.\n\nWORK HISTORY\nSenior Software Engineer, Brahmaputra Labs (2021 - Present)\n- Built order-management backend modernisation for 120 users, drawing on AWS to improve defect rate by 39%.\n- Streamlined inventory synchronisation rollout using Go, improving response time by 14%.\n- Owned payment reconciliation automation for 800 users, drawing on Git to improve response time by 19%.\n- Automated customer onboarding platform delivery for 350 users, drawing on Microservices to improve service uptime by 17%.\n- Applied REST APIs across internal developer tooling, improving response time by 12%.\n\nSoftware Engineer, Sahyadri Software (2017 - 2021)\n- Streamlined order-management backend modernisation using Microservices, improving response time by 10%.\n- Applied Java across internal developer tooling, improving defect rate by 28%.\n\nCORE COMPETENCIES\nCore: Microservices, Java, AWS, REST APIs, Git\nAdditional: Go\n\nACADEMIC BACKGROUND\nM.Tech in Computer Science, Vellore Institute of Technology, 2017\n\n\nPERSONAL DETAILS\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 9,
+    "true_qualification": 0.31,
+    "skills": [
+      "AWS",
+      "Git",
+      "Go",
+      "Java",
+      "Microservices",
+      "REST APIs"
+    ],
+    "skills_all": [
+      "Python",
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Docker",
+      "Git",
+      "Microservices",
+      "AWS",
+      "System Design",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "GraphQL",
+      "Go"
+    ],
+    "employers": [
+      "Brahmaputra Labs",
+      "Sahyadri Software"
+    ],
+    "titles": [
+      "Senior Software Engineer",
+      "Software Engineer"
+    ],
+    "degree": "M.Tech in Computer Science",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Bombay",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

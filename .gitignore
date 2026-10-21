@@ -37,7 +37,7 @@ client_secret*.json
 .streamlit/secrets.toml
 
 # --- 2. corpora and derived data ---------------------------------------------
-# Only data/sample/ (synthetic) and data/lexicons/ (name lists) are tracked.
+# Only project-owned synthetic data and reviewed lexicons are tracked.
 data/raw/*
 !data/raw/.gitkeep
 data/external/*

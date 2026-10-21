@@ -1,0 +1,89 @@
+{
+  "resume_id": "R128",
+  "job_family": "sales",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nSales Executive with 1 years of experience in business sales.\n{{PRONOUN_SUBJ}} delivered festive-season quota delivery, and {{PRONOUN_POSS}} recent work centred on distributor network expansion.\n\nSKILLS\nCore: B2B Sales, Cold Outreach, CRM, Lead Generation, Account Management, Pipeline Management\nAdditional: Upselling, Tender Responses\n\nEXPERIENCE\nSales Executive, Vaigai Solutions (2025 - Present)\n- Applied Upselling across enterprise accounts in the western region, improving quarterly revenue by 35%.\n- Applied CRM across festive-season quota delivery, improving win rate by 36%.\n- Redesigned mid-market segment launch for 2500 accounts, drawing on B2B Sales to improve average deal size by 45%.\n\nEDUCATION\nB.Com, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 34562",
+    "AFFILIATION": "Member, Business Club (2 years)",
+    "UNIVERSITY": "Symbiosis International University",
+    "GRAD_YEAR": "2025"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 34562 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nSales Executive with 1 years of experience in business sales.\nThey delivered festive-season quota delivery, and their recent work centred on distributor network expansion.\n\nSKILLS\nCore: B2B Sales, Cold Outreach, CRM, Lead Generation, Account Management, Pipeline Management\nAdditional: Upselling, Tender Responses\n\nEXPERIENCE\nSales Executive, Vaigai Solutions (2025 - Present)\n- Applied Upselling across enterprise accounts in the western region, improving quarterly revenue by 35%.\n- Applied CRM across festive-season quota delivery, improving win rate by 36%.\n- Redesigned mid-market segment launch for 2500 accounts, drawing on B2B Sales to improve average deal size by 45%.\n\nEDUCATION\nB.Com, Symbiosis International University, 2025\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, Business Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 1,
+    "true_qualification": 0.51,
+    "skills": [
+      "Account Management",
+      "B2B Sales",
+      "CRM",
+      "Cold Outreach",
+      "Lead Generation",
+      "Pipeline Management",
+      "Tender Responses",
+      "Upselling"
+    ],
+    "skills_all": [
+      "B2B Sales",
+      "Lead Generation",
+      "CRM",
+      "Negotiation",
+      "Account Management",
+      "Pipeline Management",
+      "Sales Forecasting",
+      "Cold Outreach",
+      "Client Presentations",
+      "Salesforce",
+      "Channel Partnerships",
+      "Upselling",
+      "Territory Planning",
+      "Tender Responses",
+      "Market Mapping"
+    ],
+    "employers": [
+      "Vaigai Solutions"
+    ],
+    "titles": [
+      "Sales Executive"
+    ],
+    "degree": "B.Com",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Management Bangalore",
+      "mid": "Symbiosis International University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

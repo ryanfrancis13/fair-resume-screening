@@ -1,0 +1,94 @@
+{
+  "resume_id": "R081",
+  "job_family": "software_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSenior Software Engineer with 9 years of experience in software engineering.\n{{PRONOUN_SUBJ}} managed internal developer tooling, and {{PRONOUN_POSS}} recent work centred on payment reconciliation automation.\n\nWORK HISTORY\nSenior Software Engineer, Brahmaputra Labs (2021 - Present)\n- Streamlined customer onboarding platform delivery for 2500 users, drawing on REST APIs to improve defect rate by 20%.\n- Applied Terraform across order-management backend modernisation, improving release frequency by 26%.\n- Owned payment reconciliation automation for 40 users, drawing on SQL to improve service uptime by 15%.\n- Redesigned internal developer tooling using System Design, improving response time by 10%.\n- Applied Git across notification delivery overhaul, improving response time by 20%.\n\nSoftware Engineer, Kaveri Systems (2017 - 2021)\n- Led customer onboarding platform delivery for 800 users, drawing on Terraform to improve defect rate by 13%.\n- Applied REST APIs across notification delivery overhaul, improving service uptime by 43%.\n\nCORE COMPETENCIES\nCore: AWS, System Design, Docker, SQL, Microservices, REST APIs, Python, Git\nAdditional: Redis, Terraform, Go\n\nACADEMIC BACKGROUND\nB.Tech in Computer Science and Engineering, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 07641",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2017"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 07641\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSenior Software Engineer with 9 years of experience in software engineering.\nThey managed internal developer tooling, and their recent work centred on payment reconciliation automation.\n\nWORK HISTORY\nSenior Software Engineer, Brahmaputra Labs (2021 - Present)\n- Streamlined customer onboarding platform delivery for 2500 users, drawing on REST APIs to improve defect rate by 20%.\n- Applied Terraform across order-management backend modernisation, improving release frequency by 26%.\n- Owned payment reconciliation automation for 40 users, drawing on SQL to improve service uptime by 15%.\n- Redesigned internal developer tooling using System Design, improving response time by 10%.\n- Applied Git across notification delivery overhaul, improving response time by 20%.\n\nSoftware Engineer, Kaveri Systems (2017 - 2021)\n- Led customer onboarding platform delivery for 800 users, drawing on Terraform to improve defect rate by 13%.\n- Applied REST APIs across notification delivery overhaul, improving service uptime by 43%.\n\nCORE COMPETENCIES\nCore: AWS, System Design, Docker, SQL, Microservices, REST APIs, Python, Git\nAdditional: Redis, Terraform, Go\n\nACADEMIC BACKGROUND\nB.Tech in Computer Science and Engineering, Vellore Institute of Technology, 2017\n\n\nPERSONAL DETAILS\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 9,
+    "true_qualification": 0.78,
+    "skills": [
+      "AWS",
+      "Docker",
+      "Git",
+      "Go",
+      "Microservices",
+      "Python",
+      "REST APIs",
+      "Redis",
+      "SQL",
+      "System Design",
+      "Terraform"
+    ],
+    "skills_all": [
+      "Python",
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Docker",
+      "Git",
+      "Microservices",
+      "AWS",
+      "System Design",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "GraphQL",
+      "Go"
+    ],
+    "employers": [
+      "Brahmaputra Labs",
+      "Kaveri Systems"
+    ],
+    "titles": [
+      "Senior Software Engineer",
+      "Software Engineer"
+    ],
+    "degree": "B.Tech in Computer Science and Engineering",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Bombay",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

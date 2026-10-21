@@ -1,0 +1,41 @@
+{
+  "n_resumes": 150,
+  "n_variants": 10350,
+  "n_passed": 10350,
+  "per_family": {
+    "name": {
+      "generated": 6000,
+      "passed": 6000
+    },
+    "pronoun": {
+      "generated": 300,
+      "passed": 300,
+      "same_as_baseline_skipped": 150
+    },
+    "affiliation_marker": {
+      "generated": 1200,
+      "passed": 1200
+    },
+    "cultural_marker": {
+      "generated": 900,
+      "passed": 900
+    },
+    "location_marker": {
+      "generated": 900,
+      "passed": 900
+    },
+    "age_marker": {
+      "generated": 450,
+      "passed": 450
+    },
+    "socioeconomic_marker": {
+      "generated": 300,
+      "passed": 300
+    },
+    "education_prestige": {
+      "generated": 300,
+      "passed": 300
+    }
+  },
+  "failures_kept_and_flagged": []
+}

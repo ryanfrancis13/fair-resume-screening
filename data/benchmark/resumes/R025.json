@@ -1,0 +1,91 @@
+{
+  "resume_id": "R025",
+  "job_family": "software_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nSenior Software Engineer with 12 years of experience in software engineering.\n{{PRONOUN_SUBJ}} delivered internal developer tooling, and {{PRONOUN_POSS}} recent work centred on payment reconciliation automation.\n\nSKILLS\nCore: System Design, REST APIs, Python, Java, Git, Docker, AWS\nAdditional: GraphQL\n\nEXPERIENCE\nSenior Software Engineer, Brahmaputra Labs (2020 - Present)\n- Automated notification delivery overhaul for 800 users, drawing on Python to improve response time by 36%.\n- Automated payment reconciliation automation for 2500 users, drawing on REST APIs to improve service uptime by 16%.\n- Redesigned internal developer tooling for 800 users, drawing on Docker to improve release frequency by 16%.\n- Delivered customer onboarding platform delivery using System Design, improving response time by 15%.\n- Built inventory synchronisation rollout for 350 users, drawing on Git to improve release frequency by 18%.\n\nSoftware Engineer, Sahyadri Software (2014 - 2020)\n- Automated customer onboarding platform delivery for 120 users, drawing on System Design to improve response time by 40%.\n- Automated payment reconciliation automation for 2500 users, drawing on GraphQL to improve release frequency by 18%.\n\nEDUCATION\nB.E. in Information Technology, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 73874",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2014"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 73874 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nSenior Software Engineer with 12 years of experience in software engineering.\nThey delivered internal developer tooling, and their recent work centred on payment reconciliation automation.\n\nSKILLS\nCore: System Design, REST APIs, Python, Java, Git, Docker, AWS\nAdditional: GraphQL\n\nEXPERIENCE\nSenior Software Engineer, Brahmaputra Labs (2020 - Present)\n- Automated notification delivery overhaul for 800 users, drawing on Python to improve response time by 36%.\n- Automated payment reconciliation automation for 2500 users, drawing on REST APIs to improve service uptime by 16%.\n- Redesigned internal developer tooling for 800 users, drawing on Docker to improve release frequency by 16%.\n- Delivered customer onboarding platform delivery using System Design, improving response time by 15%.\n- Built inventory synchronisation rollout for 350 users, drawing on Git to improve release frequency by 18%.\n\nSoftware Engineer, Sahyadri Software (2014 - 2020)\n- Automated customer onboarding platform delivery for 120 users, drawing on System Design to improve response time by 40%.\n- Automated payment reconciliation automation for 2500 users, drawing on GraphQL to improve release frequency by 18%.\n\nEDUCATION\nB.E. in Information Technology, Vellore Institute of Technology, 2014\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 12,
+    "true_qualification": 0.66,
+    "skills": [
+      "AWS",
+      "Docker",
+      "Git",
+      "GraphQL",
+      "Java",
+      "Python",
+      "REST APIs",
+      "System Design"
+    ],
+    "skills_all": [
+      "Python",
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Docker",
+      "Git",
+      "Microservices",
+      "AWS",
+      "System Design",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "GraphQL",
+      "Go"
+    ],
+    "employers": [
+      "Brahmaputra Labs",
+      "Sahyadri Software"
+    ],
+    "titles": [
+      "Senior Software Engineer",
+      "Software Engineer"
+    ],
+    "degree": "B.E. in Information Technology",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Bombay",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

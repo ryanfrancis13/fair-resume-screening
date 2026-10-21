@@ -1,0 +1,26 @@
+{
+  "job_id": "J10",
+  "title": "Finance Associate",
+  "job_family": "finance",
+  "min_years_experience": 1,
+  "must_have": [
+    "Financial Modelling",
+    "Advanced Excel",
+    "Tally",
+    "Variance Analysis",
+    "GST Compliance",
+    "1+ years of experience in corporate finance"
+  ],
+  "nice_to_have": [
+    "Treasury Management",
+    "Forecasting",
+    "SQL",
+    "Ind AS"
+  ],
+  "source": "india_synth_v1",
+  "text": "Finance Associate\nHoysala Group | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a finance associate to join our corporate finance team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- Financial Modelling\n- Advanced Excel\n- Tally\n- Variance Analysis\n- GST Compliance\n- 1+ years of experience in corporate finance\n\nNICE-TO-HAVE:\n- Treasury Management\n- Forecasting\n- SQL\n- Ind AS\n\nWHAT YOU WILL DO\n- Drive quarterly board reporting with measurable outcomes.\n- Drive cost-centre review process with measurable outcomes.\n- Drive vendor payment cycle with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior"
+  }
+}

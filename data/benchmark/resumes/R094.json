@@ -1,0 +1,89 @@
+{
+  "resume_id": "R094",
+  "job_family": "mechanical_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSenior Design Engineer with 10 years of experience in mechanical design.\n{{PRONOUN_SUBJ}} led assembly-line layout revamp, and {{PRONOUN_POSS}} recent work centred on fixture development.\n\nWORK HISTORY\nSenior Design Engineer, Tungabhadra Machine Works (2021 - Present)\n- Applied Six Sigma across heat-exchanger redesign, improving material cost by 42%.\n- Automated gearbox housing redesign using AutoCAD, improving first-pass yield by 23%.\n- Delivered fixture development using ANSYS, improving scrap rate by 38%.\n- Applied Finite Element Analysis across assembly-line layout revamp, improving scrap rate by 45%.\n- Owned vendor tooling programme using CNC Machining, improving material cost by 42%.\n\nDesign Engineer, Nilgiri Precision Tools (2016 - 2021)\n- Led fixture development for 40 units, drawing on ANSYS to improve material cost by 33%.\n- Owned assembly-line layout revamp for 800 units, drawing on Manufacturing Processes to improve first-pass yield by 28%.\n\nCORE COMPETENCIES\nCore: CNC Machining, Six Sigma, Finite Element Analysis, Manufacturing Processes, AutoCAD\nAdditional: ANSYS\n\nACADEMIC BACKGROUND\nB.Tech in Mechanical Engineering, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 11866",
+    "AFFILIATION": "Member, SAE India Collegiate Club (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2016"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 11866\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSenior Design Engineer with 10 years of experience in mechanical design.\nThey led assembly-line layout revamp, and their recent work centred on fixture development.\n\nWORK HISTORY\nSenior Design Engineer, Tungabhadra Machine Works (2021 - Present)\n- Applied Six Sigma across heat-exchanger redesign, improving material cost by 42%.\n- Automated gearbox housing redesign using AutoCAD, improving first-pass yield by 23%.\n- Delivered fixture development using ANSYS, improving scrap rate by 38%.\n- Applied Finite Element Analysis across assembly-line layout revamp, improving scrap rate by 45%.\n- Owned vendor tooling programme using CNC Machining, improving material cost by 42%.\n\nDesign Engineer, Nilgiri Precision Tools (2016 - 2021)\n- Led fixture development for 40 units, drawing on ANSYS to improve material cost by 33%.\n- Owned assembly-line layout revamp for 800 units, drawing on Manufacturing Processes to improve first-pass yield by 28%.\n\nCORE COMPETENCIES\nCore: CNC Machining, Six Sigma, Finite Element Analysis, Manufacturing Processes, AutoCAD\nAdditional: ANSYS\n\nACADEMIC BACKGROUND\nB.Tech in Mechanical Engineering, Vellore Institute of Technology, 2016\n\n\nPERSONAL DETAILS\nAffiliations: Member, SAE India Collegiate Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 10,
+    "true_qualification": 0.3,
+    "skills": [
+      "ANSYS",
+      "AutoCAD",
+      "CNC Machining",
+      "Finite Element Analysis",
+      "Manufacturing Processes",
+      "Six Sigma"
+    ],
+    "skills_all": [
+      "AutoCAD",
+      "SolidWorks",
+      "GD&T",
+      "Finite Element Analysis",
+      "Thermodynamics",
+      "CNC Machining",
+      "Manufacturing Processes",
+      "Root Cause Analysis",
+      "Six Sigma",
+      "ANSYS",
+      "CATIA",
+      "Lean Manufacturing",
+      "3D Printing",
+      "PLC Programming",
+      "Value Engineering"
+    ],
+    "employers": [
+      "Nilgiri Precision Tools",
+      "Tungabhadra Machine Works"
+    ],
+    "titles": [
+      "Design Engineer",
+      "Senior Design Engineer"
+    ],
+    "degree": "B.Tech in Mechanical Engineering",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Sai College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

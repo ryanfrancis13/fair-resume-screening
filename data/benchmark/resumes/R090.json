@@ -1,0 +1,93 @@
+{
+  "resume_id": "R090",
+  "job_family": "data_science",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nAssociate Data Analyst with 1 years of experience in data science.\n{{PRONOUN_SUBJ}} managed churn reduction programme, and {{PRONOUN_POSS}} recent work centred on recommendation relaunch.\n\nWORK HISTORY\nAssociate Data Analyst, Zanskar Labs (2025 - Present)\n- Owned customer segmentation refresh for 2500 customers, drawing on Statistics to improve forecast accuracy by 14%.\n- Delivered pricing experiment framework for 2500 customers, drawing on Pandas to improve forecast accuracy by 38%.\n- Automated demand planning revamp for 350 customers, drawing on Feature Engineering to improve retention by 28%.\n\nCORE COMPETENCIES\nCore: Pandas, Scikit-learn, Python, Data Visualization, A/B Testing, Statistics, Feature Engineering, Machine Learning\nAdditional: MLflow, Airflow, Spark, Tableau\n\nACADEMIC BACKGROUND\nB.Tech in Computer Science and Engineering, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 46380",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2025"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 46380\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nAssociate Data Analyst with 1 years of experience in data science.\nThey managed churn reduction programme, and their recent work centred on recommendation relaunch.\n\nWORK HISTORY\nAssociate Data Analyst, Zanskar Labs (2025 - Present)\n- Owned customer segmentation refresh for 2500 customers, drawing on Statistics to improve forecast accuracy by 14%.\n- Delivered pricing experiment framework for 2500 customers, drawing on Pandas to improve forecast accuracy by 38%.\n- Automated demand planning revamp for 350 customers, drawing on Feature Engineering to improve retention by 28%.\n\nCORE COMPETENCIES\nCore: Pandas, Scikit-learn, Python, Data Visualization, A/B Testing, Statistics, Feature Engineering, Machine Learning\nAdditional: MLflow, Airflow, Spark, Tableau\n\nACADEMIC BACKGROUND\nB.Tech in Computer Science and Engineering, Vellore Institute of Technology, 2025\n\n\nPERSONAL DETAILS\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 1,
+    "true_qualification": 0.82,
+    "skills": [
+      "A/B Testing",
+      "Airflow",
+      "Data Visualization",
+      "Feature Engineering",
+      "MLflow",
+      "Machine Learning",
+      "Pandas",
+      "Python",
+      "Scikit-learn",
+      "Spark",
+      "Statistics",
+      "Tableau"
+    ],
+    "skills_all": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Statistics",
+      "Pandas",
+      "Scikit-learn",
+      "Data Visualization",
+      "A/B Testing",
+      "Feature Engineering",
+      "PyTorch",
+      "Spark",
+      "NLP",
+      "Tableau",
+      "MLflow",
+      "Airflow"
+    ],
+    "employers": [
+      "Zanskar Labs"
+    ],
+    "titles": [
+      "Associate Data Analyst"
+    ],
+    "degree": "B.Tech in Computer Science and Engineering",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

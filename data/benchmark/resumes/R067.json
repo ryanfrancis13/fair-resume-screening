@@ -1,0 +1,88 @@
+{
+  "resume_id": "R067",
+  "job_family": "marketing",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSenior Marketing Manager with 12 years of experience in digital marketing.\n{{PRONOUN_SUBJ}} led festive-season launch, and {{PRONOUN_POSS}} recent work centred on regional expansion push.\n\nWORK HISTORY\nSenior Marketing Manager, Saffron Digital (2020 - Present)\n- Led regional expansion push for 350 prospects, drawing on Campaign Management to improve organic traffic by 20%.\n- Led customer acquisition drive for 2500 prospects, drawing on Brand Management to improve qualified leads by 18%.\n- Streamlined dealer outreach initiative for 120 prospects, drawing on Social Media Marketing to improve qualified leads by 21%.\n- Owned festive-season launch for 2500 prospects, drawing on Email Marketing to improve qualified leads by 21%.\n- Streamlined product relaunch using HubSpot, improving engagement rate by 12%.\n\nMarketing Manager, Monsoon Media Works (2014 - 2020)\n- Applied Campaign Management across customer acquisition drive, improving campaign ROI by 24%.\n- Applied HubSpot across retention programme, improving engagement rate by 33%.\n\nCORE COMPETENCIES\nCore: Brand Management, Social Media Marketing, Campaign Management, Email Marketing\nAdditional: HubSpot\n\nACADEMIC BACKGROUND\nBBA, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 51052",
+    "AFFILIATION": "Member, Marketing Club (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2014"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 51052\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSenior Marketing Manager with 12 years of experience in digital marketing.\nThey led festive-season launch, and their recent work centred on regional expansion push.\n\nWORK HISTORY\nSenior Marketing Manager, Saffron Digital (2020 - Present)\n- Led regional expansion push for 350 prospects, drawing on Campaign Management to improve organic traffic by 20%.\n- Led customer acquisition drive for 2500 prospects, drawing on Brand Management to improve qualified leads by 18%.\n- Streamlined dealer outreach initiative for 120 prospects, drawing on Social Media Marketing to improve qualified leads by 21%.\n- Owned festive-season launch for 2500 prospects, drawing on Email Marketing to improve qualified leads by 21%.\n- Streamlined product relaunch using HubSpot, improving engagement rate by 12%.\n\nMarketing Manager, Monsoon Media Works (2014 - 2020)\n- Applied Campaign Management across customer acquisition drive, improving campaign ROI by 24%.\n- Applied HubSpot across retention programme, improving engagement rate by 33%.\n\nCORE COMPETENCIES\nCore: Brand Management, Social Media Marketing, Campaign Management, Email Marketing\nAdditional: HubSpot\n\nACADEMIC BACKGROUND\nBBA, Christ University, 2014\n\n\nPERSONAL DETAILS\nAffiliations: Member, Marketing Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 12,
+    "true_qualification": 0.16,
+    "skills": [
+      "Brand Management",
+      "Campaign Management",
+      "Email Marketing",
+      "HubSpot",
+      "Social Media Marketing"
+    ],
+    "skills_all": [
+      "SEO",
+      "Google Analytics",
+      "Content Strategy",
+      "Social Media Marketing",
+      "Email Marketing",
+      "Campaign Management",
+      "Market Research",
+      "Brand Management",
+      "Copywriting",
+      "Google Ads",
+      "HubSpot",
+      "A/B Testing",
+      "Marketing Automation",
+      "Canva",
+      "Influencer Outreach"
+    ],
+    "employers": [
+      "Monsoon Media Works",
+      "Saffron Digital"
+    ],
+    "titles": [
+      "Marketing Manager",
+      "Senior Marketing Manager"
+    ],
+    "degree": "BBA",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Management Ahmedabad",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

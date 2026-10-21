@@ -1,0 +1,91 @@
+{
+  "resume_id": "R014",
+  "job_family": "mechanical_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nDesign Engineer with 6 years of experience in mechanical design.\n{{PRONOUN_SUBJ}} managed assembly-line layout revamp, and {{PRONOUN_POSS}} recent work centred on fixture development.\n\nSKILLS\nCore: Manufacturing Processes, SolidWorks, Six Sigma, Finite Element Analysis, Thermodynamics, CNC Machining, Root Cause Analysis\nAdditional: Lean Manufacturing\n\nEXPERIENCE\nDesign Engineer, Ganga Heavy Engineering (2023 - Present)\n- Built heat-exchanger redesign using Root Cause Analysis, improving cycle time by 11%.\n- Automated assembly-line layout revamp using Lean Manufacturing, improving scrap rate by 12%.\n- Redesigned gearbox housing redesign using Six Sigma, improving scrap rate by 22%.\n\nGraduate Engineer Trainee, Nilgiri Precision Tools (2020 - 2023)\n- Applied CNC Machining across assembly-line layout revamp, improving material cost by 23%.\n- Built heat-exchanger redesign using Six Sigma, improving cycle time by 19%.\n\nEDUCATION\nB.Tech in Mechanical Engineering, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 55176",
+    "AFFILIATION": "Member, SAE India Collegiate Club (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2020"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 55176 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nDesign Engineer with 6 years of experience in mechanical design.\nThey managed assembly-line layout revamp, and their recent work centred on fixture development.\n\nSKILLS\nCore: Manufacturing Processes, SolidWorks, Six Sigma, Finite Element Analysis, Thermodynamics, CNC Machining, Root Cause Analysis\nAdditional: Lean Manufacturing\n\nEXPERIENCE\nDesign Engineer, Ganga Heavy Engineering (2023 - Present)\n- Built heat-exchanger redesign using Root Cause Analysis, improving cycle time by 11%.\n- Automated assembly-line layout revamp using Lean Manufacturing, improving scrap rate by 12%.\n- Redesigned gearbox housing redesign using Six Sigma, improving scrap rate by 22%.\n\nGraduate Engineer Trainee, Nilgiri Precision Tools (2020 - 2023)\n- Applied CNC Machining across assembly-line layout revamp, improving material cost by 23%.\n- Built heat-exchanger redesign using Six Sigma, improving cycle time by 19%.\n\nEDUCATION\nB.Tech in Mechanical Engineering, Vellore Institute of Technology, 2020\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, SAE India Collegiate Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 6,
+    "true_qualification": 0.62,
+    "skills": [
+      "CNC Machining",
+      "Finite Element Analysis",
+      "Lean Manufacturing",
+      "Manufacturing Processes",
+      "Root Cause Analysis",
+      "Six Sigma",
+      "SolidWorks",
+      "Thermodynamics"
+    ],
+    "skills_all": [
+      "AutoCAD",
+      "SolidWorks",
+      "GD&T",
+      "Finite Element Analysis",
+      "Thermodynamics",
+      "CNC Machining",
+      "Manufacturing Processes",
+      "Root Cause Analysis",
+      "Six Sigma",
+      "ANSYS",
+      "CATIA",
+      "Lean Manufacturing",
+      "3D Printing",
+      "PLC Programming",
+      "Value Engineering"
+    ],
+    "employers": [
+      "Ganga Heavy Engineering",
+      "Nilgiri Precision Tools"
+    ],
+    "titles": [
+      "Design Engineer",
+      "Graduate Engineer Trainee"
+    ],
+    "degree": "B.Tech in Mechanical Engineering",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Sai College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

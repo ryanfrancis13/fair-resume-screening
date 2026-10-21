@@ -1,0 +1,86 @@
+{
+  "resume_id": "R131",
+  "job_family": "marketing",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nMarketing Executive with 1 years of experience in digital marketing.\n{{PRONOUN_SUBJ}} delivered festive-season launch, and {{PRONOUN_POSS}} recent work centred on product relaunch.\n\nWORK HISTORY\nMarketing Executive, Lotus Brand Studio (2025 - Present)\n- Built dealer outreach initiative for 2500 prospects, drawing on Market Research to improve campaign ROI by 23%.\n- Applied A/B Testing across retention programme, improving engagement rate by 40%.\n- Applied Email Marketing across regional expansion push, improving qualified leads by 25%.\n\nCORE COMPETENCIES\nCore: Email Marketing, Market Research, Campaign Management, Google Analytics\nAdditional: A/B Testing\n\nACADEMIC BACKGROUND\nB.A. in Mass Communication, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 72498",
+    "AFFILIATION": "Member, Marketing Club (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2025"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 72498\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nMarketing Executive with 1 years of experience in digital marketing.\nThey delivered festive-season launch, and their recent work centred on product relaunch.\n\nWORK HISTORY\nMarketing Executive, Lotus Brand Studio (2025 - Present)\n- Built dealer outreach initiative for 2500 prospects, drawing on Market Research to improve campaign ROI by 23%.\n- Applied A/B Testing across retention programme, improving engagement rate by 40%.\n- Applied Email Marketing across regional expansion push, improving qualified leads by 25%.\n\nCORE COMPETENCIES\nCore: Email Marketing, Market Research, Campaign Management, Google Analytics\nAdditional: A/B Testing\n\nACADEMIC BACKGROUND\nB.A. in Mass Communication, Christ University, 2025\n\n\nPERSONAL DETAILS\nAffiliations: Member, Marketing Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 1,
+    "true_qualification": 0.35,
+    "skills": [
+      "A/B Testing",
+      "Campaign Management",
+      "Email Marketing",
+      "Google Analytics",
+      "Market Research"
+    ],
+    "skills_all": [
+      "SEO",
+      "Google Analytics",
+      "Content Strategy",
+      "Social Media Marketing",
+      "Email Marketing",
+      "Campaign Management",
+      "Market Research",
+      "Brand Management",
+      "Copywriting",
+      "Google Ads",
+      "HubSpot",
+      "A/B Testing",
+      "Marketing Automation",
+      "Canva",
+      "Influencer Outreach"
+    ],
+    "employers": [
+      "Lotus Brand Studio"
+    ],
+    "titles": [
+      "Marketing Executive"
+    ],
+    "degree": "B.A. in Mass Communication",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Management Ahmedabad",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

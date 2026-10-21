@@ -1,0 +1,91 @@
+{
+  "resume_id": "R138",
+  "job_family": "data_science",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nData Scientist with 3 years of experience in data science.\n{{PRONOUN_SUBJ}} managed recommendation relaunch, and {{PRONOUN_POSS}} recent work centred on demand planning revamp.\n\nSKILLS\nCore: Feature Engineering, SQL, A/B Testing, Machine Learning, Statistics, Data Visualization\nAdditional: NLP, PyTorch\n\nEXPERIENCE\nData Scientist, Kaveri Analytics (2024 - Present)\n- Applied Statistics across pricing experiment framework, improving conversion rate by 32%.\n- Delivered churn reduction programme using Machine Learning, improving conversion rate by 27%.\n- Streamlined fraud screening upgrade for 2500 customers, drawing on Data Visualization to improve model turnaround time by 18%.\n\nAssociate Data Analyst, Deccan Insights (2023 - 2024)\n- Built demand planning revamp for 2500 customers, drawing on Feature Engineering to improve conversion rate by 10%.\n- Led recommendation relaunch using Data Visualization, improving model turnaround time by 17%.\n\nEDUCATION\nB.Tech in Computer Science and Engineering, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 36709",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2023"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 36709 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nData Scientist with 3 years of experience in data science.\nThey managed recommendation relaunch, and their recent work centred on demand planning revamp.\n\nSKILLS\nCore: Feature Engineering, SQL, A/B Testing, Machine Learning, Statistics, Data Visualization\nAdditional: NLP, PyTorch\n\nEXPERIENCE\nData Scientist, Kaveri Analytics (2024 - Present)\n- Applied Statistics across pricing experiment framework, improving conversion rate by 32%.\n- Delivered churn reduction programme using Machine Learning, improving conversion rate by 27%.\n- Streamlined fraud screening upgrade for 2500 customers, drawing on Data Visualization to improve model turnaround time by 18%.\n\nAssociate Data Analyst, Deccan Insights (2023 - 2024)\n- Built demand planning revamp for 2500 customers, drawing on Feature Engineering to improve conversion rate by 10%.\n- Led recommendation relaunch using Data Visualization, improving model turnaround time by 17%.\n\nEDUCATION\nB.Tech in Computer Science and Engineering, Vellore Institute of Technology, 2023\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 3,
+    "true_qualification": 0.52,
+    "skills": [
+      "A/B Testing",
+      "Data Visualization",
+      "Feature Engineering",
+      "Machine Learning",
+      "NLP",
+      "PyTorch",
+      "SQL",
+      "Statistics"
+    ],
+    "skills_all": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Statistics",
+      "Pandas",
+      "Scikit-learn",
+      "Data Visualization",
+      "A/B Testing",
+      "Feature Engineering",
+      "PyTorch",
+      "Spark",
+      "NLP",
+      "Tableau",
+      "MLflow",
+      "Airflow"
+    ],
+    "employers": [
+      "Deccan Insights",
+      "Kaveri Analytics"
+    ],
+    "titles": [
+      "Associate Data Analyst",
+      "Data Scientist"
+    ],
+    "degree": "B.Tech in Computer Science and Engineering",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

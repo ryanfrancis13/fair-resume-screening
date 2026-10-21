@@ -1,0 +1,89 @@
+{
+  "resume_id": "R110",
+  "job_family": "mechanical_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSenior Design Engineer with 11 years of experience in mechanical design.\n{{PRONOUN_SUBJ}} delivered assembly-line layout revamp, and {{PRONOUN_POSS}} recent work centred on shop-floor changeover.\n\nWORK HISTORY\nSenior Design Engineer, Tungabhadra Machine Works (2020 - Present)\n- Redesigned vendor tooling programme for 2500 units, drawing on Manufacturing Processes to improve scrap rate by 43%.\n- Led gearbox housing redesign using PLC Programming, improving cycle time by 34%.\n- Applied CNC Machining across assembly-line layout revamp, improving scrap rate by 9%.\n- Applied GD&T across shop-floor changeover, improving material cost by 31%.\n- Owned heat-exchanger redesign using Six Sigma, improving material cost by 19%.\n\nDesign Engineer, Ganga Heavy Engineering (2015 - 2020)\n- Redesigned heat-exchanger redesign for 800 units, drawing on GD&T to improve scrap rate by 13%.\n- Applied Manufacturing Processes across vendor tooling programme, improving cycle time by 12%.\n\nCORE COMPETENCIES\nCore: Thermodynamics, Six Sigma, CNC Machining, Manufacturing Processes, GD&T\nAdditional: PLC Programming\n\nACADEMIC BACKGROUND\nB.E. in Mechanical Engineering, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 05572",
+    "AFFILIATION": "Member, SAE India Collegiate Club (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2015"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 05572\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSenior Design Engineer with 11 years of experience in mechanical design.\nThey delivered assembly-line layout revamp, and their recent work centred on shop-floor changeover.\n\nWORK HISTORY\nSenior Design Engineer, Tungabhadra Machine Works (2020 - Present)\n- Redesigned vendor tooling programme for 2500 units, drawing on Manufacturing Processes to improve scrap rate by 43%.\n- Led gearbox housing redesign using PLC Programming, improving cycle time by 34%.\n- Applied CNC Machining across assembly-line layout revamp, improving scrap rate by 9%.\n- Applied GD&T across shop-floor changeover, improving material cost by 31%.\n- Owned heat-exchanger redesign using Six Sigma, improving material cost by 19%.\n\nDesign Engineer, Ganga Heavy Engineering (2015 - 2020)\n- Redesigned heat-exchanger redesign for 800 units, drawing on GD&T to improve scrap rate by 13%.\n- Applied Manufacturing Processes across vendor tooling programme, improving cycle time by 12%.\n\nCORE COMPETENCIES\nCore: Thermodynamics, Six Sigma, CNC Machining, Manufacturing Processes, GD&T\nAdditional: PLC Programming\n\nACADEMIC BACKGROUND\nB.E. in Mechanical Engineering, Vellore Institute of Technology, 2015\n\n\nPERSONAL DETAILS\nAffiliations: Member, SAE India Collegiate Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 11,
+    "true_qualification": 0.41,
+    "skills": [
+      "CNC Machining",
+      "GD&T",
+      "Manufacturing Processes",
+      "PLC Programming",
+      "Six Sigma",
+      "Thermodynamics"
+    ],
+    "skills_all": [
+      "AutoCAD",
+      "SolidWorks",
+      "GD&T",
+      "Finite Element Analysis",
+      "Thermodynamics",
+      "CNC Machining",
+      "Manufacturing Processes",
+      "Root Cause Analysis",
+      "Six Sigma",
+      "ANSYS",
+      "CATIA",
+      "Lean Manufacturing",
+      "3D Printing",
+      "PLC Programming",
+      "Value Engineering"
+    ],
+    "employers": [
+      "Ganga Heavy Engineering",
+      "Tungabhadra Machine Works"
+    ],
+    "titles": [
+      "Design Engineer",
+      "Senior Design Engineer"
+    ],
+    "degree": "B.E. in Mechanical Engineering",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Sai College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

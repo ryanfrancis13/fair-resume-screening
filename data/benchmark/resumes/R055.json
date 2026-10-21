@@ -1,0 +1,91 @@
+{
+  "resume_id": "R055",
+  "job_family": "human_resources",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nHR Business Partner with 6 years of experience in human resources.\n{{PRONOUN_SUBJ}} delivered attrition review, and {{PRONOUN_POSS}} recent work centred on campus recruitment drive.\n\nSKILLS\nCore: HRIS, Compensation Benchmarking, Payroll Processing, Talent Acquisition, Stakeholder Management, Onboarding\nAdditional: Employer Branding, Succession Planning\n\nEXPERIENCE\nHR Business Partner, Periyar Infotech (2023 - Present)\n- Applied HRIS across policy refresh, improving offer acceptance rate by 12%.\n- Applied Employer Branding across attrition review, improving employee satisfaction by 43%.\n- Automated annual appraisal cycle for 2500 employees, drawing on Payroll Processing to improve employee satisfaction by 8%.\n\nHR Executive, Narmada Retail (2020 - 2023)\n- Streamlined campus recruitment drive for 800 employees, drawing on Onboarding to improve employee satisfaction by 24%.\n- Applied Succession Planning across policy refresh, improving employee satisfaction by 10%.\n\nEDUCATION\nMBA in Human Resources, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 18855",
+    "AFFILIATION": "Member, HR Association Student Chapter (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2020"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 18855 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nHR Business Partner with 6 years of experience in human resources.\nThey delivered attrition review, and their recent work centred on campus recruitment drive.\n\nSKILLS\nCore: HRIS, Compensation Benchmarking, Payroll Processing, Talent Acquisition, Stakeholder Management, Onboarding\nAdditional: Employer Branding, Succession Planning\n\nEXPERIENCE\nHR Business Partner, Periyar Infotech (2023 - Present)\n- Applied HRIS across policy refresh, improving offer acceptance rate by 12%.\n- Applied Employer Branding across attrition review, improving employee satisfaction by 43%.\n- Automated annual appraisal cycle for 2500 employees, drawing on Payroll Processing to improve employee satisfaction by 8%.\n\nHR Executive, Narmada Retail (2020 - 2023)\n- Streamlined campus recruitment drive for 800 employees, drawing on Onboarding to improve employee satisfaction by 24%.\n- Applied Succession Planning across policy refresh, improving employee satisfaction by 10%.\n\nEDUCATION\nMBA in Human Resources, Christ University, 2020\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, HR Association Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 6,
+    "true_qualification": 0.56,
+    "skills": [
+      "Compensation Benchmarking",
+      "Employer Branding",
+      "HRIS",
+      "Onboarding",
+      "Payroll Processing",
+      "Stakeholder Management",
+      "Succession Planning",
+      "Talent Acquisition"
+    ],
+    "skills_all": [
+      "Talent Acquisition",
+      "Employee Engagement",
+      "Payroll Processing",
+      "HRIS",
+      "Performance Management",
+      "Onboarding",
+      "Labour Law Compliance",
+      "Compensation Benchmarking",
+      "Stakeholder Management",
+      "Workday",
+      "Learning and Development",
+      "HR Analytics",
+      "Campus Hiring",
+      "Employer Branding",
+      "Succession Planning"
+    ],
+    "employers": [
+      "Narmada Retail",
+      "Periyar Infotech"
+    ],
+    "titles": [
+      "HR Business Partner",
+      "HR Executive"
+    ],
+    "degree": "MBA in Human Resources",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Tata Institute of Social Sciences, Mumbai",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

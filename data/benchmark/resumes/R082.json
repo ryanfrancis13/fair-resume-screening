@@ -1,0 +1,92 @@
+{
+  "resume_id": "R082",
+  "job_family": "data_science",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSenior Data Scientist with 9 years of experience in data science.\n{{PRONOUN_SUBJ}} delivered customer segmentation refresh, and {{PRONOUN_POSS}} recent work centred on demand planning revamp.\n\nWORK HISTORY\nSenior Data Scientist, Deccan Insights (2021 - Present)\n- Applied Pandas across pricing experiment framework, improving conversion rate by 42%.\n- Applied Scikit-learn across demand planning revamp, improving model turnaround time by 28%.\n- Delivered fraud screening upgrade for 800 customers, drawing on A/B Testing to improve model turnaround time by 34%.\n- Streamlined recommendation relaunch using Feature Engineering, improving conversion rate by 44%.\n- Applied Python across churn reduction programme, improving model turnaround time by 31%.\n\nData Scientist, Zanskar Labs (2017 - 2021)\n- Automated recommendation relaunch for 2500 customers, drawing on Python to improve forecast accuracy by 25%.\n- Applied Feature Engineering across customer segmentation refresh, improving conversion rate by 14%.\n\nCORE COMPETENCIES\nCore: Pandas, SQL, A/B Testing, Feature Engineering, Python, Scikit-learn, Machine Learning\nAdditional: Tableau, Spark\n\nACADEMIC BACKGROUND\nB.Sc. in Data Science, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 20461",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2017"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 20461\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSenior Data Scientist with 9 years of experience in data science.\nThey delivered customer segmentation refresh, and their recent work centred on demand planning revamp.\n\nWORK HISTORY\nSenior Data Scientist, Deccan Insights (2021 - Present)\n- Applied Pandas across pricing experiment framework, improving conversion rate by 42%.\n- Applied Scikit-learn across demand planning revamp, improving model turnaround time by 28%.\n- Delivered fraud screening upgrade for 800 customers, drawing on A/B Testing to improve model turnaround time by 34%.\n- Streamlined recommendation relaunch using Feature Engineering, improving conversion rate by 44%.\n- Applied Python across churn reduction programme, improving model turnaround time by 31%.\n\nData Scientist, Zanskar Labs (2017 - 2021)\n- Automated recommendation relaunch for 2500 customers, drawing on Python to improve forecast accuracy by 25%.\n- Applied Feature Engineering across customer segmentation refresh, improving conversion rate by 14%.\n\nCORE COMPETENCIES\nCore: Pandas, SQL, A/B Testing, Feature Engineering, Python, Scikit-learn, Machine Learning\nAdditional: Tableau, Spark\n\nACADEMIC BACKGROUND\nB.Sc. in Data Science, Vellore Institute of Technology, 2017\n\n\nPERSONAL DETAILS\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 9,
+    "true_qualification": 0.57,
+    "skills": [
+      "A/B Testing",
+      "Feature Engineering",
+      "Machine Learning",
+      "Pandas",
+      "Python",
+      "SQL",
+      "Scikit-learn",
+      "Spark",
+      "Tableau"
+    ],
+    "skills_all": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Statistics",
+      "Pandas",
+      "Scikit-learn",
+      "Data Visualization",
+      "A/B Testing",
+      "Feature Engineering",
+      "PyTorch",
+      "Spark",
+      "NLP",
+      "Tableau",
+      "MLflow",
+      "Airflow"
+    ],
+    "employers": [
+      "Deccan Insights",
+      "Zanskar Labs"
+    ],
+    "titles": [
+      "Data Scientist",
+      "Senior Data Scientist"
+    ],
+    "degree": "B.Sc. in Data Science",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

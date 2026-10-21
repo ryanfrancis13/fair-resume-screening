@@ -1,0 +1,94 @@
+{
+  "resume_id": "R109",
+  "job_family": "nursing",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nNursing Supervisor with 7 years of experience in clinical nursing.\n{{PRONOUN_SUBJ}} led day-care unit operations, and {{PRONOUN_POSS}} recent work centred on outpatient department flow.\n\nWORK HISTORY\nNursing Supervisor, Kalyani Health Trust (2022 - Present)\n- Owned emergency admissions workflow for 800 patients, drawing on Patient Education to improve ward readiness by 19%.\n- Applied Vital Signs Monitoring across day-care unit operations, improving medication error rate by 9%.\n- Delivered post-operative ward coordination for 2500 patients, drawing on Ventilator Management to improve ward readiness by 12%.\n- Applied Triage across medical-surgical unit handover, improving ward readiness by 44%.\n- Owned outpatient department flow for 350 patients, drawing on Medication Administration to improve ward readiness by 15%.\n\nSenior Staff Nurse, Shanti Multispeciality Hospital (2019 - 2022)\n- Applied IV Therapy across emergency admissions workflow, improving discharge turnaround by 11%.\n- Built maternity ward rounds for 120 patients, drawing on Medication Administration to improve patient satisfaction by 40%.\n\nCORE COMPETENCIES\nCore: Electronic Health Records, Vital Signs Monitoring, Patient Assessment, Medication Administration, IV Therapy, Infection Control, Basic Life Support, Patient Education, Wound Care\nAdditional: Ventilator Management, Triage\n\nACADEMIC BACKGROUND\nB.Sc. Nursing, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 78480",
+    "AFFILIATION": "Member, Student Nurses Association (2 years)",
+    "UNIVERSITY": "Rajiv Gandhi University of Health Sciences",
+    "GRAD_YEAR": "2019"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 78480\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nNursing Supervisor with 7 years of experience in clinical nursing.\nThey led day-care unit operations, and their recent work centred on outpatient department flow.\n\nWORK HISTORY\nNursing Supervisor, Kalyani Health Trust (2022 - Present)\n- Owned emergency admissions workflow for 800 patients, drawing on Patient Education to improve ward readiness by 19%.\n- Applied Vital Signs Monitoring across day-care unit operations, improving medication error rate by 9%.\n- Delivered post-operative ward coordination for 2500 patients, drawing on Ventilator Management to improve ward readiness by 12%.\n- Applied Triage across medical-surgical unit handover, improving ward readiness by 44%.\n- Owned outpatient department flow for 350 patients, drawing on Medication Administration to improve ward readiness by 15%.\n\nSenior Staff Nurse, Shanti Multispeciality Hospital (2019 - 2022)\n- Applied IV Therapy across emergency admissions workflow, improving discharge turnaround by 11%.\n- Built maternity ward rounds for 120 patients, drawing on Medication Administration to improve patient satisfaction by 40%.\n\nCORE COMPETENCIES\nCore: Electronic Health Records, Vital Signs Monitoring, Patient Assessment, Medication Administration, IV Therapy, Infection Control, Basic Life Support, Patient Education, Wound Care\nAdditional: Ventilator Management, Triage\n\nACADEMIC BACKGROUND\nB.Sc. Nursing, Rajiv Gandhi University of Health Sciences, 2019\n\n\nPERSONAL DETAILS\nAffiliations: Member, Student Nurses Association (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 7,
+    "true_qualification": 0.9,
+    "skills": [
+      "Basic Life Support",
+      "Electronic Health Records",
+      "IV Therapy",
+      "Infection Control",
+      "Medication Administration",
+      "Patient Assessment",
+      "Patient Education",
+      "Triage",
+      "Ventilator Management",
+      "Vital Signs Monitoring",
+      "Wound Care"
+    ],
+    "skills_all": [
+      "Patient Assessment",
+      "Vital Signs Monitoring",
+      "IV Therapy",
+      "Medication Administration",
+      "Wound Care",
+      "Infection Control",
+      "Electronic Health Records",
+      "Patient Education",
+      "Basic Life Support",
+      "ICU Care",
+      "Phlebotomy",
+      "Triage",
+      "Ventilator Management",
+      "Pediatric Care",
+      "Dialysis Care"
+    ],
+    "employers": [
+      "Kalyani Health Trust",
+      "Shanti Multispeciality Hospital"
+    ],
+    "titles": [
+      "Nursing Supervisor",
+      "Senior Staff Nurse"
+    ],
+    "degree": "B.Sc. Nursing",
+    "layout": "B",
+    "prestige_options": {
+      "high": "All India Institute of Medical Sciences, New Delhi",
+      "mid": "Rajiv Gandhi University of Health Sciences",
+      "low": "Sri Sai College of Nursing"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "job_id": "HFJ0274",
-  "title": "Data Engineer Level 3 6 Months  Contract to Hire",
-  "text": "Data Engineer Level 3 6 Months  Contract to Hire\nDatabase developer to develop and support cloud DB systems. Proficiency in the maintenance and administration https:kroger.talentnow.aicandidates?query=notPlacedof distributed databases on Azure, like Azure Postgres, Azure Cosmos. Experience in disaster recovery planning and conduct disaster recovery testing Collaborate with development teams to design and optimize database schemas, indexes, and data models, monitor and tune SQL Queries, identify bottlenecks, and optimize query execution plans. What will the resource be working on? The Enterprise Customer team is building a new customer platform (APIs, microservices) to consolidate multiple customer systems into a single source of truth for customer data in the enterprise. Multiple new subsystems need to be built as well as enhanced existing ones already built. The systems are built cloud-native in Azure using Golang, NoSQL databases, and Kafka.",
-  "job_family": "software_engineering",
-  "source": "huggingface_resume_job_fit",
-  "meta": {}
-}

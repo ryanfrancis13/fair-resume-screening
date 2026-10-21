@@ -1,0 +1,26 @@
+{
+  "job_id": "J03",
+  "title": "Senior Software Engineer",
+  "job_family": "software_engineering",
+  "min_years_experience": 6,
+  "must_have": [
+    "AWS",
+    "Docker",
+    "Microservices",
+    "Python",
+    "Java",
+    "6+ years of experience in software engineering"
+  ],
+  "nice_to_have": [
+    "Redis",
+    "Kafka",
+    "Kubernetes",
+    "REST APIs"
+  ],
+  "source": "india_synth_v1",
+  "text": "Senior Software Engineer\nNilgiri Technologies | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a senior software engineer to join our software engineering team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- AWS\n- Docker\n- Microservices\n- Python\n- Java\n- 6+ years of experience in software engineering\n\nNICE-TO-HAVE:\n- Redis\n- Kafka\n- Kubernetes\n- REST APIs\n\nWHAT YOU WILL DO\n- Drive payment reconciliation automation with measurable outcomes.\n- Drive inventory synchronisation rollout with measurable outcomes.\n- Drive order-management backend modernisation with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior"
+  }
+}

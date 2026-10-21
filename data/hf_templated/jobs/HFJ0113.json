@@ -1,8 +1,0 @@
-{
-  "job_id": "HFJ0113",
-  "title": "Job Description",
-  "text": "Job Description\nExperience with CC++ programming and HLSL, Cg or other vendor specific shader programming language.Experience with 3D graphics APIs (Direct3D 11+, OpenGL, Vulkan andor vendor specific).Experience optimizing both performance factors and memory footprints using hardware and software profilers (PIX, GCM Replay, Tuner, Vtune, etc.).Experience debugging graphics pipelines using relevant platform tooling (Renderdoc, Pix, Razer, etc.).Experience with multithreaded programming and with large code bases.",
-  "job_family": "software_engineering",
-  "source": "huggingface_resume_job_fit",
-  "meta": {}
-}

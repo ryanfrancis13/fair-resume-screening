@@ -1,0 +1,26 @@
+{
+  "job_id": "J23",
+  "title": "Sales Manager",
+  "job_family": "sales",
+  "min_years_experience": 3,
+  "must_have": [
+    "Client Presentations",
+    "CRM",
+    "B2B Sales",
+    "Account Management",
+    "Sales Forecasting",
+    "3+ years of experience in business sales"
+  ],
+  "nice_to_have": [
+    "Pipeline Management",
+    "Negotiation",
+    "Tender Responses",
+    "Channel Partnerships"
+  ],
+  "source": "india_synth_v1",
+  "text": "Sales Manager\nTapti Industries | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a sales manager to join our business sales team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- Client Presentations\n- CRM\n- B2B Sales\n- Account Management\n- Sales Forecasting\n- 3+ years of experience in business sales\n\nNICE-TO-HAVE:\n- Pipeline Management\n- Negotiation\n- Tender Responses\n- Channel Partnerships\n\nWHAT YOU WILL DO\n- Drive distributor network expansion with measurable outcomes.\n- Drive mid-market segment launch with measurable outcomes.\n- Drive enterprise accounts in the western region with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid"
+  }
+}

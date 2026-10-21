@@ -1,0 +1,93 @@
+{
+  "resume_id": "R023",
+  "job_family": "human_resources",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nSenior HR Business Partner with 12 years of experience in human resources.\n{{PRONOUN_SUBJ}} led campus recruitment drive, and {{PRONOUN_POSS}} recent work centred on annual appraisal cycle.\n\nSKILLS\nCore: Onboarding, Stakeholder Management, Labour Law Compliance, Compensation Benchmarking, Employee Engagement, HRIS, Payroll Processing\nAdditional: Learning and Development, Succession Planning, Workday\n\nEXPERIENCE\nSenior HR Business Partner, Chambal Manufacturing (2020 - Present)\n- Applied Compensation Benchmarking across wellness initiative, improving offer acceptance rate by 25%.\n- Applied Payroll Processing across campus recruitment drive, improving employee satisfaction by 33%.\n- Streamlined attrition review for 800 employees, drawing on Workday to improve offer acceptance rate by 19%.\n- Owned joining formalities redesign using Labour Law Compliance, improving offer acceptance rate by 41%.\n- Redesigned policy refresh for 800 employees, drawing on Stakeholder Management to improve employee satisfaction by 13%.\n\nHR Business Partner, Tamara Consulting (2014 - 2020)\n- Redesigned attrition review for 40 employees, drawing on Payroll Processing to improve offer acceptance rate by 36%.\n- Redesigned annual appraisal cycle for 350 employees, drawing on Workday to improve offer acceptance rate by 35%.\n\nEDUCATION\nBBA, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 09835",
+    "AFFILIATION": "Member, HR Association Student Chapter (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2014"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 09835 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nSenior HR Business Partner with 12 years of experience in human resources.\nThey led campus recruitment drive, and their recent work centred on annual appraisal cycle.\n\nSKILLS\nCore: Onboarding, Stakeholder Management, Labour Law Compliance, Compensation Benchmarking, Employee Engagement, HRIS, Payroll Processing\nAdditional: Learning and Development, Succession Planning, Workday\n\nEXPERIENCE\nSenior HR Business Partner, Chambal Manufacturing (2020 - Present)\n- Applied Compensation Benchmarking across wellness initiative, improving offer acceptance rate by 25%.\n- Applied Payroll Processing across campus recruitment drive, improving employee satisfaction by 33%.\n- Streamlined attrition review for 800 employees, drawing on Workday to improve offer acceptance rate by 19%.\n- Owned joining formalities redesign using Labour Law Compliance, improving offer acceptance rate by 41%.\n- Redesigned policy refresh for 800 employees, drawing on Stakeholder Management to improve employee satisfaction by 13%.\n\nHR Business Partner, Tamara Consulting (2014 - 2020)\n- Redesigned attrition review for 40 employees, drawing on Payroll Processing to improve offer acceptance rate by 36%.\n- Redesigned annual appraisal cycle for 350 employees, drawing on Workday to improve offer acceptance rate by 35%.\n\nEDUCATION\nBBA, Christ University, 2014\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, HR Association Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 12,
+    "true_qualification": 0.76,
+    "skills": [
+      "Compensation Benchmarking",
+      "Employee Engagement",
+      "HRIS",
+      "Labour Law Compliance",
+      "Learning and Development",
+      "Onboarding",
+      "Payroll Processing",
+      "Stakeholder Management",
+      "Succession Planning",
+      "Workday"
+    ],
+    "skills_all": [
+      "Talent Acquisition",
+      "Employee Engagement",
+      "Payroll Processing",
+      "HRIS",
+      "Performance Management",
+      "Onboarding",
+      "Labour Law Compliance",
+      "Compensation Benchmarking",
+      "Stakeholder Management",
+      "Workday",
+      "Learning and Development",
+      "HR Analytics",
+      "Campus Hiring",
+      "Employer Branding",
+      "Succession Planning"
+    ],
+    "employers": [
+      "Chambal Manufacturing",
+      "Tamara Consulting"
+    ],
+    "titles": [
+      "HR Business Partner",
+      "Senior HR Business Partner"
+    ],
+    "degree": "BBA",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Tata Institute of Social Sciences, Mumbai",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

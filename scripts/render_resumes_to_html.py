@@ -7,6 +7,7 @@ import html
 import json
 import re
 from pathlib import Path
+
 import pandas as pd
 
 OUTPUT_DIR = Path("data/previews")
@@ -229,7 +230,7 @@ def format_resume_html(row, idx: int) -> str:
     j_text = str(row["job_description_text"]).strip()
 
     # Extract first line of job description for headline
-    j_lines = [l.strip() for l in j_text.splitlines() if l.strip()]
+    j_lines = [line.strip() for line in j_text.splitlines() if line.strip()]
     headline = j_lines[0] if j_lines else "Candidate Profile"
 
     # Extract or infer name/location if available
@@ -294,18 +295,18 @@ def main():
         print(f"Generated: {(OUTPUT_DIR / 'synthetic_R01_sample.html').resolve()}")
 
     # Also generate a quick index viewer
-    index_html = f"""<!DOCTYPE html>
+    index_html = """<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>Resume Previews Index</title>
 <style>
-  body {{ font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #0f172a; color: white; padding: 40px; text-align: center; }}
-  .card-container {{ display: flex; gap: 20px; justify-content: center; margin-top: 30px; flex-wrap: wrap; }}
-  .card {{ background: #1e293b; border-radius: 10px; padding: 25px; width: 280px; text-align: left; text-decoration: none; color: white; border: 1px solid #334155; transition: transform 0.2s; }}
-  .card:hover {{ transform: translateY(-5px); border-color: #3b82f6; }}
-  .card h3 {{ margin-bottom: 10px; }}
-  .card p {{ font-size: 13px; color: #94a3b8; }}
+  body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #0f172a; color: white; padding: 40px; text-align: center; }
+  .card-container { display: flex; gap: 20px; justify-content: center; margin-top: 30px; flex-wrap: wrap; }
+  .card { background: #1e293b; border-radius: 10px; padding: 25px; width: 280px; text-align: left; text-decoration: none; color: white; border: 1px solid #334155; transition: transform 0.2s; }
+  .card:hover { transform: translateY(-5px); border-color: #3b82f6; }
+  .card h3 { margin-bottom: 10px; }
+  .card p { font-size: 13px; color: #94a3b8; }
 </style>
 </head>
 <body>
@@ -315,18 +316,6 @@ def main():
     <a class="card" href="synthetic_R01_sample.html" target="_blank">
       <h3 style="color: #60a5fa;">Synthetic Sample (R01)</h3>
       <p>Clean templated resume with all 9 cue slots visible and defined.</p>
-    </a>
-    <a class="card" href="good_fit_sample.html" target="_blank">
-      <h3 style="color: #4ade80;">HF Real: Good Fit</h3>
-      <p>Senior Software Engineer applicant matched with Java/Cloud posting.</p>
-    </a>
-    <a class="card" href="potential_fit_sample.html" target="_blank">
-      <h3 style="color: #facc15;">HF Real: Potential Fit</h3>
-      <p>Partial skill overlap applicant with recruiter evaluation.</p>
-    </a>
-    <a class="card" href="no_fit_sample.html" target="_blank">
-      <h3 style="color: #f87171;">HF Real: No Fit</h3>
-      <p>Cross-domain applicant showing baseline screening control.</p>
     </a>
   </div>
 </body>

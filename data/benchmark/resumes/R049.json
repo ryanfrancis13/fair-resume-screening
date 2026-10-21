@@ -1,0 +1,92 @@
+{
+  "resume_id": "R049",
+  "job_family": "software_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nSoftware Engineer with 3 years of experience in software engineering.\n{{PRONOUN_SUBJ}} delivered order-management backend modernisation, and {{PRONOUN_POSS}} recent work centred on payment reconciliation automation.\n\nSKILLS\nCore: REST APIs, Docker, SQL, Microservices, System Design, Git, Java\nAdditional: Kafka, Kubernetes\n\nEXPERIENCE\nSoftware Engineer, Kaveri Systems (2024 - Present)\n- Delivered order-management backend modernisation for 120 users, drawing on REST APIs to improve response time by 13%.\n- Led inventory synchronisation rollout using System Design, improving response time by 21%.\n- Led notification delivery overhaul for 800 users, drawing on Kafka to improve release frequency by 30%.\n\nAssociate Software Engineer, Brahmaputra Labs (2023 - 2024)\n- Led payment reconciliation automation using SQL, improving response time by 16%.\n- Applied Microservices across customer onboarding platform delivery, improving release frequency by 16%.\n\nEDUCATION\nM.Tech in Computer Science, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 89952",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2023"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 89952 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nSoftware Engineer with 3 years of experience in software engineering.\nThey delivered order-management backend modernisation, and their recent work centred on payment reconciliation automation.\n\nSKILLS\nCore: REST APIs, Docker, SQL, Microservices, System Design, Git, Java\nAdditional: Kafka, Kubernetes\n\nEXPERIENCE\nSoftware Engineer, Kaveri Systems (2024 - Present)\n- Delivered order-management backend modernisation for 120 users, drawing on REST APIs to improve response time by 13%.\n- Led inventory synchronisation rollout using System Design, improving response time by 21%.\n- Led notification delivery overhaul for 800 users, drawing on Kafka to improve release frequency by 30%.\n\nAssociate Software Engineer, Brahmaputra Labs (2023 - 2024)\n- Led payment reconciliation automation using SQL, improving response time by 16%.\n- Applied Microservices across customer onboarding platform delivery, improving release frequency by 16%.\n\nEDUCATION\nM.Tech in Computer Science, Vellore Institute of Technology, 2023\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 3,
+    "true_qualification": 0.5,
+    "skills": [
+      "Docker",
+      "Git",
+      "Java",
+      "Kafka",
+      "Kubernetes",
+      "Microservices",
+      "REST APIs",
+      "SQL",
+      "System Design"
+    ],
+    "skills_all": [
+      "Python",
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Docker",
+      "Git",
+      "Microservices",
+      "AWS",
+      "System Design",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "GraphQL",
+      "Go"
+    ],
+    "employers": [
+      "Brahmaputra Labs",
+      "Kaveri Systems"
+    ],
+    "titles": [
+      "Associate Software Engineer",
+      "Software Engineer"
+    ],
+    "degree": "M.Tech in Computer Science",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Bombay",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

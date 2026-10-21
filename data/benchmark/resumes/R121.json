@@ -1,0 +1,91 @@
+{
+  "resume_id": "R121",
+  "job_family": "software_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nSoftware Engineer with 6 years of experience in software engineering.\n{{PRONOUN_SUBJ}} led order-management backend modernisation, and {{PRONOUN_POSS}} recent work centred on customer onboarding platform delivery.\n\nSKILLS\nCore: AWS, Python, Java, Microservices, System Design, Git, Docker\nAdditional: Redis\n\nEXPERIENCE\nSoftware Engineer, Kaveri Systems (2023 - Present)\n- Owned order-management backend modernisation using Java, improving release frequency by 26%.\n- Automated internal developer tooling using Microservices, improving service uptime by 44%.\n- Streamlined payment reconciliation automation using System Design, improving response time by 41%.\n\nAssociate Software Engineer, Aravalli Digital (2020 - 2023)\n- Streamlined internal developer tooling using Redis, improving service uptime by 17%.\n- Owned notification delivery overhaul for 350 users, drawing on System Design to improve defect rate by 37%.\n\nEDUCATION\nB.E. in Information Technology, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 43178",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2020"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 43178 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nSoftware Engineer with 6 years of experience in software engineering.\nThey led order-management backend modernisation, and their recent work centred on customer onboarding platform delivery.\n\nSKILLS\nCore: AWS, Python, Java, Microservices, System Design, Git, Docker\nAdditional: Redis\n\nEXPERIENCE\nSoftware Engineer, Kaveri Systems (2023 - Present)\n- Owned order-management backend modernisation using Java, improving release frequency by 26%.\n- Automated internal developer tooling using Microservices, improving service uptime by 44%.\n- Streamlined payment reconciliation automation using System Design, improving response time by 41%.\n\nAssociate Software Engineer, Aravalli Digital (2020 - 2023)\n- Streamlined internal developer tooling using Redis, improving service uptime by 17%.\n- Owned notification delivery overhaul for 350 users, drawing on System Design to improve defect rate by 37%.\n\nEDUCATION\nB.E. in Information Technology, Vellore Institute of Technology, 2020\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 6,
+    "true_qualification": 0.76,
+    "skills": [
+      "AWS",
+      "Docker",
+      "Git",
+      "Java",
+      "Microservices",
+      "Python",
+      "Redis",
+      "System Design"
+    ],
+    "skills_all": [
+      "Python",
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Docker",
+      "Git",
+      "Microservices",
+      "AWS",
+      "System Design",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "GraphQL",
+      "Go"
+    ],
+    "employers": [
+      "Aravalli Digital",
+      "Kaveri Systems"
+    ],
+    "titles": [
+      "Associate Software Engineer",
+      "Software Engineer"
+    ],
+    "degree": "B.E. in Information Technology",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Bombay",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

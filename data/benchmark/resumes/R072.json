@@ -1,0 +1,93 @@
+{
+  "resume_id": "R072",
+  "job_family": "sales",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSales Executive with 2 years of experience in business sales.\n{{PRONOUN_SUBJ}} delivered enterprise accounts in the western region, and {{PRONOUN_POSS}} recent work centred on channel onboarding.\n\nWORK HISTORY\nSales Executive, Hemkund Distribution (2024 - Present)\n- Led renewal cycle for 2500 accounts, drawing on Market Mapping to improve quarterly revenue by 8%.\n- Redesigned enterprise accounts in the western region for 120 accounts, drawing on Pipeline Management to improve quarterly revenue by 32%.\n- Built festive-season quota delivery using Cold Outreach, improving pipeline value by 34%.\n\nCORE COMPETENCIES\nCore: CRM, Cold Outreach, Account Management, Sales Forecasting, B2B Sales, Pipeline Management, Negotiation, Lead Generation\nAdditional: Tender Responses, Market Mapping, Salesforce, Upselling\n\nACADEMIC BACKGROUND\nBBA, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 85403",
+    "AFFILIATION": "Member, Business Club (2 years)",
+    "UNIVERSITY": "Symbiosis International University",
+    "GRAD_YEAR": "2024"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 85403\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSales Executive with 2 years of experience in business sales.\nThey delivered enterprise accounts in the western region, and their recent work centred on channel onboarding.\n\nWORK HISTORY\nSales Executive, Hemkund Distribution (2024 - Present)\n- Led renewal cycle for 2500 accounts, drawing on Market Mapping to improve quarterly revenue by 8%.\n- Redesigned enterprise accounts in the western region for 120 accounts, drawing on Pipeline Management to improve quarterly revenue by 32%.\n- Built festive-season quota delivery using Cold Outreach, improving pipeline value by 34%.\n\nCORE COMPETENCIES\nCore: CRM, Cold Outreach, Account Management, Sales Forecasting, B2B Sales, Pipeline Management, Negotiation, Lead Generation\nAdditional: Tender Responses, Market Mapping, Salesforce, Upselling\n\nACADEMIC BACKGROUND\nBBA, Symbiosis International University, 2024\n\n\nPERSONAL DETAILS\nAffiliations: Member, Business Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 2,
+    "true_qualification": 0.81,
+    "skills": [
+      "Account Management",
+      "B2B Sales",
+      "CRM",
+      "Cold Outreach",
+      "Lead Generation",
+      "Market Mapping",
+      "Negotiation",
+      "Pipeline Management",
+      "Sales Forecasting",
+      "Salesforce",
+      "Tender Responses",
+      "Upselling"
+    ],
+    "skills_all": [
+      "B2B Sales",
+      "Lead Generation",
+      "CRM",
+      "Negotiation",
+      "Account Management",
+      "Pipeline Management",
+      "Sales Forecasting",
+      "Cold Outreach",
+      "Client Presentations",
+      "Salesforce",
+      "Channel Partnerships",
+      "Upselling",
+      "Territory Planning",
+      "Tender Responses",
+      "Market Mapping"
+    ],
+    "employers": [
+      "Hemkund Distribution"
+    ],
+    "titles": [
+      "Sales Executive"
+    ],
+    "degree": "BBA",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Management Bangalore",
+      "mid": "Symbiosis International University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

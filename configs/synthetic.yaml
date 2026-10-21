@@ -1,0 +1,62 @@
+# Controlled synthetic benchmark for fairness and perturbation validation.
+#
+# Regenerate and validate it with:
+#   make synthetic-corpus
+
+run_name: synthetic
+seed: 20250831
+output_dir: runs
+log_level: INFO
+
+llm:
+  provider: mock
+  model: mock-rubric-v1
+  temperature: 0.0
+  self_consistency_samples: 3
+  self_consistency_temperature: 0.4
+  requests_per_minute: 1000000
+  max_concurrency: 8
+  cache_enabled: true
+
+data:
+  corpus: sample
+  resumes_path: data/benchmark/resumes
+  jobs_path: data/benchmark/jobs
+  pairs_path: data/benchmark/pairs.json
+  max_resume_chars: 12000
+  max_job_chars: 6000
+
+screening:
+  rubric: default
+  require_evidence: true
+  advance_threshold: 70.0
+  borderline_threshold: 55.0
+
+perturbation:
+  cue_families:
+    - name
+    - pronoun
+    - affiliation_marker
+    - cultural_marker
+    - location_marker
+    - age_marker
+    - socioeconomic_marker
+    - education_prestige
+  name_list: bertrand_mullainathan_2004
+  design: single
+  validate_variants: true
+
+fairness:
+  attributes:
+    - gender
+    - race_ethnicity
+    - nationality_region
+    - age_band
+    - disability_status
+    - socioeconomic_background
+
+mitigation:
+  strategies:
+    - blind_screening
+    - counterfactual_marginalization
+    - sensitivity_gated_review

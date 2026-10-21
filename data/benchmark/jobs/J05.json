@@ -1,0 +1,26 @@
+{
+  "job_id": "J05",
+  "title": "Data Scientist",
+  "job_family": "data_science",
+  "min_years_experience": 3,
+  "must_have": [
+    "Pandas",
+    "Scikit-learn",
+    "Feature Engineering",
+    "SQL",
+    "Python",
+    "3+ years of experience in data science"
+  ],
+  "nice_to_have": [
+    "Machine Learning",
+    "A/B Testing",
+    "PyTorch",
+    "Airflow"
+  ],
+  "source": "india_synth_v1",
+  "text": "Data Scientist\nNilgiri Data Works | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a data scientist to join our data science team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- Pandas\n- Scikit-learn\n- Feature Engineering\n- SQL\n- Python\n- 3+ years of experience in data science\n\nNICE-TO-HAVE:\n- Machine Learning\n- A/B Testing\n- PyTorch\n- Airflow\n\nWHAT YOU WILL DO\n- Drive demand planning revamp with measurable outcomes.\n- Drive churn reduction programme with measurable outcomes.\n- Drive fraud screening upgrade with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid"
+  }
+}

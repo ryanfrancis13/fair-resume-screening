@@ -1,0 +1,90 @@
+{
+  "resume_id": "R001",
+  "job_family": "software_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nAssociate Software Engineer with 2 years of experience in software engineering.\n{{PRONOUN_SUBJ}} managed inventory synchronisation rollout, and {{PRONOUN_POSS}} recent work centred on internal developer tooling.\n\nSKILLS\nCore: System Design, Python, Git, Docker, SQL, AWS, REST APIs, Java\nAdditional: Kubernetes\n\nEXPERIENCE\nAssociate Software Engineer, Brahmaputra Labs (2024 - Present)\n- Delivered order-management backend modernisation for 120 users, drawing on REST APIs to improve response time by 29%.\n- Streamlined customer onboarding platform delivery for 2500 users, drawing on SQL to improve release frequency by 36%.\n- Built internal developer tooling for 40 users, drawing on Python to improve response time by 15%.\n\nEDUCATION\nB.E. in Information Technology, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 04722",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2024"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 04722 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nAssociate Software Engineer with 2 years of experience in software engineering.\nThey managed inventory synchronisation rollout, and their recent work centred on internal developer tooling.\n\nSKILLS\nCore: System Design, Python, Git, Docker, SQL, AWS, REST APIs, Java\nAdditional: Kubernetes\n\nEXPERIENCE\nAssociate Software Engineer, Brahmaputra Labs (2024 - Present)\n- Delivered order-management backend modernisation for 120 users, drawing on REST APIs to improve response time by 29%.\n- Streamlined customer onboarding platform delivery for 2500 users, drawing on SQL to improve release frequency by 36%.\n- Built internal developer tooling for 40 users, drawing on Python to improve response time by 15%.\n\nEDUCATION\nB.E. in Information Technology, Vellore Institute of Technology, 2024\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 2,
+    "true_qualification": 0.64,
+    "skills": [
+      "AWS",
+      "Docker",
+      "Git",
+      "Java",
+      "Kubernetes",
+      "Python",
+      "REST APIs",
+      "SQL",
+      "System Design"
+    ],
+    "skills_all": [
+      "Python",
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Docker",
+      "Git",
+      "Microservices",
+      "AWS",
+      "System Design",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "GraphQL",
+      "Go"
+    ],
+    "employers": [
+      "Brahmaputra Labs"
+    ],
+    "titles": [
+      "Associate Software Engineer"
+    ],
+    "degree": "B.E. in Information Technology",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Bombay",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

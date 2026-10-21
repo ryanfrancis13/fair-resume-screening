@@ -1,0 +1,89 @@
+{
+  "resume_id": "R017",
+  "job_family": "software_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nAssociate Software Engineer with 2 years of experience in software engineering.\n{{PRONOUN_SUBJ}} delivered payment reconciliation automation, and {{PRONOUN_POSS}} recent work centred on customer onboarding platform delivery.\n\nSKILLS\nCore: Docker, REST APIs, Microservices, System Design, Python, SQL\nAdditional: Redis, GraphQL\n\nEXPERIENCE\nAssociate Software Engineer, Aravalli Digital (2024 - Present)\n- Owned internal developer tooling for 800 users, drawing on System Design to improve release frequency by 16%.\n- Redesigned customer onboarding platform delivery for 2500 users, drawing on SQL to improve release frequency by 40%.\n- Led notification delivery overhaul for 800 users, drawing on REST APIs to improve service uptime by 12%.\n\nEDUCATION\nB.Tech in Computer Science and Engineering, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 02456",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2024"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 02456 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nAssociate Software Engineer with 2 years of experience in software engineering.\nThey delivered payment reconciliation automation, and their recent work centred on customer onboarding platform delivery.\n\nSKILLS\nCore: Docker, REST APIs, Microservices, System Design, Python, SQL\nAdditional: Redis, GraphQL\n\nEXPERIENCE\nAssociate Software Engineer, Aravalli Digital (2024 - Present)\n- Owned internal developer tooling for 800 users, drawing on System Design to improve release frequency by 16%.\n- Redesigned customer onboarding platform delivery for 2500 users, drawing on SQL to improve release frequency by 40%.\n- Led notification delivery overhaul for 800 users, drawing on REST APIs to improve service uptime by 12%.\n\nEDUCATION\nB.Tech in Computer Science and Engineering, Vellore Institute of Technology, 2024\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 2,
+    "true_qualification": 0.54,
+    "skills": [
+      "Docker",
+      "GraphQL",
+      "Microservices",
+      "Python",
+      "REST APIs",
+      "Redis",
+      "SQL",
+      "System Design"
+    ],
+    "skills_all": [
+      "Python",
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Docker",
+      "Git",
+      "Microservices",
+      "AWS",
+      "System Design",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "GraphQL",
+      "Go"
+    ],
+    "employers": [
+      "Aravalli Digital"
+    ],
+    "titles": [
+      "Associate Software Engineer"
+    ],
+    "degree": "B.Tech in Computer Science and Engineering",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Bombay",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

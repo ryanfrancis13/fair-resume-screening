@@ -1,0 +1,26 @@
+{
+  "job_id": "J17",
+  "title": "Design Engineer",
+  "job_family": "mechanical_engineering",
+  "min_years_experience": 3,
+  "must_have": [
+    "Finite Element Analysis",
+    "Thermodynamics",
+    "CNC Machining",
+    "Six Sigma",
+    "SolidWorks",
+    "3+ years of experience in mechanical design"
+  ],
+  "nice_to_have": [
+    "PLC Programming",
+    "Manufacturing Processes",
+    "3D Printing",
+    "GD&T"
+  ],
+  "source": "india_synth_v1",
+  "text": "Design Engineer\nSahyadri Auto Components | Full-time | Hybrid, India\n\nABOUT THE ROLE\nWe are hiring a design engineer to join our mechanical design team. You will work with cross-functional partners and own outcomes end to end.\n\nMUST-HAVE REQUIREMENTS:\n- Finite Element Analysis\n- Thermodynamics\n- CNC Machining\n- Six Sigma\n- SolidWorks\n- 3+ years of experience in mechanical design\n\nNICE-TO-HAVE:\n- PLC Programming\n- Manufacturing Processes\n- 3D Printing\n- GD&T\n\nWHAT YOU WILL DO\n- Drive heat-exchanger redesign with measurable outcomes.\n- Drive vendor tooling programme with measurable outcomes.\n- Drive assembly-line layout revamp with measurable outcomes.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid"
+  }
+}

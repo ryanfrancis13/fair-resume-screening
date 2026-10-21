@@ -1,0 +1,4271 @@
+[
+  {
+    "pair_id": "P001",
+    "job_id": "J01",
+    "resume_id": "R001",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P002",
+    "job_id": "J02",
+    "resume_id": "R001",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P003",
+    "job_id": "J04",
+    "resume_id": "R002",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P004",
+    "job_id": "J05",
+    "resume_id": "R002",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P005",
+    "job_id": "J07",
+    "resume_id": "R003",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P006",
+    "job_id": "J08",
+    "resume_id": "R003",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P007",
+    "job_id": "J10",
+    "resume_id": "R004",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P008",
+    "job_id": "J11",
+    "resume_id": "R004",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P009",
+    "job_id": "J13",
+    "resume_id": "R005",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P010",
+    "job_id": "J14",
+    "resume_id": "R005",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P011",
+    "job_id": "J16",
+    "resume_id": "R006",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P012",
+    "job_id": "J17",
+    "resume_id": "R006",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P013",
+    "job_id": "J19",
+    "resume_id": "R007",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P014",
+    "job_id": "J20",
+    "resume_id": "R007",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P015",
+    "job_id": "J22",
+    "resume_id": "R008",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P016",
+    "job_id": "J23",
+    "resume_id": "R008",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P017",
+    "job_id": "J02",
+    "resume_id": "R009",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P018",
+    "job_id": "J03",
+    "resume_id": "R009",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P019",
+    "job_id": "J05",
+    "resume_id": "R010",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P020",
+    "job_id": "J06",
+    "resume_id": "R010",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P021",
+    "job_id": "J08",
+    "resume_id": "R011",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P022",
+    "job_id": "J09",
+    "resume_id": "R011",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P023",
+    "job_id": "J11",
+    "resume_id": "R012",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P024",
+    "job_id": "J12",
+    "resume_id": "R012",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P025",
+    "job_id": "J14",
+    "resume_id": "R013",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P026",
+    "job_id": "J15",
+    "resume_id": "R013",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P027",
+    "job_id": "J17",
+    "resume_id": "R014",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P028",
+    "job_id": "J18",
+    "resume_id": "R014",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P029",
+    "job_id": "J20",
+    "resume_id": "R015",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P030",
+    "job_id": "J21",
+    "resume_id": "R015",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P031",
+    "job_id": "J23",
+    "resume_id": "R016",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P032",
+    "job_id": "J24",
+    "resume_id": "R016",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P033",
+    "job_id": "J03",
+    "resume_id": "R017",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P034",
+    "job_id": "J01",
+    "resume_id": "R017",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P035",
+    "job_id": "J06",
+    "resume_id": "R018",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P036",
+    "job_id": "J04",
+    "resume_id": "R018",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P037",
+    "job_id": "J09",
+    "resume_id": "R019",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P038",
+    "job_id": "J07",
+    "resume_id": "R019",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P039",
+    "job_id": "J12",
+    "resume_id": "R020",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P040",
+    "job_id": "J10",
+    "resume_id": "R020",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P041",
+    "job_id": "J15",
+    "resume_id": "R021",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P042",
+    "job_id": "J13",
+    "resume_id": "R021",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P043",
+    "job_id": "J18",
+    "resume_id": "R022",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P044",
+    "job_id": "J16",
+    "resume_id": "R022",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P045",
+    "job_id": "J21",
+    "resume_id": "R023",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P046",
+    "job_id": "J19",
+    "resume_id": "R023",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P047",
+    "job_id": "J24",
+    "resume_id": "R024",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P048",
+    "job_id": "J22",
+    "resume_id": "R024",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P049",
+    "job_id": "J01",
+    "resume_id": "R025",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P050",
+    "job_id": "J02",
+    "resume_id": "R025",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P051",
+    "job_id": "J04",
+    "resume_id": "R026",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P052",
+    "job_id": "J05",
+    "resume_id": "R026",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P053",
+    "job_id": "J07",
+    "resume_id": "R027",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P054",
+    "job_id": "J08",
+    "resume_id": "R027",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P055",
+    "job_id": "J10",
+    "resume_id": "R028",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P056",
+    "job_id": "J11",
+    "resume_id": "R028",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P057",
+    "job_id": "J13",
+    "resume_id": "R029",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P058",
+    "job_id": "J14",
+    "resume_id": "R029",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P059",
+    "job_id": "J16",
+    "resume_id": "R030",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P060",
+    "job_id": "J17",
+    "resume_id": "R030",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P061",
+    "job_id": "J19",
+    "resume_id": "R031",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P062",
+    "job_id": "J20",
+    "resume_id": "R031",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.2,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P063",
+    "job_id": "J22",
+    "resume_id": "R032",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P064",
+    "job_id": "J23",
+    "resume_id": "R032",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P065",
+    "job_id": "J02",
+    "resume_id": "R033",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P066",
+    "job_id": "J03",
+    "resume_id": "R033",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P067",
+    "job_id": "J05",
+    "resume_id": "R034",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P068",
+    "job_id": "J06",
+    "resume_id": "R034",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P069",
+    "job_id": "J08",
+    "resume_id": "R035",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P070",
+    "job_id": "J09",
+    "resume_id": "R035",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P071",
+    "job_id": "J11",
+    "resume_id": "R036",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P072",
+    "job_id": "J12",
+    "resume_id": "R036",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P073",
+    "job_id": "J14",
+    "resume_id": "R037",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P074",
+    "job_id": "J15",
+    "resume_id": "R037",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P075",
+    "job_id": "J17",
+    "resume_id": "R038",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P076",
+    "job_id": "J18",
+    "resume_id": "R038",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P077",
+    "job_id": "J20",
+    "resume_id": "R039",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P078",
+    "job_id": "J21",
+    "resume_id": "R039",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P079",
+    "job_id": "J23",
+    "resume_id": "R040",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P080",
+    "job_id": "J24",
+    "resume_id": "R040",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.83
+    }
+  },
+  {
+    "pair_id": "P081",
+    "job_id": "J03",
+    "resume_id": "R041",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P082",
+    "job_id": "J01",
+    "resume_id": "R041",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P083",
+    "job_id": "J06",
+    "resume_id": "R042",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P084",
+    "job_id": "J04",
+    "resume_id": "R042",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P085",
+    "job_id": "J09",
+    "resume_id": "R043",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P086",
+    "job_id": "J07",
+    "resume_id": "R043",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P087",
+    "job_id": "J12",
+    "resume_id": "R044",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P088",
+    "job_id": "J10",
+    "resume_id": "R044",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P089",
+    "job_id": "J15",
+    "resume_id": "R045",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P090",
+    "job_id": "J13",
+    "resume_id": "R045",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.2,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P091",
+    "job_id": "J18",
+    "resume_id": "R046",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P092",
+    "job_id": "J16",
+    "resume_id": "R046",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P093",
+    "job_id": "J21",
+    "resume_id": "R047",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P094",
+    "job_id": "J19",
+    "resume_id": "R047",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P095",
+    "job_id": "J24",
+    "resume_id": "R048",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P096",
+    "job_id": "J22",
+    "resume_id": "R048",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P097",
+    "job_id": "J01",
+    "resume_id": "R049",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P098",
+    "job_id": "J02",
+    "resume_id": "R049",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P099",
+    "job_id": "J04",
+    "resume_id": "R050",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P100",
+    "job_id": "J05",
+    "resume_id": "R050",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P101",
+    "job_id": "J07",
+    "resume_id": "R051",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P102",
+    "job_id": "J08",
+    "resume_id": "R051",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P103",
+    "job_id": "J10",
+    "resume_id": "R052",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P104",
+    "job_id": "J11",
+    "resume_id": "R052",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P105",
+    "job_id": "J13",
+    "resume_id": "R053",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P106",
+    "job_id": "J14",
+    "resume_id": "R053",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.2,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P107",
+    "job_id": "J16",
+    "resume_id": "R054",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P108",
+    "job_id": "J17",
+    "resume_id": "R054",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P109",
+    "job_id": "J19",
+    "resume_id": "R055",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P110",
+    "job_id": "J20",
+    "resume_id": "R055",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P111",
+    "job_id": "J22",
+    "resume_id": "R056",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P112",
+    "job_id": "J23",
+    "resume_id": "R056",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P113",
+    "job_id": "J02",
+    "resume_id": "R057",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P114",
+    "job_id": "J03",
+    "resume_id": "R057",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P115",
+    "job_id": "J05",
+    "resume_id": "R058",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P116",
+    "job_id": "J06",
+    "resume_id": "R058",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P117",
+    "job_id": "J08",
+    "resume_id": "R059",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P118",
+    "job_id": "J09",
+    "resume_id": "R059",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P119",
+    "job_id": "J11",
+    "resume_id": "R060",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P120",
+    "job_id": "J12",
+    "resume_id": "R060",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P121",
+    "job_id": "J14",
+    "resume_id": "R061",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P122",
+    "job_id": "J15",
+    "resume_id": "R061",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P123",
+    "job_id": "J17",
+    "resume_id": "R062",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P124",
+    "job_id": "J18",
+    "resume_id": "R062",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P125",
+    "job_id": "J20",
+    "resume_id": "R063",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P126",
+    "job_id": "J21",
+    "resume_id": "R063",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P127",
+    "job_id": "J23",
+    "resume_id": "R064",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P128",
+    "job_id": "J24",
+    "resume_id": "R064",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P129",
+    "job_id": "J03",
+    "resume_id": "R065",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P130",
+    "job_id": "J01",
+    "resume_id": "R065",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P131",
+    "job_id": "J06",
+    "resume_id": "R066",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P132",
+    "job_id": "J04",
+    "resume_id": "R066",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P133",
+    "job_id": "J09",
+    "resume_id": "R067",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P134",
+    "job_id": "J07",
+    "resume_id": "R067",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P135",
+    "job_id": "J12",
+    "resume_id": "R068",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P136",
+    "job_id": "J10",
+    "resume_id": "R068",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P137",
+    "job_id": "J15",
+    "resume_id": "R069",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.83
+    }
+  },
+  {
+    "pair_id": "P138",
+    "job_id": "J13",
+    "resume_id": "R069",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P139",
+    "job_id": "J18",
+    "resume_id": "R070",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P140",
+    "job_id": "J16",
+    "resume_id": "R070",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P141",
+    "job_id": "J21",
+    "resume_id": "R071",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P142",
+    "job_id": "J19",
+    "resume_id": "R071",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P143",
+    "job_id": "J24",
+    "resume_id": "R072",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P144",
+    "job_id": "J22",
+    "resume_id": "R072",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P145",
+    "job_id": "J01",
+    "resume_id": "R073",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P146",
+    "job_id": "J02",
+    "resume_id": "R073",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P147",
+    "job_id": "J04",
+    "resume_id": "R074",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P148",
+    "job_id": "J05",
+    "resume_id": "R074",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P149",
+    "job_id": "J07",
+    "resume_id": "R075",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P150",
+    "job_id": "J08",
+    "resume_id": "R075",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P151",
+    "job_id": "J10",
+    "resume_id": "R076",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P152",
+    "job_id": "J11",
+    "resume_id": "R076",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P153",
+    "job_id": "J13",
+    "resume_id": "R077",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P154",
+    "job_id": "J14",
+    "resume_id": "R077",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P155",
+    "job_id": "J16",
+    "resume_id": "R078",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P156",
+    "job_id": "J17",
+    "resume_id": "R078",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P157",
+    "job_id": "J19",
+    "resume_id": "R079",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P158",
+    "job_id": "J20",
+    "resume_id": "R079",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P159",
+    "job_id": "J22",
+    "resume_id": "R080",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P160",
+    "job_id": "J23",
+    "resume_id": "R080",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P161",
+    "job_id": "J02",
+    "resume_id": "R081",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P162",
+    "job_id": "J03",
+    "resume_id": "R081",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P163",
+    "job_id": "J05",
+    "resume_id": "R082",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P164",
+    "job_id": "J06",
+    "resume_id": "R082",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P165",
+    "job_id": "J08",
+    "resume_id": "R083",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P166",
+    "job_id": "J09",
+    "resume_id": "R083",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P167",
+    "job_id": "J11",
+    "resume_id": "R084",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P168",
+    "job_id": "J12",
+    "resume_id": "R084",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P169",
+    "job_id": "J14",
+    "resume_id": "R085",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P170",
+    "job_id": "J15",
+    "resume_id": "R085",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P171",
+    "job_id": "J17",
+    "resume_id": "R086",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P172",
+    "job_id": "J18",
+    "resume_id": "R086",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P173",
+    "job_id": "J20",
+    "resume_id": "R087",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P174",
+    "job_id": "J21",
+    "resume_id": "R087",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P175",
+    "job_id": "J23",
+    "resume_id": "R088",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P176",
+    "job_id": "J24",
+    "resume_id": "R088",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P177",
+    "job_id": "J03",
+    "resume_id": "R089",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P178",
+    "job_id": "J01",
+    "resume_id": "R089",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P179",
+    "job_id": "J06",
+    "resume_id": "R090",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P180",
+    "job_id": "J04",
+    "resume_id": "R090",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P181",
+    "job_id": "J09",
+    "resume_id": "R091",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P182",
+    "job_id": "J07",
+    "resume_id": "R091",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P183",
+    "job_id": "J12",
+    "resume_id": "R092",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P184",
+    "job_id": "J10",
+    "resume_id": "R092",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P185",
+    "job_id": "J15",
+    "resume_id": "R093",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P186",
+    "job_id": "J13",
+    "resume_id": "R093",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P187",
+    "job_id": "J18",
+    "resume_id": "R094",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P188",
+    "job_id": "J16",
+    "resume_id": "R094",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P189",
+    "job_id": "J21",
+    "resume_id": "R095",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P190",
+    "job_id": "J19",
+    "resume_id": "R095",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P191",
+    "job_id": "J24",
+    "resume_id": "R096",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P192",
+    "job_id": "J22",
+    "resume_id": "R096",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P193",
+    "job_id": "J01",
+    "resume_id": "R097",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P194",
+    "job_id": "J02",
+    "resume_id": "R097",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P195",
+    "job_id": "J04",
+    "resume_id": "R098",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P196",
+    "job_id": "J05",
+    "resume_id": "R098",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P197",
+    "job_id": "J07",
+    "resume_id": "R099",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P198",
+    "job_id": "J08",
+    "resume_id": "R099",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P199",
+    "job_id": "J10",
+    "resume_id": "R100",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P200",
+    "job_id": "J11",
+    "resume_id": "R100",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P201",
+    "job_id": "J13",
+    "resume_id": "R101",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P202",
+    "job_id": "J14",
+    "resume_id": "R101",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P203",
+    "job_id": "J16",
+    "resume_id": "R102",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P204",
+    "job_id": "J17",
+    "resume_id": "R102",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P205",
+    "job_id": "J19",
+    "resume_id": "R103",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P206",
+    "job_id": "J20",
+    "resume_id": "R103",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P207",
+    "job_id": "J22",
+    "resume_id": "R104",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P208",
+    "job_id": "J23",
+    "resume_id": "R104",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P209",
+    "job_id": "J02",
+    "resume_id": "R105",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P210",
+    "job_id": "J03",
+    "resume_id": "R105",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P211",
+    "job_id": "J05",
+    "resume_id": "R106",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P212",
+    "job_id": "J06",
+    "resume_id": "R106",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P213",
+    "job_id": "J08",
+    "resume_id": "R107",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P214",
+    "job_id": "J09",
+    "resume_id": "R107",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.83
+    }
+  },
+  {
+    "pair_id": "P215",
+    "job_id": "J11",
+    "resume_id": "R108",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P216",
+    "job_id": "J12",
+    "resume_id": "R108",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P217",
+    "job_id": "J14",
+    "resume_id": "R109",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P218",
+    "job_id": "J15",
+    "resume_id": "R109",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P219",
+    "job_id": "J17",
+    "resume_id": "R110",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P220",
+    "job_id": "J18",
+    "resume_id": "R110",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P221",
+    "job_id": "J20",
+    "resume_id": "R111",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P222",
+    "job_id": "J21",
+    "resume_id": "R111",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P223",
+    "job_id": "J23",
+    "resume_id": "R112",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P224",
+    "job_id": "J24",
+    "resume_id": "R112",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P225",
+    "job_id": "J03",
+    "resume_id": "R113",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P226",
+    "job_id": "J01",
+    "resume_id": "R113",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P227",
+    "job_id": "J06",
+    "resume_id": "R114",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P228",
+    "job_id": "J04",
+    "resume_id": "R114",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P229",
+    "job_id": "J09",
+    "resume_id": "R115",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P230",
+    "job_id": "J07",
+    "resume_id": "R115",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P231",
+    "job_id": "J12",
+    "resume_id": "R116",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P232",
+    "job_id": "J10",
+    "resume_id": "R116",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P233",
+    "job_id": "J15",
+    "resume_id": "R117",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P234",
+    "job_id": "J13",
+    "resume_id": "R117",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P235",
+    "job_id": "J18",
+    "resume_id": "R118",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P236",
+    "job_id": "J16",
+    "resume_id": "R118",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P237",
+    "job_id": "J21",
+    "resume_id": "R119",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P238",
+    "job_id": "J19",
+    "resume_id": "R119",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P239",
+    "job_id": "J24",
+    "resume_id": "R120",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P240",
+    "job_id": "J22",
+    "resume_id": "R120",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P241",
+    "job_id": "J01",
+    "resume_id": "R121",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P242",
+    "job_id": "J02",
+    "resume_id": "R121",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P243",
+    "job_id": "J04",
+    "resume_id": "R122",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P244",
+    "job_id": "J05",
+    "resume_id": "R122",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P245",
+    "job_id": "J07",
+    "resume_id": "R123",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P246",
+    "job_id": "J08",
+    "resume_id": "R123",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P247",
+    "job_id": "J10",
+    "resume_id": "R124",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P248",
+    "job_id": "J11",
+    "resume_id": "R124",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P249",
+    "job_id": "J13",
+    "resume_id": "R125",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P250",
+    "job_id": "J14",
+    "resume_id": "R125",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P251",
+    "job_id": "J16",
+    "resume_id": "R126",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.2,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P252",
+    "job_id": "J17",
+    "resume_id": "R126",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P253",
+    "job_id": "J19",
+    "resume_id": "R127",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P254",
+    "job_id": "J20",
+    "resume_id": "R127",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P255",
+    "job_id": "J22",
+    "resume_id": "R128",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P256",
+    "job_id": "J23",
+    "resume_id": "R128",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P257",
+    "job_id": "J02",
+    "resume_id": "R129",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P258",
+    "job_id": "J03",
+    "resume_id": "R129",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P259",
+    "job_id": "J05",
+    "resume_id": "R130",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P260",
+    "job_id": "J06",
+    "resume_id": "R130",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P261",
+    "job_id": "J08",
+    "resume_id": "R131",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P262",
+    "job_id": "J09",
+    "resume_id": "R131",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P263",
+    "job_id": "J11",
+    "resume_id": "R132",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P264",
+    "job_id": "J12",
+    "resume_id": "R132",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P265",
+    "job_id": "J14",
+    "resume_id": "R133",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P266",
+    "job_id": "J15",
+    "resume_id": "R133",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P267",
+    "job_id": "J17",
+    "resume_id": "R134",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.2,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P268",
+    "job_id": "J18",
+    "resume_id": "R134",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P269",
+    "job_id": "J20",
+    "resume_id": "R135",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P270",
+    "job_id": "J21",
+    "resume_id": "R135",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P271",
+    "job_id": "J23",
+    "resume_id": "R136",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 0.67
+    }
+  },
+  {
+    "pair_id": "P272",
+    "job_id": "J24",
+    "resume_id": "R136",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P273",
+    "job_id": "J03",
+    "resume_id": "R137",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 0.17
+    }
+  },
+  {
+    "pair_id": "P274",
+    "job_id": "J01",
+    "resume_id": "R137",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P275",
+    "job_id": "J06",
+    "resume_id": "R138",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.5
+    }
+  },
+  {
+    "pair_id": "P276",
+    "job_id": "J04",
+    "resume_id": "R138",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P277",
+    "job_id": "J09",
+    "resume_id": "R139",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P278",
+    "job_id": "J07",
+    "resume_id": "R139",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P279",
+    "job_id": "J12",
+    "resume_id": "R140",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.83
+    }
+  },
+  {
+    "pair_id": "P280",
+    "job_id": "J10",
+    "resume_id": "R140",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P281",
+    "job_id": "J15",
+    "resume_id": "R141",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.2,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P282",
+    "job_id": "J13",
+    "resume_id": "R141",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P283",
+    "job_id": "J18",
+    "resume_id": "R142",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P284",
+    "job_id": "J16",
+    "resume_id": "R142",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 1.0,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P285",
+    "job_id": "J21",
+    "resume_id": "R143",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P286",
+    "job_id": "J19",
+    "resume_id": "R143",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P287",
+    "job_id": "J24",
+    "resume_id": "R144",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P288",
+    "job_id": "J22",
+    "resume_id": "R144",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P289",
+    "job_id": "J01",
+    "resume_id": "R145",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P290",
+    "job_id": "J02",
+    "resume_id": "R145",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P291",
+    "job_id": "J04",
+    "resume_id": "R146",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P292",
+    "job_id": "J05",
+    "resume_id": "R146",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P293",
+    "job_id": "J07",
+    "resume_id": "R147",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P294",
+    "job_id": "J08",
+    "resume_id": "R147",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.6,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P295",
+    "job_id": "J10",
+    "resume_id": "R148",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P296",
+    "job_id": "J11",
+    "resume_id": "R148",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P297",
+    "job_id": "J13",
+    "resume_id": "R149",
+    "pairing_rationale": "same job family",
+    "expected_fit": "strong",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.8,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P298",
+    "job_id": "J14",
+    "resume_id": "R149",
+    "pairing_rationale": "same job family",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 0.33
+    }
+  },
+  {
+    "pair_id": "P299",
+    "job_id": "J16",
+    "resume_id": "R150",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P300",
+    "job_id": "J17",
+    "resume_id": "R150",
+    "pairing_rationale": "same job family",
+    "expected_fit": "moderate",
+    "qualified_label": 1,
+    "meta": {
+      "coverage": 0.4,
+      "exp_ratio": 1.0
+    }
+  },
+  {
+    "pair_id": "P301",
+    "job_id": "J01",
+    "resume_id": "R009",
+    "pairing_rationale": "same job family (topped up for label coverage)",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": null,
+      "exp_ratio": null,
+      "note": "forced weak: family's least-qualified resume still did not clear this JD naturally"
+    }
+  },
+  {
+    "pair_id": "P302",
+    "job_id": "J02",
+    "resume_id": "R089",
+    "pairing_rationale": "same job family (topped up for label coverage)",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": null,
+      "exp_ratio": null,
+      "note": "forced weak: family's least-qualified resume still did not clear this JD naturally"
+    }
+  },
+  {
+    "pair_id": "P303",
+    "job_id": "J04",
+    "resume_id": "R034",
+    "pairing_rationale": "same job family (topped up for label coverage)",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": null,
+      "exp_ratio": null,
+      "note": "forced weak: family's least-qualified resume still did not clear this JD naturally"
+    }
+  },
+  {
+    "pair_id": "P304",
+    "job_id": "J05",
+    "resume_id": "R066",
+    "pairing_rationale": "same job family (topped up for label coverage)",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": null,
+      "exp_ratio": null,
+      "note": "forced weak: family's least-qualified resume still did not clear this JD naturally"
+    }
+  },
+  {
+    "pair_id": "P305",
+    "job_id": "J07",
+    "resume_id": "R131",
+    "pairing_rationale": "same job family (topped up for label coverage)",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": null,
+      "exp_ratio": null,
+      "note": "forced weak: family's least-qualified resume still did not clear this JD naturally"
+    }
+  },
+  {
+    "pair_id": "P306",
+    "job_id": "J10",
+    "resume_id": "R036",
+    "pairing_rationale": "same job family (topped up for label coverage)",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": null,
+      "exp_ratio": null,
+      "note": "forced weak: family's least-qualified resume still did not clear this JD naturally"
+    }
+  },
+  {
+    "pair_id": "P307",
+    "job_id": "J12",
+    "resume_id": "R052",
+    "pairing_rationale": "same job family (topped up for label coverage)",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": null,
+      "exp_ratio": null,
+      "note": "forced weak: family's least-qualified resume still did not clear this JD naturally"
+    }
+  },
+  {
+    "pair_id": "P308",
+    "job_id": "J19",
+    "resume_id": "R039",
+    "pairing_rationale": "same job family (topped up for label coverage)",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": null,
+      "exp_ratio": null,
+      "note": "forced weak: family's least-qualified resume still did not clear this JD naturally"
+    }
+  },
+  {
+    "pair_id": "P309",
+    "job_id": "J22",
+    "resume_id": "R040",
+    "pairing_rationale": "same job family (topped up for label coverage)",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": null,
+      "exp_ratio": null,
+      "note": "forced weak: family's least-qualified resume still did not clear this JD naturally"
+    }
+  },
+  {
+    "pair_id": "P310",
+    "job_id": "J13",
+    "resume_id": "R098",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P311",
+    "job_id": "J08",
+    "resume_id": "R144",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P312",
+    "job_id": "J16",
+    "resume_id": "R112",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P313",
+    "job_id": "J18",
+    "resume_id": "R060",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P314",
+    "job_id": "J08",
+    "resume_id": "R058",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P315",
+    "job_id": "J23",
+    "resume_id": "R067",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P316",
+    "job_id": "J10",
+    "resume_id": "R030",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P317",
+    "job_id": "J05",
+    "resume_id": "R075",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P318",
+    "job_id": "J02",
+    "resume_id": "R023",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P319",
+    "job_id": "J23",
+    "resume_id": "R029",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P320",
+    "job_id": "J11",
+    "resume_id": "R142",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P321",
+    "job_id": "J10",
+    "resume_id": "R088",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P322",
+    "job_id": "J20",
+    "resume_id": "R049",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P323",
+    "job_id": "J04",
+    "resume_id": "R149",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P324",
+    "job_id": "J09",
+    "resume_id": "R095",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P325",
+    "job_id": "J22",
+    "resume_id": "R033",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P326",
+    "job_id": "J19",
+    "resume_id": "R081",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P327",
+    "job_id": "J24",
+    "resume_id": "R150",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P328",
+    "job_id": "J10",
+    "resume_id": "R001",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P329",
+    "job_id": "J16",
+    "resume_id": "R080",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P330",
+    "job_id": "J10",
+    "resume_id": "R016",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P331",
+    "job_id": "J16",
+    "resume_id": "R138",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P332",
+    "job_id": "J02",
+    "resume_id": "R100",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P333",
+    "job_id": "J11",
+    "resume_id": "R126",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P334",
+    "job_id": "J05",
+    "resume_id": "R055",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P335",
+    "job_id": "J10",
+    "resume_id": "R041",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P336",
+    "job_id": "J11",
+    "resume_id": "R099",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P337",
+    "job_id": "J02",
+    "resume_id": "R047",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P338",
+    "job_id": "J06",
+    "resume_id": "R103",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P339",
+    "job_id": "J16",
+    "resume_id": "R087",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P340",
+    "job_id": "J13",
+    "resume_id": "R120",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P341",
+    "job_id": "J10",
+    "resume_id": "R102",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P342",
+    "job_id": "J09",
+    "resume_id": "R017",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P343",
+    "job_id": "J04",
+    "resume_id": "R145",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P344",
+    "job_id": "J21",
+    "resume_id": "R085",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P345",
+    "job_id": "J13",
+    "resume_id": "R078",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P346",
+    "job_id": "J14",
+    "resume_id": "R076",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P347",
+    "job_id": "J17",
+    "resume_id": "R141",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P348",
+    "job_id": "J19",
+    "resume_id": "R014",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P349",
+    "job_id": "J15",
+    "resume_id": "R051",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P350",
+    "job_id": "J16",
+    "resume_id": "R002",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P351",
+    "job_id": "J16",
+    "resume_id": "R069",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P352",
+    "job_id": "J03",
+    "resume_id": "R059",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P353",
+    "job_id": "J20",
+    "resume_id": "R125",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P354",
+    "job_id": "J13",
+    "resume_id": "R019",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  },
+  {
+    "pair_id": "P355",
+    "job_id": "J13",
+    "resume_id": "R105",
+    "pairing_rationale": "cross-family negative control",
+    "expected_fit": "weak",
+    "qualified_label": 0,
+    "meta": {
+      "coverage": 0.0,
+      "exp_ratio": 0.0
+    }
+  }
+]

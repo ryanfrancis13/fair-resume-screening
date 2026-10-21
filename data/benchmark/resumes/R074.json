@@ -1,0 +1,90 @@
+{
+  "resume_id": "R074",
+  "job_family": "data_science",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nAssociate Data Analyst with 1 years of experience in data science.\n{{PRONOUN_SUBJ}} led customer segmentation refresh, and {{PRONOUN_POSS}} recent work centred on churn reduction programme.\n\nSKILLS\nCore: Python, Machine Learning, Feature Engineering, A/B Testing, Statistics, Scikit-learn, Pandas\nAdditional: MLflow, Spark\n\nEXPERIENCE\nAssociate Data Analyst, Zanskar Labs (2025 - Present)\n- Led churn reduction programme for 40 customers, drawing on Feature Engineering to improve retention by 40%.\n- Delivered fraud screening upgrade for 40 customers, drawing on Scikit-learn to improve model turnaround time by 29%.\n- Streamlined demand planning revamp for 800 customers, drawing on Machine Learning to improve model turnaround time by 36%.\n\nEDUCATION\nB.Sc. in Data Science, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 99283",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2025"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 99283 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nAssociate Data Analyst with 1 years of experience in data science.\nThey led customer segmentation refresh, and their recent work centred on churn reduction programme.\n\nSKILLS\nCore: Python, Machine Learning, Feature Engineering, A/B Testing, Statistics, Scikit-learn, Pandas\nAdditional: MLflow, Spark\n\nEXPERIENCE\nAssociate Data Analyst, Zanskar Labs (2025 - Present)\n- Led churn reduction programme for 40 customers, drawing on Feature Engineering to improve retention by 40%.\n- Delivered fraud screening upgrade for 40 customers, drawing on Scikit-learn to improve model turnaround time by 29%.\n- Streamlined demand planning revamp for 800 customers, drawing on Machine Learning to improve model turnaround time by 36%.\n\nEDUCATION\nB.Sc. in Data Science, Vellore Institute of Technology, 2025\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 1,
+    "true_qualification": 0.69,
+    "skills": [
+      "A/B Testing",
+      "Feature Engineering",
+      "MLflow",
+      "Machine Learning",
+      "Pandas",
+      "Python",
+      "Scikit-learn",
+      "Spark",
+      "Statistics"
+    ],
+    "skills_all": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Statistics",
+      "Pandas",
+      "Scikit-learn",
+      "Data Visualization",
+      "A/B Testing",
+      "Feature Engineering",
+      "PyTorch",
+      "Spark",
+      "NLP",
+      "Tableau",
+      "MLflow",
+      "Airflow"
+    ],
+    "employers": [
+      "Zanskar Labs"
+    ],
+    "titles": [
+      "Associate Data Analyst"
+    ],
+    "degree": "B.Sc. in Data Science",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "resume_id": "R039",
+  "job_family": "human_resources",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nHR Business Partner with 3 years of experience in human resources.\n{{PRONOUN_SUBJ}} delivered annual appraisal cycle, and {{PRONOUN_POSS}} recent work centred on campus recruitment drive.\n\nWORK HISTORY\nHR Business Partner, Chambal Manufacturing (2024 - Present)\n- Owned wellness initiative for 350 employees, drawing on Performance Management to improve retention by 27%.\n- Streamlined campus recruitment drive using Learning and Development, improving retention by 38%.\n- Redesigned joining formalities redesign for 800 employees, drawing on Compensation Benchmarking to improve offer acceptance rate by 26%.\n\nHR Executive, Narmada Retail (2023 - 2024)\n- Streamlined annual appraisal cycle for 40 employees, drawing on Compensation Benchmarking to improve retention by 43%.\n- Led joining formalities redesign for 350 employees, drawing on Talent Acquisition to improve retention by 36%.\n\nCORE COMPETENCIES\nCore: Performance Management, Compensation Benchmarking, Labour Law Compliance, Talent Acquisition\nAdditional: Learning and Development\n\nACADEMIC BACKGROUND\nBBA, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 88208",
+    "AFFILIATION": "Member, HR Association Student Chapter (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2023"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 88208\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nHR Business Partner with 3 years of experience in human resources.\nThey delivered annual appraisal cycle, and their recent work centred on campus recruitment drive.\n\nWORK HISTORY\nHR Business Partner, Chambal Manufacturing (2024 - Present)\n- Owned wellness initiative for 350 employees, drawing on Performance Management to improve retention by 27%.\n- Streamlined campus recruitment drive using Learning and Development, improving retention by 38%.\n- Redesigned joining formalities redesign for 800 employees, drawing on Compensation Benchmarking to improve offer acceptance rate by 26%.\n\nHR Executive, Narmada Retail (2023 - 2024)\n- Streamlined annual appraisal cycle for 40 employees, drawing on Compensation Benchmarking to improve retention by 43%.\n- Led joining formalities redesign for 350 employees, drawing on Talent Acquisition to improve retention by 36%.\n\nCORE COMPETENCIES\nCore: Performance Management, Compensation Benchmarking, Labour Law Compliance, Talent Acquisition\nAdditional: Learning and Development\n\nACADEMIC BACKGROUND\nBBA, Christ University, 2023\n\n\nPERSONAL DETAILS\nAffiliations: Member, HR Association Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 3,
+    "true_qualification": 0.28,
+    "skills": [
+      "Compensation Benchmarking",
+      "Labour Law Compliance",
+      "Learning and Development",
+      "Performance Management",
+      "Talent Acquisition"
+    ],
+    "skills_all": [
+      "Talent Acquisition",
+      "Employee Engagement",
+      "Payroll Processing",
+      "HRIS",
+      "Performance Management",
+      "Onboarding",
+      "Labour Law Compliance",
+      "Compensation Benchmarking",
+      "Stakeholder Management",
+      "Workday",
+      "Learning and Development",
+      "HR Analytics",
+      "Campus Hiring",
+      "Employer Branding",
+      "Succession Planning"
+    ],
+    "employers": [
+      "Chambal Manufacturing",
+      "Narmada Retail"
+    ],
+    "titles": [
+      "HR Business Partner",
+      "HR Executive"
+    ],
+    "degree": "BBA",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Tata Institute of Social Sciences, Mumbai",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Management Studies"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

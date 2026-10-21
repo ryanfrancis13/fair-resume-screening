@@ -1,0 +1,95 @@
+{
+  "resume_id": "R046",
+  "job_family": "mechanical_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nGraduate Engineer Trainee with 1 years of experience in mechanical design.\n{{PRONOUN_SUBJ}} led heat-exchanger redesign, and {{PRONOUN_POSS}} recent work centred on shop-floor changeover.\n\nWORK HISTORY\nGraduate Engineer Trainee, Ganga Heavy Engineering (2025 - Present)\n- Applied Six Sigma across gearbox housing redesign, improving first-pass yield by 45%.\n- Led fixture development using Thermodynamics, improving first-pass yield by 23%.\n- Automated assembly-line layout revamp for 800 units, drawing on AutoCAD to improve first-pass yield by 15%.\n\nCORE COMPETENCIES\nCore: GD&T, Manufacturing Processes, Root Cause Analysis, Thermodynamics, Finite Element Analysis, Six Sigma, CNC Machining, AutoCAD, SolidWorks\nAdditional: ANSYS, Value Engineering, PLC Programming, 3D Printing, CATIA\n\nACADEMIC BACKGROUND\nB.E. in Mechanical Engineering, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 40539",
+    "AFFILIATION": "Member, SAE India Collegiate Club (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2025"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 40539\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nGraduate Engineer Trainee with 1 years of experience in mechanical design.\nThey led heat-exchanger redesign, and their recent work centred on shop-floor changeover.\n\nWORK HISTORY\nGraduate Engineer Trainee, Ganga Heavy Engineering (2025 - Present)\n- Applied Six Sigma across gearbox housing redesign, improving first-pass yield by 45%.\n- Led fixture development using Thermodynamics, improving first-pass yield by 23%.\n- Automated assembly-line layout revamp for 800 units, drawing on AutoCAD to improve first-pass yield by 15%.\n\nCORE COMPETENCIES\nCore: GD&T, Manufacturing Processes, Root Cause Analysis, Thermodynamics, Finite Element Analysis, Six Sigma, CNC Machining, AutoCAD, SolidWorks\nAdditional: ANSYS, Value Engineering, PLC Programming, 3D Printing, CATIA\n\nACADEMIC BACKGROUND\nB.E. in Mechanical Engineering, Vellore Institute of Technology, 2025\n\n\nPERSONAL DETAILS\nAffiliations: Member, SAE India Collegiate Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "junior",
+    "years_experience": 1,
+    "true_qualification": 0.94,
+    "skills": [
+      "3D Printing",
+      "ANSYS",
+      "AutoCAD",
+      "CATIA",
+      "CNC Machining",
+      "Finite Element Analysis",
+      "GD&T",
+      "Manufacturing Processes",
+      "PLC Programming",
+      "Root Cause Analysis",
+      "Six Sigma",
+      "SolidWorks",
+      "Thermodynamics",
+      "Value Engineering"
+    ],
+    "skills_all": [
+      "AutoCAD",
+      "SolidWorks",
+      "GD&T",
+      "Finite Element Analysis",
+      "Thermodynamics",
+      "CNC Machining",
+      "Manufacturing Processes",
+      "Root Cause Analysis",
+      "Six Sigma",
+      "ANSYS",
+      "CATIA",
+      "Lean Manufacturing",
+      "3D Printing",
+      "PLC Programming",
+      "Value Engineering"
+    ],
+    "employers": [
+      "Ganga Heavy Engineering"
+    ],
+    "titles": [
+      "Graduate Engineer Trainee"
+    ],
+    "degree": "B.E. in Mechanical Engineering",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Sai College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

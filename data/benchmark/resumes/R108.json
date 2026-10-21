@@ -1,0 +1,89 @@
+{
+  "resume_id": "R108",
+  "job_family": "finance",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSenior Financial Analyst with 10 years of experience in corporate finance.\n{{PRONOUN_SUBJ}} delivered vendor payment cycle, and {{PRONOUN_POSS}} recent work centred on monthly close cycle.\n\nWORK HISTORY\nSenior Financial Analyst, Mahanadi Enterprises (2021 - Present)\n- Streamlined cost-centre review process using SAP FICO, improving close timeline by 40%.\n- Delivered working-capital programme for 40 accounts, drawing on Financial Reporting to improve cost savings by 40%.\n- Applied Variance Analysis across vendor payment cycle, improving payment turnaround by 17%.\n- Applied Tally across annual operating plan, improving payment turnaround by 31%.\n- Applied Financial Modelling across quarterly board reporting, improving cost savings by 30%.\n\nFinancial Analyst, Konkan Industries (2016 - 2021)\n- Automated working-capital programme for 120 accounts, drawing on Advanced Excel to improve payment turnaround by 34%.\n- Applied Tally across cost-centre review process, improving close timeline by 17%.\n\nCORE COMPETENCIES\nCore: Tally, Financial Modelling, Advanced Excel, Variance Analysis, Financial Reporting\nAdditional: SAP FICO\n\nACADEMIC BACKGROUND\nM.Com, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 68852",
+    "AFFILIATION": "Member, Finance Club (2 years)",
+    "UNIVERSITY": "Christ University",
+    "GRAD_YEAR": "2016"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 68852\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSenior Financial Analyst with 10 years of experience in corporate finance.\nThey delivered vendor payment cycle, and their recent work centred on monthly close cycle.\n\nWORK HISTORY\nSenior Financial Analyst, Mahanadi Enterprises (2021 - Present)\n- Streamlined cost-centre review process using SAP FICO, improving close timeline by 40%.\n- Delivered working-capital programme for 40 accounts, drawing on Financial Reporting to improve cost savings by 40%.\n- Applied Variance Analysis across vendor payment cycle, improving payment turnaround by 17%.\n- Applied Tally across annual operating plan, improving payment turnaround by 31%.\n- Applied Financial Modelling across quarterly board reporting, improving cost savings by 30%.\n\nFinancial Analyst, Konkan Industries (2016 - 2021)\n- Automated working-capital programme for 120 accounts, drawing on Advanced Excel to improve payment turnaround by 34%.\n- Applied Tally across cost-centre review process, improving close timeline by 17%.\n\nCORE COMPETENCIES\nCore: Tally, Financial Modelling, Advanced Excel, Variance Analysis, Financial Reporting\nAdditional: SAP FICO\n\nACADEMIC BACKGROUND\nM.Com, Christ University, 2016\n\n\nPERSONAL DETAILS\nAffiliations: Member, Finance Club (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 10,
+    "true_qualification": 0.42,
+    "skills": [
+      "Advanced Excel",
+      "Financial Modelling",
+      "Financial Reporting",
+      "SAP FICO",
+      "Tally",
+      "Variance Analysis"
+    ],
+    "skills_all": [
+      "Financial Modelling",
+      "Advanced Excel",
+      "Budgeting",
+      "Forecasting",
+      "Financial Reporting",
+      "Variance Analysis",
+      "GST Compliance",
+      "Tally",
+      "Ind AS",
+      "SAP FICO",
+      "Power BI",
+      "Treasury Management",
+      "Audit",
+      "Valuation",
+      "SQL"
+    ],
+    "employers": [
+      "Konkan Industries",
+      "Mahanadi Enterprises"
+    ],
+    "titles": [
+      "Financial Analyst",
+      "Senior Financial Analyst"
+    ],
+    "degree": "M.Com",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Shri Ram College of Commerce, University of Delhi",
+      "mid": "Christ University",
+      "low": "Sri Sai Institute of Commerce"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

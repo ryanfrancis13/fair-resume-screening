@@ -1,0 +1,92 @@
+{
+  "resume_id": "R057",
+  "job_family": "software_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nSoftware Engineer with 3 years of experience in software engineering.\n{{PRONOUN_SUBJ}} managed order-management backend modernisation, and {{PRONOUN_POSS}} recent work centred on payment reconciliation automation.\n\nSKILLS\nCore: AWS, System Design, Java, REST APIs, Docker, SQL, Microservices\nAdditional: Redis, Kubernetes\n\nEXPERIENCE\nSoftware Engineer, Sahyadri Software (2024 - Present)\n- Redesigned order-management backend modernisation for 350 users, drawing on System Design to improve response time by 22%.\n- Applied Java across inventory synchronisation rollout, improving service uptime by 25%.\n- Streamlined customer onboarding platform delivery using Docker, improving service uptime by 37%.\n\nAssociate Software Engineer, Nilgiri Technologies (2023 - 2024)\n- Applied REST APIs across payment reconciliation automation, improving defect rate by 12%.\n- Owned order-management backend modernisation for 350 users, drawing on Kubernetes to improve service uptime by 25%.\n\nEDUCATION\nB.E. in Information Technology, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 39163",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2023"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 39163 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nSoftware Engineer with 3 years of experience in software engineering.\nThey managed order-management backend modernisation, and their recent work centred on payment reconciliation automation.\n\nSKILLS\nCore: AWS, System Design, Java, REST APIs, Docker, SQL, Microservices\nAdditional: Redis, Kubernetes\n\nEXPERIENCE\nSoftware Engineer, Sahyadri Software (2024 - Present)\n- Redesigned order-management backend modernisation for 350 users, drawing on System Design to improve response time by 22%.\n- Applied Java across inventory synchronisation rollout, improving service uptime by 25%.\n- Streamlined customer onboarding platform delivery using Docker, improving service uptime by 37%.\n\nAssociate Software Engineer, Nilgiri Technologies (2023 - 2024)\n- Applied REST APIs across payment reconciliation automation, improving defect rate by 12%.\n- Owned order-management backend modernisation for 350 users, drawing on Kubernetes to improve service uptime by 25%.\n\nEDUCATION\nB.E. in Information Technology, Vellore Institute of Technology, 2023\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 3,
+    "true_qualification": 0.69,
+    "skills": [
+      "AWS",
+      "Docker",
+      "Java",
+      "Kubernetes",
+      "Microservices",
+      "REST APIs",
+      "Redis",
+      "SQL",
+      "System Design"
+    ],
+    "skills_all": [
+      "Python",
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Docker",
+      "Git",
+      "Microservices",
+      "AWS",
+      "System Design",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "GraphQL",
+      "Go"
+    ],
+    "employers": [
+      "Nilgiri Technologies",
+      "Sahyadri Software"
+    ],
+    "titles": [
+      "Associate Software Engineer",
+      "Software Engineer"
+    ],
+    "degree": "B.E. in Information Technology",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Bombay",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

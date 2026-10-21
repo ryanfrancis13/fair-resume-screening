@@ -1,0 +1,90 @@
+{
+  "resume_id": "R033",
+  "job_family": "software_engineering",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}}\n\nPROFESSIONAL SUMMARY\nSoftware Engineer with 4 years of experience in software engineering.\n{{PRONOUN_SUBJ}} led internal developer tooling, and {{PRONOUN_POSS}} recent work centred on order-management backend modernisation.\n\nSKILLS\nCore: Java, Python, Microservices, Git, REST APIs, AWS\nAdditional: Kubernetes\n\nEXPERIENCE\nSoftware Engineer, Nilgiri Technologies (2024 - Present)\n- Automated inventory synchronisation rollout for 350 users, drawing on Kubernetes to improve release frequency by 44%.\n- Owned internal developer tooling using Git, improving service uptime by 23%.\n- Applied Microservices across payment reconciliation automation, improving release frequency by 34%.\n\nAssociate Software Engineer, Brahmaputra Labs (2022 - 2024)\n- Delivered notification delivery overhaul using Kubernetes, improving service uptime by 34%.\n- Applied Python across customer onboarding platform delivery, improving defect rate by 19%.\n\nEDUCATION\nB.E. in Information Technology, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nADDITIONAL INFORMATION\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 29536",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2022"
+  },
+  "text": "Arya Dev\nBengaluru, Karnataka | arya.dev@example.com | +91 99990 29536 | linkedin.com/in/arya-dev\n\nPROFESSIONAL SUMMARY\nSoftware Engineer with 4 years of experience in software engineering.\nThey led internal developer tooling, and their recent work centred on order-management backend modernisation.\n\nSKILLS\nCore: Java, Python, Microservices, Git, REST APIs, AWS\nAdditional: Kubernetes\n\nEXPERIENCE\nSoftware Engineer, Nilgiri Technologies (2024 - Present)\n- Automated inventory synchronisation rollout for 350 users, drawing on Kubernetes to improve release frequency by 44%.\n- Owned internal developer tooling using Git, improving service uptime by 23%.\n- Applied Microservices across payment reconciliation automation, improving release frequency by 34%.\n\nAssociate Software Engineer, Brahmaputra Labs (2022 - 2024)\n- Delivered notification delivery overhaul using Kubernetes, improving service uptime by 34%.\n- Applied Python across customer onboarding platform delivery, improving defect rate by 19%.\n\nEDUCATION\nB.E. in Information Technology, Vellore Institute of Technology, 2022\n\n\nADDITIONAL INFORMATION\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "mid",
+    "years_experience": 4,
+    "true_qualification": 0.37,
+    "skills": [
+      "AWS",
+      "Git",
+      "Java",
+      "Kubernetes",
+      "Microservices",
+      "Python",
+      "REST APIs"
+    ],
+    "skills_all": [
+      "Python",
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Docker",
+      "Git",
+      "Microservices",
+      "AWS",
+      "System Design",
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "GraphQL",
+      "Go"
+    ],
+    "employers": [
+      "Brahmaputra Labs",
+      "Nilgiri Technologies"
+    ],
+    "titles": [
+      "Associate Software Engineer",
+      "Software Engineer"
+    ],
+    "degree": "B.E. in Information Technology",
+    "layout": "A",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Bombay",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}

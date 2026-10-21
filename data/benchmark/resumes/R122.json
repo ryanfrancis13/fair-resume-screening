@@ -1,0 +1,93 @@
+{
+  "resume_id": "R122",
+  "job_family": "data_science",
+  "source": "india_synth_v1",
+  "template": "{{NAME}}\n{{EMAIL}} | {{PHONE}}\n{{LOCATION}} | {{LINKEDIN}}\n\nPROFILE\nSenior Data Scientist with 12 years of experience in data science.\n{{PRONOUN_SUBJ}} led demand planning revamp, and {{PRONOUN_POSS}} recent work centred on customer segmentation refresh.\n\nWORK HISTORY\nSenior Data Scientist, Kaveri Analytics (2020 - Present)\n- Applied Tableau across recommendation relaunch, improving conversion rate by 30%.\n- Applied Statistics across fraud screening upgrade, improving conversion rate by 39%.\n- Streamlined pricing experiment framework for 2500 customers, drawing on Pandas to improve retention by 25%.\n- Built demand planning revamp for 350 customers, drawing on Airflow to improve forecast accuracy by 35%.\n- Automated customer segmentation refresh using Python, improving retention by 35%.\n\nData Scientist, Sundarbans Intelligence (2014 - 2020)\n- Automated pricing experiment framework using Feature Engineering, improving conversion rate by 16%.\n- Automated churn reduction programme using Scikit-learn, improving retention by 26%.\n\nCORE COMPETENCIES\nCore: Machine Learning, Statistics, Data Visualization, Python, Feature Engineering, Pandas, Scikit-learn\nAdditional: MLflow, Airflow, Tableau\n\nACADEMIC BACKGROUND\nM.Sc. in Mathematics and Computing, {{UNIVERSITY}}, {{GRAD_YEAR}}\n{{FUNDING_NOTE}}\n\nPERSONAL DETAILS\nAffiliations: {{AFFILIATION}}\nSpoken languages: {{LANGUAGES}}\nCommunity: {{CULTURAL_ACTIVITY}}\nInterests: {{HOBBIES}}\n{{EARLY_CAREER_NOTE}}\nReferences available on request.",
+  "baseline_slots": {
+    "NAME": "Arya Dev",
+    "EMAIL": "arya.dev@example.com",
+    "LINKEDIN": "linkedin.com/in/arya-dev",
+    "LOCATION": "Bengaluru, Karnataka",
+    "PRONOUN_SUBJ": "They",
+    "PRONOUN_POSS": "their",
+    "LANGUAGES": "English (fluent)",
+    "CULTURAL_ACTIVITY": "Volunteer, local community food drive",
+    "HOBBIES": "Long-distance running, chess",
+    "FUNDING_NOTE": "",
+    "EARLY_CAREER_NOTE": "",
+    "PHONE": "+91 99990 05910",
+    "AFFILIATION": "Member, ACM Student Chapter (2 years)",
+    "UNIVERSITY": "Vellore Institute of Technology",
+    "GRAD_YEAR": "2014"
+  },
+  "text": "Arya Dev\narya.dev@example.com | +91 99990 05910\nBengaluru, Karnataka | linkedin.com/in/arya-dev\n\nPROFILE\nSenior Data Scientist with 12 years of experience in data science.\nThey led demand planning revamp, and their recent work centred on customer segmentation refresh.\n\nWORK HISTORY\nSenior Data Scientist, Kaveri Analytics (2020 - Present)\n- Applied Tableau across recommendation relaunch, improving conversion rate by 30%.\n- Applied Statistics across fraud screening upgrade, improving conversion rate by 39%.\n- Streamlined pricing experiment framework for 2500 customers, drawing on Pandas to improve retention by 25%.\n- Built demand planning revamp for 350 customers, drawing on Airflow to improve forecast accuracy by 35%.\n- Automated customer segmentation refresh using Python, improving retention by 35%.\n\nData Scientist, Sundarbans Intelligence (2014 - 2020)\n- Automated pricing experiment framework using Feature Engineering, improving conversion rate by 16%.\n- Automated churn reduction programme using Scikit-learn, improving retention by 26%.\n\nCORE COMPETENCIES\nCore: Machine Learning, Statistics, Data Visualization, Python, Feature Engineering, Pandas, Scikit-learn\nAdditional: MLflow, Airflow, Tableau\n\nACADEMIC BACKGROUND\nM.Sc. in Mathematics and Computing, Vellore Institute of Technology, 2014\n\n\nPERSONAL DETAILS\nAffiliations: Member, ACM Student Chapter (2 years)\nSpoken languages: English (fluent)\nCommunity: Volunteer, local community food drive\nInterests: Long-distance running, chess\n\nReferences available on request.",
+  "meta": {
+    "synthetic": true,
+    "seniority": "senior",
+    "years_experience": 12,
+    "true_qualification": 0.65,
+    "skills": [
+      "Airflow",
+      "Data Visualization",
+      "Feature Engineering",
+      "MLflow",
+      "Machine Learning",
+      "Pandas",
+      "Python",
+      "Scikit-learn",
+      "Statistics",
+      "Tableau"
+    ],
+    "skills_all": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Statistics",
+      "Pandas",
+      "Scikit-learn",
+      "Data Visualization",
+      "A/B Testing",
+      "Feature Engineering",
+      "PyTorch",
+      "Spark",
+      "NLP",
+      "Tableau",
+      "MLflow",
+      "Airflow"
+    ],
+    "employers": [
+      "Kaveri Analytics",
+      "Sundarbans Intelligence"
+    ],
+    "titles": [
+      "Data Scientist",
+      "Senior Data Scientist"
+    ],
+    "degree": "M.Sc. in Mathematics and Computing",
+    "layout": "B",
+    "prestige_options": {
+      "high": "Indian Institute of Technology Madras",
+      "mid": "Vellore Institute of Technology",
+      "low": "Sri Venkateshwara College of Engineering"
+    },
+    "declared_slots": [
+      "AFFILIATION",
+      "CULTURAL_ACTIVITY",
+      "EARLY_CAREER_NOTE",
+      "EMAIL",
+      "FUNDING_NOTE",
+      "GRAD_YEAR",
+      "HOBBIES",
+      "LANGUAGES",
+      "LINKEDIN",
+      "LOCATION",
+      "NAME",
+      "PHONE",
+      "PRONOUN_POSS",
+      "PRONOUN_SUBJ",
+      "UNIVERSITY"
+    ],
+    "omitted_slots": [],
+    "note": "Synthetic resume. No real person."
+  }
+}
