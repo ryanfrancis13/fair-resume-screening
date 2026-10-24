@@ -81,14 +81,15 @@ class RetryPolicy:
     def run(self, fn: Callable[[], T], on_retry: Optional[Callable[[int, float, Exception], None]] = None) -> T:
         """Call ``fn``, retrying retryable failures up to ``max_retries`` times."""
         last: Optional[Exception] = None
-        for attempt in range(1, self.max_retries + 1):
+        max_attempts = max(1, self.max_retries + 1)
+        for attempt in range(1, max_attempts + 1):
             try:
                 return fn()
             except PermanentError:
                 raise
             except (RateLimitError, TransientError) as exc:
                 last = exc
-                if attempt == self.max_retries:
+                if attempt == max_attempts:
                     break
                 delay = self.delay_for(attempt)
                 self.retries_used += 1

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Candidate Evaluation · Fair Resume Screening</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="header">
+        <div>
+          <p class="eyebrow">FAIR RESUME SCREENING</p>
+          <h1>Evaluate a resume against a role.</h1>
+          <p class="lede">Upload one resume, add the job description, and get an evidence-backed screening summary.</p>
+        </div>
+        <div class="status"><span class="dot"></span> Gemini first · offline fallback ready</div>
+      </header>
+
+      <section class="panel form-panel" aria-labelledby="screen-heading">
+        <div class="section-heading">
+          <div><h2 id="screen-heading">Add the screening materials</h2><p>We accept TXT, PDF, and DOCX files up to 5 MB.</p></div>
+        </div>
+        <form id="screen-form">
+          <label class="upload" id="upload-box">
+            <input id="resume" name="resume" type="file" accept=".txt,.md,.pdf,.docx" required>
+            <span class="upload-icon">↑</span>
+            <strong id="upload-title">Choose a resume</strong>
+            <span id="upload-detail">or drag and drop it here</span>
+          </label>
+          <label class="field">
+            <span>Job description</span>
+            <textarea id="job-description" name="job_description" minlength="40" required placeholder="Paste the role description, responsibilities, and requirements here..."></textarea>
+          </label>
+          <button class="primary" id="submit-button" type="submit">Evaluate resume <span>→</span></button>
+          <p class="privacy">Your file is processed temporarily. API credentials stay on the server, and the resume is not saved by this page.</p>
+        </form>
+      </section>
+
+      <section class="panel result-panel hidden" id="result" aria-live="polite"></section>
+    </main>
+    <script src="/assets/app.js?v=2"></script>
+  </body>
+</html>

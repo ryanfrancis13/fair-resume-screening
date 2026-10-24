@@ -13,7 +13,7 @@ log_level: INFO
 
 llm:
   provider: gemini # gemini | mock | openai
-  model: gemini-3.6-flash
+  model: gemini-3.5-flash-lite
   temperature: 0.0 # sample 0 is a greedy decode: reproducible headline scores
   self_consistency_samples: 3 # >1 is what makes the model's noise floor measurable
   self_consistency_temperature: 0.4

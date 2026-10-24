@@ -84,6 +84,12 @@ class GeminiProvider(LLMProvider):
             "temperature": request.temperature,
             "top_p": request.top_p,
             "max_output_tokens": request.max_output_tokens,
+            # This provider requests JSON text only; it does not register tools.
+            # Disable the SDK's automatic function-calling path so ordinary
+            # generation does not enter the AFC wrapper.
+            "automatic_function_calling": types.AutomaticFunctionCallingConfig(
+                disable=True
+            ),
         }
         if request.system:
             config_kwargs["system_instruction"] = request.system
@@ -168,7 +174,14 @@ def _classify(exc: Exception) -> Exception:
 
 def _response_text(response: Any) -> str:
     """Extract text robustly across SDK response shapes."""
-    text = getattr(response, "text", None)
+    try:
+        text = getattr(response, "text", None)
+    except Exception:
+        # Some google-genai response objects assert when `text` is accessed
+        # without a text-bearing candidate (for example after a blocked or
+        # quota-related response). Fall through to the structured fields so
+        # the caller can surface the actual response state.
+        text = None
     if isinstance(text, str) and text.strip():
         return text
     parts_text = []

@@ -213,6 +213,19 @@ class TestCache:
 
 
 class TestRetryAndRateLimit:
+    def test_zero_retries_still_makes_initial_attempt(self):
+        attempts = {"n": 0}
+
+        def unavailable():
+            attempts["n"] += 1
+            raise TransientError("503")
+
+        policy = RetryPolicy(max_retries=0, sleeper=lambda _: None, jitter=lambda: 0.0)
+        with pytest.raises(TransientError, match="503"):
+            policy.run(unavailable)
+        assert attempts["n"] == 1
+        assert policy.retries_used == 0
+
     def test_retries_transient_then_succeeds(self):
         attempts = {"n": 0}
 

@@ -31,6 +31,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import os
 import sys
 import warnings
 from pathlib import Path
@@ -602,6 +603,20 @@ def cmd_dashboard(args: argparse.Namespace) -> int:
         return 1
 
 
+def cmd_web(args: argparse.Namespace) -> int:
+    """Launch the single-resume web evaluator."""
+    try:
+        import uvicorn
+    except ImportError:
+        print("Web support is not installed. Run: uv sync --extra web", file=sys.stderr)
+        return 1
+    host = os.environ.get("FRS_WEB_HOST", "127.0.0.1")
+    port = int(os.environ.get("FRS_WEB_PORT", "8000"))
+    print(f"launching resume evaluator at http://{host}:{port}")
+    uvicorn.run("frs.web_api:app", host=host, port=port, reload=False)
+    return 0
+
+
 # --------------------------------------------------------------------------- #
 # parser
 # --------------------------------------------------------------------------- #
@@ -700,6 +715,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
 
     subparsers.add_parser("dashboard", help="launch the Streamlit dashboard")
+    subparsers.add_parser("web", help="launch the single-resume web evaluator")
     return parser
 
 
@@ -716,6 +732,7 @@ _COMMANDS = {
     "validate-auditor": cmd_validate_auditor,
     "list": cmd_list,
     "dashboard": cmd_dashboard,
+    "web": cmd_web,
 }
 
 

@@ -12,7 +12,7 @@ UV ?= uv
 
 .DEFAULT_GOAL := help
 .PHONY: help setup setup-min lock upgrade corpus synthetic-corpus demo names-only full-cues validate \
-        score audit report dashboard doctor runs test test-fast test-py39 \
+        score audit report dashboard web doctor runs test test-fast test-py39 \
         lint format check build clean clean-cache clean-runs
 
 help:
@@ -69,6 +69,9 @@ report: ## re-render the report for the latest run (no model calls)
 
 dashboard: ## launch the Streamlit audit explorer
 	$(UV) run frs dashboard
+
+web: ## launch the single-resume web evaluator
+	$(UV) run frs web
 
 doctor: ## check environment, corpus, cue registry and provider readiness
 	$(UV) run frs doctor
