@@ -133,3 +133,43 @@ def test_offline_screen_endpoint_returns_local_result(monkeypatch):
 
     assert response.status_code == 200
     assert response.json()["provider"] == "mock"
+
+
+def test_evaluate_resume_reports_median_of_samples_and_caches(monkeypatch, tmp_path):
+    from types import SimpleNamespace
+
+    scores = {0: 78.0, 1: 84.0, 2: 71.0}
+    calls = []
+
+    class FakeScorer:
+        def __init__(self, *_args):
+            pass
+
+        def score_once(self, _resume, _job, *, sample_index, **_kwargs):
+            calls.append(sample_index)
+            result = SimpleNamespace(
+                overall_score=scores[sample_index],
+                recommendation="advance",
+                confidence=0.8,
+                summary="",
+                dimensions=[],
+                missing_requirements=[],
+                unverifiable_claims=[],
+                protected_attribute_referenced=False,
+                protected_reference_note="",
+            )
+            return SimpleNamespace(ok=True, result=result)
+
+    monkeypatch.setattr(web_api, "ResumeScorer", FakeScorer)
+    monkeypatch.setattr(web_api.LLMClient, "from_config", classmethod(lambda *_a, **_k: None))
+    monkeypatch.setattr(web_api, "load_dotenv_if_present", lambda: None)
+    web_api._result_cache.clear()
+    root = web_api.Path(web_api.__file__).resolve().parents[1]
+    job = "Senior engineer role requiring Python and distributed systems experience."
+
+    first = web_api.evaluate_resume("resume text " * 10, job, root)
+    again = web_api.evaluate_resume("resume text " * 10, job, root)
+
+    assert first["overall_score"] == 78.0
+    assert sorted(calls) == [0, 1, 2]  # second call served from the cache
+    assert again == first

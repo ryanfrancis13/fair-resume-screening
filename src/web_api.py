@@ -1,9 +1,12 @@
 """Single-resume web API with an explicit Gemini-to-offline fallback."""
 
 import copy
+import hashlib
 import io
 import logging
 import os
+from collections import OrderedDict
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import Any, Dict
 
@@ -15,6 +18,16 @@ from .screening.score_resume import ResumeScorer
 MAX_UPLOAD_BYTES = 5 * 1024 * 1024
 ALLOWED_SUFFIXES = {".txt", ".md", ".pdf", ".docx"}
 logger = logging.getLogger("frs.web")
+
+# Hosted models are not bit-for-bit repeatable even at temperature 0, so the same
+# resume and job description can score differently run to run. Remembering recent
+# Gemini results in process memory (never written to disk) makes a repeat
+# submission return the same score. Fallback results are never cached.
+_RESULT_CACHE_SIZE = 64
+# Gemini is scored this many times per submission and the median result is
+# reported, which damps run-to-run variation in a single generation.
+SCORING_SAMPLES = 3
+_result_cache: "OrderedDict[str, Dict[str, Any]]" = OrderedDict()
 
 
 def _web_root() -> Path:
@@ -74,7 +87,7 @@ def _config(root: Path) -> Config:
     cfg.llm.model = os.environ.get("FRS_MODEL", "gemini-3.5-flash-lite")
     cfg.llm.self_consistency_samples = 1
     cfg.llm.max_retries = 1
-    cfg.llm.max_concurrency = 1
+    cfg.llm.max_concurrency = SCORING_SAMPLES
     cfg.llm.cache_enabled = False
     return cfg
 
@@ -134,16 +147,40 @@ def evaluate_resume(resume_text: str, job_text: str, root: Path) -> Dict[str, An
     load_dotenv_if_present()
     primary_cfg = _config(root)
     job = _job_description(job_text)
+    cache_key = hashlib.sha256(
+        "\x00".join((primary_cfg.llm.model, resume_text, job.text)).encode("utf-8")
+    ).hexdigest()
+    cached = _result_cache.get(cache_key)
+    if cached is not None:
+        _result_cache.move_to_end(cache_key)
+        return copy.deepcopy(cached)
     primary = ResumeScorer(LLMClient.from_config(primary_cfg), primary_cfg)
-    outcome = primary.score_once(resume_text, job, allow_grounding_retry=False)
+    with ThreadPoolExecutor(max_workers=SCORING_SAMPLES) as pool:
+        outcomes = list(
+            pool.map(
+                lambda index: primary.score_once(
+                    resume_text, job, sample_index=index, allow_grounding_retry=False
+                ),
+                range(SCORING_SAMPLES),
+            )
+        )
+    valid = sorted((o for o in outcomes if o.ok), key=lambda o: o.result.overall_score)
+    # An actual outcome is reported (not a synthetic average), so the score,
+    # dimensions and evidence stay consistent. With an even count the lower
+    # middle result is used.
+    outcome = valid[(len(valid) - 1) // 2] if valid else outcomes[0]
 
     if outcome.ok:
-        return _result_payload(
+        payload = _result_payload(
             outcome.result,
             provider=primary_cfg.llm.provider,
             model=primary_cfg.llm.model,
             fallback_used=False,
         )
+        _result_cache[cache_key] = copy.deepcopy(payload)
+        while len(_result_cache) > _RESULT_CACHE_SIZE:
+            _result_cache.popitem(last=False)
+        return payload
 
     reason = outcome.response.error or outcome.result.parse_error or "Gemini returned an unusable result."
     logger.warning("primary screening provider failed; using offline fallback: %s", reason)

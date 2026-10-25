@@ -84,6 +84,10 @@ class GeminiProvider(LLMProvider):
             "temperature": request.temperature,
             "top_p": request.top_p,
             "max_output_tokens": request.max_output_tokens,
+            # Best-effort determinism: temperature 0 alone still varies between
+            # calls on hosted models. Seeding by sample index keeps a given
+            # sample repeatable while letting repeats of one prompt differ.
+            "seed": request.sample_index,
             # This provider requests JSON text only; it does not register tools.
             # Disable the SDK's automatic function-calling path so ordinary
             # generation does not enter the AFC wrapper.

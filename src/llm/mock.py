@@ -393,11 +393,37 @@ def _requirements(job: str) -> Tuple[List[str], List[str]]:
             item = re.split(r"\s+\(|;|,\s+(?:and|or)\s+", item)[0].strip()
             if 2 <= len(item) <= 80:
                 current.append(item)
+    # The prompt builder emits "(see posting text)" / "(none stated)" when the
+    # job has no structured lists (e.g. a pasted web submission). Those are
+    # placeholders, not requirements.
+    must = [m for m in must if not _is_placeholder(m)]
+    nice = [n for n in nice if not _is_placeholder(n)]
+    if not must:
+        must = _inline_requirements(job)
     if not must:
         # Fall back to salient capitalised/technical tokens so the mock still
         # discriminates on a JD that has no bullet structure at all.
         must = sorted({t for t in tokens(job) if len(t) > 4})[:10]
     return must[:14], nice[:10]
+
+
+def _is_placeholder(item: str) -> bool:
+    return item.startswith("(") and item.endswith(")")
+
+
+def _inline_requirements(job: str) -> List[str]:
+    """Pull comma/semicolon-separated items from "Requirements: a, b, c" prose."""
+    items: List[str] = []
+    for match in re.finditer(
+        r"(?:requirements?|qualifications?|skills|must[- ]have|experience with)[ \t]*:[ \t]*([^\n]+)",
+        job,
+        re.IGNORECASE,
+    ):
+        for part in re.split(r"[;,]|\band\b", match.group(1)):
+            part = part.strip(" .-•")
+            if 2 <= len(part) <= 60 and not _is_placeholder(part):
+                items.append(part)
+    return items
 
 
 def _phrase_in(requirement: str, resume_phrases: set, resume_text: str) -> bool:
