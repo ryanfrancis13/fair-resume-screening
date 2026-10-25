@@ -45,7 +45,8 @@ src/                     ← imported as `frs` (see "The src/ mapping" below)
 ├── mitigate/            5 strategies + fairness/utility evaluation
 ├── pipeline/            orchestration, run manifests, artifacts
 ├── report/              plots, HTML/Markdown, explanation cards, model card
-└── app/                 Streamlit dashboard (reads artifacts only)
+├── app/                 Streamlit dashboard (reads artifacts only)
+└── web_api.py           FastAPI single-resume evaluator (separate from the audit)
 ```
 
 ### The `src/` mapping
@@ -139,6 +140,33 @@ template slots for the curated corpus, regex detection for a public dataset.
 Families whose preconditions are unmet (no labels, no intersecting cues, no
 repeats) are recorded as **skipped with the reason**, so a reader can tell an
 absent metric from a passing one.
+
+### `web_api.py` — the single-resume evaluator
+
+The web evaluator reuses `screening/` and `llm/` but is deliberately not part of
+the audit path: one resume cannot establish statistical fairness, so it produces
+decision support only.
+
+- **Gemini first, offline fallback.** Each submission is scored by Gemini; if
+  every attempt fails, `MockProvider` scores it and the result is labelled as a
+  fallback with the reason.
+- **Median of 3.** Hosted models vary between identical calls even at
+  temperature 0, so Gemini is called `SCORING_SAMPLES` (3) times in parallel and
+  the middle result is reported. A real outcome is returned rather than an
+  average, so score, dimensions and evidence stay consistent. With only two
+  successes the lower is used; with none, the fallback runs.
+- **In-memory result cache.** The last 64 Gemini results are held in process
+  memory, keyed by a hash of model, resume and job text, so a repeat submission
+  returns the same score. Nothing is written to disk, which keeps the "uploads
+  are processed in memory" promise. Fallback results are never cached.
+- **Offline requirement parsing.** The mock grader scores by requirement
+  coverage. A pasted job description has no structured lists, so it reads inline
+  `Requirements: a, b, c` lines and ignores prompt placeholders such as
+  `(see posting text)`. Treating a placeholder as a requirement drives coverage
+  to roughly zero and makes the offline score far lower than Gemini's.
+
+The offline score is a keyword-overlap baseline, not an independent truth, so a
+gap against Gemini is expected to shrink but not vanish.
 
 ### `pipeline/` — the run directory is the unit of reproducibility
 

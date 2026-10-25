@@ -17,63 +17,84 @@ automatically hire, advance, reject, or contact a candidate. A single resume
 cannot establish statistical fairness, so fairness auditing remains a
 population-level benchmark workflow.
 
+## Contents
+
+- [Quick start](#quick-start-web-evaluator)
+- [Gemini setup](#gemini-setup-optional)
+- [Using the evaluator](#using-the-evaluator)
+- [Fairness research workflow](#fairness-research-workflow)
+- [Common commands](#common-commands)
+- [Troubleshooting](#troubleshooting)
+- [Repository layout](#repository-layout)
+
 ## Requirements
 
 - Python 3.9 or newer
-- [uv](https://docs.astral.sh/uv/)
-- A Gemini API key only for Gemini-backed evaluation
+- [uv](https://docs.astral.sh/uv/getting-started/installation/)
+- A Gemini API key (optional; only for Gemini-backed scoring)
 
-The project is developed and tested on Windows, macOS, and Linux. The commands
-below work in PowerShell, a terminal, or Git Bash; use the platform equivalent
-of `copy` instead of `cp` if needed.
+Works on macOS, Linux, and Windows. Commands below use a POSIX shell; on
+Windows PowerShell use `Copy-Item` instead of `cp`.
 
 ## Quick start: web evaluator
 
-From the repository root:
-
 ```bash
-uv sync --extra web
+uv sync --extra web      # installs the web app and the Gemini SDK
+uv run frs doctor        # optional: verify the environment
 uv run frs web
 ```
 
-Open <http://127.0.0.1:8000>.
+Open <http://127.0.0.1:8000>. No API key is needed to try it: without one, the
+app falls back to the deterministic offline scorer and labels results as such.
 
 The page accepts TXT, Markdown, PDF, and DOCX resumes up to 5 MB. Files are
-processed in memory and are not saved by the web endpoint.
+processed in memory and are not saved.
 
-### Gemini configuration
+## Gemini setup (optional)
 
-Gemini is optional. Without an API key, the app automatically uses the local
-deterministic scorer.
+1. Create a key at <https://aistudio.google.com/apikey>.
+2. Copy the example env file and add your key:
 
-```bash
-copy .env.example .env       # Windows PowerShell: Copy-Item .env.example .env
-```
+   ```bash
+   cp .env.example .env
+   ```
 
-Then edit `.env` and add:
+   ```text
+   GEMINI_API_KEY=your_key_here
+   ```
 
-```text
-GEMINI_API_KEY=your_key_here
-```
-
-Start the app again:
-
-```bash
-uv run frs web
-```
+3. Restart `uv run frs web`.
 
 The evaluator tries Gemini first. If Gemini is unavailable, rate-limited, or
-returns an unusable response, it clearly labels the result as an offline
-fallback. API keys remain on the server and are never sent to the browser.
+returns an unusable response, the result is clearly labelled as an offline
+fallback. API keys stay on the server and are never sent to the browser.
 
-To use a different model or port:
+**Score stability.** Each evaluation calls Gemini 3 times and reports the median,
+because hosted models vary slightly between identical calls. Results are also
+remembered in server memory (never on disk), so submitting the same resume and
+job description again returns the same score until the server restarts. This
+means one evaluation uses 3 API requests; on the free tier (about 12 requests
+per minute) that is roughly 4 evaluations per minute.
 
-```powershell
-$env:FRS_MODEL = "gemini-3.5-flash-lite"
-$env:FRS_WEB_HOST = "127.0.0.1"
-$env:FRS_WEB_PORT = "8080"
-uv run frs web
-```
+Optional settings (environment variables or `.env`):
+
+| Variable | Default | Purpose |
+| --- | --- | --- |
+| `GEMINI_API_KEY` | none | Enables Gemini scoring |
+| `FRS_MODEL` | `gemini-3.5-flash-lite` | Gemini model to use |
+| `FRS_WEB_HOST` | `127.0.0.1` | Bind address |
+| `FRS_WEB_PORT` | `8000` | Port |
+
+## Troubleshooting
+
+| Symptom | Fix |
+| --- | --- |
+| `google-genai is not installed` | Run `uv sync --extra web` (or `--all-extras`). Plain `uv sync` skips optional extras. |
+| `Web support is not installed` | Run `uv sync --extra web`. |
+| Results say "Offline fallback used" | No `GEMINI_API_KEY` in `.env`, or Gemini is rate-limited. The reason is shown in the result. |
+| Offline score is far from the Gemini score | Expected to differ: the offline scorer is a keyword-overlap baseline. List requirements as `Requirements: Python, AWS, ...` or as bullets to help it. |
+| Same inputs, slightly different score after editing the job text | Any edit triggers fresh Gemini calls; only identical inputs are remembered. |
+| Anything else | Run `uv run frs doctor` for a provider and environment check. |
 
 ## Using the evaluator
 
@@ -140,7 +161,7 @@ uv run frs pipeline --config configs/default.yaml --dry-run
 ## Common commands
 
 ```bash
-uv sync --all-extras                 # install all optional capabilities
+uv sync --all-extras                 # install every optional capability
 uv run frs doctor                    # check environment and provider readiness
 uv run frs web                       # start the candidate evaluator
 uv run frs dashboard                 # start the research report explorer
@@ -178,7 +199,7 @@ configs/                    Reproducible evaluator and research configurations
 data/benchmark/             Controlled synthetic fairness benchmark
 docs/                       Architecture, data, and methodology documentation
 scripts/                    Corpus and benchmark generation utilities
-src/web_api.py              FastAPI backend for the candidate evaluator
+src/web_api.py              FastAPI backend for the candidate evaluator (median-of-3 Gemini scoring)
 src/screening/              Resume scoring, prompts, evidence, and rubric logic
 src/perturb/                Controlled cue and counterfactual generation
 src/fairness/               System-level fairness metrics and audit suite
