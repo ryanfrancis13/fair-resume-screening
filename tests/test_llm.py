@@ -321,3 +321,18 @@ class TestGeminiAdapter:
         from frs.llm.gemini import _classify
 
         assert isinstance(_classify(Exception(message)), expected)
+
+
+def test_provider_registry_builds_and_rejects_unknown():
+    import pytest
+
+    from frs.config import Config
+    from frs.llm.client import PROVIDERS, build_provider
+
+    assert {"mock", "gemini", "openai"} <= set(PROVIDERS)
+    cfg = Config.load()
+    cfg.llm.provider = "mock"
+    assert build_provider(cfg).name == "mock"
+    cfg.llm.provider = "nope"
+    with pytest.raises(ValueError, match="available"):
+        build_provider(cfg)

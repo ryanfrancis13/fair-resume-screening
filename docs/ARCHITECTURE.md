@@ -147,26 +147,48 @@ The web evaluator reuses `screening/` and `llm/` but is deliberately not part of
 the audit path: one resume cannot establish statistical fairness, so it produces
 decision support only.
 
-- **Gemini first, offline fallback.** Each submission is scored by Gemini; if
-  every attempt fails, `MockProvider` scores it and the result is labelled as a
-  fallback with the reason.
+- **LLM first, offline fallback.** Each submission is scored by the provider
+  chosen with `FRS_PROVIDER` (Gemini by default); if every attempt fails, `MockProvider` scores it and the result is labelled as a fallback
+  with the reason.
 - **Median of 3.** Hosted models vary between identical calls even at
-  temperature 0, so Gemini is called `SCORING_SAMPLES` (3) times in parallel and
+  temperature 0, so the provider is called `SCORING_SAMPLES` (3) times in parallel and
   the middle result is reported. A real outcome is returned rather than an
   average, so score, dimensions and evidence stay consistent. With only two
   successes the lower is used; with none, the fallback runs.
-- **In-memory result cache.** The last 64 Gemini results are held in process
+- **In-memory result cache.** The last 64 results are held in process
   memory, keyed by a hash of model, resume and job text, so a repeat submission
   returns the same score. Nothing is written to disk, which keeps the "uploads
-  are processed in memory" promise. Fallback results are never cached.
+  are processed in memory" promise. Fallback results are never cached. The key includes the model but the cache
+  is per process, so switching provider requires a restart anyway.
 - **Offline requirement parsing.** The mock grader scores by requirement
   coverage. A pasted job description has no structured lists, so it reads inline
   `Requirements: a, b, c` lines and ignores prompt placeholders such as
   `(see posting text)`. Treating a placeholder as a requirement drives coverage
-  to roughly zero and makes the offline score far lower than Gemini's.
+  to roughly zero and makes the offline score far lower than the LLM's.
 
 The offline score is a keyword-overlap baseline, not an independent truth, so a
-gap against Gemini is expected to shrink but not vanish.
+gap against the LLM is expected to shrink but not vanish.
+
+### Adding an LLM provider
+
+Providers are interchangeable behind `LLMProvider`; nothing outside `llm/` knows
+which one is in use. The set of providers is the `PROVIDERS` registry in
+`llm/client.py`, mapping a name to a factory. SDKs are imported inside the
+factory, so a provider's package is only needed when that provider is selected.
+
+1. Create `src/llm/<name>.py` with a subclass of `LLMProvider` implementing
+   `generate(request) -> LLMResponse`. Translate SDK errors into
+   `RateLimitError`, `TransientError` or `PermanentError` so the shared retry
+   loop behaves correctly, and use `request.sample_index` as the seed if the API
+   has one.
+2. Add a factory and one entry in `PROVIDERS`.
+3. Add an optional extra in `pyproject.toml` for the SDK and run `uv lock`.
+4. For the web evaluator, add a default model to `DEFAULT_MODELS` in
+   `web_api.py` and a display name to `PROVIDER_LABELS` in `web/assets/app.js`.
+
+The research pipeline then accepts it as `--provider <name>`, and the web app as
+`FRS_PROVIDER=<name>`. Anything OpenAI-compatible needs no new code: use the
+`openai` provider with `OPENAI_BASE_URL`.
 
 ### `pipeline/` — the run directory is the unit of reproducibility
 
@@ -240,7 +262,7 @@ machinery.
 | add a fairness metric | new module in `fairness/`, return `MetricResult` rows, register in `suite.py` |
 | add a conflict rule | `fairness/conflicts.py` — a `_rule()` returning explanation + recommendation |
 | add a mitigation | `mitigate/strategies.py` — pre-inference arm or post-hoc transform |
-| add a provider | subclass `LLMProvider`, register in `llm/client.build_provider` |
+| add a provider | see [Adding an LLM provider](#adding-an-llm-provider) |
 | change the rubric | `screening/rubric.py` — weights must sum to 1.0; `validate()` enforces it |
 | add a subpackage | create `src/<name>/__init__.py`, then add `"frs.<name>"` to `[tool.setuptools] packages` — `tests/test_packaging.py` will fail until you do |
 

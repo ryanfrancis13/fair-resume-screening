@@ -25,27 +25,48 @@ from .ratelimit import RetryPolicy, TokenBucket
 logger = logging.getLogger("frs.llm.client")
 
 
+def _mock(cfg: Config) -> LLMProvider:
+    from .mock import MockProvider
+
+    return MockProvider(
+        model=cfg.llm.model if cfg.llm.model.startswith("mock") else "mock-rubric-v1",
+        bias=cfg.llm.mock_bias,
+        noise_sd=cfg.llm.mock_noise_sd,
+    )
+
+
+def _gemini(cfg: Config) -> LLMProvider:
+    from .gemini import GeminiProvider
+
+    return GeminiProvider(model=cfg.llm.model, timeout_s=cfg.llm.timeout_s)
+
+
+def _openai(cfg: Config) -> LLMProvider:
+    from .openai_provider import OpenAIProvider
+
+    return OpenAIProvider(model=cfg.llm.model, timeout_s=cfg.llm.timeout_s)
+
+
+#: provider name -> factory. Provider modules are imported inside the factory so
+#: an SDK is only needed when its provider is actually selected. To add a
+#: provider, implement ``LLMProvider`` in ``frs/llm/<name>.py`` and register it.
+PROVIDERS: Dict[str, Callable[[Config], LLMProvider]] = {
+    "mock": _mock,
+    "gemini": _gemini,
+    "openai": _openai,
+}
+
+
 def build_provider(cfg: Config) -> LLMProvider:
     """Instantiate the configured provider."""
     load_dotenv_if_present()
-    provider = cfg.llm.provider.lower()
-    if provider == "mock":
-        from .mock import MockProvider
-
-        return MockProvider(
-            model=cfg.llm.model if cfg.llm.model.startswith("mock") else "mock-rubric-v1",
-            bias=cfg.llm.mock_bias,
-            noise_sd=cfg.llm.mock_noise_sd,
-        )
-    if provider == "gemini":
-        from .gemini import GeminiProvider
-
-        return GeminiProvider(model=cfg.llm.model, timeout_s=cfg.llm.timeout_s)
-    if provider == "openai":
-        from .openai_provider import OpenAIProvider
-
-        return OpenAIProvider(model=cfg.llm.model, timeout_s=cfg.llm.timeout_s)
-    raise ValueError(f"unknown provider {cfg.llm.provider!r}")
+    try:
+        factory = PROVIDERS[cfg.llm.provider.lower()]
+    except KeyError:
+        raise ValueError(
+            f"unknown provider {cfg.llm.provider!r}; available: {', '.join(sorted(PROVIDERS))}"
+        ) from None
+    return factory(cfg)
 
 
 class LLMClient:

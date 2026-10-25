@@ -6,6 +6,18 @@ const uploadDetail = document.querySelector("#upload-detail");
 const button = document.querySelector("#submit-button");
 const result = document.querySelector("#result");
 
+const PROVIDER_LABELS = { gemini: "Gemini", openai: "OpenAI" };
+const providerLabel = (name) => PROVIDER_LABELS[name] || name || "AI model";
+let activeProvider = "AI model";
+
+fetch("/api/health")
+  .then((response) => response.json())
+  .then((data) => {
+    activeProvider = providerLabel(data.provider);
+    document.querySelector("#provider-status").textContent = `${activeProvider} first`;
+  })
+  .catch(() => {});
+
 fileInput.addEventListener("change", () => {
   const file = fileInput.files[0];
   if (file) {
@@ -70,7 +82,7 @@ function renderResult(data) {
       </div>
       <div class="result-note">Score for human review<br><strong>No automatic decision</strong></div>
     </div>
-    ${data.fallback_used ? `<div class="fallback"><strong>Offline fallback used.</strong> Gemini was unavailable, so this result was generated locally. Reason: ${escapeHtml(data.fallback_reason)}</div>` : ""}
+    ${data.fallback_used ? `<div class="fallback"><strong>Offline fallback used.</strong> ${escapeHtml(activeProvider)} was unavailable, so this result was generated locally. Reason: ${escapeHtml(data.fallback_reason)}</div>` : ""}
     <div class="result-meta">
       <div><span>Provider</span><strong>${escapeHtml(data.provider)}</strong></div>
       <div><span>Model</span><strong>${escapeHtml(data.model)}</strong></div>
@@ -88,7 +100,7 @@ function renderResult(data) {
     <div class="second-opinion">
       <div>
         <strong>Prefer a local comparison?</strong>
-        <p>Run the deterministic offline scorer without sending another request to Gemini.</p>
+        <p>Run the deterministic offline scorer without sending another request to ${escapeHtml(activeProvider)}.</p>
       </div>
       <button class="secondary-action" id="offline-button" type="button">Get offline second opinion</button>
     </div>
@@ -115,7 +127,7 @@ function renderOfflineComparison(primary, offline) {
       <span class="offline-badge">No API call</span>
     </div>
     <div class="comparison-grid">
-      <div><span>Gemini score</span><strong>${Math.round(primary.overall_score)}/100</strong></div>
+      <div><span>${escapeHtml(providerLabel(primary.provider))} score</span><strong>${Math.round(primary.overall_score)}/100</strong></div>
       <div><span>Offline score</span><strong>${Math.round(offline.overall_score)}/100</strong></div>
       <div><span>Difference</span><strong>${escapeHtml(deltaLabel)}</strong></div>
     </div>

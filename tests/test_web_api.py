@@ -173,3 +173,30 @@ def test_evaluate_resume_reports_median_of_samples_and_caches(monkeypatch, tmp_p
     assert first["overall_score"] == 78.0
     assert sorted(calls) == [0, 1, 2]  # second call served from the cache
     assert again == first
+
+
+def test_provider_is_selected_by_environment(monkeypatch):
+    root = web_api.Path(web_api.__file__).resolve().parents[1]
+    monkeypatch.delenv("FRS_PROVIDER", raising=False)
+    monkeypatch.delenv("FRS_MODEL", raising=False)
+    cfg = web_api._config(root)
+    assert (cfg.llm.provider, cfg.llm.model) == ("gemini", web_api.DEFAULT_MODELS["gemini"])
+
+    monkeypatch.setenv("FRS_PROVIDER", "OpenAI")
+    cfg = web_api._config(root)
+    assert (cfg.llm.provider, cfg.llm.model) == ("openai", web_api.DEFAULT_MODELS["openai"])
+
+    monkeypatch.setenv("FRS_MODEL", "llama3")
+    assert web_api._config(root).llm.model == "llama3"
+
+
+def test_unknown_or_mock_provider_is_rejected(monkeypatch):
+    root = web_api.Path(web_api.__file__).resolve().parents[1]
+    for name in ("nope", "mock"):
+        monkeypatch.setenv("FRS_PROVIDER", name)
+        try:
+            web_api._config(root)
+        except ValueError as exc:
+            assert "FRS_PROVIDER" in str(exc)
+        else:
+            raise AssertionError(f"{name} should be rejected")

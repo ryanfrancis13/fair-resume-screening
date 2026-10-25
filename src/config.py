@@ -279,8 +279,14 @@ class Config:
     # ------------------------------------------------------------------ #
     def validate(self) -> None:
         errors: List[str] = []
-        if self.llm.provider not in ("gemini", "mock", "openai"):
-            errors.append(f"llm.provider {self.llm.provider!r} is not registered")
+        # Imported here because llm.client itself imports this module.
+        from .llm.client import PROVIDERS
+
+        if self.llm.provider.lower() not in PROVIDERS:
+            errors.append(
+                f"llm.provider {self.llm.provider!r} is not registered "
+                f"(available: {', '.join(sorted(PROVIDERS))})"
+            )
         if self.llm.self_consistency_samples < 1:
             errors.append("llm.self_consistency_samples must be >= 1")
         if not 0.0 <= self.llm.temperature <= 2.0:

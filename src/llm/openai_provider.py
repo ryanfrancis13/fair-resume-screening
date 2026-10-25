@@ -47,7 +47,7 @@ class OpenAIProvider(LLMProvider):
         try:
             from openai import OpenAI
         except ImportError as exc:  # pragma: no cover
-            raise PermanentError("openai package is not installed") from exc
+            raise PermanentError("openai is not installed. Install it with: uv sync --extra openai") from exc
         kwargs: Dict[str, Any] = {"api_key": self._api_key, "timeout": self.timeout_s}
         if self._base_url:
             kwargs["base_url"] = self._base_url
@@ -66,6 +66,8 @@ class OpenAIProvider(LLMProvider):
             "temperature": request.temperature,
             "top_p": request.top_p,
             "max_tokens": request.max_output_tokens,
+            # Best-effort repeatability; repeats of one prompt differ by index.
+            "seed": request.sample_index,
         }
         if request.response_mime_type == "application/json":
             kwargs["response_format"] = {"type": "json_object"}

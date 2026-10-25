@@ -69,7 +69,7 @@ class GeminiProvider(LLMProvider):
             from google.genai import types
         except ImportError as exc:  # pragma: no cover - optional dependency
             raise PermanentError(
-                "google-genai is not installed. Install it with: pip install 'fair-resume-screening[gemini]'"
+                "google-genai is not installed. Install it with: uv sync --extra gemini"
             ) from exc
         self._client = genai.Client(api_key=self._api_key)
         self._types = types

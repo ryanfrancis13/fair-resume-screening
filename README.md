@@ -6,7 +6,8 @@ Assessment**
 This project has two connected but separate workflows:
 
 1. **Candidate evaluator** - upload one resume and compare it with one job
-   description. Gemini provides an evidence-backed score when configured; the
+   description. A hosted LLM (Gemini by default, OpenAI also supported) provides an
+   evidence-backed score when configured; the
    deterministic local scorer is used as a fallback or as a second opinion.
 2. **Fairness research pipeline** - create controlled resume variants, measure
    score and decision effects, evaluate mitigation strategies, and produce
@@ -20,7 +21,7 @@ population-level benchmark workflow.
 ## Contents
 
 - [Quick start](#quick-start-web-evaluator)
-- [Gemini setup](#gemini-setup-optional)
+- [Choosing an LLM provider](#choosing-an-llm-provider-optional)
 - [Using the evaluator](#using-the-evaluator)
 - [Fairness research workflow](#fairness-research-workflow)
 - [Common commands](#common-commands)
@@ -31,7 +32,7 @@ population-level benchmark workflow.
 
 - Python 3.9 or newer
 - [uv](https://docs.astral.sh/uv/getting-started/installation/)
-- A Gemini API key (optional; only for Gemini-backed scoring)
+- An API key for a supported LLM provider (optional; only for LLM-backed scoring)
 
 Works on macOS, Linux, and Windows. Commands below use a POSIX shell; on
 Windows PowerShell use `Copy-Item` instead of `cp`.
@@ -39,8 +40,8 @@ Windows PowerShell use `Copy-Item` instead of `cp`.
 ## Quick start: web evaluator
 
 ```bash
-uv sync --extra web      # installs the web app and the Gemini SDK
-uv run frs doctor        # optional: verify the environment
+uv sync --extra web --extra gemini   # web app + Gemini SDK (the default provider)
+uv run frs doctor                    # optional: verify the environment
 uv run frs web
 ```
 
@@ -50,50 +51,65 @@ app falls back to the deterministic offline scorer and labels results as such.
 The page accepts TXT, Markdown, PDF, and DOCX resumes up to 5 MB. Files are
 processed in memory and are not saved.
 
-## Gemini setup (optional)
+## Choosing an LLM provider (optional)
 
-1. Create a key at <https://aistudio.google.com/apikey>.
-2. Copy the example env file and add your key:
+The evaluator scores with one hosted LLM and falls back to the offline scorer if
+it fails. Pick the provider with `FRS_PROVIDER`; each needs its SDK extra and key.
+
+| Provider | `FRS_PROVIDER` | Install | Key | Default model |
+| --- | --- | --- | --- | --- |
+| Google Gemini | `gemini` (default) | `uv sync --extra web --extra gemini` | `GEMINI_API_KEY` ([get one](https://aistudio.google.com/apikey)) | `gemini-3.5-flash-lite` |
+| OpenAI | `openai` | `uv sync --extra web --extra openai` | `OPENAI_API_KEY` | `gpt-4o-mini` |
+| OpenAI-compatible (Ollama, vLLM, OpenRouter, ...) | `openai` | same as OpenAI | `OPENAI_API_KEY` + `OPENAI_BASE_URL` | set `FRS_MODEL` |
+
+1. Copy the example env file and fill in the key for your provider:
 
    ```bash
    cp .env.example .env
    ```
 
    ```text
-   GEMINI_API_KEY=your_key_here
+   FRS_PROVIDER=openai
+   OPENAI_API_KEY=your_key_here
    ```
 
-3. Restart `uv run frs web`.
+2. Restart `uv run frs web`. The header badge shows the active provider.
 
-The evaluator tries Gemini first. If Gemini is unavailable, rate-limited, or
-returns an unusable response, the result is clearly labelled as an offline
-fallback. API keys stay on the server and are never sent to the browser.
+If the provider is unavailable, rate-limited, or returns an unusable response,
+the result is clearly labelled as an offline fallback with the reason. API keys
+stay on the server and are never sent to the browser.
 
-**Score stability.** Each evaluation calls Gemini 3 times and reports the median,
-because hosted models vary slightly between identical calls. Results are also
-remembered in server memory (never on disk), so submitting the same resume and
-job description again returns the same score until the server restarts. This
-means one evaluation uses 3 API requests; on the free tier (about 12 requests
-per minute) that is roughly 4 evaluations per minute.
+**Score stability.** Each evaluation calls the provider 3 times and reports the
+median, because hosted models vary slightly between identical calls. Results are
+also remembered in server memory (never on disk), so submitting the same resume
+and job description again returns the same score until the server restarts. One
+evaluation therefore uses 3 API requests; on a free tier of about 12 requests per
+minute that is roughly 4 evaluations per minute.
 
 Optional settings (environment variables or `.env`):
 
 | Variable | Default | Purpose |
 | --- | --- | --- |
-| `GEMINI_API_KEY` | none | Enables Gemini scoring |
-| `FRS_MODEL` | `gemini-3.5-flash-lite` | Gemini model to use |
+| `FRS_PROVIDER` | `gemini` | LLM provider: `gemini` or `openai` |
+| `FRS_MODEL` | per provider (see above) | Model name for that provider |
+| `GEMINI_API_KEY` | none | Key for `gemini` |
+| `OPENAI_API_KEY` | none | Key for `openai` |
+| `OPENAI_BASE_URL` | OpenAI | Point `openai` at a compatible endpoint |
 | `FRS_WEB_HOST` | `127.0.0.1` | Bind address |
 | `FRS_WEB_PORT` | `8000` | Port |
+
+Adding another provider is one file plus one line; see
+[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md#adding-an-llm-provider).
 
 ## Troubleshooting
 
 | Symptom | Fix |
 | --- | --- |
-| `google-genai is not installed` | Run `uv sync --extra web` (or `--all-extras`). Plain `uv sync` skips optional extras. |
+| `google-genai is not installed` (or `openai`) | Install the provider's extra: `uv sync --extra web --extra gemini` (or `--extra openai`, or `--all-extras`). Plain `uv sync` skips optional extras. |
 | `Web support is not installed` | Run `uv sync --extra web`. |
-| Results say "Offline fallback used" | No `GEMINI_API_KEY` in `.env`, or Gemini is rate-limited. The reason is shown in the result. |
-| Offline score is far from the Gemini score | Expected to differ: the offline scorer is a keyword-overlap baseline. List requirements as `Requirements: Python, AWS, ...` or as bullets to help it. |
-| Same inputs, slightly different score after editing the job text | Any edit triggers fresh Gemini calls; only identical inputs are remembered. |
+| Results say "Offline fallback used" | The provider's API key is missing from `.env`, or it is rate-limited. The reason is shown in the result. |
+| Offline score is far from the LLM score | Expected to differ: the offline scorer is a keyword-overlap baseline. List requirements as `Requirements: Python, AWS, ...` or as bullets to help it. |
+| Same inputs, slightly different score after editing the job text | Any edit triggers fresh LLM calls; only identical inputs are remembered. |
 | Anything else | Run `uv run frs doctor` for a provider and environment check. |
 
 ## Using the evaluator
@@ -104,7 +120,7 @@ Optional settings (environment variables or `.env`):
 4. Review the overall score, confidence, summary, assessment dimensions,
    supporting resume evidence, and missing requirements.
 5. Optionally select **Get offline second opinion**. This makes no additional
-   Gemini request and compares the deterministic local score with the primary
+   LLM request and compares the deterministic local score with the primary
    result.
 
 The offline comparison is a scoring comparison, not a fairness certification.
@@ -199,7 +215,7 @@ configs/                    Reproducible evaluator and research configurations
 data/benchmark/             Controlled synthetic fairness benchmark
 docs/                       Architecture, data, and methodology documentation
 scripts/                    Corpus and benchmark generation utilities
-src/web_api.py              FastAPI backend for the candidate evaluator (median-of-3 Gemini scoring)
+src/web_api.py              FastAPI backend for the candidate evaluator (median-of-3 LLM scoring)
 src/screening/              Resume scoring, prompts, evidence, and rubric logic
 src/perturb/                Controlled cue and counterfactual generation
 src/fairness/               System-level fairness metrics and audit suite
@@ -213,7 +229,7 @@ runs/                       Generated research artifacts (ignored by Git)
 ## Design boundaries and limitations
 
 - Scores are job-related decision support, not employment decisions.
-- Gemini output can be wrong, incomplete, or inconsistent.
+- LLM output can be wrong, incomplete, or inconsistent.
 - The local scorer is a deterministic baseline, not an independent truth
   source and not the fairness auditor.
 - Fairness findings depend on the benchmark, cue design, sample size, model,
