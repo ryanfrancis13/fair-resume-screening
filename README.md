@@ -1,264 +1,178 @@
-# Fair Resume Screening
+# Generative-AI Powered Resume Screening and Candidate Evaluation System with Fairness Assessment
 
-**Generative AI Powered Resume Screening and Candidate Evaluation with Fairness
-Assessment**
+Resume screening tools built on large language models are increasingly used to score, summarize, and rank job applicants. While these models can evaluate unstructured resumes against complex job descriptions far more flexibly than keyword filters, they also read every demographic signal present on the page—from candidate names and pronouns to student organizations, regional languages, educational prestige, and socioeconomic markers.
 
-This project has two connected but separate workflows:
+This project implements two tightly coupled components sharing the same evaluation engine:
 
-1. **Candidate evaluator** - upload one resume and compare it with one job
-   description. A hosted LLM (Gemini by default, OpenAI also supported) provides an
-   evidence-backed score when configured; the
-   deterministic local scorer is used as a fallback or as a second opinion.
-2. **Fairness research pipeline** - create controlled resume variants, measure
-   score and decision effects, evaluate mitigation strategies, and produce
-   reproducible reports for system-level research.
+1. **A Candidate Evaluation Workspace (`frs web`)** that scores uploaded resumes (`.pdf`, `.docx`, `.txt`, `.md`) against a target job description across a weighted six-dimension rubric using **Gemini (`gemini-3.5-flash-lite`)**, verifies that every quote cited by the model appears verbatim in the candidate's resume, and provides a deterministic local baseline comparison.
+2. **A Counterfactual Fairness Audit and Mitigation Pipeline (`frs pipeline`)** that audits the LLM screener over a controlled benchmark of **150 base resumes**, **24 job descriptions**, **355 graded candidate–job pairs**, and **10,350 counterfactual resume variants**. It measures how scores, shortlist decisions, rankings, and written rationales shift when demographic and proxy cues are swapped on otherwise identical resumes, and evaluates pre-inference and post-hoc mitigation strategies.
 
-The candidate evaluator is decision support for human review. It does not
-automatically hire, advance, reject, or contact a candidate. A single resume
-cannot establish statistical fairness, so fairness auditing remains a
-population-level benchmark workflow.
+---
 
-## Contents
+## Motivation & Research Questions
 
-- [Quick start](#quick-start-web-evaluator)
-- [Choosing an LLM provider](#choosing-an-llm-provider-optional)
-- [Using the evaluator](#using-the-evaluator)
-- [Fairness research workflow](#fairness-research-workflow)
-- [Common commands](#common-commands)
-- [Troubleshooting](#troubleshooting)
-- [Repository layout](#repository-layout)
+Most published resume audit studies—following Bertrand and Mullainathan (2004)—test only **candidate names**. In practice, removing a candidate's name from a resume ("blind screening") leaves intact a wide set of proxy cues that allow an LLM to infer protected attributes. This system is designed to answer four concrete questions:
 
-## Requirements
+1. **Counterfactual Invariance**: When a resume's qualifications, metrics, and work history are held strictly constant, how much does the model's score or shortlist decision change when we swap demographic signals?
+2. **Non-Name Proxy Leakage**: Does bias survive surface-level name and pronoun redaction by leaking through affiliations (e.g., *Women in Leadership Network*, *Queer Alliance*, *Disability Inclusion Forum*), spoken languages, cultural community work, city tiers, or scholarship notes?
+3. **Score vs. Rationale Divergence**: Even when numeric scores appear similar across groups, does the model use systematically different language (e.g., *agentic* and *booster* framing vs. *communal* and *hedged* framing) in its written explanations?
+4. **The Cost of Mitigation**: When we apply blind redaction at increasing levels (`identity`, `identity_plus_proxy`, `aggressive`), anti-bias prompt constraints, counterfactual marginalization, or empirical-Bayes shrinkage, how much fairness do we gain and how much ranking utility (Kendall's $\tau$) do we give up?
 
-- Python 3.9 or newer
-- [uv](https://docs.astral.sh/uv/getting-started/installation/)
-- An API key for a supported LLM provider (optional; only for LLM-backed scoring)
+---
 
-Works on macOS, Linux, and Windows. Commands below use a POSIX shell; on
-Windows PowerShell use `Copy-Item` instead of `cp`.
+## System Architecture
 
-## Quick start: web evaluator
-
-```bash
-uv sync --extra web --extra gemini   # web app + Gemini SDK (the default provider)
-uv run frs doctor                    # optional: verify the environment
-uv run frs web
-```
-
-Open <http://127.0.0.1:8000>. No API key is needed to try it: without one, the
-app falls back to the deterministic offline scorer and labels results as such.
-
-The page accepts TXT, Markdown, PDF, and DOCX resumes up to 5 MB. Files are
-processed in memory and are not saved.
-
-## Choosing an LLM provider (optional)
-
-The evaluator scores with one hosted LLM and falls back to the offline scorer if
-it fails. Pick the provider with `FRS_PROVIDER`; each needs its SDK extra and key.
-
-| Provider | `FRS_PROVIDER` | Install | Key | Default model |
-| --- | --- | --- | --- | --- |
-| Google Gemini | `gemini` (default) | `uv sync --extra web --extra gemini` | `GEMINI_API_KEY` ([get one](https://aistudio.google.com/apikey)) | `gemini-3.5-flash-lite` |
-| OpenAI | `openai` | `uv sync --extra web --extra openai` | `OPENAI_API_KEY` | `gpt-4o-mini` |
-| OpenAI-compatible (Ollama, vLLM, OpenRouter, ...) | `openai` | same as OpenAI | `OPENAI_API_KEY` + `OPENAI_BASE_URL` | set `FRS_MODEL` |
-
-1. Copy the example env file and fill in the key for your provider:
-
-   ```bash
-   cp .env.example .env
-   ```
-
-   ```text
-   FRS_PROVIDER=openai
-   OPENAI_API_KEY=your_key_here
-   ```
-
-2. Restart `uv run frs web`. The header badge shows the active provider.
-
-If the provider is unavailable, rate-limited, or returns an unusable response,
-the result is clearly labelled as an offline fallback with the reason. API keys
-stay on the server and are never sent to the browser.
-
-**Score stability.** Each evaluation calls the provider 3 times and reports the
-median, because hosted models vary slightly between identical calls. Results are
-also remembered in server memory (never on disk), so submitting the same resume
-and job description again returns the same score until the server restarts. One
-evaluation therefore uses 3 API requests; on a free tier of about 12 requests per
-minute that is roughly 4 evaluations per minute.
-
-Optional settings (environment variables or `.env`):
-
-| Variable | Default | Purpose |
-| --- | --- | --- |
-| `FRS_PROVIDER` | `gemini` | LLM provider: `gemini` or `openai` |
-| `FRS_MODEL` | per provider (see above) | Model name for that provider |
-| `GEMINI_API_KEY` | none | Key for `gemini` |
-| `OPENAI_API_KEY` | none | Key for `openai` |
-| `OPENAI_BASE_URL` | OpenAI | Point `openai` at a compatible endpoint |
-| `FRS_WEB_HOST` | `127.0.0.1` | Bind address |
-| `FRS_WEB_PORT` | `8000` | Port |
-
-Adding another provider is one file plus one line; see
-[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md#adding-an-llm-provider).
-
-## Troubleshooting
-
-| Symptom | Fix |
-| --- | --- |
-| `google-genai is not installed` (or `openai`) | Install the provider's extra: `uv sync --extra web --extra gemini` (or `--extra openai`, or `--all-extras`). Plain `uv sync` skips optional extras. |
-| `Web support is not installed` | Run `uv sync --extra web`. |
-| Results say "Offline fallback used" | The provider's API key is missing from `.env`, or it is rate-limited. The reason is shown in the result. |
-| Offline score is far from the LLM score | Expected to differ: the offline scorer is a keyword-overlap baseline. List requirements as `Requirements: Python, AWS, ...` or as bullets to help it. |
-| Same inputs, slightly different score after editing the job text | Any edit triggers fresh LLM calls; only identical inputs are remembered. |
-| Anything else | Run `uv run frs doctor` for a provider and environment check. |
-
-## Using the evaluator
-
-1. Choose a resume file.
-2. Paste a job description with its responsibilities and requirements.
-3. Select **Evaluate resume**.
-4. Review the overall score, confidence, summary, assessment dimensions,
-   supporting resume evidence, and missing requirements.
-5. Optionally select **Get offline second opinion**. This makes no additional
-   LLM request and compares the deterministic local score with the primary
-   result.
-
-The offline comparison is a scoring comparison, not a fairness certification.
-Differences should be reviewed by a person and are not proof that either score
-is correct.
-
-## Fairness research workflow
-
-The research pipeline uses the controlled benchmark in
-[`data/benchmark/`](data/benchmark/). It tests whether changing irrelevant
-identity or proxy cues changes outcomes while preserving job-related content.
-The audit includes counterfactual, group, allocational, ranking, rationale,
-calibration, intersectional, validity, and reliability analyses. Mitigation
-strategies can be compared in the same reproducible run.
-
-Run the complete offline demo:
-
-```bash
-uv sync
-uv run frs pipeline --config configs/offline_demo.yaml
-```
-
-Run the controlled benchmark:
-
-```bash
-uv run frs pipeline --config configs/synthetic.yaml --provider mock
-```
-
-Validate the audit instrument itself:
-
-```bash
-uv run frs validate-auditor --provider mock
-```
-
-The validation should report **5/5 checks passed**. It verifies that the
-measurement system stays quiet under a no-bias null and recovers a known
-injected effect with the expected direction and magnitude.
-
-Explore completed research runs:
-
-```bash
-uv run frs dashboard
-```
-
-The Streamlit dashboard is for research artifacts and is intentionally separate
-from the one-resume candidate evaluator.
-
-Before spending API quota, inspect a planned run:
-
-```bash
-uv run frs pipeline --config configs/default.yaml --dry-run
-```
-
-## Common commands
-
-```bash
-uv sync --all-extras                 # install every optional capability
-uv run frs doctor                    # check environment and provider readiness
-uv run frs web                       # start the candidate evaluator
-uv run frs dashboard                 # start the research report explorer
-uv run frs validate-auditor --provider mock
-uv run pytest                        # run the full test suite
-uv run ruff check src tests scripts  # lint Python
-node --check web/assets/app.js       # check frontend JavaScript syntax
-```
-
-Equivalent Make targets are available:
-
-```bash
-make setup
-make web
-make demo
-make validate
-make test
-make check
-```
-
-## Repository layout
-
-The source files live directly under `src/` but are installed as the `frs`
-package through this intentional setuptools mapping:
-
-```toml
-package-dir = { "frs" = "src" }
-```
-
-This keeps the requested repository layout while avoiding ambiguous top-level
-imports such as `config`, `data`, and `pipeline`.
+The codebase is organized as an installable Python package (`frs`, mapped to `src/` in `pyproject.toml`):
 
 ```text
-configs/                    Reproducible evaluator and research configurations
-data/benchmark/             Controlled synthetic fairness benchmark
-docs/                       Architecture, data, and methodology documentation
-scripts/                    Corpus and benchmark generation utilities
-src/web_api.py              FastAPI backend for the candidate evaluator (median-of-3 LLM scoring)
-src/screening/              Resume scoring, prompts, evidence, and rubric logic
-src/perturb/                Controlled cue and counterfactual generation
-src/fairness/               System-level fairness metrics and audit suite
-src/mitigate/               Bias mitigation strategies and comparisons
-src/pipeline/               Reproducible research pipeline orchestration
-web/                        Static candidate-facing frontend
-tests/                      Automated tests
-runs/                       Generated research artifacts (ignored by Git)
+├── data/benchmark/
+│   ├── resumes/                 # 150 templated baseline resumes (R001.json – R150.json)
+│   ├── jobs/                    # 24 role descriptions across 4 job families (J01.json – J24.json)
+│   ├── pairs.json               # 355 graded candidate-job pairs (strong / moderate / weak fit)
+│   └── variants/variants.jsonl  # 10,350 validated counterfactual resume variants
+├── src/
+│   ├── models.py                # Data schemas, run configuration, and benchmark corpus loader
+│   ├── perturb.py               # Perturbation invariance validator, signal detector, and multi-level redactor
+│   ├── llm.py                   # Gemini client (gemini-3.5-flash-lite), deterministic baseline scorer, and SQLite cache
+│   ├── screening.py             # Six-dimension rubric, prompt builder, JSON parser, and quote grounding verifier
+│   ├── fairness.py              # Reliability decomposition, 7 metric families, BH-FDR correction, and mitigations
+│   ├── report.py                # HTML/Markdown/JSON audit report builder, explanation cards, and validation oracle
+│   ├── web_api.py               # FastAPI single-resume screening server (/api/health, /api/screen, /api/screen/offline)
+│   └── cli.py                   # Command-line interface (frs doctor, frs validate-auditor, frs pipeline, frs web)
+├── web/                         # Browser frontend (index.html, assets/app.js, assets/styles.css)
+└── tests/
+    └── test_frs.py              # Automated test suite covering perturbation, scoring, fairness oracle, CLI, and Web API
 ```
 
-## Design boundaries and limitations
+---
 
-- Scores are job-related decision support, not employment decisions.
-- LLM output can be wrong, incomplete, or inconsistent.
-- The local scorer is a deterministic baseline, not an independent truth
-  source and not the fairness auditor.
-- Fairness findings depend on the benchmark, cue design, sample size, model,
-  prompt, decoding settings, and statistical thresholds.
-- A population-level audit cannot certify an individual candidate result.
-- Real-model research runs can consume API quota. Use `--dry-run`, a small
-  corpus, and the response cache before larger experiments.
-- Uploaded documents are processed in memory by the web endpoint; deployment
-  operators should still apply normal server, network, and credential controls.
+## Methodology
 
-For the research rationale, data decisions, and metric definitions, see
-[`docs/METHODOLOGY.md`](docs/METHODOLOGY.md),
-[`docs/DATA.md`](docs/DATA.md), and
-[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
+### 1. Six-Dimension Evaluation Rubric & Grounding Verification
 
-## Development
+Every candidate evaluation—whether triggered from the web interface or inside a batch fairness audit—uses the same structured rubric (`src/screening.py`):
 
-Run the checks used before a release:
+| Dimension | Weight | Scope |
+|---|---:|---|
+| `technical_skills` | 30% | Alignment on programming languages, frameworks, tools, and system architecture |
+| `relevant_experience` | 25% | Role tenure, seniority, and direct relevance of prior engineering or domain work |
+| `domain_relevance` | 15% | Fit with the specific problem domain and operational context of the job |
+| `impact_and_outcomes` | 12% | Quantified outcomes, latency/revenue/efficiency metrics, and ownership |
+| `education_credentials` | 10% | Academic background and relevant technical training |
+| `communication_clarity` | 8% | Clarity, organization, and precision of the written resume |
 
-```bash
-uv run ruff check src tests scripts
-node --check web/assets/app.js
+Each dimension is scored on an integer scale from `0` to `5`. Rather than trusting the LLM's arithmetic, the parser recomputes the overall score deterministically:
+
+$$\text{Overall Score} = \sum_{i=1}^{6} w_i \cdot \left(\frac{s_i}{5}\right) \times 100$$
+
+To prevent ungrounded hallucinations, the model must supply verbatim `evidence_quotes` from the resume for each dimension. `verify_quote` checks that cited quotes exist in the source text (re-prompting once if support falls below 50%). Before any fairness metric is trusted on a batch run, `sanity_check` verifies that baseline scores separate known `strong` and `weak` candidate–job pairs (requiring Kendall's $\tau \ge 0.40$ and a mean strong-minus-weak gap $\ge 8.0$ points).
+
+### 2. Controlled Counterfactual Perturbations
+
+The benchmark dataset (`data/benchmark/`) holds candidate qualifications constant while varying eight cue families across **10,350 variants**:
+
+- **`name`** (*6,000 variants*): 40 culturally distinct Indian names balanced across gender (`female`, `male`), religion (`Hindu`, `Muslim`, `Christian`, `Sikh`), and region (`North`, `South`), updated consistently across the resume header, email address, and LinkedIn slug.
+- **`affiliation_marker`** (*1,200 variants*): Professional and campus organizations signaling gender (*Women in Leadership Network*), disability status (*Campus Disability Inclusion Forum*), sexual orientation (*Queer Alliance*), religion, or a neutral control (*ACM Student Chapter* / *Rotaract Club*).
+- **`cultural_marker`** (*900 variants*): Spoken regional languages and community volunteering (*Hindi/Navratri*, *Tamil/Pongal*, *Bengali/Durga Puja*, *Malayalam/Onam*, *Urdu/Eid*, *Punjabi/Gurpurab*).
+- **`location_marker`** (*900 variants*): Metro vs. Tier-2 city locations (*Mumbai*, *Hyderabad*, *Gurugram* vs. *Jaipur*, *Coimbatore*, *Patna*).
+- **`age_marker`** (*450 variants*): Graduation year and early-career timeline cues (`30s`, `40s`, `50s`).
+- **`pronoun`** (*300 variants*): Summary pronoun swaps (`she/her`, `he/his`, `they/their`).
+- **`socioeconomic_marker`** (*300 variants*): High vs. low socioeconomic indicators (self-funded international exchange and country-club hobbies vs. first-generation state scholarship and working at the family shop).
+- **`education_prestige`** (*300 variants — Validity Probe*): High-tier selective institution (*IIT Bombay*) vs. regional engineering college. Unlike protected demographic cues, a working evaluator *should* respond to legitimate educational signal; if this swing collapses to zero, the conflict detector flags **`validity_collapse`**.
+
+Every variant in `variants.jsonl` is checked by `validate_variant` (`src/perturb.py`) across four invariance gates:
+1. **Span accounting**: Stripping only the designated cue slots from baseline and variant texts yields character-for-character identical remainders.
+2. **Numeric fingerprint**: All unmasked numbers, percentages, and years of experience remain identical.
+3. **Entity fingerprint**: All technical tokens, employers, and skill identifiers outside cue slots are preserved.
+4. **Edit budget**: Character edit ratio stays within $\le 0.15$.
+
+### 3. Seven Fairness Metric Families & Statistical Inference
+
+The audit engine (`src/fairness.py`) operates strictly on `ScoreRecord` tables without calling the LLM:
+
+1. **Counterfactual Invariance**: Within-candidate maximum score swing ($\max_v y_{bv} - \min_v y_{bv}$) and shortlist/hold/reject decision flip rate for each cue family.
+2. **Group Parity**: Paired within-candidate score differences ($y_{b,g} - y_{b,\text{ref}}$), paired $t$-tests, cluster bootstrap 95% confidence intervals, standardized effect size ($d_z$), and Minimum Detectable Effect (MDE at 80% power).
+3. **Allocational Fairness**: Shortlist selection rate differences (Statistical Parity Difference, threshold $|\Delta P| \le 0.10$) and the EEOC Four-Fifths Adverse Impact Ratio ($\text{AIR} \ge 0.80$).
+4. **Ranking Stability**: Kendall's $\tau$ rank correlation between group-perturbed candidate rankings and baseline rankings ($\tau \ge 0.85$).
+5. **Intersectional Fairness**: Demeaned cell residuals across multi-attribute combinations (e.g., `gender × religion × region`), flagging the worst-off intersectional subgroup.
+6. **Rationale Tone Audit**: Lexicon density gaps (per 100 words) comparing *agentic* and *booster* language (*led*, *architected*, *pioneered*, *standout*) against *communal*, *effort*, and *hedged* language (*supported*, *assisted*, *hardworking*, *perhaps*, *somewhat*).
+7. **Calibration**: Between-group Brier score calibration error gaps against ground-truth qualification labels.
+
+All hypothesis tests across the suite undergo a single **Benjamini-Hochberg False Discovery Rate (BH-FDR)** adjustment ($\alpha = 0.05$). In addition, `detect_conflicts` automatically diagnoses mathematical tensions between metrics:
+- **`validity_collapse`**: Apparent fairness caused by an inert scorer that fails to respond to the `education_prestige` validity probe.
+- **`noise_dominated_failures`**: Counterfactual swings that do not exceed the model's own decoding noise floor ($\sigma_{\text{noise}}$).
+- **`power_masquerade`**: Non-significant p-values where the sample's Minimum Detectable Effect exceeds the practical significance threshold.
+- **`individual_vs_group`**: Canceling individual candidate swings that leave group means equal while flipping individual shortlist decisions.
+
+### 4. Mitigation Arms & Proxy Leakage Analysis
+
+The pipeline evaluates six mitigation strategies and prices each against ranking utility (`rank_kendall_tau >= 0.60` and `dispersion_ratio >= 0.50`):
+
+- **`blind_identity`**: Strips candidate name, email, phone, LinkedIn, and gendered pronouns.
+- **`blind_identity_plus_proxy`**: Additionally redacts affiliations, spoken regional languages, cultural community lines, hobbies, and scholarship/funding notes.
+- **`blind_aggressive`**: Additionally masks university names, graduation years, and city locations.
+- **`debias_prompt`**: Injects an explicit anti-proxy fairness constraint into the rubric system prompt.
+- **`counterfactual_marginalization`**: Post-hoc averaging across counterfactual variants per candidate.
+- **`cue_effect_debiasing` & `sensitivity_gated_review`**: Post-hoc empirical-Bayes group offset shrinkage and human-review routing for high-swing candidates.
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Python 3.11+
+- [uv](https://docs.astral.sh/uv/) package manager
+- A Google Gemini API key ([Google AI Studio](https://aistudio.google.com/apikey))
+
+### 1. Installation
+```powershell
+uv sync
+```
+Create a `.env` file in the project root (or edit the existing `.env`) and add your Gemini key:
+```ini
+GEMINI_API_KEY=your-gemini-api-key-here
+```
+
+### 2. Environment & Oracle Verification
+Verify that the benchmark dataset (150 resumes, 24 jobs, 355 pairs, 10,500 variants) and your Gemini key are detected:
+```powershell
+uv run frs doctor
+```
+Run the 5-check auditor validation oracle (verifies zero false positives under a Null scorer and exact bias recovery under an Injected `-3.0` point female penalty):
+```powershell
+uv run frs validate-auditor
+```
+
+### 3. Single-Resume Web Application
+Start the FastAPI server:
+```powershell
+uv run frs web
+```
+Open **http://127.0.0.1:8000** in your browser:
+- Upload a resume (`.pdf`, `.docx`, `.txt`, or `.md`) and paste a job description.
+- Click **Evaluate resume** to run a live `gemini-3.5-flash-lite` rubric evaluation with verbatim evidence extraction.
+- Click **Get offline second opinion** to compare the live LLM score against the deterministic local rubric scorer without making an additional API call.
+
+### 4. Running the Fairness Audit Pipeline
+
+**Live Gemini Fairness Audit** (audits `gemini-3.5-flash-lite` and caches responses in `.frs_cache/cache.sqlite`):
+```powershell
+uv run frs pipeline --provider gemini --max-resumes 3 --max-variants 12 --run-name gemini_audit
+```
+
+**Controlled Offline Audit** (runs the deterministic scorer across the benchmark to demonstrate proxy leakage past `identity` redaction and mitigation recovery):
+```powershell
+uv run frs pipeline --provider mock --max-resumes 12 --max-variants 24 --run-name benchmark_audit
+```
+
+Every pipeline run writes a self-contained artifact bundle to `runs/<run_id>/`:
+- `report.html` — Formatted standalone audit report (Headline Findings, Conflict Analysis, Anonymization & Proxy Leakage Table, Mitigation Utility Pricing, and BH-FDR Metric Table).
+- `report.md` & `MODEL_CARD.md` — Markdown audit summary and model governance card.
+- `audit_report.json` & `explanation_cards.json` — Machine-readable metrics and per-candidate instability cards.
+- `scores.csv` — Full `ScoreRecord` table decoupling screening from downstream statistical analysis.
+
+### 5. Running Tests & Linter
+```powershell
 uv run pytest
-uv run frs validate-auditor --provider mock
+uv run ruff check src tests
 ```
-
-Do not commit `.env`, API keys, `runs/`, caches, virtual environments, or
-generated packaging artifacts. The repository `.gitignore` excludes them.
-
-## License
-
-MIT. See the project metadata in [`pyproject.toml`](pyproject.toml).

@@ -1,65 +1,20 @@
-# =============================================================================
-# Managed with uv.  https://docs.astral.sh/uv/
-#
-#   uv sync                 create .venv and install everything (incl. dev group)
-#   uv run frs pipeline ... run a command inside it
-#   uv run pytest           run the tests
-#
-# LAYOUT NOTE
-# The source lives directly under `src/` — `src/screening/`, `src/fairness/`,
-# `src/utils/` — matching §5 of the build brief. It is *imported* as `frs`, via
-# the `package-dir` mapping below.
-#
-# That indirection is deliberate. Putting `src/` itself on sys.path would make
-# `config`, `data`, `utils`, `report`, `schemas`, `app`, `pipeline` and `cli`
-# top-level importable names, which collide with common packages and would break
-# every one of the 105 `from ..module import` statements in the tree ("attempted
-# relative import beyond top-level package"). Mapping the directory to a single
-# package name keeps the on-disk layout the brief asks for while the code stays a
-# normal, installable, collision-free package.
-# =============================================================================
-
 [build-system]
-requires = ["setuptools>=68", "wheel"]
+requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "fair-resume-screening"
 version = "1.0.0"
-description = "Generative AI-powered resume screening with an integrated, multi-metric fairness audit and bias-mitigation layer."
+description = "Generative AI-powered resume screening with counterfactual fairness assessment."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 license = { text = "MIT" }
-authors = [
-  { name = "Ryan Francis" },
-  { name = "Abhishek Tiwari" },
-  { name = "Vansh Kumar Soni" },
-  { name = "Vinayak K" },
-]
-keywords = ["fairness", "resume-screening", "llm", "algorithmic-audit", "bias"]
-classifiers = [
-  "Programming Language :: Python :: 3",
-  "Intended Audience :: Science/Research",
-  "Topic :: Scientific/Engineering :: Artificial Intelligence",
-]
-
 dependencies = [
   "numpy>=1.24",
   "pandas>=2.0",
   "scipy>=1.10",
-  "matplotlib>=3.7",
-  "PyYAML>=6.0",
   "python-dotenv>=1.0",
-]
-
-# Runtime extras: real optional capabilities, installed with
-#   uv sync --extra gemini      (or --all-extras)
-[project.optional-dependencies]
-gemini = ["google-genai>=1.0.0"]
-openai = ["openai>=1.30"]
-stats = ["statsmodels>=0.14"]
-dashboard = ["streamlit>=1.30"]
-web = [
+  "google-genai>=1.0.0",
   "fastapi>=0.115",
   "uvicorn[standard]>=0.30",
   "python-multipart>=0.0.9",
@@ -70,94 +25,29 @@ web = [
 [project.scripts]
 frs = "frs.cli:main"
 
-[project.urls]
-Documentation = "https://github.com/your-org/fair-resume-screening/tree/main/docs"
-
-# Development tooling. A PEP 735 dependency group, not an extra: it is never part
-# of an install of this project by someone else, and `uv sync` installs it by
-# default so a fresh clone is immediately testable.
 [dependency-groups]
 dev = [
   "pytest>=7.4",
-  "pytest-cov>=4.1",
   "ruff>=0.4",
-  # tomllib is stdlib from 3.11; the backport keeps tests/test_packaging.py
-  # runnable on the declared 3.9 floor.
-  'tomli>=2.0; python_version < "3.11"',
+  "httpx>=0.27",
 ]
 
 [tool.uv]
-# Install the project itself in editable mode so `src/` edits take effect without
-# re-syncing, and the `frs` console script always points at the working tree.
 package = true
 default-groups = ["dev"]
 
-# --------------------------------------------------------------------------- #
-# packaging: the src/ -> frs mapping
-# --------------------------------------------------------------------------- #
 [tool.setuptools]
 package-dir = { "frs" = "src" }
-# setuptools' auto-discovery cannot follow a renaming `package-dir` mapping, so
-# subpackages are listed explicitly. `tests/test_packaging.py` asserts this list
-# matches what is actually on disk, so it cannot silently fall out of date.
-packages = [
-  "frs",
-  "frs.anonymize",
-  "frs.app",
-  "frs.data",
-  "frs.fairness",
-  "frs.llm",
-  "frs.mitigate",
-  "frs.perturb",
-  "frs.pipeline",
-  "frs.report",
-  "frs.screening",
-  "frs.utils",
-]
+packages = ["frs"]
 
-[tool.setuptools.package-data]
-frs = ["py.typed"]
-
-# --------------------------------------------------------------------------- #
-# tooling
-# --------------------------------------------------------------------------- #
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-# `frs` itself comes from the editable install; only the tests directory needs to
-# be importable so helpers can be shared between test modules.
-pythonpath = ["tests"]
-addopts = "-q --strict-markers"
-markers = [
-  "slow: marks slow tests",
-  "live: tests that require a real LLM API key (deselected by default)",
-]
-filterwarnings = [
-  "ignore::DeprecationWarning:matplotlib.*",
-  "ignore:.*parseString.*:DeprecationWarning",
-  "ignore:.*deprecated.*:DeprecationWarning:pyparsing.*",
-  "ignore::UserWarning:frs.perturb.names",
-]
+addopts = ["-ra"]
 
 [tool.ruff]
 line-length = 100
-target-version = "py39"
+target-version = "py312"
 src = ["src", "tests"]
 
 [tool.ruff.lint]
-select = ["E", "F", "I", "UP", "B", "SIM"]
-ignore = [
-  "E501",   # line length — the formatter owns this
-  "B008",   # function call in default arg — not used in a way that matters here
-  # PEP 585/604 modernisation. The project supports Python 3.9, where `list[str]`
-  # and `X | None` are only valid inside annotations (via `from __future__ import
-  # annotations`, which every module has) and not in runtime positions. Rewriting
-  # ~1000 annotations to a syntax that is illegal in half of them is churn with
-  # real breakage risk, so typing.List / typing.Optional are used consistently
-  # instead. Revisit when the minimum supported version reaches 3.10.
-  "UP006",  # non-pep585-annotation  (List -> list)
-  "UP045",  # non-pep604-annotation-optional  (Optional[X] -> X | None)
-  "UP035",  # deprecated-import  (typing.List etc.)
-]
-
-[tool.ruff.lint.isort]
-known-first-party = ["frs"]
+ignore = ["B008", "BLE001"]

@@ -1,310 +1,231 @@
-"""Single-resume web API with an explicit LLM-to-offline fallback."""
+"""FastAPI single-resume evaluator serving the web workspace."""
 
-import copy
+from __future__ import annotations
+
 import hashlib
 import io
-import logging
 import os
+import time
 from collections import OrderedDict
-from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any
 
-from .config import Config, load_dotenv_if_present
-from .llm.client import PROVIDERS, LLMClient
-from .schemas import JobDescription, ScreeningResult
-from .screening.score_resume import ResumeScorer
+from fastapi import FastAPI, File, Form, HTTPException, UploadFile
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 
-MAX_UPLOAD_BYTES = 5 * 1024 * 1024
-ALLOWED_SUFFIXES = {".txt", ".md", ".pdf", ".docx"}
-logger = logging.getLogger("frs.web")
+from .llm import GeminiProvider, MockProvider
+from .models import Config, JobDescription, ScreeningResult, project_root
+from .screening import PROMPT_VERSION, RUBRIC, score_single
 
-DEFAULT_PROVIDER = "gemini"
-# Model used when FRS_MODEL is unset, per provider. A provider missing from this
-# table must be given a model explicitly via FRS_MODEL.
-DEFAULT_MODELS = {
-    "gemini": "gemini-3.5-flash-lite",
-    "openai": "gpt-4o-mini",
+MAX_UPLOAD_MB = 5
+MAX_UPLOAD_BYTES = MAX_UPLOAD_MB * 1024 * 1024
+SUPPORTED_EXTENSIONS = (".txt", ".md", ".pdf", ".docx")
+SCORING_SAMPLES = 1
+DECISION_LABELS = {
+    "shortlist": "Strong Fit — Advance to Interview",
+    "hold": "Borderline Fit — Hold / Secondary Review",
+    "reject": "Below Threshold — Do Not Advance",
 }
 
-# Hosted models are not bit-for-bit repeatable even at temperature 0, so the same
-# resume and job description can score differently run to run. Remembering recent
-# results from the configured provider in process memory (never written to disk) makes a repeat
-# submission return the same score. Fallback results are never cached.
-_RESULT_CACHE_SIZE = 64
-# The configured provider is scored this many times per submission and the median result is
-# reported, which damps run-to-run variation in a single generation.
-SCORING_SAMPLES = 3
-_result_cache: "OrderedDict[str, Dict[str, Any]]" = OrderedDict()
-
-
-def _web_root() -> Path:
-    return Path(__file__).resolve().parents[1] / "web"
+_RESULT_CACHE: OrderedDict[str, dict[str, Any]] = OrderedDict()
 
 
 def extract_resume_text(filename: str, content: bytes) -> str:
-    """Extract text from a supported upload without persisting the file."""
-    suffix = Path(filename).suffix.lower()
-    if suffix not in ALLOWED_SUFFIXES:
-        raise ValueError("Upload a TXT, PDF, or DOCX resume.")
-    if not content:
-        raise ValueError("The uploaded resume is empty.")
+    ext = Path(filename or "resume.txt").suffix.lower()
+    if ext not in SUPPORTED_EXTENSIONS:
+        raise HTTPException(status_code=400, detail=f"Unsupported file type {ext!r}. Use {', '.join(SUPPORTED_EXTENSIONS)}.")
     if len(content) > MAX_UPLOAD_BYTES:
-        raise ValueError("Resume files must be 5 MB or smaller.")
+        raise HTTPException(status_code=400, detail=f"File exceeds {MAX_UPLOAD_MB} MB limit.")
 
-    if suffix in {".txt", ".md"}:
-        text = content.decode("utf-8-sig", errors="replace")
-    elif suffix == ".pdf":
-        try:
-            from pypdf import PdfReader
-        except ImportError as exc:
-            raise RuntimeError("PDF support is not installed. Run `uv sync --extra web`.") from exc
+    if ext in (".txt", ".md"):
+        return content.decode("utf-8", errors="replace").strip()
+    if ext == ".pdf":
+        from pypdf import PdfReader
+
         reader = PdfReader(io.BytesIO(content))
-        text = "\n".join(page.extract_text() or "" for page in reader.pages)
-    else:
-        try:
-            from docx import Document
-        except ImportError as exc:
-            raise RuntimeError("DOCX support is not installed. Run `uv sync --extra web`.") from exc
-        document = Document(io.BytesIO(content))
-        text = "\n".join(paragraph.text for paragraph in document.paragraphs)
+        return "\n".join((page.extract_text() or "") for page in reader.pages).strip()
+    if ext == ".docx":
+        from docx import Document
 
-    text = text.strip()
-    if len(text) < 40:
-        raise ValueError("We could not extract enough readable text from this resume.")
-    return text
+        doc = Document(io.BytesIO(content))
+        return "\n".join(p.text for p in doc.paragraphs if p.text.strip()).strip()
+    return ""
 
 
-def _job_description(text: str) -> JobDescription:
-    clean = text.strip()
-    if len(clean) < 40:
-        raise ValueError("Enter a job description with at least 40 characters.")
-    return JobDescription(
-        job_id="web_submission",
-        title="Submitted role",
-        text=clean,
-        job_family="user_submitted",
-        source="web",
-    )
-
-
-def _provider_name() -> str:
-    """The provider selected by ``FRS_PROVIDER`` (default: Gemini)."""
-    name = os.environ.get("FRS_PROVIDER", DEFAULT_PROVIDER).strip().lower()
-    if name == "mock" or name not in PROVIDERS:
-        choices = ", ".join(sorted(p for p in PROVIDERS if p != "mock"))
-        raise ValueError(f"FRS_PROVIDER={name!r} is not supported; choose one of: {choices}.")
-    return name
-
-
-def _config(root: Path) -> Config:
-    provider = _provider_name()  # fail with a web-specific message before Config.load
-    config_path = root / "configs" / "default.yaml"
-    cfg = Config.load(config_path)
-    cfg.llm.provider = provider
-    model = os.environ.get("FRS_MODEL") or DEFAULT_MODELS.get(cfg.llm.provider)
-    if not model:
-        raise ValueError(f"Set FRS_MODEL to choose a model for provider {cfg.llm.provider!r}.")
-    cfg.llm.model = model
-    cfg.llm.self_consistency_samples = 1
-    cfg.llm.max_retries = 1
-    cfg.llm.max_concurrency = SCORING_SAMPLES
-    cfg.llm.cache_enabled = False
-    return cfg
-
-
-def _mock_config(cfg: Config) -> Config:
-    fallback = copy.deepcopy(cfg)
-    fallback.llm.provider = "mock"
-    fallback.llm.model = "mock-rubric-v1"
-    fallback.llm.max_retries = 0
-    fallback.llm.mock_noise_sd = 0.0
-    return fallback
-
-
-def _result_payload(
-    result: ScreeningResult,
-    *,
-    provider: str,
-    model: str,
+def _format_response(
+    sr: ScreeningResult,
+    job_title: str,
+    resume_text: str,
+    job_text: str,
+    scoring_mode: str,
     fallback_used: bool,
-    fallback_reason: str = "",
-) -> Dict[str, Any]:
+    fallback_reason: str | None,
+    samples_used: int,
+) -> dict[str, Any]:
+    dim_items = [
+        {
+            "name": d.dimension,
+            "dimension": d.dimension,
+            "score": round((d.score / 5.0) * 100.0, 1),
+            "raw_score": d.score,
+            "score_100": round((d.score / 5.0) * 100.0, 1),
+            "weight": d.weight,
+            "weight_pct": round(d.weight * 100),
+            "rationale": d.rationale,
+            "evidence_quotes": d.evidence_quotes,
+            "evidence_verified": d.evidence_verified,
+            "evidence": [
+                {"quote": q, "supports": d.dimension.replace("_", " ").title(), "verified": d.evidence_verified}
+                for q in d.evidence_quotes
+            ],
+        }
+        for d in sr.dimension_scores
+    ]
     return {
-        "provider": provider,
-        "model": model,
+        "resume_id": sr.resume_id,
+        "job_id": sr.job_id,
+        "job_title": job_title,
+        "overall_score": sr.overall_score,
+        "confidence": sr.evidence_support_rate,
+        "decision": sr.decision,
+        "decision_label": DECISION_LABELS.get(sr.decision, sr.decision),
+        "summary": sr.summary,
+        "strengths": sr.strengths,
+        "weaknesses": sr.weaknesses,
+        "missing_requirements": sr.missing_requirements,
+        "red_flags": sr.red_flags,
+        "evidence_support_rate": sr.evidence_support_rate,
+        "grounding_retried": sr.grounding_retried,
+        "parse_valid": sr.parse_valid,
+        "parse_repaired": sr.parse_repaired,
+        "provider": sr.provider,
+        "model": sr.model,
+        "prompt_version": sr.prompt_version,
+        "latency_ms": sr.latency_ms,
+        "cached": sr.cached,
+        "resume_char_count": len(resume_text),
+        "job_char_count": len(job_text),
+        "scoring_mode": scoring_mode,
         "fallback_used": fallback_used,
         "fallback_reason": fallback_reason,
-        "overall_score": result.overall_score,
-        "recommendation": result.recommendation,
-        "confidence": result.confidence,
-        "summary": result.summary,
-        "dimensions": [
-            {
-                "name": item.name,
-                "score": item.score,
-                "weight": item.weight,
-                "rationale": item.rationale,
-                "evidence": [
-                    {
-                        "quote": evidence.quote,
-                        "supports": evidence.supports,
-                        "found_in_resume": evidence.found_in_resume,
-                    }
-                    for evidence in item.evidence
-                ],
-            }
-            for item in result.dimensions
-        ],
-        "missing_requirements": result.missing_requirements,
-        "unverifiable_claims": result.unverifiable_claims,
-        "protected_attribute_referenced": result.protected_attribute_referenced,
-        "protected_reference_note": result.protected_reference_note,
+        "samples_used": samples_used,
+        "dimensions": dim_items,
+        "dimension_scores": dim_items,
     }
 
 
-def evaluate_resume(resume_text: str, job_text: str, root: Path) -> Dict[str, Any]:
-    """Score with the configured provider, falling back to the local scorer on failure."""
-    load_dotenv_if_present()
-    primary_cfg = _config(root)
-    job = _job_description(job_text)
-    cache_key = hashlib.sha256(
-        "\x00".join((primary_cfg.llm.model, resume_text, job.text)).encode("utf-8")
-    ).hexdigest()
-    cached = _result_cache.get(cache_key)
-    if cached is not None:
-        _result_cache.move_to_end(cache_key)
-        return copy.deepcopy(cached)
-    primary = ResumeScorer(LLMClient.from_config(primary_cfg), primary_cfg)
-    with ThreadPoolExecutor(max_workers=SCORING_SAMPLES) as pool:
-        outcomes = list(
-            pool.map(
-                lambda index: primary.score_once(
-                    resume_text, job, sample_index=index, allow_grounding_retry=False
-                ),
-                range(SCORING_SAMPLES),
-            )
-        )
-    valid = sorted((o for o in outcomes if o.ok), key=lambda o: o.result.overall_score)
-    # An actual outcome is reported (not a synthetic average), so the score,
-    # dimensions and evidence stay consistent. With an even count the lower
-    # middle result is used.
-    outcome = valid[(len(valid) - 1) // 2] if valid else outcomes[0]
+def create_app() -> FastAPI:
+    app = FastAPI(title="AI Resume Screening & Candidate Evaluator", version="1.0.0")
+    web_dir = project_root() / "web"
+    if (web_dir / "assets").is_dir():
+        app.mount("/assets", StaticFiles(directory=str(web_dir / "assets")), name="assets")
 
-    if outcome.ok:
-        payload = _result_payload(
-            outcome.result,
-            provider=primary_cfg.llm.provider,
-            model=primary_cfg.llm.model,
-            fallback_used=False,
-        )
-        _result_cache[cache_key] = copy.deepcopy(payload)
-        while len(_result_cache) > _RESULT_CACHE_SIZE:
-            _result_cache.popitem(last=False)
-        return payload
-
-    reason = outcome.response.error or outcome.result.parse_error or f"{primary_cfg.llm.provider} returned an unusable result."
-    logger.warning("primary screening provider failed; using offline fallback: %s", reason)
-    fallback_cfg = _mock_config(primary_cfg)
-    fallback = ResumeScorer(LLMClient.from_config(fallback_cfg), fallback_cfg)
-    fallback_outcome = fallback.score_once(resume_text, job, allow_grounding_retry=False)
-    if not fallback_outcome.ok:
-        logger.error("offline fallback failed after primary provider failure")
-        raise RuntimeError(
-            f"{primary_cfg.llm.provider} failed and offline fallback failed: {fallback_outcome.result.parse_error}"
-        )
-    return _result_payload(
-        fallback_outcome.result,
-        provider=fallback_cfg.llm.provider,
-        model=fallback_cfg.llm.model,
-        fallback_used=True,
-        fallback_reason=reason,
-    )
-
-
-def evaluate_offline(resume_text: str, job_text: str, root: Path) -> Dict[str, Any]:
-    """Evaluate one submission with the deterministic local provider only."""
-    cfg = _mock_config(_config(root))
-    job = _job_description(job_text)
-    scorer = ResumeScorer(LLMClient.from_config(cfg), cfg)
-    outcome = scorer.score_once(resume_text, job, allow_grounding_retry=False)
-    if not outcome.ok:
-        raise RuntimeError("The offline scorer could not produce a valid result.")
-    return _result_payload(
-        outcome.result,
-        provider=cfg.llm.provider,
-        model=cfg.llm.model,
-        fallback_used=False,
-    )
-
-
-def create_app():
-    try:
-        from fastapi import FastAPI, File, Form, HTTPException, UploadFile
-        from fastapi.responses import FileResponse
-        from fastapi.staticfiles import StaticFiles
-    except ImportError as exc:
-        raise RuntimeError("Web support is not installed. Run `uv sync --extra web`.") from exc
-
-    root = Path(__file__).resolve().parents[1]
-    app = FastAPI(
-        title="Generative AI Powered Resume Screening and Candidate Evaluation with Fairness Assessment",
-        version="1.0.0",
-    )
+    @app.get("/", include_in_schema=False)
+    def index() -> FileResponse:
+        return FileResponse(web_dir / "index.html")
 
     @app.get("/api/health")
-    def health() -> Dict[str, str]:
-        load_dotenv_if_present()
-        try:
-            provider = _provider_name()
-        except ValueError:
-            provider = "unconfigured"
-        return {"status": "ok", "service": "fair-resume-screening", "provider": provider}
+    def health() -> dict[str, Any]:
+        model = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
+        gem = GeminiProvider(model=model)
+        return {
+            "status": "ok",
+            "provider": "gemini" if gem.is_ready() else "mock",
+            "model": model if gem.is_ready() else "mock-rubric-v1",
+            "prompt_version": PROMPT_VERSION,
+            "rubric_dimensions": RUBRIC,
+            "supported_extensions": list(SUPPORTED_EXTENSIONS),
+            "max_upload_mb": MAX_UPLOAD_MB,
+            "live_ready": gem.is_ready(),
+            "offline_ready": True,
+            "scoring_samples": SCORING_SAMPLES,
+        }
+
+    async def _resolve_inputs(
+        resume: UploadFile | None,
+        resume_file: UploadFile | None,
+        resume_text: str | None,
+        job_description: str,
+        job_title: str | None,
+    ) -> tuple[str, str, str]:
+        upload = resume or resume_file
+        if upload is not None and upload.filename:
+            raw_bytes = await upload.read()
+            r_text = extract_resume_text(upload.filename, raw_bytes)
+        else:
+            r_text = (resume_text or "").strip()
+
+        j_text = (job_description or "").strip()
+        if len(r_text) < 40:
+            raise HTTPException(status_code=400, detail="Resume text must be at least 40 characters.")
+        if len(j_text) < 40:
+            raise HTTPException(status_code=400, detail="Job description must be at least 40 characters.")
+        title = (job_title or j_text.splitlines()[0][:80] or "Target Role").strip()
+        return r_text, j_text, title
 
     @app.post("/api/screen")
-    async def screen_resume(
-        resume: UploadFile = File(...),
-        job_description: str = Form(...),
-    ) -> Dict[str, Any]:
-        try:
-            content = await resume.read()
-            text = extract_resume_text(resume.filename or "resume.txt", content)
-            return evaluate_resume(text, job_description, root)
-        except (ValueError, RuntimeError) as exc:
-            raise HTTPException(status_code=400, detail=str(exc)) from exc
-        except Exception as exc:
-            logger.exception("unexpected screening request failure")
-            raise HTTPException(
-                status_code=502,
-                detail="The screening service could not produce a result. Try again.",
-            ) from exc
+    async def screen_candidate(
+        resume: UploadFile | None = File(default=None),
+        resume_file: UploadFile | None = File(default=None),
+        resume_text: str | None = Form(default=None),
+        job_description: str = Form(default=""),
+        job_title: str | None = Form(default=None),
+    ) -> dict[str, Any]:
+        r_text, j_text, title = await _resolve_inputs(resume, resume_file, resume_text, job_description, job_title)
+        cfg = Config()
+        job = JobDescription(job_id="WEB_JOB", title=title, text=j_text)
+        gem = GeminiProvider(model=cfg.model)
+
+        cache_key = hashlib.sha256(f"{cfg.model}|{r_text}|{j_text}".encode()).hexdigest()
+        if cache_key in _RESULT_CACHE:
+            cached = dict(_RESULT_CACHE[cache_key])
+            cached["cached"] = True
+            return cached
+
+        t0 = time.perf_counter()
+        if gem.is_ready():
+            samples: list[ScreeningResult] = []
+            last_err: str | None = None
+            for idx in range(SCORING_SAMPLES):
+                try:
+                    samples.append(score_single(r_text, job, cfg, provider=gem, sample_index=idx))
+                except Exception as exc:
+                    last_err = str(exc)
+            valid = [s for s in samples if s.parse_valid]
+            if valid:
+                valid.sort(key=lambda s: s.overall_score)
+                median_res = valid[(len(valid) - 1) // 2]
+                median_res.latency_ms = round((time.perf_counter() - t0) * 1000.0, 2)
+                payload = _format_response(median_res, title, r_text, j_text, "live", False, None, len(valid))
+                _RESULT_CACHE[cache_key] = payload
+                while len(_RESULT_CACHE) > 64:
+                    _RESULT_CACHE.popitem(last=False)
+                return payload
+            fallback_reason = f"Live Gemini scoring failed ({last_err or 'invalid JSON'}); used offline rubric scorer."
+        else:
+            fallback_reason = "GEMINI_API_KEY not configured; used offline deterministic rubric scorer."
+
+        mock_res = score_single(r_text, job, cfg, provider=MockProvider(cfg), sample_index=0)
+        mock_res.latency_ms = round((time.perf_counter() - t0) * 1000.0, 2)
+        return _format_response(mock_res, title, r_text, j_text, "offline", True, fallback_reason, 1)
 
     @app.post("/api/screen/offline")
-    async def screen_offline(
-        resume: UploadFile = File(...),
-        job_description: str = Form(...),
-    ) -> Dict[str, Any]:
-        try:
-            content = await resume.read()
-            text = extract_resume_text(resume.filename or "resume.txt", content)
-            return evaluate_offline(text, job_description, root)
-        except (ValueError, RuntimeError) as exc:
-            raise HTTPException(status_code=400, detail=str(exc)) from exc
-        except Exception as exc:
-            logger.exception("unexpected offline screening failure")
-            raise HTTPException(
-                status_code=502,
-                detail="The offline scorer could not produce a result. Try again.",
-            ) from exc
-
-    web_root = _web_root()
-    app.mount("/assets", StaticFiles(directory=web_root / "assets"), name="assets")
-
-    @app.get("/")
-    def index():
-        return FileResponse(web_root / "index.html")
+    async def screen_candidate_offline(
+        resume: UploadFile | None = File(default=None),
+        resume_file: UploadFile | None = File(default=None),
+        resume_text: str | None = Form(default=None),
+        job_description: str = Form(default=""),
+        job_title: str | None = Form(default=None),
+    ) -> dict[str, Any]:
+        r_text, j_text, title = await _resolve_inputs(resume, resume_file, resume_text, job_description, job_title)
+        cfg = Config(provider="mock", model="mock-rubric-v1")
+        job = JobDescription(job_id="WEB_JOB", title=title, text=j_text)
+        sr = score_single(r_text, job, cfg, provider=MockProvider(cfg), sample_index=0)
+        return _format_response(sr, title, r_text, j_text, "offline", False, None, 1)
 
     return app
 
 
 app = create_app()
+
