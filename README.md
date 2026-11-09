@@ -54,11 +54,11 @@ Every candidate evaluation—whether triggered from the web interface or inside 
 
 | Dimension | Weight | Scope |
 |---|---:|---|
-| `technical_skills` | 30% | Alignment on programming languages, frameworks, tools, and system architecture |
-| `relevant_experience` | 25% | Role tenure, seniority, and direct relevance of prior engineering or domain work |
-| `domain_relevance` | 15% | Fit with the specific problem domain and operational context of the job |
-| `impact_and_outcomes` | 12% | Quantified outcomes, latency/revenue/efficiency metrics, and ownership |
-| `education_credentials` | 10% | Academic background and relevant technical training |
+| `must_have_coverage` | 28% | Alignment on required technical skills, languages, frameworks, and core qualifications |
+| `relevant_experience` | 22% | Role tenure, seniority, and direct relevance of prior engineering or domain work |
+| `domain_fit` | 18% | Fit with the specific problem domain and operational context of the job |
+| `impact_evidence` | 14% | Quantified outcomes, latency/revenue/efficiency metrics, and technical ownership |
+| `preferred_skills` | 10% | Coverage of nice-to-have tools, secondary platforms, and bonus qualifications |
 | `communication_clarity` | 8% | Clarity, organization, and precision of the written resume |
 
 Each dimension is scored on an integer scale from `0` to `5`. Rather than trusting the LLM's arithmetic, the parser recomputes the overall score deterministically:
@@ -134,7 +134,7 @@ GEMINI_API_KEY=your-gemini-api-key-here
 ```
 
 ### 2. Environment & Oracle Verification
-Verify that the benchmark dataset (150 resumes, 24 jobs, 355 pairs, 10,500 variants) and your Gemini key are detected:
+Verify that the benchmark dataset (150 resumes, 24 jobs, 355 pairs, 10,350 variants) and your Gemini key are detected:
 ```powershell
 uv run frs doctor
 ```
@@ -150,8 +150,8 @@ uv run frs web
 ```
 Open **http://127.0.0.1:8000** in your browser:
 - Upload a resume (`.pdf`, `.docx`, `.txt`, or `.md`) and paste a job description.
-- Click **Evaluate resume** to run a live `gemini-3.5-flash-lite` rubric evaluation with verbatim evidence extraction.
-- Click **Get offline second opinion** to compare the live LLM score against the deterministic local rubric scorer without making an additional API call.
+- Click **Evaluate Candidate** to run a live `gemini-3.5-flash-lite` rubric evaluation with verbatim evidence extraction.
+- Click **Compare Baseline** to compare the live LLM score against the deterministic rule-based rubric scorer without making an additional API call.
 
 ### 4. Running the Fairness Audit Pipeline
 
