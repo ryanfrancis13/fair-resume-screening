@@ -23,9 +23,9 @@ MAX_UPLOAD_BYTES = MAX_UPLOAD_MB * 1024 * 1024
 SUPPORTED_EXTENSIONS = (".txt", ".md", ".pdf", ".docx")
 SCORING_SAMPLES = 1
 DECISION_LABELS = {
-    "shortlist": "Strong Fit — Advance to Interview",
-    "hold": "Borderline Fit — Hold / Secondary Review",
-    "reject": "Below Threshold — Do Not Advance",
+    "shortlist": "Shortlist",
+    "hold": "Hold for Review",
+    "reject": "Below Threshold",
 }
 
 _RESULT_CACHE: OrderedDict[str, dict[str, Any]] = OrderedDict()

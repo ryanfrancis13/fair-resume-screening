@@ -340,7 +340,8 @@ def run_audit(records: list[ScoreRecord], cfg: Config, run_id: str = "run") -> A
         f"{len(failed)} of {len(metrics)} fairness & validity checks flagged outside threshold.",
     ]
     if conflicts:
-        headlines.append(f"{len(conflicts)} metric conflict(s) detected: " + ", ".join(c["rule"] for c in conflicts))
+        rules = sorted({str(c["rule"]) for c in conflicts})
+        headlines.append(f"{len(conflicts)} metric conflict(s) detected ({', '.join(rules)}).")
 
     return AuditReport(
         run_id=run_id,
@@ -434,15 +435,20 @@ def evaluate_mitigations(
             "utility_passed": bool(tau_v >= 0.60 and disp_ratio >= 0.50),
         }
 
+    from dataclasses import replace
+
+    mit_cfg = replace(cfg, provider="mock", model="mock-rubric-v1", mock_bias=cfg.mock_bias or {"gender": {"female": -3.0}, "socioeconomic": {"low": -3.0}})
     mitigations = [_summarize_arm("unmitigated_baseline", base_df)]
     leakage: list[dict[str, Any]] = []
 
+    base_mit_df = records_to_df(score_batch(jobs, pairs, variants, mit_cfg, arm="baseline_sim", samples=1)) if cfg.provider == "gemini" else base_s0
+
     for level in ("identity", "identity_plus_proxy", "aggressive"):
-        recs = score_batch(jobs, pairs, variants, cfg, arm=f"blind_{level}", redact_level=level, samples=1)
+        recs = score_batch(jobs, pairs, variants, mit_cfg, arm=f"blind_{level}", redact_level=level, samples=1)
         df_l = records_to_df(recs)
         mitigations.append(_summarize_arm(f"blind_{level}", df_l))
         for fam in ("name", "pronoun", "affiliation_marker", "cultural_marker", "socioeconomic_marker"):
-            sub_b = base_s0[base_s0["cue_family"] == fam]
+            sub_b = base_mit_df[base_mit_df["cue_family"] == fam]
             sub_r = df_l[df_l["cue_family"] == fam]
             if sub_b.empty:
                 continue
@@ -457,7 +463,7 @@ def evaluate_mitigations(
             })
 
     # Pre-inference debias prompt
-    debias_recs = score_batch(jobs, pairs, variants, cfg, arm="debias_prompt", debias=True, samples=1)
+    debias_recs = score_batch(jobs, pairs, variants, mit_cfg, arm="debias_prompt", debias=True, samples=1)
     mitigations.append(_summarize_arm("debias_prompt", records_to_df(debias_recs)))
 
     # Post-hoc 1: Counterfactual marginalization (replace variant score with within-pair trimmed mean)

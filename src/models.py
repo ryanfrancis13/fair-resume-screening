@@ -297,7 +297,9 @@ def load_benchmark_corpus(cfg: Config) -> tuple[list[Resume], list[JobDescriptio
     variants_path = base / "variants" / "variants.jsonl"
     if variants_path.exists():
         per_group_counts: dict[tuple[str, str, str], int] = {}
-        per_group_cap = max(1, cfg.max_variants_per_resume // 12) if cfg.max_variants_per_resume else None
+        per_family_counts: dict[tuple[str, str], int] = {}
+        per_family_cap = max(2, cfg.max_variants_per_resume // 8) if cfg.max_variants_per_resume else None
+        per_group_cap = max(1, cfg.max_variants_per_resume // 24) if cfg.max_variants_per_resume else None
         with variants_path.open("r", encoding="utf-8") as fh:
             for line in fh:
                 if not line.strip():
@@ -307,6 +309,8 @@ def load_benchmark_corpus(cfg: Config) -> tuple[list[Resume], list[JobDescriptio
                 if rid not in active_resumes:
                     continue
                 family = row["family"]
+                if per_family_cap and per_family_counts.get((rid, family), 0) >= per_family_cap:
+                    continue
                 signals = row.get("signals", {})
                 attr, group, inter = _primary_attribute_and_group(family, row["cue_id"], signals)
                 key = (rid, family, group)
@@ -329,5 +333,6 @@ def load_benchmark_corpus(cfg: Config) -> tuple[list[Resume], list[JobDescriptio
                     )
                 )
                 per_group_counts[key] = count + 1
+                per_family_counts[(rid, family)] = per_family_counts.get((rid, family), 0) + 1
 
     return resumes, jobs, pairs, variants

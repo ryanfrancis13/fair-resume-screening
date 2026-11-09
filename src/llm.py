@@ -8,7 +8,6 @@ import os
 import random
 import re
 import sqlite3
-import time
 from pathlib import Path
 from typing import Any
 
@@ -55,33 +54,35 @@ class GeminiProvider:
     def __init__(self, model: str = "gemini-3.5-flash-lite") -> None:
         self.model = model
         self.api_key = (os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or "").strip()
+        self._quota_exhausted = False
 
     def is_ready(self) -> bool:
         return bool(self.api_key and self.api_key != "your-gemini-api-key-here")
 
     def generate(self, prompt: str, temperature: float = 0.0, sample_index: int = 0) -> str:
-        if not self.is_ready():
-            raise RuntimeError("GEMINI_API_KEY is not set in environment or .env")
+        if not self.is_ready() or self._quota_exhausted:
+            raise RuntimeError("GEMINI_API_KEY unavailable or rate-limited")
         from google import genai
         from google.genai import types
 
-        client = genai.Client(api_key=self.api_key)
-        last_err: Exception | None = None
-        for attempt in range(3):
-            try:
-                resp = client.models.generate_content(
-                    model=self.model,
-                    contents=prompt,
-                    config=types.GenerateContentConfig(
-                        temperature=temperature,
-                        response_mime_type="application/json",
-                    ),
-                )
-                return resp.text or "{}"
-            except Exception as exc:
-                last_err = exc
-                time.sleep(1.5 * (attempt + 1))
-        raise RuntimeError(f"Gemini call failed: {last_err}") from last_err
+        client = genai.Client(
+            api_key=self.api_key,
+            http_options=types.HttpOptions(retry_options=types.HttpRetryOptions(attempts=1)),
+        )
+        try:
+            resp = client.models.generate_content(
+                model=self.model,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    temperature=temperature,
+                    response_mime_type="application/json",
+                ),
+            )
+            return resp.text or "{}"
+        except Exception as exc:
+            if "429" in str(exc) or "RESOURCE_EXHAUSTED" in str(exc):
+                self._quota_exhausted = True
+            raise RuntimeError(f"Gemini call failed: {exc}") from exc
 
 
 class MockProvider:

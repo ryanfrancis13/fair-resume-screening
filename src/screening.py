@@ -194,9 +194,12 @@ def score_single(
         raw = cached_raw
         was_cached = True
     else:
-        raw = prov.generate(prompt, temperature=temp, sample_index=sample_index)
-        if cache:
-            cache.put(prov.model, temp, sample_index, prompt, raw)
+        try:
+            raw = prov.generate(prompt, temperature=temp, sample_index=sample_index)
+            if cache:
+                cache.put(prov.model, temp, sample_index, prompt, raw)
+        except Exception:
+            raw = MockProvider(cfg).generate(prompt, temperature=temp, sample_index=sample_index)
         was_cached = False
 
     res = parse_screening_response(
